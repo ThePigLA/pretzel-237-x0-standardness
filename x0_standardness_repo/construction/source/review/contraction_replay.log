@@ -1,0 +1,34 @@
+replayed 1517/3308 contractions; 86396 pentachora
+replayed 2846/3308 contractions; 62400 pentachora
+{
+  "schema": "independent-closed-PL4-contraction-replay-v1",
+  "passed": true,
+  "source_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+  "endpoint_facets_sha256": "35d376af3f3321e48ba87e475c888a9d164438a4208bf81052e06a8cbd197c1f",
+  "source_snapshot_file_sha256": "7f84647cc8e61bbf37e547b65f1949c66156e03ad270fb9cb97d265382802af6",
+  "certificate_file_sha256": "1c45f9cb83d38ca782cfedb6c2dcf1a1bc3d81cdc9e21e1f24f18779240b436c",
+  "endpoint_file_sha256": "148ec4488bc288ea71a48c745ad13dae2dcf227d600ede08827776ae69b91f0b",
+  "endpoint_native_file_sha256": "12049a475f0dbb25b7b09f5b501db5a28f09fbe4c0d4ce7d64d629bf4d44716a",
+  "source_pentachora": 103744,
+  "endpoint_pentachora": 44620,
+  "endpoint_f_vector": [
+    1002,
+    25310,
+    91240,
+    111550,
+    44620
+  ],
+  "contractions": 3308,
+  "checks": {
+    "full_link_conditions_checked": 3308,
+    "relative_4ball_replacements": 3308,
+    "full_face_overlap_checks": 1193248
+  },
+  "PL_premise": "source-bound native recognition of all closed vertex links as PL3-spheres, inherited through the full-link theorem",
+  "theorem": "Nevo Theorem1.4, https://arxiv.org/pdf/math/0602531; Section5.1 gives identical-boundary PL ball replacement",
+  "orientation_preserved": true,
+  "marking_scope": "unmarked descendant; no deck or marked surface transfer is claimed",
+  "wall_seconds": 29.280815165002423,
+  "cpu_seconds": 29.268813664,
+  "peak_rss_bytes": 397398016
+}

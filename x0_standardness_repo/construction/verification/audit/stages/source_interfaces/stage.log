@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "orientation_conventions": {
+    "ambient_orientation_multiplier_vs_Seifert_master": 1,
+    "imported_ordered_simplex_multiplier_vs_master": -1,
+    "snappy_right_handed_vs_standard_ordered_simplex": -1,
+    "boundary_N_vs_du_dv": -1,
+    "boundary_E_vs_du_dv": 1
+  },
+  "core": {
+    "oriented_cycle": [
+      204,
+      228,
+      243,
+      219,
+      211,
+      238,
+      208,
+      206,
+      237,
+      207,
+      209,
+      240,
+      210,
+      218,
+      242,
+      229,
+      205,
+      236,
+      204
+    ],
+    "N_cocycle_degree": 1,
+    "puncture_oriented_edge": [
+      204,
+      228
+    ]
+  },
+  "puncture_normal_orientation": [
+    {
+      "cycle_name": "raw",
+      "cycle": [
+        56,
+        148,
+        58,
+        150
+      ],
+      "join_orientation_signs_vs_master": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "cycle_name": "diagram_positive",
+      "cycle": [
+        56,
+        150,
+        58,
+        148
+      ],
+      "join_orientation_signs_vs_master": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "canonical_digest_links": {
+    "cut": "69930877ffd4029b6e420501d385106f9bc3ea636a7d04eb5f824977b55e06ee",
+    "raw_chart": "74ba591616d3e981e464dcb212d886c078f3d094505062ce4bee39b54140a25f",
+    "diagram_chart": "c6699bc33b13c51bc40f09bbb66fc37afa231d57ffdb52e17b7433c6e8ea82a2",
+    "puncture_interface": "4cc33e00f7d33733da0ee77cac556824b9ddc882a19d01b3df1a10147047c226",
+    "torus_adaptor": "d1c4b6ec3958b244509f192043bc5f80ccc8b111cfcb5ebd63e15b1c7d746498",
+    "torus_model": "cf38a69079d08ed8334ad5d9d48b3a4d910342e6e6ab9e4dddc635c43b072058",
+    "cap_bridge": "f51dc234438236aba8b4d3c3190ac4d4981d37d29dbab8cf4adfdb382f758919"
+  }
+}

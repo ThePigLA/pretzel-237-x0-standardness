@@ -1,0 +1,26 @@
+{
+  "revision": 4,
+  "date": "2026-10-28",
+  "status": "PASS",
+  "scope": "Presentation and scope clarification; no topology replay",
+  "base_revision3_pdf_sha256": "f6c7161a22512b8d607e979688291b2762d66d80fdb7c93bb281ea1321e6b76a",
+  "mathematical_content_equal_after_approved_typography_changes": true,
+  "only_added_mathematical_text": "Scope of Corollary 1.3 and periodic m=1 representative",
+  "exact_signatures_hashes_commands_and_numeric_data_unchanged": true,
+  "pdf_pages": 13,
+  "embedded_images": 0,
+  "g6_signature_occurrences": 2,
+  "python_optimization_flags": 4,
+  "output_flags": 3,
+  "regina_citations_in_section_4_1": 1,
+  "thin_space_insertions": 3,
+  "move_dash_style": "Text en dash generated from ASCII double hyphen",
+  "author_information": "Pending authors; field explicitly marked",
+  "typesetting_warnings": [],
+  "visual_review": "All 13 pages inspected; final face-count page transition corrected",
+  "supplement_sha256": {
+    "x0_is_standard_v1.1.zip": "a350c70b9407c9017a5691c8e0df3ce39fe2b5232246522c8a0c3548d7994dfa",
+    "x0_standardness_audit_v1.zip": "16033754602a61c73eda10934a5f7812c95a2462658fc79ad8dd4ba270da87b6"
+  },
+  "pdf_sha256": "d459cf324d86e11437314c2d7c971bb022b18bac4ffc655b47fb33bf3d2aa19b"
+}

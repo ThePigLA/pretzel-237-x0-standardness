@@ -1,0 +1,73 @@
+{
+  "schema": "independent-localization-branch-review-v1",
+  "finite_inputs_result": "PASS",
+  "bindings": {
+    "mixed_profile": {
+      "path": "central_roll/mixed_profile_transfer.json",
+      "file_sha256": "7792baf3d257cf7292fbcc4fb0b7eef734e22ee1abc766778a05eeaebeaaa9bd"
+    },
+    "central": {
+      "path": "central_roll/certificate.json.gz",
+      "file_sha256": "9bd0fa71a1ffa748d8c1c759f09226ea101465f4dc00a09ac79efd4c0ffbb752"
+    },
+    "adaptor": {
+      "path": "adaptor/model.json.gz",
+      "file_sha256": "91d132bae18e65fd3684b0c7079f7aed5315c0533c61b225da28f077217abee3"
+    },
+    "cut": {
+      "path": "peripheral/cut_source.json.gz",
+      "file_sha256": "0484ae91fb9460f3ffdbe14e2f4d06bd841702e17c91d4f422588f8a38e068bf"
+    },
+    "chart": {
+      "path": "peripheral/diagram_chart.json.gz",
+      "file_sha256": "8dec07f72a4a5282b88a749249d929dcc327e9c7d1831713fd937f56f909ab87"
+    },
+    "proof": {
+      "path": "central_roll/LOCALIZATION_LEMMA.txt",
+      "file_sha256": "146ab0e2b19406ccd59a10db0fee2568f53bdb1d930b1960a54b531071020404"
+    }
+  },
+  "profile": {
+    "stored_affine_maps": 6,
+    "stored_affine_inverses": 6,
+    "exact_domain_area": "3",
+    "boundary_segments": 8,
+    "both_angular_components_checked": true,
+    "puncture_fixed_and_integer_seam_checked": true
+  },
+  "enlarged_neighborhood": {
+    "filled_N_plus_tetrahedra": 1580,
+    "outer_grid_triangles": 24,
+    "interior_puncture_triangles": 8,
+    "puncture_disjoint_from_outer_grid": true,
+    "original_equator_levels": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "original_equator_u_values": [
+      "161002963722471955441292991853485958903478046600/2115279157066646885762571526131404138199706037141",
+      "191042720388162085300321897015565663967221118580/2115279157066646885762571526131404138199706037141"
+    ],
+    "positive_equator": [
+      56,
+      150,
+      58,
+      148
+    ],
+    "poles": [
+      204,
+      228
+    ]
+  },
+  "negative_control": {
+    "name": "drop_v_profile_correction",
+    "rejected": true,
+    "reason": "mixed saved map does not shift both u and v"
+  },
+  "geometric_review": "Revised localization argument accepted with the stated relative PL normal-neighborhood and marked boundary-extension theorem dependency; no global finite normal atlas is claimed.",
+  "branch_model_review": "Piecewise equivariant product/collar/cone geometry plus relative deck-paired ball replacements proves all local branch models, conditional on parent actual assembly port/incidence/deck checks.",
+  "not_proved": "PL standardness of closed X2; entirely finite global pointwise conjugacy.",
+  "seconds": 0.09590521100108162
+}

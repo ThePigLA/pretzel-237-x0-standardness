@@ -1,0 +1,18 @@
+3040 contractions; 57552 pentachora; 1270 vertices
+3244 contractions; 49566 pentachora; 1066 vertices
+3297 contractions; 45354 pentachora; 1013 vertices
+{
+  "source_pentachora": 103744,
+  "endpoint_pentachora": 44620,
+  "source_vertices": 4310,
+  "endpoint_vertices": 1002,
+  "contractions": 3308,
+  "attempts": 276885,
+  "stop_reason": "local_priority_queue_exhausted",
+  "wall_seconds": 35.55366989199683,
+  "cpu_seconds": 35.537374876,
+  "peak_rss_bytes": 348954624,
+  "source_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+  "endpoint_facets_sha256": "35d376af3f3321e48ba87e475c888a9d164438a4208bf81052e06a8cbd197c1f",
+  "scope": "PRODUCER_ONLY_PENDING_INDEPENDENT_REPLAY"
+}

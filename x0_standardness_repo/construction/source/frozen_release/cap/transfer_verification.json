@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "scope": "Source-bound local collar PL maps; canonical barycentric subdivision is specified but not expanded into 4-simplices",
+  "source_global_identification": "The actual new puncture collar and its maps are meshed. Identifying this relative F2 with the original torus-supported twist uses the oriented normal-disk-bundle localization theorem; no global fiber-action atlas for N is exported here.",
+  "gamma_tetrahedra": 1792,
+  "gamma_radius_identities": 1792,
+  "R0_R1_identity": true,
+  "F2_affine_maps_and_inverses": 1792,
+  "Phi_affine_4_cells": 3584,
+  "Phi_affine_inverses": 3584,
+  "Phi_facet_incidence_checks": 12544,
+  "Phi_branch_seam_identities": 1792,
+  "Phi_final_time_F2_identities": 1792,
+  "Phi_boundary_facets_by_side": {
+    "q0": 1792,
+    "t1": 1792,
+    "t0": 16,
+    "q1": 16
+  },
+  "deck_equivariant": true,
+  "initial_time_and_bulk_identity": true,
+  "puncture_restriction_is_actual_beta2": true,
+  "unwrapped_D2_Phi1_equals_F2": true,
+  "source_angle_cycle": [
+    56,
+    150,
+    58,
+    148
+  ],
+  "cap_displacement": [
+    -8,
+    4
+  ],
+  "simplicial_expansion": "Not materialized; canonical barycentric face chains give an explicit equivariant simplicial realization",
+  "negative_controls": [
+    {
+      "name": "drop_bulk_full_turn",
+      "rejected": true,
+      "reason": "full integer lift binding"
+    },
+    {
+      "name": "corrupt_Phi_affine_cell",
+      "rejected": true,
+      "reason": "Phi affine inverse"
+    },
+    {
+      "name": "omit_Phi_cell",
+      "rejected": true,
+      "reason": "Phi branch coverage"
+    }
+  ],
+  "seconds": 25.624069678000524
+}

@@ -1,0 +1,74 @@
+{
+  "simplex_count": 2,
+  "gluings": [
+    [
+      0,
+      0,
+      1,
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      0,
+      1,
+      1,
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      0,
+      2,
+      1,
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      0,
+      3,
+      1,
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      0,
+      4,
+      1,
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ]
+  ],
+  "isoSig": "cPkbbbbaaaaaaaa",
+  "f_vector": [
+    5,
+    10,
+    10,
+    5,
+    2
+  ],
+  "construction": "Two distinct four-simplices joined along corresponding facets by identity"
+}

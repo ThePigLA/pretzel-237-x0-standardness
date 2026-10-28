@@ -1,0 +1,19 @@
+{
+  "revision": 4,
+  "algorithm": "SHA256",
+  "files": {
+    "AUTHOR_NOTES.txt": "b8aefc2e05a92dd4fec64db25f9a8d6b3e2240bf2cfe0fde0479b7344f4b01c8",
+    "bibliography.bib": "27d7376888df6383065a58b8280e2870b49f96d02889f7fc5f2ef0c04effbc71",
+    "editorial/PATCH_ASSESSMENT_REVISION3.txt": "2033dddd8660930cbf222b209760b9f26807bff75898d28cb92ffa83f6eb1c8c",
+    "editorial/REVISION4_CHANGES.txt": "f76f26998fb0126c855d403903a187ca1ba4379d16a6b42a6bc01712bfa55c52",
+    "editorial/REVISION4_VALIDATION.json": "92b634f827aaed23339b124eed3dd3c394423134ea28140a993ad40977f0c982",
+    "editorial/v1_1_replay.json": "b8b09aceb55ab32ee1d124c4e789bc45d6099ee3135afa7a14a8dd8bccd59d7a",
+    "supplements/x0_is_standard_v1.1.zip": "a350c70b9407c9017a5691c8e0df3ce39fe2b5232246522c8a0c3548d7994dfa",
+    "supplements/x0_standardness_audit_v1.zip": "16033754602a61c73eda10934a5f7812c95a2462658fc79ad8dd4ba270da87b6",
+    "typesetting/build_writeup.py": "0a9e07d00bfde2c6b11fabc681c42da71ceb9c7ff4254f882e4b4d64b3371fcf",
+    "typesetting/manuscript_content.py": "c863f5117e6e58304477e57528699892b448396a638d0ed8c4c59959ce853cd4",
+    "x0_standardness_proof_note.pdf": "d459cf324d86e11437314c2d7c971bb022b18bac4ffc655b47fb33bf3d2aa19b",
+    "x0_standardness_proof_note.tex": "841deb53815dc575ab53eda4666105c1a2fb649d295b751680302d9d5d7dd148",
+    "x0_standardness_proof_note.txt": "da3f078082d36041ca6614542ce46db35e17b3e031444180ebba37b66036c3ac"
+  }
+}

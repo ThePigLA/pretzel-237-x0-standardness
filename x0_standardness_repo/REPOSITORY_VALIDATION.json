@@ -1,0 +1,209 @@
+{
+  "components": {
+    "construction": {
+      "all_declared_files_byte_identical": true,
+      "archive": "x0_construction_v1.zip",
+      "bytes": 22044956,
+      "files": 330,
+      "module_manifest": {
+        "bytes": 56829,
+        "sha256": "2755fab952cc1abde9b6ca34e0a8b652fe683b9849c9499f9608ad5b25ad8812"
+      },
+      "sha256": "57de10c545b6362bc4942fd4e0f69d4ceb3fa681f9822153d1d39e1b101611db"
+    },
+    "reduction": {
+      "all_declared_files_byte_identical": true,
+      "archive": "x0_reduction_v1.zip",
+      "bytes": 20575690,
+      "files": 84,
+      "module_manifest": {
+        "bytes": 13966,
+        "sha256": "2e0d013f00ee6ae27d3b68ea715e0196b65846d0c9af200db1147ae88456b428"
+      },
+      "sha256": "760329cdbed1dcea5323950a40d3ab1cbf2bbd0c0628a770562ca17e5d505ab7"
+    }
+  },
+  "documentation": {
+    "README.md": {
+      "bytes": 9549,
+      "sha256": "33591130507c61d32b2c4118e4c6cee0cd1e5f3baac9272025e5d468aa26a7ba"
+    },
+    "paper/README.md": {
+      "bytes": 5030,
+      "sha256": "70ce908243bbfdb77c3a67c54c6aecf6d70fe39849b773944c595f8c6fb06d5d"
+    },
+    "paper/REPOSITORY_MAP.md": {
+      "bytes": 4290,
+      "sha256": "31a98811f8d3adc3aa7d567def089069d6a174a6f8ef36d6655a5ceb84ebbda4"
+    }
+  },
+  "local_document_links": [
+    {
+      "source": "README.md",
+      "target": "paper/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/x0_standardness_proof_note.pdf"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/x0_standardness_proof_note.tex"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/environment/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/docs/INPUTS_AND_TRUST.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/docs/CHAIN_AND_TRUST.md"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/REPOSITORY_MAP.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "x0_standardness_proof_note.pdf"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "x0_standardness_proof_note.tex"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "x0_standardness_proof_note.txt"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "bibliography.bib"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "REPOSITORY_MAP.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "../construction/README.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "../reduction/README.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "REPOSITORY_MAP.md"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../construction/README.md"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/elementary/"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/source/native/"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/certificates/standardization.json"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/source/terminal/verify_x0_standard.py"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/source/terminal/"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/terminal.py"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "supplements/x0_is_standard_v1.1.zip"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "supplements/x0_standardness_audit_v1.zip"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../construction/README.md"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/environment/README.md"
+    }
+  ],
+  "local_document_links_checked": 35,
+  "paper": {
+    "fresh_validation": {
+      "bytes": 3294,
+      "sha256": "cf936c4ae193a2695cbbdb96226910e9d242a111ebeb854bdf231a2ddf2c7e23"
+    },
+    "module_manifest": {
+      "bytes": 3816,
+      "sha256": "91a3eed9f1f571c3acc8e243fac27006e9133a8ae29bcd5649e8e6c170b629b3"
+    },
+    "revision": 4,
+    "source_and_reading_copy_unchanged": true
+  },
+  "prepared_utc": "2026-10-28T18:03:30.101279+00:00",
+  "publication": {
+    "author_decisions_finalized": false,
+    "doi_assigned": false,
+    "new_license_assigned": false,
+    "project_citation_metadata_created": false,
+    "public_release_or_deposit_created": false,
+    "public_repository_created": false,
+    "status": "draft_prepared_for_review"
+  },
+  "purpose": "Review snapshot containing the three completed modules and repository README",
+  "schema": "x0-repository-draft-validation-v1",
+  "status": "PASS",
+  "verification_scope": "Preserves the previously completed construction/reduction modules byte-for-byte; this assembly freshly rebuilds and visually compares the paper and checks repository integrity and links. No topology replay was repeated in this assembly."
+}

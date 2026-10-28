@@ -1,0 +1,8 @@
+{
+  "wall_seconds": 17.863766599000883,
+  "cpu_seconds": 17.874912,
+  "peak_rss_bytes": 766750720,
+  "rlimit_as_bytes": 8589934592,
+  "rlimit_cpu_seconds": 900,
+  "assertions_enabled": true
+}

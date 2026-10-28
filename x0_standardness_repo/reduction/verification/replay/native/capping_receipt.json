@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "no_simplification_performed_after_capping": true,
+  "boundary_isoSig": "bkaagj",
+  "boundary_reference": "regina.Example3.threeSphere()",
+  "boundary_to_reference_isomorphism": {
+    "simplex_images": [
+      0
+    ],
+    "vertex_permutations": [
+      [
+        0,
+        1,
+        3,
+        2
+      ]
+    ],
+    "paired_half_facet_equations": 4
+  },
+  "left_boundary_embedding": {
+    "f_vector": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "exact_affine_quotient_embedding": true,
+    "by_dimension": [
+      {
+        "dimension": 0,
+        "ordered_local_frames_checked": 4,
+        "quotient_ordered_frames": 1,
+        "ambient_face_count": 1
+      },
+      {
+        "dimension": 1,
+        "ordered_local_frames_checked": 12,
+        "quotient_ordered_frames": 4,
+        "ambient_face_count": 2
+      },
+      {
+        "dimension": 2,
+        "ordered_local_frames_checked": 24,
+        "quotient_ordered_frames": 12,
+        "ambient_face_count": 2
+      },
+      {
+        "dimension": 3,
+        "ordered_local_frames_checked": 24,
+        "quotient_ordered_frames": 24,
+        "ambient_face_count": 1
+      }
+    ]
+  },
+  "cone_boundary_embedding": {
+    "f_vector": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "exact_affine_quotient_embedding": true,
+    "by_dimension": [
+      {
+        "dimension": 0,
+        "ordered_local_frames_checked": 4,
+        "quotient_ordered_frames": 1,
+        "ambient_face_count": 1
+      },
+      {
+        "dimension": 1,
+        "ordered_local_frames_checked": 12,
+        "quotient_ordered_frames": 4,
+        "ambient_face_count": 2
+      },
+      {
+        "dimension": 2,
+        "ordered_local_frames_checked": 24,
+        "quotient_ordered_frames": 12,
+        "ambient_face_count": 2
+      },
+      {
+        "dimension": 3,
+        "ordered_local_frames_checked": 24,
+        "quotient_ordered_frames": 24,
+        "ambient_face_count": 1
+      }
+    ]
+  },
+  "boundary_identification_isomorphism": {
+    "simplex_images": [
+      0
+    ],
+    "vertex_permutations": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "paired_half_facet_equations": 4
+  },
+  "attaching_facet_maps": [
+    {
+      "left_pentachoron": 1,
+      "left_facet": 1,
+      "cone_pentachoron": 0,
+      "cone_facet": 4,
+      "perm5": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ]
+    }
+  ],
+  "face_pushout": [
+    {
+      "dimension": 0,
+      "left_faces": 1,
+      "cone_faces": 2,
+      "intersection": 1,
+      "union_faces": 2,
+      "both_side_maps_injective": true
+    },
+    {
+      "dimension": 1,
+      "left_faces": 2,
+      "cone_faces": 3,
+      "intersection": 2,
+      "union_faces": 3,
+      "both_side_maps_injective": true
+    },
+    {
+      "dimension": 2,
+      "left_faces": 10,
+      "cone_faces": 4,
+      "intersection": 2,
+      "union_faces": 12,
+      "both_side_maps_injective": true
+    },
+    {
+      "dimension": 3,
+      "left_faces": 13,
+      "cone_faces": 3,
+      "intersection": 1,
+      "union_faces": 15,
+      "both_side_maps_injective": true
+    },
+    {
+      "dimension": 4,
+      "left_faces": 5,
+      "cone_faces": 1,
+      "intersection": 0,
+      "union_faces": 6,
+      "both_side_maps_injective": true
+    }
+  ],
+  "left_f_vector": [
+    1,
+    2,
+    10,
+    13,
+    5
+  ],
+  "boundary_f_vector": [
+    1,
+    2,
+    2,
+    1
+  ],
+  "cone_f_vector": [
+    2,
+    3,
+    4,
+    3,
+    1
+  ],
+  "closed_f_vector": [
+    2,
+    3,
+    12,
+    15,
+    6
+  ],
+  "closed_chi": 2,
+  "target_isoSig": "gAMLMQaabcdeffff2a+a2avbmaoaxaOb0aUa",
+  "target_isomorphism": {
+    "simplex_images": [
+      5,
+      1,
+      4,
+      3,
+      2,
+      0
+    ],
+    "vertex_permutations": [
+      [
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        4,
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        4,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        4,
+        0,
+        3,
+        2
+      ],
+      [
+        3,
+        1,
+        0,
+        2,
+        4
+      ]
+    ],
+    "paired_half_facet_equations": 30
+  }
+}

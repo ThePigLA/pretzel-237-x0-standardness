@@ -1,0 +1,28 @@
+{
+  "command": [
+    "python3",
+    "-E",
+    "-B",
+    "frozen_release/diagram/verify_marked_isomorphism.py",
+    "--write-certificate",
+    "--certificate",
+    "_fresh/marked_endpoint.json"
+  ],
+  "executed": true,
+  "log": "stages/marked_endpoint/stage.log",
+  "log_sha256": "630a2112d58244cb8c4d4af052ccd5641a7a594db9846ad616107ffb847f6dab",
+  "name": "marked_endpoint",
+  "purpose": "Recompute exact marked exterior isomorphisms from the saved gluing and peripheral arrays",
+  "receipts": [
+    {
+      "path": "stages/marked_endpoint/receipts/marked_endpoint.json",
+      "recomputed_this_run": true,
+      "sha256": "36266571889e048ed429c5e940d422a9273940fb862db2c1c63354a70068a8df"
+    }
+  ],
+  "status": "PASS",
+  "tier": "geometry",
+  "wall_seconds": 0.2160593400039943,
+  "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+  "worktree_retained": false
+}

@@ -1,0 +1,36 @@
+{
+  "negative_source_archive_sha256": "90052bf7cd0fc8ab9f7f52d343b1a2883544a01ddbce68e5c1fad4c9a7f0ead9",
+  "parent_acceptance_archive_sha256": "067f75f687b18d36b6fc0abc4cee01486170123cee3e3907e47255fb6619c666",
+  "preconstruction_contract": "x0_x2_preconstruction_v1/CONSTRUCTION_CONTRACT.md and STOPPING_RULES.md",
+  "schema": "research-package-provenance-v1",
+  "scope": "Accepted trefoil results were preserved and not rerun. Generic exact mesh, group-presentation and relative coarsening utilities were reused; all pretzel geometry and its independent checks are new. No odd-twist builder guard was changed or bypassed.",
+  "utilities": {
+    "branch_dpll.py": {
+      "sha256": "d4eac53e175d7fdf7442768cad06900d138be02a2918c3ab2d32e9e1b346d0aa"
+    },
+    "compact3.py": {
+      "sha256": "23c791e85af5e815b8264ea3e7582bffcdbd20e11d99e979d097f22c03b0c096"
+    },
+    "exact_flat_mesh.py": {
+      "sha256": "ade5dc251e95813facbc623c91cf17bc558d9c9658a055ca3d1ff9f9bc600a75"
+    },
+    "group_cells.py": {
+      "sha256": "4195ecc9bc483ce2ac4a609f7b11ea0d68b581d5e3dff7fff0fe044eb5abf3ce"
+    },
+    "verify_adaptor_mesh.py": {
+      "sha256": "a64b8cf2be3b150b84ab71a95409d7cf145c4a902c8356132c5f0ed118a2dd15"
+    },
+    "verify_compact3.py": {
+      "sha256": "de571be890b808aaf35e9e4e0f132368fa906b3160fc7aab2f727c6ddbe52316"
+    }
+  },
+  "versions": {
+    "psutil": "7.2.2",
+    "python": "3.12",
+    "regina_API": "7.4",
+    "regina_distribution": "7.4.1",
+    "snappy": "3.3.2",
+    "spherogram": "2.4.1",
+    "sympy": "1.14.0"
+  }
+}

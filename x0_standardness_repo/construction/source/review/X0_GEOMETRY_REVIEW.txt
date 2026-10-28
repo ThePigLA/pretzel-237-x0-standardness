@@ -1,0 +1,188 @@
+INDEPENDENT REVIEW OF THE m=0, n=1 CONSTRUCTION
+=============================================
+
+Decision
+--------
+The prepared X0 specialization changes the actual cap geometry, not merely
+its twist label. The source-relative u-only roll geometry and the identity
+spherical filling give the intended zero-twist construction. The unchanged
+source geometry may be inherited from the hash-pinned accepted release;
+the closed candidate's attachment, orientation, quotient, local manifold
+admission and markings require their own current checks, which are present.
+
+This review does not prove that X0 is PL S4. Its purpose is to establish that
+the candidate being handed to the reviewer is the intended marked X0.
+Global fundamental-group and homology certificates are separate work.
+
+1. Actual finite change
+----------------------
+The assembler reads cap/data/cap_m0.json.gz from the immutable original
+release. The independent assembly checker also reads that m0 file and
+regenerates every product, bridge and cap pentachoron without importing the
+assembler. Both require twist 0, roll 1 and the zero full cap turn.
+
+The completed candidate has 103,744 pentachora and 4,310 vertices. Direct
+set comparison against the exact X2 marked master establishes:
+
+  unchanged noncap pentachora                 97,920
+  common cap pentachora                        2,816
+  total common pentachora                    100,736
+  removed m2 cap pentachora                    3,008
+  inserted m0 cap pentachora                   3,008
+
+The entire difference lies in the cap. The four noncap lists are identical:
+N has 25,216 cells, E 37,344, central roll 11,136, and the bridge 24,224.
+Every shared simplex has the same ambient orientation sign. The vertex
+labels, deck permutation, positive source orientation anchor, 96-tetrahedron
+source port, 1,792-tetrahedron cap port, and both marked sphere lists are
+unchanged. There is no independent relabelling that could conceal a changed
+source or a changed meridian/longitude convention.
+
+The exact candidate file SHA256 is
+251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c.
+Its canonical facet SHA256 is
+f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b.
+
+2. Zero twist is verified on entire spherical cells
+--------------------------------------------------
+The frozen cap replay checks the actual rational barycentric refinement,
+the equatorial angular equation and its complete lifted time path. For m0
+the displacement is [0,4] in the fixed angle/time mesh units: zero upstairs
+full turns and zero downstairs full turns. This retains the integer lift;
+it is not a conclusion drawn from even deck parity.
+
+The additional independent check_zero_cap_geometry.py reads the shared
+spherical mesh and the m0 inverse barycentric charts directly. It uses no
+producer or previous verifier import. For all 1,792 boundary tetrahedra it
+constructs the physical diamond-disk/time coordinates of the coarse source
+and shared target, checks the hemisphere and time slab, and proves exact
+source=target coordinates at the four affinely independent vertices.
+Consequently every full affine tetrahedron map, including hemisphere
+interiors and all lower-dimensional faces, is the identity. This justifies
+R_t=id, F0=id and Phi0=id for the actual saved geometry.
+
+The m0 and m2 meshes have identical boundary facets, vertex labels and deck,
+but different internal cap facet sets and different inverse spherical
+refinement charts. Thus choosing m0 changes the attachment represented by
+the filling; it does not relabel the nontrivial m2 attachment as zero twist.
+
+3. Which inherited source receipts suffice
+------------------------------------------
+The frozen release manifest is pinned by its original SHA256 and all 205
+payload files are checked. The original geometric admission's 97 source
+artifacts are also hash-bound. These unchanged facts remain applicable:
+
+* the oriented P(-2,3,7) source and exact peripheral transport;
+* the preferred diagram-positive normal meridian and longitude;
+* the local branched source pair and the actual puncture labels;
+* the adaptor's equivariant relative coarsening and protected ports;
+* the central positive roll certificate and its finite u-only profile map;
+* the source-bound spherical bridge, its exact collars and deck-compatible
+  boundary identifications;
+* the geometric product/refinement/cone interpretation of the open caps.
+
+In particular, the central certificate already contains the u-only map
+
+    (u,v,r,t) -> (u + J(r,t), v, r, t).
+
+Its six affine pieces have checked inverses, matching faces, the exact
+top/bottom seam equation and identity on the original r=0 boundary. It
+therefore fixes the actual puncture even though the puncture equator meets
+the original cut torus. The central straightening retains one full positive
+longitudinal roll and no meridional shift: source winding (1,0). The new
+assembly check verifies all ten recorded source seam carriers in the actual
+candidate facets. No extrapolation from the five witness levels alone is
+used: the prior certificate supplies the full affine maps and seam identities.
+
+4. m2-specific steps that are unnecessary for m0
+----------------------------------------------
+There is no meridional twist to transfer from the source torus to the
+puncture. The following m2 steps are therefore unnecessary here:
+
+* the simultaneous u/v profile correction;
+* the additional N-plus normal disk-bundle chart agreeing with both the
+  outer torus and puncture charts;
+* the nontrivial torus-to-puncture meridional disk loop;
+* the joint space-and-time Alexander contraction used to compare that loop
+  with the finite beta2 spherical family;
+* the nonidentity F2/Phi collar transfer and its full-turn lift adjustment.
+
+For m0, the needed source-relative map is already the u-only profile
+transfer. Its spherical boundary restriction is the identity, and the
+actual cap's spherical maps are independently verified to be the identity.
+The former chart-overlap issue does not recur: no global disk chart
+simultaneously prescribing the original overlapping torus and puncture
+boundaries is required for this identification.
+
+This removes the extra m2 localization theorem dependency, not all
+mathematical interpretation. The signed-source native transport, elementary
+PL product and collar geometry, equivariant gluing principles, and native
+local-manifold admission retain their stated roles.
+
+5. All-strata local branch geometry
+-----------------------------------
+The normal-circle checks at 208 fixed triangles are useful finite checks,
+but they alone would not establish local flatness at fixed vertices. The
+piece geometry supplies the complete argument:
+
+SOURCE: the previously admitted 3D source has the standard branched arc
+pair at every stratum. Product with time preserves the standard 4D fixed
+surface pair. The equivariant relative 3-ball replacements preserve this
+pair and the protected puncture; their paired supports have disjoint
+interiors and no fixed interior points.
+
+FREE PIECES: the torus adaptors and central roll have free deck action, so
+their exact product/refinement charts add no new fixed strata.
+
+BRIDGE: its exact source-bound S2 x S1 x I product has two locally flat
+fixed annuli. The current assembly verifies both actual complete ports and
+the commuting covering-face maps, so the product neighborhoods glue to
+the intended source and cap neighborhoods.
+
+CAP: the extra independent check proves the actual m0 cap consists of its
+two recorded cone halves, each of 2,912 pentachora. Their intersection is
+exactly the filling solid torus. The filling is the literal 96-tetrahedron
+E x D2 staircase product together with its 1,920-tetrahedron refinement
+collar. With the identity spherical attachment, each cone base is the
+standard boundary(D2 x D2) pair, with fixed circle {0} x S1. Coning gives
+the standard 4-ball pair with flat fixed disk, including the cone vertex.
+This uses the known product geometry, not an inference from homology or
+an appeal to four-dimensional Schoenflies.
+
+The independent candidate assembly also checks the entire fixed subcomplex,
+so omitted isolated fixed vertices or edges cannot hide outside the marked
+triangles. It checks the twin sphere and its two intersections, all deck
+orbits and orientation transport, and the exact orbit-cell quotient.
+
+6. Audit of verify_candidate_geometry.py
+----------------------------------------
+The script binds the source-bound X2 acceptance receipt, immutable source
+release and old geometric admission. It requires current candidate-native
+admissions, the independently regenerated assembly, exact shared noncap
+lists, ports and orientation, and a current actual cap replay. The added
+zero-cap receipt is bound to its checker hash and all six frozen inputs;
+the geometric output also binds the current cap replay by file hash.
+
+These are sufficient dependencies for this m0 specialization. The old X2
+geometric receipt alone would not have admitted a changed closed model;
+the current m0 assembly and cap checks are essential and have been retained.
+The reviewer-provided X2 link certificates are not used as X0 link
+certificates: the new cover and quotient have their own native admissions.
+
+No critical code or proof issue was found. The independent identity and
+cone/product checks supplement the previously accepted cap semantics with
+direct checks of precisely the geometry relevant to m0. No producer script
+was modified by this reviewer.
+
+Reproduction and scope
+----------------------
+From the X0 package root:
+
+    python3 review/check_zero_cap_geometry.py \
+        --candidate candidate/marked_candidate.json.gz \
+        --output diagnostics/current_zero_cap_geometry.json
+
+The complete package verifier must also run its current cap, native,
+assembly, geometric and group gates. This supplementary check is not a
+substitute for them. It makes no X0 standardization claim and starts no
+simplification search.

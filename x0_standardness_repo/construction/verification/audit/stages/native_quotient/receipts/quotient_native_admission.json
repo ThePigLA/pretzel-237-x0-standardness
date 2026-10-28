@@ -1,0 +1,28 @@
+{
+  "boundary_components": 0,
+  "chi": 2,
+  "closed": true,
+  "connected": true,
+  "cpu_seconds": 4.840267257000001,
+  "f_vector": [
+    2208,
+    32554,
+    108156,
+    129680,
+    51872
+  ],
+  "ideal": false,
+  "orientable": true,
+  "passed": true,
+  "peak_rss_bytes": 710516736,
+  "regina": "7.4",
+  "schema": "native-marked-X0-admission-v1",
+  "scope": "Closed PL-manifold admission only; no PL standardization.",
+  "simplex_count": 51872,
+  "source": "quotient_regina.json.gz",
+  "source_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+  "source_sha256": "5695652cca08a27b7199ca7c01a6237ec4227a8364f500144379c2111842c4b2",
+  "valid": true,
+  "vertex_link_scope": "Regina validity, closedness and nonideal predicates recognize all vertex links as PL three-spheres; no homology substitution.",
+  "wall_seconds": 4.844022587989457
+}

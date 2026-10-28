@@ -1,0 +1,3244 @@
+{
+  "schema": "marked-pretzel-diagram-v1",
+  "classification": "EXPLICIT_ORIENTED_DIAGRAM_AND_PERIPHERAL_WORDS",
+  "knot_label": "J=P(-2,3,7)",
+  "source": {
+    "construction": "numerator closure of T(-1/2)+T(1/3)+T(1/7), in that left-to-right order",
+    "signed_pretzel_parameters": [
+      -2,
+      3,
+      7
+    ],
+    "rational_tangle_slopes": [
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "library_expression": "(RationalTangle(-1,2)+RationalTangle(1,3)+RationalTangle(1,7)).numerator_closure()",
+    "spherogram_version": "2.4.1",
+    "library_source_hashes": {
+      "tangles.py": "a4730ca9f4ad217a5e1cc057a504474ee2d628590c08c8af63609c583256934c",
+      "links_base.py": "c6f325a15606788ad9a1fc5a895d31274132c4edd5a453dfc41eb1aaabf5a1e0"
+    },
+    "uses_knot_name_lookup": false,
+    "conventions_url": "https://snappy.computop.org/spherogram.html",
+    "convention_note": "The official tutorial explicitly names this rational-tangle sum the (-2,3,7) pretzel. Its oriented crossings here all have Spherogram sign -1. No silent mirroring is performed."
+  },
+  "raw_crossing_convention": {
+    "slots": "0,1,2,3 in counterclockwise order; 0--2 is the underpass and 1--3 the overpass",
+    "positive_box_physical_ports": {
+      "SW": 0,
+      "SE": 1,
+      "NE": 2,
+      "NW": 3
+    },
+    "negative_box_physical_ports": {
+      "SW": 3,
+      "SE": 0,
+      "NE": 1,
+      "NW": 2
+    },
+    "coordinate_orientation": "standard (x,y,z); diagram viewed from positive z; overpass has z=+1/4",
+    "oriented_sign": "+1 when (under_entry-over_entry) mod 4 is 1, otherwise -1",
+    "source_to_normalized_slot": "normalized_slot = (raw_slot + recorded_rotation[crossing]) mod 4"
+  },
+  "crossing_ids": [
+    "R0C0",
+    "R0C1",
+    "R1C0",
+    "R1C1",
+    "R1C2",
+    "R2C0",
+    "R2C1",
+    "R2C2",
+    "R2C3",
+    "R2C4",
+    "R2C5",
+    "R2C6"
+  ],
+  "raw_adjacency": {
+    "R0C0": [
+      [
+        "R0C1",
+        1
+      ],
+      [
+        "R1C0",
+        3
+      ],
+      [
+        "R2C0",
+        2
+      ],
+      [
+        "R0C1",
+        2
+      ]
+    ],
+    "R0C1": [
+      [
+        "R1C2",
+        0
+      ],
+      [
+        "R0C0",
+        0
+      ],
+      [
+        "R0C0",
+        3
+      ],
+      [
+        "R2C6",
+        1
+      ]
+    ],
+    "R1C0": [
+      [
+        "R1C1",
+        3
+      ],
+      [
+        "R1C1",
+        2
+      ],
+      [
+        "R2C0",
+        3
+      ],
+      [
+        "R0C0",
+        1
+      ]
+    ],
+    "R1C1": [
+      [
+        "R1C2",
+        3
+      ],
+      [
+        "R1C2",
+        2
+      ],
+      [
+        "R1C0",
+        1
+      ],
+      [
+        "R1C0",
+        0
+      ]
+    ],
+    "R1C2": [
+      [
+        "R0C1",
+        0
+      ],
+      [
+        "R2C6",
+        0
+      ],
+      [
+        "R1C1",
+        1
+      ],
+      [
+        "R1C1",
+        0
+      ]
+    ],
+    "R2C0": [
+      [
+        "R2C1",
+        3
+      ],
+      [
+        "R2C1",
+        2
+      ],
+      [
+        "R0C0",
+        2
+      ],
+      [
+        "R1C0",
+        2
+      ]
+    ],
+    "R2C1": [
+      [
+        "R2C2",
+        3
+      ],
+      [
+        "R2C2",
+        2
+      ],
+      [
+        "R2C0",
+        1
+      ],
+      [
+        "R2C0",
+        0
+      ]
+    ],
+    "R2C2": [
+      [
+        "R2C3",
+        3
+      ],
+      [
+        "R2C3",
+        2
+      ],
+      [
+        "R2C1",
+        1
+      ],
+      [
+        "R2C1",
+        0
+      ]
+    ],
+    "R2C3": [
+      [
+        "R2C4",
+        3
+      ],
+      [
+        "R2C4",
+        2
+      ],
+      [
+        "R2C2",
+        1
+      ],
+      [
+        "R2C2",
+        0
+      ]
+    ],
+    "R2C4": [
+      [
+        "R2C5",
+        3
+      ],
+      [
+        "R2C5",
+        2
+      ],
+      [
+        "R2C3",
+        1
+      ],
+      [
+        "R2C3",
+        0
+      ]
+    ],
+    "R2C5": [
+      [
+        "R2C6",
+        3
+      ],
+      [
+        "R2C6",
+        2
+      ],
+      [
+        "R2C4",
+        1
+      ],
+      [
+        "R2C4",
+        0
+      ]
+    ],
+    "R2C6": [
+      [
+        "R1C2",
+        1
+      ],
+      [
+        "R0C1",
+        3
+      ],
+      [
+        "R2C5",
+        1
+      ],
+      [
+        "R2C5",
+        0
+      ]
+    ]
+  },
+  "tangle_boundary_ports": [
+    {
+      "TL": [
+        "R0C0",
+        2
+      ],
+      "TR": [
+        "R0C0",
+        1
+      ],
+      "BL": [
+        "R0C1",
+        3
+      ],
+      "BR": [
+        "R0C1",
+        0
+      ]
+    },
+    {
+      "TL": [
+        "R1C0",
+        3
+      ],
+      "TR": [
+        "R1C0",
+        2
+      ],
+      "BL": [
+        "R1C2",
+        0
+      ],
+      "BR": [
+        "R1C2",
+        1
+      ]
+    },
+    {
+      "TL": [
+        "R2C0",
+        3
+      ],
+      "TR": [
+        "R2C0",
+        2
+      ],
+      "BL": [
+        "R2C6",
+        0
+      ],
+      "BR": [
+        "R2C6",
+        1
+      ]
+    }
+  ],
+  "library_normalization_rotation": {
+    "R0C0": 2,
+    "R0C1": 0,
+    "R1C0": 2,
+    "R1C1": 2,
+    "R1C2": 2,
+    "R2C0": 0,
+    "R2C1": 0,
+    "R2C2": 0,
+    "R2C3": 0,
+    "R2C4": 0,
+    "R2C5": 0,
+    "R2C6": 0
+  },
+  "pd_code": [
+    [
+      22,
+      11,
+      23,
+      12
+    ],
+    [
+      10,
+      23,
+      11,
+      0
+    ],
+    [
+      7,
+      12,
+      8,
+      13
+    ],
+    [
+      13,
+      8,
+      14,
+      9
+    ],
+    [
+      9,
+      14,
+      10,
+      15
+    ],
+    [
+      21,
+      6,
+      22,
+      7
+    ],
+    [
+      5,
+      20,
+      6,
+      21
+    ],
+    [
+      19,
+      4,
+      20,
+      5
+    ],
+    [
+      3,
+      18,
+      4,
+      19
+    ],
+    [
+      17,
+      2,
+      18,
+      3
+    ],
+    [
+      1,
+      16,
+      2,
+      17
+    ],
+    [
+      15,
+      0,
+      16,
+      1
+    ]
+  ],
+  "normalized_adjacency": {
+    "R0C0": [
+      [
+        "R2C0",
+        2
+      ],
+      [
+        "R0C1",
+        2
+      ],
+      [
+        "R0C1",
+        1
+      ],
+      [
+        "R1C0",
+        1
+      ]
+    ],
+    "R0C1": [
+      [
+        "R1C2",
+        2
+      ],
+      [
+        "R0C0",
+        2
+      ],
+      [
+        "R0C0",
+        1
+      ],
+      [
+        "R2C6",
+        1
+      ]
+    ],
+    "R1C0": [
+      [
+        "R2C0",
+        3
+      ],
+      [
+        "R0C0",
+        3
+      ],
+      [
+        "R1C1",
+        1
+      ],
+      [
+        "R1C1",
+        0
+      ]
+    ],
+    "R1C1": [
+      [
+        "R1C0",
+        3
+      ],
+      [
+        "R1C0",
+        2
+      ],
+      [
+        "R1C2",
+        1
+      ],
+      [
+        "R1C2",
+        0
+      ]
+    ],
+    "R1C2": [
+      [
+        "R1C1",
+        3
+      ],
+      [
+        "R1C1",
+        2
+      ],
+      [
+        "R0C1",
+        0
+      ],
+      [
+        "R2C6",
+        0
+      ]
+    ],
+    "R2C0": [
+      [
+        "R2C1",
+        3
+      ],
+      [
+        "R2C1",
+        2
+      ],
+      [
+        "R0C0",
+        0
+      ],
+      [
+        "R1C0",
+        0
+      ]
+    ],
+    "R2C1": [
+      [
+        "R2C2",
+        3
+      ],
+      [
+        "R2C2",
+        2
+      ],
+      [
+        "R2C0",
+        1
+      ],
+      [
+        "R2C0",
+        0
+      ]
+    ],
+    "R2C2": [
+      [
+        "R2C3",
+        3
+      ],
+      [
+        "R2C3",
+        2
+      ],
+      [
+        "R2C1",
+        1
+      ],
+      [
+        "R2C1",
+        0
+      ]
+    ],
+    "R2C3": [
+      [
+        "R2C4",
+        3
+      ],
+      [
+        "R2C4",
+        2
+      ],
+      [
+        "R2C2",
+        1
+      ],
+      [
+        "R2C2",
+        0
+      ]
+    ],
+    "R2C4": [
+      [
+        "R2C5",
+        3
+      ],
+      [
+        "R2C5",
+        2
+      ],
+      [
+        "R2C3",
+        1
+      ],
+      [
+        "R2C3",
+        0
+      ]
+    ],
+    "R2C5": [
+      [
+        "R2C6",
+        3
+      ],
+      [
+        "R2C6",
+        2
+      ],
+      [
+        "R2C4",
+        1
+      ],
+      [
+        "R2C4",
+        0
+      ]
+    ],
+    "R2C6": [
+      [
+        "R1C2",
+        3
+      ],
+      [
+        "R0C1",
+        3
+      ],
+      [
+        "R2C5",
+        1
+      ],
+      [
+        "R2C5",
+        0
+      ]
+    ]
+  },
+  "oriented_crossings": {
+    "R0C0": {
+      "under_in": 2,
+      "over_in": 3,
+      "sign": -1,
+      "incoming_arc": 1,
+      "outgoing_arc": 2,
+      "over_arc": 8
+    },
+    "R0C1": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "over_arc": 2,
+      "incoming_arc": 7,
+      "outgoing_arc": 8
+    },
+    "R1C0": {
+      "under_in": 2,
+      "over_in": 3,
+      "sign": -1,
+      "incoming_arc": 5,
+      "outgoing_arc": 6,
+      "over_arc": 8
+    },
+    "R1C1": {
+      "under_in": 2,
+      "over_in": 3,
+      "sign": -1,
+      "over_arc": 6,
+      "incoming_arc": 8,
+      "outgoing_arc": 9
+    },
+    "R1C2": {
+      "under_in": 2,
+      "over_in": 3,
+      "sign": -1,
+      "incoming_arc": 6,
+      "outgoing_arc": 7,
+      "over_arc": 9
+    },
+    "R2C0": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "over_arc": 5,
+      "incoming_arc": 12,
+      "outgoing_arc": 1
+    },
+    "R2C1": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "incoming_arc": 4,
+      "outgoing_arc": 5,
+      "over_arc": 12
+    },
+    "R2C2": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "over_arc": 4,
+      "incoming_arc": 11,
+      "outgoing_arc": 12
+    },
+    "R2C3": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "incoming_arc": 3,
+      "outgoing_arc": 4,
+      "over_arc": 11
+    },
+    "R2C4": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "over_arc": 3,
+      "incoming_arc": 10,
+      "outgoing_arc": 11
+    },
+    "R2C5": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "incoming_arc": 2,
+      "outgoing_arc": 3,
+      "over_arc": 10
+    },
+    "R2C6": {
+      "under_in": 0,
+      "over_in": 1,
+      "sign": -1,
+      "over_arc": 2,
+      "incoming_arc": 9,
+      "outgoing_arc": 10
+    }
+  },
+  "orientation": {
+    "start_entry": [
+      "R0C0",
+      2
+    ],
+    "description": "right to left along the outside top closure, then into the top-left port of the -2 box",
+    "traversal": [
+      {
+        "crossing": "R0C0",
+        "entry_port": 2,
+        "exit_port": 0,
+        "kind": "under",
+        "incoming_arc": 1,
+        "outgoing_arc": 2
+      },
+      {
+        "crossing": "R0C1",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 2,
+        "outgoing_arc": 2
+      },
+      {
+        "crossing": "R2C6",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 2,
+        "outgoing_arc": 2
+      },
+      {
+        "crossing": "R2C5",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 2,
+        "outgoing_arc": 3
+      },
+      {
+        "crossing": "R2C4",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 3,
+        "outgoing_arc": 3
+      },
+      {
+        "crossing": "R2C3",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 3,
+        "outgoing_arc": 4
+      },
+      {
+        "crossing": "R2C2",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 4,
+        "outgoing_arc": 4
+      },
+      {
+        "crossing": "R2C1",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 4,
+        "outgoing_arc": 5
+      },
+      {
+        "crossing": "R2C0",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 5,
+        "outgoing_arc": 5
+      },
+      {
+        "crossing": "R1C0",
+        "entry_port": 2,
+        "exit_port": 0,
+        "kind": "under",
+        "incoming_arc": 5,
+        "outgoing_arc": 6
+      },
+      {
+        "crossing": "R1C1",
+        "entry_port": 3,
+        "exit_port": 1,
+        "kind": "over",
+        "incoming_arc": 6,
+        "outgoing_arc": 6
+      },
+      {
+        "crossing": "R1C2",
+        "entry_port": 2,
+        "exit_port": 0,
+        "kind": "under",
+        "incoming_arc": 6,
+        "outgoing_arc": 7
+      },
+      {
+        "crossing": "R0C1",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 7,
+        "outgoing_arc": 8
+      },
+      {
+        "crossing": "R0C0",
+        "entry_port": 3,
+        "exit_port": 1,
+        "kind": "over",
+        "incoming_arc": 8,
+        "outgoing_arc": 8
+      },
+      {
+        "crossing": "R1C0",
+        "entry_port": 3,
+        "exit_port": 1,
+        "kind": "over",
+        "incoming_arc": 8,
+        "outgoing_arc": 8
+      },
+      {
+        "crossing": "R1C1",
+        "entry_port": 2,
+        "exit_port": 0,
+        "kind": "under",
+        "incoming_arc": 8,
+        "outgoing_arc": 9
+      },
+      {
+        "crossing": "R1C2",
+        "entry_port": 3,
+        "exit_port": 1,
+        "kind": "over",
+        "incoming_arc": 9,
+        "outgoing_arc": 9
+      },
+      {
+        "crossing": "R2C6",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 9,
+        "outgoing_arc": 10
+      },
+      {
+        "crossing": "R2C5",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 10,
+        "outgoing_arc": 10
+      },
+      {
+        "crossing": "R2C4",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 10,
+        "outgoing_arc": 11
+      },
+      {
+        "crossing": "R2C3",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 11,
+        "outgoing_arc": 11
+      },
+      {
+        "crossing": "R2C2",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 11,
+        "outgoing_arc": 12
+      },
+      {
+        "crossing": "R2C1",
+        "entry_port": 1,
+        "exit_port": 3,
+        "kind": "over",
+        "incoming_arc": 12,
+        "outgoing_arc": 12
+      },
+      {
+        "crossing": "R2C0",
+        "entry_port": 0,
+        "exit_port": 2,
+        "kind": "under",
+        "incoming_arc": 12,
+        "outgoing_arc": 1
+      }
+    ],
+    "component_count": 1,
+    "writhe": -12
+  },
+  "spatial_diagram": {
+    "coordinate_field": "Q",
+    "units": "arbitrary consistent diagram units",
+    "crossing_centres_xy": {
+      "R0C0": [
+        0,
+        -2
+      ],
+      "R0C1": [
+        0,
+        -5
+      ],
+      "R1C0": [
+        6,
+        -2
+      ],
+      "R1C1": [
+        6,
+        -5
+      ],
+      "R1C2": [
+        6,
+        -8
+      ],
+      "R2C0": [
+        12,
+        -2
+      ],
+      "R2C1": [
+        12,
+        -5
+      ],
+      "R2C2": [
+        12,
+        -8
+      ],
+      "R2C3": [
+        12,
+        -11
+      ],
+      "R2C4": [
+        12,
+        -14
+      ],
+      "R2C5": [
+        12,
+        -17
+      ],
+      "R2C6": [
+        12,
+        -20
+      ]
+    },
+    "crossing_ports_xyz": {
+      "R0C0": [
+        [
+          1,
+          -3,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -3,
+          0
+        ]
+      ],
+      "R0C1": [
+        [
+          1,
+          -6,
+          0
+        ],
+        [
+          1,
+          -4,
+          0
+        ],
+        [
+          -1,
+          -4,
+          0
+        ],
+        [
+          -1,
+          -6,
+          0
+        ]
+      ],
+      "R1C0": [
+        [
+          5,
+          -3,
+          0
+        ],
+        [
+          7,
+          -3,
+          0
+        ],
+        [
+          7,
+          -1,
+          0
+        ],
+        [
+          5,
+          -1,
+          0
+        ]
+      ],
+      "R1C1": [
+        [
+          5,
+          -6,
+          0
+        ],
+        [
+          7,
+          -6,
+          0
+        ],
+        [
+          7,
+          -4,
+          0
+        ],
+        [
+          5,
+          -4,
+          0
+        ]
+      ],
+      "R1C2": [
+        [
+          5,
+          -9,
+          0
+        ],
+        [
+          7,
+          -9,
+          0
+        ],
+        [
+          7,
+          -7,
+          0
+        ],
+        [
+          5,
+          -7,
+          0
+        ]
+      ],
+      "R2C0": [
+        [
+          11,
+          -3,
+          0
+        ],
+        [
+          13,
+          -3,
+          0
+        ],
+        [
+          13,
+          -1,
+          0
+        ],
+        [
+          11,
+          -1,
+          0
+        ]
+      ],
+      "R2C1": [
+        [
+          11,
+          -6,
+          0
+        ],
+        [
+          13,
+          -6,
+          0
+        ],
+        [
+          13,
+          -4,
+          0
+        ],
+        [
+          11,
+          -4,
+          0
+        ]
+      ],
+      "R2C2": [
+        [
+          11,
+          -9,
+          0
+        ],
+        [
+          13,
+          -9,
+          0
+        ],
+        [
+          13,
+          -7,
+          0
+        ],
+        [
+          11,
+          -7,
+          0
+        ]
+      ],
+      "R2C3": [
+        [
+          11,
+          -12,
+          0
+        ],
+        [
+          13,
+          -12,
+          0
+        ],
+        [
+          13,
+          -10,
+          0
+        ],
+        [
+          11,
+          -10,
+          0
+        ]
+      ],
+      "R2C4": [
+        [
+          11,
+          -15,
+          0
+        ],
+        [
+          13,
+          -15,
+          0
+        ],
+        [
+          13,
+          -13,
+          0
+        ],
+        [
+          11,
+          -13,
+          0
+        ]
+      ],
+      "R2C5": [
+        [
+          11,
+          -18,
+          0
+        ],
+        [
+          13,
+          -18,
+          0
+        ],
+        [
+          13,
+          -16,
+          0
+        ],
+        [
+          11,
+          -16,
+          0
+        ]
+      ],
+      "R2C6": [
+        [
+          11,
+          -21,
+          0
+        ],
+        [
+          13,
+          -21,
+          0
+        ],
+        [
+          13,
+          -19,
+          0
+        ],
+        [
+          11,
+          -19,
+          0
+        ]
+      ]
+    },
+    "connection_polylines": [
+      {
+        "ends": [
+          [
+            "R0C0",
+            3
+          ],
+          [
+            "R0C1",
+            2
+          ]
+        ],
+        "points": [
+          [
+            -1,
+            -3,
+            0
+          ],
+          [
+            -1,
+            -4,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R0C0",
+            0
+          ],
+          [
+            "R0C1",
+            1
+          ]
+        ],
+        "points": [
+          [
+            1,
+            -3,
+            0
+          ],
+          [
+            1,
+            -4,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R1C0",
+            0
+          ],
+          [
+            "R1C1",
+            3
+          ]
+        ],
+        "points": [
+          [
+            5,
+            -3,
+            0
+          ],
+          [
+            5,
+            -4,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R1C0",
+            1
+          ],
+          [
+            "R1C1",
+            2
+          ]
+        ],
+        "points": [
+          [
+            7,
+            -3,
+            0
+          ],
+          [
+            7,
+            -4,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R1C1",
+            0
+          ],
+          [
+            "R1C2",
+            3
+          ]
+        ],
+        "points": [
+          [
+            5,
+            -6,
+            0
+          ],
+          [
+            5,
+            -7,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R1C1",
+            1
+          ],
+          [
+            "R1C2",
+            2
+          ]
+        ],
+        "points": [
+          [
+            7,
+            -6,
+            0
+          ],
+          [
+            7,
+            -7,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C0",
+            0
+          ],
+          [
+            "R2C1",
+            3
+          ]
+        ],
+        "points": [
+          [
+            11,
+            -3,
+            0
+          ],
+          [
+            11,
+            -4,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C0",
+            1
+          ],
+          [
+            "R2C1",
+            2
+          ]
+        ],
+        "points": [
+          [
+            13,
+            -3,
+            0
+          ],
+          [
+            13,
+            -4,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C1",
+            0
+          ],
+          [
+            "R2C2",
+            3
+          ]
+        ],
+        "points": [
+          [
+            11,
+            -6,
+            0
+          ],
+          [
+            11,
+            -7,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C1",
+            1
+          ],
+          [
+            "R2C2",
+            2
+          ]
+        ],
+        "points": [
+          [
+            13,
+            -6,
+            0
+          ],
+          [
+            13,
+            -7,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C2",
+            0
+          ],
+          [
+            "R2C3",
+            3
+          ]
+        ],
+        "points": [
+          [
+            11,
+            -9,
+            0
+          ],
+          [
+            11,
+            -10,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C2",
+            1
+          ],
+          [
+            "R2C3",
+            2
+          ]
+        ],
+        "points": [
+          [
+            13,
+            -9,
+            0
+          ],
+          [
+            13,
+            -10,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C3",
+            0
+          ],
+          [
+            "R2C4",
+            3
+          ]
+        ],
+        "points": [
+          [
+            11,
+            -12,
+            0
+          ],
+          [
+            11,
+            -13,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C3",
+            1
+          ],
+          [
+            "R2C4",
+            2
+          ]
+        ],
+        "points": [
+          [
+            13,
+            -12,
+            0
+          ],
+          [
+            13,
+            -13,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C4",
+            0
+          ],
+          [
+            "R2C5",
+            3
+          ]
+        ],
+        "points": [
+          [
+            11,
+            -15,
+            0
+          ],
+          [
+            11,
+            -16,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C4",
+            1
+          ],
+          [
+            "R2C5",
+            2
+          ]
+        ],
+        "points": [
+          [
+            13,
+            -15,
+            0
+          ],
+          [
+            13,
+            -16,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C5",
+            0
+          ],
+          [
+            "R2C6",
+            3
+          ]
+        ],
+        "points": [
+          [
+            11,
+            -18,
+            0
+          ],
+          [
+            11,
+            -19,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R2C5",
+            1
+          ],
+          [
+            "R2C6",
+            2
+          ]
+        ],
+        "points": [
+          [
+            13,
+            -18,
+            0
+          ],
+          [
+            13,
+            -19,
+            0
+          ]
+        ],
+        "kind": "within_twist_box"
+      },
+      {
+        "ends": [
+          [
+            "R0C0",
+            1
+          ],
+          [
+            "R1C0",
+            3
+          ]
+        ],
+        "points": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            5,
+            -1,
+            0
+          ]
+        ],
+        "kind": "horizontal_tangle_sum"
+      },
+      {
+        "ends": [
+          [
+            "R0C1",
+            0
+          ],
+          [
+            "R1C2",
+            0
+          ]
+        ],
+        "points": [
+          [
+            1,
+            -6,
+            0
+          ],
+          [
+            1,
+            -22,
+            0
+          ],
+          [
+            5,
+            -22,
+            0
+          ],
+          [
+            5,
+            -9,
+            0
+          ]
+        ],
+        "kind": "horizontal_tangle_sum"
+      },
+      {
+        "ends": [
+          [
+            "R1C0",
+            2
+          ],
+          [
+            "R2C0",
+            3
+          ]
+        ],
+        "points": [
+          [
+            7,
+            -1,
+            0
+          ],
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            11,
+            -1,
+            0
+          ]
+        ],
+        "kind": "horizontal_tangle_sum"
+      },
+      {
+        "ends": [
+          [
+            "R1C2",
+            1
+          ],
+          [
+            "R2C6",
+            0
+          ]
+        ],
+        "points": [
+          [
+            7,
+            -9,
+            0
+          ],
+          [
+            7,
+            -22,
+            0
+          ],
+          [
+            11,
+            -22,
+            0
+          ],
+          [
+            11,
+            -21,
+            0
+          ]
+        ],
+        "kind": "horizontal_tangle_sum"
+      },
+      {
+        "ends": [
+          [
+            "R0C0",
+            2
+          ],
+          [
+            "R2C0",
+            2
+          ]
+        ],
+        "points": [
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            13,
+            2,
+            0
+          ],
+          [
+            13,
+            0,
+            0
+          ],
+          [
+            13,
+            -1,
+            0
+          ]
+        ],
+        "kind": "numerator_t_closure"
+      },
+      {
+        "ends": [
+          [
+            "R0C1",
+            3
+          ],
+          [
+            "R2C6",
+            1
+          ]
+        ],
+        "points": [
+          [
+            -1,
+            -6,
+            0
+          ],
+          [
+            -1,
+            -22,
+            0
+          ],
+          [
+            -1,
+            -24,
+            0
+          ],
+          [
+            13,
+            -24,
+            0
+          ],
+          [
+            13,
+            -22,
+            0
+          ],
+          [
+            13,
+            -21,
+            0
+          ]
+        ],
+        "kind": "numerator_b_closure"
+      }
+    ],
+    "oriented_polygon_vertices": [
+      [
+        "6",
+        "2",
+        "0"
+      ],
+      [
+        "-1",
+        "2",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "-2",
+        "-1/4"
+      ],
+      [
+        "1",
+        "-3",
+        "0"
+      ],
+      [
+        "1",
+        "-4",
+        "0"
+      ],
+      [
+        "0",
+        "-5",
+        "1/4"
+      ],
+      [
+        "-1",
+        "-6",
+        "0"
+      ],
+      [
+        "-1",
+        "-22",
+        "0"
+      ],
+      [
+        "-1",
+        "-24",
+        "0"
+      ],
+      [
+        "13",
+        "-24",
+        "0"
+      ],
+      [
+        "13",
+        "-22",
+        "0"
+      ],
+      [
+        "13",
+        "-21",
+        "0"
+      ],
+      [
+        "12",
+        "-20",
+        "1/4"
+      ],
+      [
+        "11",
+        "-19",
+        "0"
+      ],
+      [
+        "11",
+        "-18",
+        "0"
+      ],
+      [
+        "12",
+        "-17",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-16",
+        "0"
+      ],
+      [
+        "13",
+        "-15",
+        "0"
+      ],
+      [
+        "12",
+        "-14",
+        "1/4"
+      ],
+      [
+        "11",
+        "-13",
+        "0"
+      ],
+      [
+        "11",
+        "-12",
+        "0"
+      ],
+      [
+        "12",
+        "-11",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-10",
+        "0"
+      ],
+      [
+        "13",
+        "-9",
+        "0"
+      ],
+      [
+        "12",
+        "-8",
+        "1/4"
+      ],
+      [
+        "11",
+        "-7",
+        "0"
+      ],
+      [
+        "11",
+        "-6",
+        "0"
+      ],
+      [
+        "12",
+        "-5",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-4",
+        "0"
+      ],
+      [
+        "13",
+        "-3",
+        "0"
+      ],
+      [
+        "12",
+        "-2",
+        "1/4"
+      ],
+      [
+        "11",
+        "-1",
+        "0"
+      ],
+      [
+        "11",
+        "0",
+        "0"
+      ],
+      [
+        "7",
+        "0",
+        "0"
+      ],
+      [
+        "7",
+        "-1",
+        "0"
+      ],
+      [
+        "6",
+        "-2",
+        "-1/4"
+      ],
+      [
+        "5",
+        "-3",
+        "0"
+      ],
+      [
+        "5",
+        "-4",
+        "0"
+      ],
+      [
+        "6",
+        "-5",
+        "1/4"
+      ],
+      [
+        "7",
+        "-6",
+        "0"
+      ],
+      [
+        "7",
+        "-7",
+        "0"
+      ],
+      [
+        "6",
+        "-8",
+        "-1/4"
+      ],
+      [
+        "5",
+        "-9",
+        "0"
+      ],
+      [
+        "5",
+        "-22",
+        "0"
+      ],
+      [
+        "1",
+        "-22",
+        "0"
+      ],
+      [
+        "1",
+        "-6",
+        "0"
+      ],
+      [
+        "0",
+        "-5",
+        "-1/4"
+      ],
+      [
+        "-1",
+        "-4",
+        "0"
+      ],
+      [
+        "-1",
+        "-3",
+        "0"
+      ],
+      [
+        "0",
+        "-2",
+        "1/4"
+      ],
+      [
+        "1",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "5",
+        "0",
+        "0"
+      ],
+      [
+        "5",
+        "-1",
+        "0"
+      ],
+      [
+        "6",
+        "-2",
+        "1/4"
+      ],
+      [
+        "7",
+        "-3",
+        "0"
+      ],
+      [
+        "7",
+        "-4",
+        "0"
+      ],
+      [
+        "6",
+        "-5",
+        "-1/4"
+      ],
+      [
+        "5",
+        "-6",
+        "0"
+      ],
+      [
+        "5",
+        "-7",
+        "0"
+      ],
+      [
+        "6",
+        "-8",
+        "1/4"
+      ],
+      [
+        "7",
+        "-9",
+        "0"
+      ],
+      [
+        "7",
+        "-22",
+        "0"
+      ],
+      [
+        "11",
+        "-22",
+        "0"
+      ],
+      [
+        "11",
+        "-21",
+        "0"
+      ],
+      [
+        "12",
+        "-20",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-19",
+        "0"
+      ],
+      [
+        "13",
+        "-18",
+        "0"
+      ],
+      [
+        "12",
+        "-17",
+        "1/4"
+      ],
+      [
+        "11",
+        "-16",
+        "0"
+      ],
+      [
+        "11",
+        "-15",
+        "0"
+      ],
+      [
+        "12",
+        "-14",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-13",
+        "0"
+      ],
+      [
+        "13",
+        "-12",
+        "0"
+      ],
+      [
+        "12",
+        "-11",
+        "1/4"
+      ],
+      [
+        "11",
+        "-10",
+        "0"
+      ],
+      [
+        "11",
+        "-9",
+        "0"
+      ],
+      [
+        "12",
+        "-8",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-7",
+        "0"
+      ],
+      [
+        "13",
+        "-6",
+        "0"
+      ],
+      [
+        "12",
+        "-5",
+        "1/4"
+      ],
+      [
+        "11",
+        "-4",
+        "0"
+      ],
+      [
+        "11",
+        "-3",
+        "0"
+      ],
+      [
+        "12",
+        "-2",
+        "-1/4"
+      ],
+      [
+        "13",
+        "-1",
+        "0"
+      ],
+      [
+        "13",
+        "0",
+        "0"
+      ],
+      [
+        "13",
+        "2",
+        "0"
+      ]
+    ],
+    "closed_by": "last vertex to first vertex",
+    "geometry_purpose": "an explicit PL embedding realizing the marked diagram; not a triangulation of its complement"
+  },
+  "marking": {
+    "knot_basepoint_xyz": [
+      "6",
+      "2",
+      "0"
+    ],
+    "oriented_tangent": [
+      -1,
+      0,
+      0
+    ],
+    "diagram_arc_generator": 1,
+    "pd_strand_label": 22,
+    "raw_diagram_edge_endpoints": [
+      [
+        "R2C0",
+        2
+      ],
+      [
+        "R0C0",
+        2
+      ]
+    ],
+    "puncture_ball": {
+      "shape": "closed axis-aligned PL cube",
+      "centre": [
+        "6",
+        "2",
+        "0"
+      ],
+      "half_width": "1/4",
+      "branch_arc_endpoints_in_oriented_order": [
+        [
+          "25/4",
+          "2",
+          "0"
+        ],
+        [
+          "23/4",
+          "2",
+          "0"
+        ]
+      ],
+      "statement": "The cube meets the knot in its straight central x-directed arc only."
+    },
+    "positive_normal_basis": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "positive_meridian_polygon": [
+      [
+        "6",
+        "17/8",
+        "0"
+      ],
+      [
+        "6",
+        "2",
+        "-1/8"
+      ],
+      [
+        "6",
+        "15/8",
+        "0"
+      ],
+      [
+        "6",
+        "2",
+        "1/8"
+      ]
+    ],
+    "meridian_orientation": "normal basis follows tangent to give the ambient orientation; this meridian has linking number +1",
+    "peripheral_basepoint_xyz": [
+      "6",
+      "17/8",
+      "0"
+    ],
+    "whisker_convention": "Wirtinger stems to the upper half-space, starting at the marked top-closure arc; meridians are oriented with positive linking number"
+  },
+  "wirtinger": {
+    "generator_count": 12,
+    "generator_meaning": "positive meridian of each successive under-to-under arc; arc 1 contains the marked point",
+    "under_crossing_order": [
+      "R0C0",
+      "R2C5",
+      "R2C3",
+      "R2C1",
+      "R1C0",
+      "R1C2",
+      "R0C1",
+      "R1C1",
+      "R2C6",
+      "R2C4",
+      "R2C2",
+      "R2C0"
+    ],
+    "relation_convention": "o^(-epsilon) * incoming * o^(epsilon) * outgoing^(-1) = 1",
+    "relators": [
+      {
+        "crossing": "R0C0",
+        "word": [
+          8,
+          1,
+          -8,
+          -2
+        ]
+      },
+      {
+        "crossing": "R2C5",
+        "word": [
+          10,
+          2,
+          -10,
+          -3
+        ]
+      },
+      {
+        "crossing": "R2C3",
+        "word": [
+          11,
+          3,
+          -11,
+          -4
+        ]
+      },
+      {
+        "crossing": "R2C1",
+        "word": [
+          12,
+          4,
+          -12,
+          -5
+        ]
+      },
+      {
+        "crossing": "R1C0",
+        "word": [
+          8,
+          5,
+          -8,
+          -6
+        ]
+      },
+      {
+        "crossing": "R1C2",
+        "word": [
+          9,
+          6,
+          -9,
+          -7
+        ]
+      },
+      {
+        "crossing": "R0C1",
+        "word": [
+          2,
+          7,
+          -2,
+          -8
+        ]
+      },
+      {
+        "crossing": "R1C1",
+        "word": [
+          6,
+          8,
+          -6,
+          -9
+        ]
+      },
+      {
+        "crossing": "R2C6",
+        "word": [
+          2,
+          9,
+          -2,
+          -10
+        ]
+      },
+      {
+        "crossing": "R2C4",
+        "word": [
+          3,
+          10,
+          -3,
+          -11
+        ]
+      },
+      {
+        "crossing": "R2C2",
+        "word": [
+          4,
+          11,
+          -4,
+          -12
+        ]
+      },
+      {
+        "crossing": "R2C0",
+        "word": [
+          5,
+          12,
+          -5,
+          -1
+        ]
+      }
+    ],
+    "meridian_word": [
+      1
+    ],
+    "blackboard_longitude_word": [
+      -8,
+      -10,
+      -11,
+      -12,
+      -8,
+      -9,
+      -2,
+      -6,
+      -2,
+      -3,
+      -4,
+      -5
+    ],
+    "blackboard_linking_number": -12,
+    "zero_longitude_raw_word": [
+      -8,
+      -10,
+      -11,
+      -12,
+      -8,
+      -9,
+      -2,
+      -6,
+      -2,
+      -3,
+      -4,
+      -5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "zero_longitude_word": [
+      -8,
+      -10,
+      -11,
+      -12,
+      -8,
+      -9,
+      -2,
+      -6,
+      -2,
+      -3,
+      -4,
+      -5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "zero_longitude_geometric_prescription": "Follow the oriented right-side blackboard push-off once from the peripheral basepoint, then append -writhe positive meridian turns; this corrects the push-off linking number to zero.",
+    "commutator_convention": "[mu,lambda]=mu*lambda*mu^-1*lambda^-1",
+    "commutator_relator_product": [
+      {
+        "relator_index": 0,
+        "conjugator": [
+          -8
+        ]
+      },
+      {
+        "relator_index": 1,
+        "conjugator": [
+          -8,
+          -10
+        ]
+      },
+      {
+        "relator_index": 2,
+        "conjugator": [
+          -8,
+          -10,
+          -11
+        ]
+      },
+      {
+        "relator_index": 3,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12
+        ]
+      },
+      {
+        "relator_index": 4,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8
+        ]
+      },
+      {
+        "relator_index": 5,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9
+        ]
+      },
+      {
+        "relator_index": 6,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9,
+          -2
+        ]
+      },
+      {
+        "relator_index": 7,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9,
+          -2,
+          -6
+        ]
+      },
+      {
+        "relator_index": 8,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9,
+          -2,
+          -6,
+          -2
+        ]
+      },
+      {
+        "relator_index": 9,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9,
+          -2,
+          -6,
+          -2,
+          -3
+        ]
+      },
+      {
+        "relator_index": 10,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9,
+          -2,
+          -6,
+          -2,
+          -3,
+          -4
+        ]
+      },
+      {
+        "relator_index": 11,
+        "conjugator": [
+          -8,
+          -10,
+          -11,
+          -12,
+          -8,
+          -9,
+          -2,
+          -6,
+          -2,
+          -3,
+          -4,
+          -5
+        ]
+      }
+    ],
+    "certificate_meaning": "product of conjugator*relator*conjugator^-1 freely equals [mu,lambda]"
+  },
+  "invariant_checks": {
+    "fox_colouring_matrix": [
+      [
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ]
+    ],
+    "deleted_row_column": [
+      0,
+      0
+    ],
+    "fox_minor_determinant": -1,
+    "knot_determinant": 1,
+    "spherogram_seifert_matrix": [
+      [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    ],
+    "alexander_polynomial_coefficients_ascending": [
+      1,
+      -1,
+      0,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      -1,
+      1
+    ],
+    "alexander_at_minus_one": -1,
+    "role": "cross-checks of the explicit construction, not knot-identification substitutes"
+  },
+  "seifert_cover_interface": {
+    "status": "SOURCE_THEOREM_AND_EXACT_FILLING_PRESCRIPTION; NO_CELLWISE_PAIR_MAP_IN_THIS_FILE",
+    "base": "oriented pair of pants",
+    "fibre": "oriented S1 with generator h",
+    "boundary_section_convention": "c1+c2+c3=0 in H1; group relation c1*c2*c3=1 before filling",
+    "filling_pairs_alpha_beta": [
+      [
+        2,
+        -1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "filling_meridians": [
+      "2*c1-h",
+      "3*c2+h",
+      "7*c3+h"
+    ],
+    "filling_relation_convention": "ci^alpha_i * h^beta_i = 1, with h central",
+    "abelianization_matrix_columns": [
+      "c1",
+      "c2",
+      "c3",
+      "h"
+    ],
+    "abelianization_matrix": [
+      [
+        2,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        7,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    "abelianization_matrix_determinant": 1,
+    "sum_beta_over_alpha": "-1/42",
+    "normalized_description": {
+      "b": -1,
+      "pairs": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "convention": "q1*q2*q3=h^b"
+    },
+    "basis_transport_requirement": "A source-bound branched-cover implementation must transport these pillowcase/fibre bases and the diagram marks; homology or a named Seifert manifold is insufficient.",
+    "reference": "https://dornsife.usc.edu/francis-bonahon/wp-content/uploads/sites/205/2023/06/BonSieb-compressed.pdf"
+  },
+  "scope": {
+    "completed_here": [
+      "explicit signed diagram",
+      "source-to-direct-wiring equivalence",
+      "rational PL knot embedding",
+      "orientation and trivial-arc puncture",
+      "diagrammatic meridian and zero longitude with group certificate",
+      "determinant cross-check"
+    ],
+    "not_completed_here": [
+      "triangulated branched double cover",
+      "cellwise source-pair and peripheral transport",
+      "relative roll map",
+      "even-twist bulk",
+      "beta0/beta2 caps",
+      "X2 or X0",
+      "standardization"
+    ],
+    "handedness": "This is the exact rational-tangle convention documented above. Matching to any paper using another pretzel convention requires an explicit convention comparison."
+  }
+}

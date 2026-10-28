@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python3",
+    "-E",
+    "-B",
+    "portable_links/replay_x0_links.py",
+    "--receipt",
+    "_fresh/vertex_links.json"
+  ],
+  "executed": true,
+  "log": "stages/vertex_links/stage.log",
+  "log_sha256": "dedea21c1724b4244b69bf55c07c3110b41dd95916a3b1ba43fe463afbfc056e",
+  "name": "vertex_links",
+  "purpose": "Replay all 4310 portable master vertex-link certificates",
+  "receipts": [
+    {
+      "path": "stages/vertex_links/receipts/vertex_links.json",
+      "recomputed_this_run": true,
+      "sha256": "dd75e6b1ad20df9c162cde98b674ce3f5bbe9b87a7d8b4ea7417657e6b782d57"
+    }
+  ],
+  "status": "PASS",
+  "tier": "links",
+  "wall_seconds": 22.928102544989088,
+  "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+  "worktree_retained": false
+}

@@ -1,0 +1,417 @@
+{
+  "bound_independent_gates": {
+    "cap_bridge": {
+      "passed": true,
+      "pentachora": 24224,
+      "ports": {
+        "cap": 1792,
+        "source": 96
+      }
+    },
+    "cap_winding": {
+      "m0": [
+        0,
+        4
+      ],
+      "m2": [
+        -8,
+        4
+      ]
+    },
+    "torus_adaptor": {
+      "model_sha256": "cf38a69079d08ed8334ad5d9d48b3a4d910342e6e6ab9e4dddc635c43b072058",
+      "passed": true,
+      "tetrahedra": {
+        "E": 2334,
+        "N": 1576
+      }
+    }
+  },
+  "canonical_digest_links": {
+    "cap_bridge": "f51dc234438236aba8b4d3c3190ac4d4981d37d29dbab8cf4adfdb382f758919",
+    "cut": "69930877ffd4029b6e420501d385106f9bc3ea636a7d04eb5f824977b55e06ee",
+    "diagram_chart": "c6699bc33b13c51bc40f09bbb66fc37afa231d57ffdb52e17b7433c6e8ea82a2",
+    "puncture_interface": "4cc33e00f7d33733da0ee77cac556824b9ddc882a19d01b3df1a10147047c226",
+    "raw_chart": "74ba591616d3e981e464dcb212d886c078f3d094505062ce4bee39b54140a25f",
+    "torus_adaptor": "d1c4b6ec3958b244509f192043bc5f80ccc8b111cfcb5ebd63e15b1c7d746498",
+    "torus_model": "cf38a69079d08ed8334ad5d9d48b3a4d910342e6e6ab9e4dddc635c43b072058"
+  },
+  "core": {
+    "N_cocycle_degree": 1,
+    "oriented_cycle": [
+      204,
+      228,
+      243,
+      219,
+      211,
+      238,
+      208,
+      206,
+      237,
+      207,
+      209,
+      240,
+      210,
+      218,
+      242,
+      229,
+      205,
+      236,
+      204
+    ],
+    "puncture_oriented_edge": [
+      204,
+      228
+    ]
+  },
+  "diagram_chart_verification": {
+    "charts": {
+      "downstairs": {
+        "absolute_total_area": "1",
+        "all_determinants_nonzero": true,
+        "maximum_absolute_double_area": "5150482151773705262339978765782906778733343370877/239026544748531098091170582452848667616566782196933",
+        "minimum_absolute_double_area": "436085706992790456854505951059688510018872224520/239026544748531098091170582452848667616566782196933",
+        "orientation_relative_to_boundary_N": -1,
+        "signed_total_area": "-1",
+        "triangles": 172
+      },
+      "upstairs": {
+        "absolute_total_area": "1",
+        "all_determinants_nonzero": true,
+        "maximum_absolute_double_area": "5150482151773705262339978765782906778733343370877/478053089497062196182341164905697335233133564393866",
+        "minimum_absolute_double_area": "218042853496395228427252975529844255009436112260/239026544748531098091170582452848667616566782196933",
+        "orientation_relative_to_boundary_N": -1,
+        "signed_total_area": "-1",
+        "triangles": 344
+      }
+    },
+    "cover_projection": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "deck_edges_checked": 516,
+    "deck_translation": [
+      "0",
+      "1/2"
+    ],
+    "deck_vertices_checked": 172,
+    "passed": true,
+    "peripheral_basis_periods_verified": true,
+    "schema": "independent-exact-torus-chart-check-v1",
+    "source_tube_and_exterior_cocycles_closed": true
+  },
+  "diagram_verification": {
+    "classification": "DIAGRAM_AND_MARKINGS_VERIFIED",
+    "components": 1,
+    "crossings": 12,
+    "diagram_faces": 14,
+    "knot_determinant": 1,
+    "longitude_exponent_sum": 0,
+    "meridian_pd_strand": 22,
+    "not_certified": [
+      "triangulated branched double cover",
+      "cellwise source-pair map",
+      "peripheral transport to a 3D triangulation",
+      "X2",
+      "X0"
+    ],
+    "optional_rational_tangle_regeneration": "NOT_REQUESTED",
+    "peripheral_commutator_relator_product": "PASS",
+    "polygon_vertices": 89,
+    "puncture_intersected_segments": 2,
+    "seifert_filling_matrix_determinant": 1,
+    "spatial_self_intersections": 0,
+    "unwanted_projected_crossings": 0,
+    "writhe": -12
+  },
+  "exact_endpoint_map": {
+    "cusp_matrix_columns_images_of_source_M_L": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "longitude_homology_certificate": {
+      "basis_detection_determinant": -1,
+      "basis_detection_edges": [
+        6,
+        9
+      ],
+      "integer_vertex_potential": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_M_L_coefficients": [
+        0,
+        1
+      ]
+    },
+    "meridian_homology_certificate": {
+      "basis_detection_determinant": -1,
+      "basis_detection_edges": [
+        6,
+        9
+      ],
+      "integer_vertex_potential": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_M_L_coefficients": [
+        1,
+        0
+      ]
+    },
+    "orientation_sign": 1,
+    "tetrahedron_images": [
+      0,
+      2,
+      1
+    ],
+    "vertex_permutations": [
+      [
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        2,
+        1,
+        3,
+        0
+      ]
+    ]
+  },
+  "file_sha256": {
+    "adaptor/adaptor.json.gz": "620272bc50f5ffe0e8742c7b3c4db81278ed032b898d539ba29ec2862b7aa986",
+    "adaptor/coarsening_certificate.json.gz": "3430efcfa9d80844ddc6c60b7cc9296de92ab61a69fe40e1fedb1a7edd959ae5",
+    "adaptor/independent_verification.json": "92605fbb3b5c58cdaf15714b2c99bbba180b5c0e6f9552a0b5789f8860f4e17b",
+    "adaptor/initial_stages.json.gz": "4df79bbf395094d8bf4b9c42c8fde711db434b0314ec491cff0c7973717a9a27",
+    "adaptor/model.json.gz": "91d132bae18e65fd3684b0c7079f7aed5315c0533c61b225da28f077217abee3",
+    "cap/bridge_verification.json": "89541c6c3b8b31861b922679d6db9ae9d4cbfe25e4b5e1864c27a74b06482fa0",
+    "cap/data/cap_m0.json.gz": "c38a070c326277a9ad7433e5c2c967b92c15f10eb30391114527a9b2913dc6b4",
+    "cap/data/cap_m2.json.gz": "a64d6f8745d7aa2b672a9c53320fe6fcd5c721286d8c819cd1ec263a759cc97d",
+    "cap/data/shared_boundary.json.gz": "3ad1b2f3a6f6fda34d4fe51a585c34d1d3a8e09de6c5f6ed920a3c092dc7d4b2",
+    "cap/data/source_cap_bridge.json.gz": "6ef384e230e8c5aea5a7d7deeed85634ed09514065b482bf967defce9e30b5f5",
+    "cap/verification.json": "5cc803113bb8bed770595dd0c66a669c538ccacdbf816aa0cdb81f1e1322c559",
+    "cap/verify_bridge.py": "14d9ecdb9cfb24de4960e2216362542e669c18a3cd8e420197b25cfc79f3f7e0",
+    "coarsened/coarsening_certificate.json.gz": "2b843cbdc4a0e32434e9a5cb2d1c52f515ee846efa3c0e24fe2dc3e4efcbdd54",
+    "coarsened/coarsening_verified.json": "93814a7b7360b31a380751a917305d94c48b3db71b408c2c5f3621689f8a05cc",
+    "coarsened/master_source.json.gz": "bebca47bffda4bd7ed4fc4615d5cf729fcd70f2cd5f28085e29ee55c7f2e3803",
+    "coarsened/source.json.gz": "6cba12b8618e50fd96e4115270e25e7cb2b7c66cab55d7fede92d974f714d324",
+    "coarsened/source_orientation.json": "4469be4684d537427941bfd04498df88377b0461b15d57f626f50fc270060e59",
+    "diagram/audit_source_chain.py": "f24aceefb655e61d205ed6bdd282864102791c8a15d757d445e854debd498c25",
+    "diagram/marked_isomorphism_certificate.json": "36266571889e048ed429c5e940d422a9273940fb862db2c1c63354a70068a8df",
+    "diagram/pretzel_237_diagram.json": "8c31fde1f97ccc1db0f205bcc73f8882797498f051b408e19fd3a62d6a0edb67",
+    "diagram/verify_diagram.py": "4593eebff8e4fa8598ab2fe8bf65f5c52aee5bad4d9244cd7c5fb1a8a594f73e",
+    "diagram/verify_marked_isomorphism.py": "d3dfe984be719978e049e9ef05dc1a94ac0eba1dc97310eb0a76405c7707ec1b",
+    "peripheral/cut_orientation.json": "fac9a336c185da4faea69abceaa9c3a2d7c3b7ff4724b4984aeddcfb29d3078a",
+    "peripheral/cut_source.json.gz": "0484ae91fb9460f3ffdbe14e2f4d06bd841702e17c91d4f422588f8a38e068bf",
+    "peripheral/diagram_chart.json.gz": "8dec07f72a4a5282b88a749249d929dcc327e9c7d1831713fd937f56f909ab87",
+    "peripheral/diagram_exterior.tri": "832de7c68b4d39823fd6816baff46deae37de5426e0d4684ec832bd5b422ab6b",
+    "peripheral/marked_coned_exterior.json.gz": "c87d8dd2aec8d4f3764980b0751881b97cd34f7dbdb2093c4e91f629d26613d1",
+    "peripheral/marked_coned_exterior.tri": "40b79b190e42c41cd6330ac3b64aaaecf45b4ecc6b116602c870537e1bd895a2",
+    "peripheral/marked_exterior_transport.json": "f9cd9096bd003ddc06e640d2493c0f6206d299873ff7927f30ff90721fc32df0",
+    "peripheral/marked_ideal_exterior.tri": "53acf05c5adf9df0224640fab4f42f89a9e7eeccb10a304901e40ea8ad393ffe",
+    "peripheral/matched_marked_exterior.tri": "53acf05c5adf9df0224640fab4f42f89a9e7eeccb10a304901e40ea8ad393ffe",
+    "peripheral/native_import_peripheral_arrays.json.gz": "914f46e9fc77d6ac1b498d0590a93155028afea2149c394eb76723b1a79619a6",
+    "peripheral/peripheral_chart.json.gz": "a4d3729902717cb434562b15b7e90529d7109d8ad59eee6cdff2a3e96b9ada6c",
+    "peripheral/puncture_product_interface.json": "532889e8a7dc14d823c7d31a6f5881ae292c22be21fc23fa3740db8e0491eb44",
+    "seifert/data/master_orientation.json": "871dedd61b54891372697929fb5c44218e1c64f8b5f39355da1e3f367dced73e",
+    "transport_chart.py": "668c154efbf6da806a57d4d82f8bc2f5c1e5ae709f506784c32a1042d9fa3ca5",
+    "verify_source_geometry.py": "1ee313eaa4b62dd2ff09606b7a2d0bfd9fac111dce37342a1c5f41609022603b",
+    "verify_torus_adaptor.py": "aaa35e26646d40e6564822fb3ea865f2af7dd3e7344f58e94c8f245758983653"
+  },
+  "imported_compact_tetrahedra_checked": 584,
+  "kernel_orientation_calibration": [
+    {
+      "outward_corner_order": [
+        1,
+        2,
+        3
+      ],
+      "outward_first_determinant_in_standard_simplex": "-1/64",
+      "vertex": 0
+    },
+    {
+      "outward_corner_order": [
+        0,
+        3,
+        2
+      ],
+      "outward_first_determinant_in_standard_simplex": "-1/64",
+      "vertex": 1
+    },
+    {
+      "outward_corner_order": [
+        3,
+        0,
+        1
+      ],
+      "outward_first_determinant_in_standard_simplex": "-1/64",
+      "vertex": 2
+    },
+    {
+      "outward_corner_order": [
+        2,
+        1,
+        0
+      ],
+      "outward_first_determinant_in_standard_simplex": "-1/64",
+      "vertex": 3
+    }
+  ],
+  "native_import": {
+    "changed_entries_by_row_M_right_M_left_L_right_L_left": [
+      10,
+      0,
+      0,
+      0
+    ],
+    "coordinate_statement": "u_diagram=u_source; v_diagram=-v_source. Native M has diagram periods (0,1), native L has (1,0).",
+    "diagram_coordinates_from_source_u_v": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "native_M_L_periods_in_source_u_v": [
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "native_arrays_file_sha256": "914f46e9fc77d6ac1b498d0590a93155028afea2149c394eb76723b1a79619a6",
+    "native_pairing_L_M": 1,
+    "raw_M_L_periods_in_source_u_v": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "raw_pairing_L_M": -1,
+    "raw_source_canonical_sha256": "7df28f34f3dd1d4f02a716863488fae95fddb2f7ae6ebc39a314604ff05d3493",
+    "raw_to_native_M_L_matrix": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "source_cusp_counts_vertices_edges_triangles": [
+      86,
+      258,
+      172
+    ],
+    "trust_boundary": "Exact source/import audit and endpoint isomorphism; finite-vertex removal and intermediate simplification remain trusted native PL move transport."
+  },
+  "orientation_conventions": {
+    "ambient_orientation_multiplier_vs_Seifert_master": 1,
+    "boundary_E_vs_du_dv": 1,
+    "boundary_N_vs_du_dv": -1,
+    "imported_ordered_simplex_multiplier_vs_master": -1,
+    "snappy_right_handed_vs_standard_ordered_simplex": -1
+  },
+  "passed": true,
+  "primary_sources": [
+    {
+      "sha256": "1943e1d1695666ecbd7502fe741d84ca12f385911363c0ade6f3f99080f2ce7d",
+      "url": "https://raw.githubusercontent.com/3-manifolds/SnapPy/42217b3867ce3a00d1125a1b6860db335684c333/kernel/kernel_code/link_complement.c"
+    },
+    {
+      "sha256": "64717c8e23f5973a6d146733c746a9bc5c991fa7a4e751f2db1fed10877f749e",
+      "url": "https://raw.githubusercontent.com/3-manifolds/SnapPy/42217b3867ce3a00d1125a1b6860db335684c333/kernel/headers/link_projection.h"
+    },
+    {
+      "sha256": "6718cee9889336807cafa76ac0459d7946d787f5d563c275be014f41fc7d2eb0",
+      "url": "https://raw.githubusercontent.com/3-manifolds/SnapPy/42217b3867ce3a00d1125a1b6860db335684c333/python/snap/peripheral/link.py"
+    },
+    {
+      "sha256": "ec32a0e700665926426bc3a178680463f40c5a50695776b653caa99c2c112277",
+      "url": "https://raw.githubusercontent.com/3-manifolds/SnapPy/42217b3867ce3a00d1125a1b6860db335684c333/python/__init__.py"
+    },
+    {
+      "sha256": "daa934a228f7e86c970824ae7882592dd330fee43f6ff7165ce1839041465ff2",
+      "url": "https://raw.githubusercontent.com/3-manifolds/SnapPy/42217b3867ce3a00d1125a1b6860db335684c333/cython/core/tail.pyx"
+    }
+  ],
+  "puncture_normal_orientation": [
+    {
+      "cycle": [
+        56,
+        148,
+        58,
+        150
+      ],
+      "cycle_name": "raw",
+      "join_orientation_signs_vs_master": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "cycle": [
+        56,
+        150,
+        58,
+        148
+      ],
+      "cycle_name": "diagram_positive",
+      "join_orientation_signs_vs_master": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "schema": "signed-source-interface-audit-v1",
+  "scope": "Signed 3D source and its geometric/peripheral/cap interfaces; no faithful X2 construction or standardization is asserted here.",
+  "trust_boundaries": [
+    "Spherogram signed-diagram conversion and SnapPy link-complement construction use their pinned native semantics; L follows link direction, M obeys the right-hand rule, and the writhe correction gives the zero longitude.",
+    "Source-to-endpoint finite-vertex removal and simplification use trusted native PL moves; this package does not export a complete elementary-move ancestry with all intermediate peripheral arrays.",
+    "The exact endpoint identifies oriented peripheral slopes and extends over meridional filling. It does not export a based Wirtinger-generator isomorphism or a pointwise map from the source puncture to the chosen diagram cube; these markings agree up to oriented tubular isotopy.",
+    "The torus adaptor and cap bridge are source-bound PL collars. Faithful X2 still requires an actual certified global roll/twist map, its mapping torus and cap attachment, closed native admission, and the requested standardization."
+  ]
+}

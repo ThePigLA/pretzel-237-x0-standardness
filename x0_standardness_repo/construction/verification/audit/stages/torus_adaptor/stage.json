@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "-E",
+    "-B",
+    "frozen_release/verify_torus_adaptor.py"
+  ],
+  "executed": true,
+  "log": "stages/torus_adaptor/stage.log",
+  "log_sha256": "d89b905e3e2970ad5251443158230a5798cdb7d966755c45a5498b5a5b79a155",
+  "name": "torus_adaptor",
+  "purpose": "Replay exact torus overlay/collar geometry and all adaptor coarsening steps",
+  "receipts": [
+    {
+      "path": "stages/torus_adaptor/receipts/independent_verification.json",
+      "recomputed_this_run": true,
+      "sha256": "d89b905e3e2970ad5251443158230a5798cdb7d966755c45a5498b5a5b79a155"
+    }
+  ],
+  "status": "PASS",
+  "tier": "geometry",
+  "wall_seconds": 14.926161743002012,
+  "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+  "worktree_retained": false
+}

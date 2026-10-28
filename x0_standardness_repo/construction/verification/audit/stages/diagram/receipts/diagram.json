@@ -1,0 +1,49 @@
+{
+  "classification": "DIAGRAM_AND_MARKINGS_VERIFIED",
+  "crossings": 12,
+  "components": 1,
+  "diagram_faces": 14,
+  "writhe": -12,
+  "knot_determinant": 1,
+  "polygon_vertices": 89,
+  "unwanted_projected_crossings": 0,
+  "spatial_self_intersections": 0,
+  "puncture_intersected_segments": 2,
+  "meridian_pd_strand": 22,
+  "longitude_exponent_sum": 0,
+  "peripheral_commutator_relator_product": "PASS",
+  "seifert_filling_matrix_determinant": 1,
+  "optional_rational_tangle_regeneration": "NOT_REQUESTED",
+  "not_certified": [
+    "triangulated branched double cover",
+    "cellwise source-pair map",
+    "peripheral transport to a 3D triangulation",
+    "X2",
+    "X0"
+  ],
+  "new_source_negative_controls": [
+    {
+      "name": "mirror_slope",
+      "result": "REJECTED",
+      "reason": "wrong rational slopes"
+    },
+    {
+      "name": "wrong_zero_longitude",
+      "result": "REJECTED",
+      "reason": "missing zero-framing correction"
+    },
+    {
+      "name": "wrong_puncture",
+      "result": "REJECTED",
+      "reason": "changed puncture cube"
+    },
+    {
+      "name": "over_under_chart",
+      "result": "REJECTED",
+      "reason": "reflected or altered crossing chart"
+    }
+  ],
+  "input_sha256": "8c31fde1f97ccc1db0f205bcc73f8882797498f051b408e19fd3a62d6a0edb67",
+  "checker_sha256": "4593eebff8e4fa8598ab2fe8bf65f5c52aee5bad4d9244cd7c5fb1a8a594f73e",
+  "result": "PASS"
+}

@@ -1,0 +1,38 @@
+{
+  "all_descendant_fields_reconstructed": true,
+  "assertions_enabled": true,
+  "checked": {
+    "boundary_triangles_preserved": 0,
+    "deck_pair_operations": 588,
+    "endpoint_f": [
+      80,
+      708,
+      1256,
+      628
+    ],
+    "endpoint_vertex_links_checked": 80,
+    "fixed_cells_preserved": 36,
+    "full_relative_ball_checks": {
+      "ball_replacements": 1176,
+      "disk_antistars_checked": 1176,
+      "spherical_links_checked": 1176
+    },
+    "individual_ball_replacements": 1176,
+    "initial_tetrahedra": 7440,
+    "kernel": "standard-library ball/disk and full-face-incidence checks; no Regina",
+    "protected_vertices": 18
+  },
+  "complete_descendant_canonical_sha256": "39758681130d161afd20a0f5ab1959f45c1d86cbff3679b0f271cc78ec73ffa2",
+  "descendant_tetrahedra": 628,
+  "input_file_sha256": {
+    "certificate": "2b843cbdc4a0e32434e9a5cb2d1c52f515ee846efa3c0e24fe2dc3e4efcbdd54",
+    "checker": "de571be890b808aaf35e9e4e0f132368fa906b3160fc7aab2f727c6ddbe52316",
+    "descendant": "6cba12b8618e50fd96e4115270e25e7cb2b7c66cab55d7fede92d974f714d324",
+    "master": "bebca47bffda4bd7ed4fc4615d5cf729fcd70f2cd5f28085e29ee55c7f2e3803"
+  },
+  "producer_search_rerun": false,
+  "schema": "fresh-source-coarsening-audit-v1",
+  "source_tetrahedra": 7440,
+  "status": "PASS",
+  "wall_seconds": 1.4319335269974545
+}

@@ -1,0 +1,690 @@
+{
+  "candidate_source": "user-supplied generated candidate",
+  "created_utc": "2026-10-28T16:00:06.199828+00:00",
+  "entry_point_file_sha256": {
+    "audit.py": "413025635101192dba8f6439c7bce65c727612747b872ededa4c8bd0cd98773b",
+    "audit_support.py": "165678f23dcc0d19e6a5f6a60eefe3f363800fd5a4c25bbdcd796f907f24ed17",
+    "common.py": "fc7d8ff4a3f3f3f979468ad404cd4d6d7c4f6269eeed644f771b923d020976de"
+  },
+  "environment": {
+    "assertions_enabled": true,
+    "implementation": "CPython",
+    "installed_distributions": {
+      "psutil": "7.2.2",
+      "regina": "7.4.1",
+      "snappy": "3.3.2",
+      "spherogram": "2.4.1",
+      "sympy": "1.14.0"
+    },
+    "machine": "x86_64",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "subprocess_python_flags": [
+      "-E",
+      "-B"
+    ]
+  },
+  "excluded_work": [
+    "4D contraction traces",
+    "fundamental-group elimination",
+    "terminal standardization",
+    "randomized simplification searches"
+  ],
+  "immutable_inputs_unchanged": true,
+  "inherited_evidence_and_mathematical_premises": [
+    "Recorded compact-source and peripheral data are exact inputs; the default endpoint stage rechecks their saved marked comparison without rerunning native transport.",
+    "Native diagram constructors, finite-vertex removal and peripheral move semantics remain trusted when --native reruns them; no elementary native3D move transcript is claimed.",
+    "The stated relative PL neighborhood, product, collar, cone and gluing arguments retain their mathematical meaning; these programs do not export a global pointwise conjugacy.",
+    "Default assembly admission binds stored native cover/quotient receipts. --native replaces these by fresh admissions; --links additionally proves the cover's vertex-link premise by portable moves."
+  ],
+  "input_bindings": {
+    "inherited_native_admissions": [],
+    "original_source_manifest_sha256": "b05c8a1c7af0c0dcf3092fc1d8492fd813aa7e831e487ef44c9116be4a869fe9",
+    "original_source_payload_files_checked": 205,
+    "package_integrity": {
+      "checked_bytes": 23797758,
+      "checked_files": 238,
+      "inventory_sha256": "37c8d35a9b75f1c42ccfde681396b5fb4cf2d4a2c8fcc0ae0468b0aa51746ca4",
+      "meaning": "Integrity of supplied inputs; this alone does not rerun their mathematical checks.",
+      "reference_facets_canonical_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+      "reference_master_file_sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c",
+      "status": "PASS"
+    },
+    "selected_candidate_files": {
+      "cover_regina.json.gz": {
+        "byte_identical_to_reference": true,
+        "canonical_sha256": "2acaa217c9e2a9431caeba4900c9710861bedc265837152e7645fb993c284992",
+        "file_sha256": "798c4c5cc26571d3b3cf05655ce800bd4a62b2e68a9ac82e1a3d8db24479be98",
+        "reference_file_sha256": "798c4c5cc26571d3b3cf05655ce800bd4a62b2e68a9ac82e1a3d8db24479be98"
+      },
+      "marked_candidate.json.gz": {
+        "byte_identical_to_reference": true,
+        "canonical_sha256": "94f4bd341016c061aed4abe3e46ae4c07943dc2ea91fab21bd8b7b6db681fb4a",
+        "file_sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c",
+        "reference_file_sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c"
+      },
+      "quotient_regina.json.gz": {
+        "byte_identical_to_reference": true,
+        "canonical_sha256": "af9f177f07ff5a8c3515d67fe146d7f0b322306ffb7639d6e5908fa0b2b517a6",
+        "file_sha256": "5695652cca08a27b7199ca7c01a6237ec4227a8364f500144379c2111842c4b2",
+        "reference_file_sha256": "5695652cca08a27b7199ca7c01a6237ec4227a8364f500144379c2111842c4b2"
+      }
+    }
+  },
+  "input_inventory_sha256": "ae1e1c055e5d61ff07b2a4f72f19ce7e8d62f0b68c935a1a3287433665d38b7b",
+  "requested_links": true,
+  "requested_native": true,
+  "requested_stages": [
+    "source_coarsening",
+    "diagram",
+    "marked_endpoint",
+    "source_geometry",
+    "torus_adaptor",
+    "central_roll",
+    "mixed_profile",
+    "local_branch_inputs",
+    "caps",
+    "bridge",
+    "control_transfer",
+    "localization_review",
+    "source_interfaces",
+    "zero_cap",
+    "native_diagram",
+    "native_source_transport",
+    "native_source_manifolds",
+    "native_cover",
+    "native_quotient",
+    "x0_assembly",
+    "vertex_links"
+  ],
+  "schema": "x0-construction-audit-v1",
+  "scope": "COMPLETE_REQUESTED_SUITE",
+  "stages": [
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "audit_support.py",
+        "source-coarsening",
+        "--work",
+        ".",
+        "--receipt",
+        "_fresh/source_coarsening.json"
+      ],
+      "executed": true,
+      "log": "stages/source_coarsening/stage.log",
+      "log_sha256": "0c6811a168bbb74abd3a92b7c3cbb78392c5ff8011b90790483c7c81dccda228",
+      "name": "source_coarsening",
+      "purpose": "Replay all 588 paired source ball replacements and reconstruct the complete descendant",
+      "receipts": [
+        {
+          "path": "stages/source_coarsening/receipts/source_coarsening.json",
+          "recomputed_this_run": true,
+          "sha256": "0c6811a168bbb74abd3a92b7c3cbb78392c5ff8011b90790483c7c81dccda228"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 1.520816793999984,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/diagram/verify_diagram.py",
+        "--receipt",
+        "_fresh/diagram.json"
+      ],
+      "executed": true,
+      "log": "stages/diagram/stage.log",
+      "log_sha256": "2c024e6e3ef86dd46975e281f378f6c271ef3554885ca0f67b90d36e8ff10853",
+      "name": "diagram",
+      "purpose": "Check the signed diagram, spatial knot, puncture and peripheral markings",
+      "receipts": [
+        {
+          "path": "stages/diagram/receipts/diagram.json",
+          "recomputed_this_run": true,
+          "sha256": "2c024e6e3ef86dd46975e281f378f6c271ef3554885ca0f67b90d36e8ff10853"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.21552676700230222,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/diagram/verify_marked_isomorphism.py",
+        "--write-certificate",
+        "--certificate",
+        "_fresh/marked_endpoint.json"
+      ],
+      "executed": true,
+      "log": "stages/marked_endpoint/stage.log",
+      "log_sha256": "630a2112d58244cb8c4d4af052ccd5641a7a594db9846ad616107ffb847f6dab",
+      "name": "marked_endpoint",
+      "purpose": "Recompute exact marked exterior isomorphisms from the saved gluing and peripheral arrays",
+      "receipts": [
+        {
+          "path": "stages/marked_endpoint/receipts/marked_endpoint.json",
+          "recomputed_this_run": true,
+          "sha256": "36266571889e048ed429c5e940d422a9273940fb862db2c1c63354a70068a8df"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.2160593400039943,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/verify_source_geometry.py",
+        "--mutations"
+      ],
+      "executed": true,
+      "log": "stages/source_geometry/stage.log",
+      "log_sha256": "d85162f3eb245448209a3ecae8a23ceed655c12488ebc00b877096c1cf7c932e",
+      "name": "source_geometry",
+      "purpose": "Check source orientation transport, exact clipping partitions and rational torus charts",
+      "receipts": [
+        {
+          "path": "stages/source_geometry/receipts/source_orientation.json",
+          "recomputed_this_run": true,
+          "sha256": "4469be4684d537427941bfd04498df88377b0461b15d57f626f50fc270060e59"
+        },
+        {
+          "path": "stages/source_geometry/receipts/cut_orientation.json",
+          "recomputed_this_run": true,
+          "sha256": "fac9a336c185da4faea69abceaa9c3a2d7c3b7ff4724b4984aeddcfb29d3078a"
+        },
+        {
+          "path": "stages/source_geometry/receipts/chart_independent_verification.json",
+          "recomputed_this_run": true,
+          "sha256": "325f2e9c0b3ef2da742a1590aa8468e1506c7a1e6b81b1c1c8acb62b49d1dad1"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.9172311180009274,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/verify_torus_adaptor.py"
+      ],
+      "executed": true,
+      "log": "stages/torus_adaptor/stage.log",
+      "log_sha256": "d89b905e3e2970ad5251443158230a5798cdb7d966755c45a5498b5a5b79a155",
+      "name": "torus_adaptor",
+      "purpose": "Replay exact torus overlay/collar geometry and all adaptor coarsening steps",
+      "receipts": [
+        {
+          "path": "stages/torus_adaptor/receipts/independent_verification.json",
+          "recomputed_this_run": true,
+          "sha256": "d89b905e3e2970ad5251443158230a5798cdb7d966755c45a5498b5a5b79a155"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 14.926161743002012,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/verify_central_roll.py",
+        "--mutations"
+      ],
+      "executed": true,
+      "log": "stages/central_roll/stage.log",
+      "log_sha256": "4e0565d844108f7b858f7b68e5398f9b7cc9a4ff973d709c47aba521ffc76524",
+      "name": "central_roll",
+      "purpose": "Check finite roll charts, straightening, inverse maps, full winding and source witnesses",
+      "receipts": [
+        {
+          "path": "stages/central_roll/receipts/independent_verification.json",
+          "recomputed_this_run": true,
+          "sha256": "4e0565d844108f7b858f7b68e5398f9b7cc9a4ff973d709c47aba521ffc76524"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.6668931440071901,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/verify_mixed_profile_transfer.py"
+      ],
+      "executed": true,
+      "log": "stages/mixed_profile/stage.log",
+      "log_sha256": "6468fabfbcf15ffa348f3209b98cab9a2cbaf3e8b7ba41cf1bb01a795fef24af",
+      "name": "mixed_profile",
+      "purpose": "Check the original simultaneous source-profile transfer and enlarged-neighborhood data",
+      "receipts": [
+        {
+          "path": "stages/mixed_profile/receipts/mixed_profile_transfer.json",
+          "recomputed_this_run": true,
+          "sha256": "8bfa094be1170d88ceff932576f0e4685689810b5ae53085f46562bff0f58036"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.7676108640007442,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/verify_twist_localization_inputs.py"
+      ],
+      "executed": true,
+      "log": "stages/local_branch_inputs/stage.log",
+      "log_sha256": "a914bf7d1001fde8983eaa383e18d0e146527e343a9a233fc5d2807bc300782b",
+      "name": "local_branch_inputs",
+      "purpose": "Check fixed-circle normal links, branched source vertex links and puncture hypotheses",
+      "receipts": [
+        {
+          "path": "stages/local_branch_inputs/receipts/localization_inputs.json",
+          "recomputed_this_run": true,
+          "sha256": "2c0912c1d38bc25ebf91353de2328a2cad0f38c559ee9ba6b2b59928fafdd49d"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.11487483499513473,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/cap/verify_caps.py",
+        "--output",
+        "_fresh/caps.json"
+      ],
+      "executed": true,
+      "log": "stages/caps/stage.log",
+      "log_sha256": "d9498b0b7f9934562adbb94be040de4d411e3f07fc62432743c2e85a824e31db",
+      "name": "caps",
+      "purpose": "Check both finite caps, attachment maps and full unwrapped winding",
+      "receipts": [
+        {
+          "path": "stages/caps/receipts/caps.json",
+          "recomputed_this_run": true,
+          "sha256": "d9498b0b7f9934562adbb94be040de4d411e3f07fc62432743c2e85a824e31db"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 6.4459107859875076,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/cap/verify_bridge.py",
+        "--output",
+        "_fresh/bridge.json"
+      ],
+      "executed": true,
+      "log": "stages/bridge/stage.log",
+      "log_sha256": "d016d8f41755a93c14d17956b29358ec67cdd7f147b5a075e783bc6cfb8e0373",
+      "name": "bridge",
+      "purpose": "Check the exact source-to-cap common refinements and relative collars",
+      "receipts": [
+        {
+          "path": "stages/bridge/receipts/bridge.json",
+          "recomputed_this_run": true,
+          "sha256": "d016d8f41755a93c14d17956b29358ec67cdd7f147b5a075e783bc6cfb8e0373"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 22.223679326998536,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/cap/verify_transfer.py",
+        "--output",
+        "_fresh/control_transfer.json"
+      ],
+      "executed": true,
+      "log": "stages/control_transfer/stage.log",
+      "log_sha256": "9d621d65285301c2e26dc1753bb1c4ec1321ea420ebaa2cfa831819957ac9a0d",
+      "name": "control_transfer",
+      "purpose": "Check the inherited m=2 control transfer; supplementary to the direct X0 zero-cap argument",
+      "receipts": [
+        {
+          "path": "stages/control_transfer/receipts/control_transfer.json",
+          "recomputed_this_run": true,
+          "sha256": "9d621d65285301c2e26dc1753bb1c4ec1321ea420ebaa2cfa831819957ac9a0d"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 21.871022838007775,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/cap/verify_review_inputs.py"
+      ],
+      "executed": true,
+      "log": "stages/localization_review/stage.log",
+      "log_sha256": "20c447f9c07d188a769deab78107a8fdb69d7fd6a4652b588484c54d5c8d2fa8",
+      "name": "localization_review",
+      "purpose": "Check the finite inputs to the stated relative-PL localization and local branch arguments",
+      "receipts": [
+        {
+          "path": "stages/localization_review/receipts/geometric_review.json",
+          "recomputed_this_run": true,
+          "sha256": "20c447f9c07d188a769deab78107a8fdb69d7fd6a4652b588484c54d5c8d2fa8"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 0.16553552199911792,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/diagram/audit_source_chain.py"
+      ],
+      "executed": true,
+      "log": "stages/source_interfaces/stage.log",
+      "log_sha256": "a85d4c32fc5f054276c649d3b97f48df3751a4c3b3d51d86541b4af3559cf138",
+      "name": "source_interfaces",
+      "purpose": "Recheck signed source normal orientations, exact peripheral endpoint and interface bindings",
+      "receipts": [
+        {
+          "path": "stages/source_interfaces/receipts/source_audit_certificate.json",
+          "recomputed_this_run": true,
+          "sha256": "c4f5b662d0573c5f7e664eb99bcfd10f3f8af8f9d58074975edc7e48009105d3"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 1.8723201820102986,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "review/check_zero_cap_geometry.py",
+        "--candidate",
+        "candidate/marked_candidate.json.gz",
+        "--output",
+        "_fresh/zero_cap.json"
+      ],
+      "executed": true,
+      "log": "stages/zero_cap/stage.log",
+      "log_sha256": "4fc999c65edf423f9a2af629c0c12a336d3d303a5038347c29a4df35f45c20e6",
+      "name": "zero_cap",
+      "purpose": "Check all m=0 spherical identity cells and compare the actual marked master",
+      "receipts": [
+        {
+          "path": "stages/zero_cap/receipts/zero_cap.json",
+          "recomputed_this_run": true,
+          "sha256": "a0bac82840ce1b19f6906c5242a375d8c330a5f2967893c0614afce7bee72473"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 2.3766599119990133,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/diagram/verify_diagram.py",
+        "--with-library",
+        "--receipt",
+        "_fresh/native_diagram.json"
+      ],
+      "executed": true,
+      "log": "stages/native_diagram/stage.log",
+      "log_sha256": "b70c02b2f30b20d472a62a487018630d5694bf4201d82e727314d76f210f93c2",
+      "name": "native_diagram",
+      "purpose": "Reconstruct the explicit rational-tangle diagram with pinned Spherogram",
+      "receipts": [
+        {
+          "path": "stages/native_diagram/receipts/native_diagram.json",
+          "recomputed_this_run": true,
+          "sha256": "b70c02b2f30b20d472a62a487018630d5694bf4201d82e727314d76f210f93c2"
+        }
+      ],
+      "status": "PASS",
+      "tier": "native",
+      "wall_seconds": 0.5158058749948395,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "audit_support.py",
+        "native-transport",
+        "--work",
+        ".",
+        "--receipt",
+        "_fresh/native_source_transport.json"
+      ],
+      "executed": true,
+      "log": "stages/native_source_transport/stage.log",
+      "log_sha256": "ddca22975a1e7ff8a6822ff8697346493fb1936cc1b7ed7f21c45954b42aa458",
+      "name": "native_source_transport",
+      "purpose": "Rerun native source peripheral transport and independently check its fresh marked endpoint",
+      "receipts": [
+        {
+          "path": "stages/native_source_transport/receipts/native_source_transport.json",
+          "recomputed_this_run": true,
+          "sha256": "76657d3bc30f8c9f4a2eea432b166f5d52cedf7491195df81b56dcc74fcba1ef"
+        },
+        {
+          "path": "stages/native_source_transport/receipts/native_transport_endpoint.json",
+          "recomputed_this_run": true,
+          "sha256": "36266571889e048ed429c5e940d422a9273940fb862db2c1c63354a70068a8df"
+        }
+      ],
+      "status": "PASS",
+      "tier": "native",
+      "wall_seconds": 1.2177372839942109,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "frozen_release/seifert/native_admit.py"
+      ],
+      "executed": true,
+      "log": "stages/native_source_manifolds/stage.log",
+      "log_sha256": "9c67a24a464b55592d6ac8395da4f64698452e8662956db94838afc05a097912",
+      "name": "native_source_manifolds",
+      "purpose": "Rebuild and admit the original 3D source cover and quotient; recognize the quotient as S3",
+      "receipts": [
+        {
+          "path": "stages/native_source_manifolds/receipts/native_admission.json",
+          "recomputed_this_run": true,
+          "sha256": "aabc5638ecd8068647e4987ea42c3235df5610b42d07a60f90c8c24eef981c42"
+        }
+      ],
+      "status": "PASS",
+      "tier": "native",
+      "wall_seconds": 3.0300578409951413,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "scripts/admit_native_candidate.py",
+        "cover",
+        "--output",
+        "_fresh/cover_native_admission.json"
+      ],
+      "executed": true,
+      "log": "stages/native_cover/stage.log",
+      "log_sha256": "bd78511e06a60ddee383491dbba66f3f377a313ffd3baea426eb7680a5d5ae45",
+      "name": "native_cover",
+      "purpose": "Fresh native manifold admission of the exact X0 cover export",
+      "receipts": [
+        {
+          "path": "stages/native_cover/receipts/cover_native_admission.json",
+          "recomputed_this_run": true,
+          "sha256": "9b66907b9f99f9696280f4575458e05c6b8e7dae276a3eb6aa858f5e0d86c84c"
+        }
+      ],
+      "status": "PASS",
+      "tier": "native",
+      "wall_seconds": 11.513013392002904,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "scripts/admit_native_candidate.py",
+        "quotient",
+        "--output",
+        "_fresh/quotient_native_admission.json"
+      ],
+      "executed": true,
+      "log": "stages/native_quotient/stage.log",
+      "log_sha256": "fac4e2a650827ad6d73413ce708303df3c4590b003f4cbb69a1115d52b6a43be",
+      "name": "native_quotient",
+      "purpose": "Fresh native manifold admission of the exact X0 quotient export",
+      "receipts": [
+        {
+          "path": "stages/native_quotient/receipts/quotient_native_admission.json",
+          "recomputed_this_run": true,
+          "sha256": "3aa6770c199ea64997a4a6961e71c748300196949cb32393de1cd8f4a9765277"
+        }
+      ],
+      "status": "PASS",
+      "tier": "native",
+      "wall_seconds": 5.184175514994422,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "scripts/verify_candidate_assembly.py",
+        "--output",
+        "_fresh/x0_assembly.json"
+      ],
+      "executed": true,
+      "log": "stages/x0_assembly/stage.log",
+      "log_sha256": "c02c0900019a711a88eaa280298165d84b949eb8601231e5e7e5861ed9251822",
+      "manifold_admission_evidence": {
+        "cover": "FRESH_NATIVE_REPLAY_THIS_RUN",
+        "quotient": "FRESH_NATIVE_REPLAY_THIS_RUN"
+      },
+      "name": "x0_assembly",
+      "purpose": "Independently regenerate all marked X0 assembly cells and check every cover/quotient face square",
+      "receipts": [
+        {
+          "path": "stages/x0_assembly/receipts/x0_assembly.json",
+          "recomputed_this_run": true,
+          "sha256": "98249f8d6cce5dd5cec50720fde11f299f94145b23a882a7d562091506e2f5fd"
+        }
+      ],
+      "status": "PASS",
+      "tier": "geometry",
+      "wall_seconds": 6.035836864000885,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    },
+    {
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "portable_links/replay_x0_links.py",
+        "--receipt",
+        "_fresh/vertex_links.json"
+      ],
+      "executed": true,
+      "log": "stages/vertex_links/stage.log",
+      "log_sha256": "dedea21c1724b4244b69bf55c07c3110b41dd95916a3b1ba43fe463afbfc056e",
+      "name": "vertex_links",
+      "purpose": "Replay all 4310 portable master vertex-link certificates",
+      "receipts": [
+        {
+          "path": "stages/vertex_links/receipts/vertex_links.json",
+          "recomputed_this_run": true,
+          "sha256": "dd75e6b1ad20df9c162cde98b674ce3f5bbe9b87a7d8b4ea7417657e6b782d57"
+        }
+      ],
+      "status": "PASS",
+      "tier": "links",
+      "wall_seconds": 22.928102544989088,
+      "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+      "worktree_retained": false
+    }
+  ],
+  "status": "PASS",
+  "wall_seconds": 125.56464394199429
+}

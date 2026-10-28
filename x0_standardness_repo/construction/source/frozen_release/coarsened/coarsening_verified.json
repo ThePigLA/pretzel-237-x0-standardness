@@ -1,0 +1,25 @@
+{
+  "initial_tetrahedra": 7440,
+  "endpoint_f": [
+    80,
+    708,
+    1256,
+    628
+  ],
+  "deck_pair_operations": 588,
+  "individual_ball_replacements": 1176,
+  "endpoint_vertex_links_checked": 80,
+  "boundary_triangles_preserved": 0,
+  "fixed_cells_preserved": 36,
+  "protected_vertices": 18,
+  "full_relative_ball_checks": {
+    "ball_replacements": 1176,
+    "spherical_links_checked": 1176,
+    "disk_antistars_checked": 1176
+  },
+  "kernel": "standard-library ball/disk and full-face-incidence checks; no Regina",
+  "passed": true,
+  "source_sha256": "9eb1cac711cf80584c7de9f38548e1b974893298f7ab7810d196d81fbed030a5",
+  "endpoint_sha256": "39758681130d161afd20a0f5ab1959f45c1d86cbff3679b0f271cc78ec73ffa2",
+  "seconds": 1.5511395710000215
+}

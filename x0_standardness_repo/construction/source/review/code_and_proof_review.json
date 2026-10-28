@@ -1,0 +1,61 @@
+{
+  "actual_change": {
+    "candidate_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+    "candidate_file_sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c",
+    "common_cap_pentachora": 2816,
+    "common_total_pentachora": 100736,
+    "identical_marked_surface_labels": true,
+    "identical_orientation_on_all_shared_cells": true,
+    "identical_source_and_cap_port_maps": true,
+    "identical_vertex_labels_and_deck": true,
+    "inserted_m0_cap_pentachora": 3008,
+    "original_master_file_sha256": "af21a7dd107b765d5fef0a257dcb4df6d6df8689c594f584e4318d15c49aa709",
+    "removed_m2_cap_pentachora": 3008,
+    "result": "PASS",
+    "unchanged_noncap_pentachora": 97920
+  },
+  "all_strata_branch_argument": "Source arc pairs times time, equivariant relative ball moves, free torus pieces, source-bound bridge product, and exact m0 cone-on-standard-unknot cap pairs joined at the currently verified ports.",
+  "candidate_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+  "candidate_file_sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c",
+  "code_review_file_sha256": {
+    "review/check_zero_cap_geometry.py": "6af62e1f85423d53c50e6c00d23c89ae2afa4ea962a1c86e10aabc31e2253370",
+    "scripts/admit_native_candidate.py": "e269610e19f2a097422cd89572d86b03ee629e54125552503b1770ea9d384b87",
+    "scripts/assemble_candidate.py": "befd197f5e8c54a72c71d592eeb2ba6d5ffdafe7bd6f583eaf0657d0347f9f73",
+    "scripts/verify_candidate_assembly.py": "3df5e82b9dc382d50fb50e5083f925bb1347360a7d4e8cc046881fbca1ae53de",
+    "scripts/verify_candidate_geometry.py": "cde892fa97e50218f4ae5137003be122c9f1bfa4a41bc2418e37cda5c0968ae5"
+  },
+  "cone_pair_geometry_checked": true,
+  "critical_issues": [],
+  "current_assembly_receipt_file_sha256": "a54f1745645835abc6b67f370e401b7c431bb90e5d5dc680e27b6839b802af30",
+  "current_native_admissions": {
+    "cover": {
+      "passed": true,
+      "receipt_file_sha256": "9f35e4ac768c1d6d4e4fc1a041274fc014d4facb10cb0b67f6154b3c89d7e0dd",
+      "simplex_count": 103744
+    },
+    "quotient": {
+      "passed": true,
+      "receipt_file_sha256": "fde632de64387623bb782f2a67f39ec2756526ad3f6ea7ec30df96c61d42fe70",
+      "simplex_count": 51872
+    }
+  },
+  "full_spherical_identity_tetrahedra": 1792,
+  "independent_zero_cap_receipt_file_sha256": "e00f1ceed7dc9b9cd05ae1bcfd485e7c382814a9776c457de315f92be38b2576",
+  "inherited_source_and_bulk_receipts_sufficient_with_current_candidate_checks": true,
+  "m2_steps_unnecessary_for_m0": [
+    "mixed u/v profile correction",
+    "N-plus global disk-chart extension for twist localization",
+    "torus-to-puncture meridional disk loop",
+    "space-and-time Alexander disk-loop comparison",
+    "nonidentity F2/Phi and full-turn lift adjustment"
+  ],
+  "result": "PASS",
+  "retained_trust_basis": [
+    "original signed-source and exact native peripheral transport",
+    "elementary PL product/refinement/cone and equivariant gluing geometry",
+    "new X0 Regina local-manifold admission"
+  ],
+  "schema": "independent-X0-code-and-proof-review-v1",
+  "scope": "Intended marked X0 geometry and actual finite assembly reviewed. No PL standardization, fundamental-group, or global-homology conclusion follows from this review alone.",
+  "text_review_file_sha256": "81b7f9ec5d051593fef4bb340b3a66d1e48e3382de6c3d87f3bf88a09d138219"
+}

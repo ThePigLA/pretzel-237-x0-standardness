@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python3",
+    "-E",
+    "-B",
+    "frozen_release/diagram/verify_diagram.py",
+    "--receipt",
+    "_fresh/diagram.json"
+  ],
+  "executed": true,
+  "log": "stages/diagram/stage.log",
+  "log_sha256": "2c024e6e3ef86dd46975e281f378f6c271ef3554885ca0f67b90d36e8ff10853",
+  "name": "diagram",
+  "purpose": "Check the signed diagram, spatial knot, puncture and peripheral markings",
+  "receipts": [
+    {
+      "path": "stages/diagram/receipts/diagram.json",
+      "recomputed_this_run": true,
+      "sha256": "2c024e6e3ef86dd46975e281f378f6c271ef3554885ca0f67b90d36e8ff10853"
+    }
+  ],
+  "status": "PASS",
+  "tier": "geometry",
+  "wall_seconds": 0.21552676700230222,
+  "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+  "worktree_retained": false
+}

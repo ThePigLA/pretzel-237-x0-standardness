@@ -1,0 +1,199 @@
+INDEPENDENT REVIEW: LOCAL BRANCH MODELS AND SOURCE LOCALIZATION
+=============================================================
+
+Reviewer scope
+--------------
+This review examines the geometric arguments and their finite premises. It
+does not use raw four-dimensional homology or an unmarked recognition result
+to infer the marked local branch model. The source-global normal chart is a
+theorem-level construction, distinguished from the finite local collar maps.
+
+1. Why the assembled four-dimensional branch models are standard
+---------------------------------------------------------------
+The required local involution model is
+
+    (a,b,z) -> (a,b,-z),   (a,b) in R2, z in D2.
+
+Its fixed set is R2 x {0}; the quotient has the standard double-branch model.
+Checking only a fixed triangle's normal circle proves this model along that
+triangle's interior. It does not by itself rule out a knotted link at a fixed
+vertex. The following geometric provenance supplies the missing evidence at
+all lower-dimensional strata.
+
+SOURCE AND PRODUCTS. The three-dimensional source has the pair model
+R x D2 with deck -1 on D2. The finite source audit checks every fixed edge's
+free half-turn normal circle and every fixed vertex's S2 link with exactly
+two fixed directions. The quotient link is a connected PL surface of Euler
+characteristic two. Removing its two branch points gives the unique connected
+double cover of an annulus with odd meridional monodromy; filling the two
+points yields the standard half-turn S2 action. Coning this link gives the
+standard local branched arc at each source vertex. Product with a time
+interval gives the displayed four-dimensional pair model. The time seam is
+an equivariant pair homeomorphism, so it preserves these neighborhoods.
+
+RELATIVE COARSENING. The independently replayed three-dimensional moves
+replace u*L by v*D, where L is a checked PL 2-sphere and D=L minus the open
+star of v is a checked PL disk. Both sides are PL 3-balls with the identical
+triangulated boundary L. The extension of the boundary identity gives a PL
+homeomorphism relative to all of L. The two supports in a deck pair have
+disjoint interiors; the checker verifies that no simplex contains both u
+and deck(u), and verifies the exact deck-conjugate replacement. Choose the
+homeomorphism on one ball and its deck conjugate on the other. They agree
+on shared boundary points because both are identity there. Their interiors
+contain no fixed point. Thus the whole move preserves the equivariant pair,
+including its normal neighborhoods, not merely its fixed-face list. Boundary
+ports and all fixed vertices are protected. Product with time preserves this
+relative equivariant homeomorphism.
+
+FREE TORUS PIECES. The torus adaptors and central roll piece have free deck
+action. Their exact product/refinement charts introduce no new fixed points.
+They affect the source near the puncture equator, which is also a free point
+of the action, but do not change the branch-arc local model at either pole.
+
+SPHERICAL BRIDGE. The saved bridge is an equivariant PL product
+S2 x S1 x I, realized by exact common refinement and two refinement collars.
+At each of the two fixed poles of S2, a neighborhood is D2 with the half-turn.
+The fixed locus is therefore the two products {pole} x S1 x I, each a locally
+flat annulus. The full lower-dimensional pair models follow from this product
+identification. Its 56 fixed-triangle normal-circle checks are independent
+finite consistency checks of that geometry.
+
+CAP CONE VERTICES. For either cap, one hemisphere boundary block is a
+D2 x S1 solid torus, with deck -1 on the disk, and the other block is
+E x D2, where E=boundary D2 and deck acts freely on E. The actual spherical
+beta_m map extends over the first block, fixes its axis circle, and commutes
+with deck. Untwisting by that map and using the checked refinement collar
+identifies their glued union, equivariantly, with
+
+    boundary(D2 x D2) = (D2 x S1) union (S1 x D2).
+
+The fixed circle is {0} x S1, the standard core unknot of the first solid
+torus in this S3. Coning the equivariant boundary homeomorphism identifies
+the cap half with the standard four-ball pair having a flat fixed disk.
+This proves the local model at the cone vertex itself; the normal-circle
+checks on two-simplices alone would not prove it. The two cap halves meet
+along the free E x D2 block, so this gluing introduces no additional fixed
+singularity. The finite cap verifies exactly two fixed disks and their
+normal circles.
+
+PORT GLUING. The source port and cap port of the bridge are complete
+triangulated boundaries, with explicit inverse label maps and compatible
+deck permutations. Gluing collared equivariant pairs by these boundary
+homeomorphisms glues their standard half-neighborhoods into the standard
+full pair neighborhood. The parent assembly must check that its actual
+facets use these ports, that every expected boundary facet is used once,
+that no extra identification occurs, and that the deck maps agree. Subject
+to those assembly checks, the argument proves all local branch models.
+It does not require a separate enumeration of all four-dimensional fixed
+vertex links, and it does not infer them from homology.
+
+2. Concrete chart issue found by independent review
+--------------------------------------------------
+The actual puncture equator [56,150,58,148] consists of cut midpoint vertices
+at fixed-coordinate level 1/2. It therefore lies on the ORIGINAL torus
+boundary of the clipped N. Its harmonic torus u coordinates are not constant:
+56 and 58 have one rational u value, while 150 and 148 have another. Hence a
+global pair chart cannot be both the specified original torus chart and the
+prescribed normal join chart on this common circle.
+
+The correction is to use N+ obtained by adding the already verified
+N-adaptor collar. Its outer grid boundary is disjoint from the puncture.
+Before applying normal-neighborhood extension, the simultaneous six-triangle
+profile change in u and v moves the original roll/twist support to the
+central collar. It is pointwise identity at original r=0, so it fixes the
+actual puncture even though the equator meets that original torus. This
+removes the chart-overlap obstruction without changing the source, cap, or
+bridge geometry. The revised proof and mixed-profile certificate have now
+been reviewed and bound in geometric_review.json. Independent saved-data
+checking verifies all six mixed forward/inverse matrices, their common
+edges, the boundary identities, and the unwrapped source seam. Filling the
+four puncture tetrahedra back into the compact N stage gives 1,580 tetrahedra
+with precisely the 24 outer-grid boundary triangles; all eight puncture
+triangles are interior faces and share no vertex with that grid. The relative
+coarsening fixes the puncture sphere, so extending it by identity across the
+filled ball transports the enlarged regular-neighborhood pair to the actual
+compact saved piece.
+
+3. Finite disk-family and PL Alexander argument
+----------------------------------------------
+The actual beta2 family R_s preserves each hemisphere's diamond radius
+|x|+|y|, poles, time, and deck. The transfer verifier checks the full affine
+radius identity in all 1,792 tetrahedra, as well as R0=R1=id. Thus one
+hemisphere supplies a joint PL disk-loop. It need not be uniform rotation
+at each interior radius or define a circle group action. A chosen global
+normal trivialization, rather than invariance under arbitrary changes of
+normal frame, is the appropriate way to use this family on the source.
+
+For comparison of two joint PL disk loops with the same equator motion,
+their difference delta(x,t) is identity on the whole boundary of
+B=D2_diamond x I, fixes the axis, preserves t, and commutes with deck. The
+space-and-time Alexander contraction is correct:
+
+    A_a(z)=c+a[delta(c+(z-c)/a)-c],   c=(0,0,1/2),
+
+inside c+a(B-c), and identity outside. For delta(z)=Lz+b on one affine
+cell, this becomes Lz+(I-L)c+a(Lc+b-c), affine jointly in (z,a).
+The parameter-domain cells are cones over the original affine cells, and
+the inverse is given by the identical formula with delta inverse. It fixes
+the outer boundary and time endpoints, preserves time, and commutes with
+the half-turn. This proves a genuine PL contraction; squeezing only the
+disk radius while leaving an arbitrary time-dependent expression would
+not provide the same affine justification.
+
+Pulling this contraction back by a=1-q on a small added puncture collar
+gives a joint PL correction that exactly matches the two boundary loops
+and is identity at the bulk end. Its support is disjoint from the central
+roll. Thus the later use of Phi inverse composed with the source isotopy
+can be made an actual relative-puncture isotopy, not only an assertion that
+two equatorial winding numbers agree.
+
+4. Theorem trust boundary
+-------------------------
+The finite source inputs establish local flatness, the actual regular
+neighborhood cut, the positively oriented normal puncture, and the marked
+peripheral torus. They do not list a global normal disk atlas on N+.
+Existence and relative uniqueness of a normal neighborhood, triviality of
+an oriented normal disk bundle over a circle, and extension of the marked
+meridian-preserving torus chart supply that global chart at theorem level.
+Once the original overlapping boundaries are separated as above, these
+are legitimate standard PL existence steps; an exported finite atlas is
+not logically necessary for a geometric PL identification. It WOULD be
+necessary for a claim that software had replayed the entire conjugating
+homeomorphism simplex by simplex. Those are different certification claims.
+
+The normal-neighborhood reference was independently opened and checked:
+C. P. Rourke and B. J. Sanderson, Block Bundles I, Annals of Mathematics
+87 (1968), section 4, Theorems 4.3-4.4 and relative Addendum 4.5.
+https://webhomes.maths.ed.ac.uk/~v1ranick/papers/rs003.pdf
+
+The solid-torus disk-and-ball extension explanation also appears in
+A. Hatcher, Notes on Basic 3-Manifold Topology, section 2.1, page 25.
+https://pi.math.cornell.edu/~hatcher/3M/3M.pdf
+
+Neither this review nor the localization theorem proves that the assembled
+closed X2 is PL S4. Standardization of X2 is a separate required certificate.
+
+5. Review decision and reproducible finite checks
+-------------------------------------------------
+The corrected LOCALIZATION_LEMMA.txt establishes the geometric PL
+identification of the original m=2,n=1 source construction with the shared
+roll bulk and actual finite beta2 cap, with the displayed theorem dependency.
+The composed steps have distinct purposes: the mixed profile change first
+moves both source shears into the central collar while fixing the puncture;
+the N-plus normal chart then gives the torus-to-puncture isotopy; the finite
+disk-loop comparison makes its boundary restriction the actual beta2; and
+the finite local F2/Phi map verifies the corresponding spherical-collar seam.
+The full positive upstairs source turn and negative cap turn are retained.
+
+The independent review script reads the mixed matrices from their saved
+file rather than regenerating that file. A corruption that removes only the
+meridional profile correction is rejected. It also records the concrete
+original-torus overlap and the corrected enlarged-neighborhood incidences.
+
+    python verify_review_inputs.py
+
+geometric_review.json binds the reviewed proof, mixed-profile certificate,
+central certificate, adaptor model, cut and signed chart by their byte hashes.
+This receipt combines independently checked finite inputs with an explicitly
+identified mathematical proof review; it does not label the global existence
+argument as an enumerated source-cell map.

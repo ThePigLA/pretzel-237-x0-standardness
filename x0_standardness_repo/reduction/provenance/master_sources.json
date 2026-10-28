@@ -1,0 +1,137 @@
+{
+  "all_imported_files_byte_preserved": true,
+  "files": {
+    "elementary/inputs/cover_regina.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/inputs/cover_regina.json.gz",
+      "bytes": 1416583,
+      "sha256": "798c4c5cc26571d3b3cf05655ce800bd4a62b2e68a9ac82e1a3d8db24479be98"
+    },
+    "elementary/inputs/marked_control.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/inputs/marked_control.json.gz",
+      "bytes": 871798,
+      "sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c"
+    },
+    "elementary/inputs/unmarked_contractions_v1/certificate.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/inputs/unmarked_contractions_v1/certificate.json.gz",
+      "bytes": 317849,
+      "sha256": "1c45f9cb83d38ca782cfedb6c2dcf1a1bc3d81cdc9e21e1f24f18779240b436c"
+    },
+    "elementary/inputs/unmarked_contractions_v1/endpoint.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/inputs/unmarked_contractions_v1/endpoint.json.gz",
+      "bytes": 183557,
+      "sha256": "148ec4488bc288ea71a48c745ad13dae2dcf227d600ede08827776ae69b91f0b"
+    },
+    "elementary/inputs/unmarked_contractions_v1/endpoint_regina.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/inputs/unmarked_contractions_v1/endpoint_regina.json.gz",
+      "bytes": 614293,
+      "sha256": "12049a475f0dbb25b7b09f5b501db5a28f09fbe4c0d4ce7d64d629bf4d44716a"
+    },
+    "elementary/inputs/unmarked_contractions_v1/source_facets.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/inputs/unmarked_contractions_v1/source_facets.json.gz",
+      "bytes": 427159,
+      "sha256": "7f84647cc8e61bbf37e547b65f1949c66156e03ad270fb9cb97d265382802af6"
+    },
+    "elementary/step0_links/check_links.py": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step0_links/check_links.py",
+      "bytes": 5756,
+      "sha256": "aa6a86a25e6a79975cc3d90076e2861e2e407ec216a903b26331ac9e0bb2638c"
+    },
+    "elementary/step0_links/x0_vertex_links.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step0_links/x0_vertex_links.json.gz",
+      "bytes": 4141058,
+      "sha256": "ae285aa6b2dcbc4e23584a5480fd6a0e2ee916a56179b8d39cd1b8ff15d79c47"
+    },
+    "elementary/step1_contractions/check_contractions.py": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step1_contractions/check_contractions.py",
+      "bytes": 3541,
+      "sha256": "63158da210cdd77701417f059453e3e2a6a3e508b46655844d11aaebd6bac82c"
+    },
+    "elementary/step2_flips/moves_44620_to_1332.jsonl.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step2_flips/moves_44620_to_1332.jsonl.gz",
+      "bytes": 3104896,
+      "sha256": "a152b24894bc4403e4d0dd876034b8a7743ee3deb7b9104cb141ea65937bea79"
+    },
+    "elementary/step2_flips/replay_moves.py": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step2_flips/replay_moves.py",
+      "bytes": 3178,
+      "sha256": "bb35c4bcd0a233896eb216753ffc037f584045579dcfcd33e98b10fea3896634"
+    },
+    "elementary/step3_macro/x0_C1332_regina.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step3_macro/x0_C1332_regina.json.gz",
+      "bytes": 24096,
+      "sha256": "bc1f378af75c8cd85a2be9ac8966aa6547abc8e760248af2765b629f60e34512"
+    },
+    "elementary/step3_macro/x0_macro_cert.json": {
+      "archive_member": "x0_to_G6_verified_v1/reviewer/step3_macro/x0_macro_cert.json",
+      "bytes": 665607,
+      "sha256": "9c26db09832ed65edf3319a90e9dc280c7b8aedee4933d555f0f1ac2184182ce"
+    },
+    "provenance/original_master_chain_manifest.json": {
+      "archive_member": "x0_to_G6_verified_v1/MANIFEST_SHA256.json",
+      "bytes": 14273,
+      "sha256": "d83d02c8f8f479a68f4740c2491b6d9eb4e90bf596df71022c3ab2791522c0c0"
+    },
+    "reference/original/MANIFEST_SHA256.json": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/MANIFEST_SHA256.json",
+      "bytes": 52988,
+      "sha256": "77a3af20d9d26308d113b4cb6cc48961c874e8675227516d01ffa4b4836e5d0b"
+    },
+    "reference/original/candidate/cover_regina.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/candidate/cover_regina.json.gz",
+      "bytes": 1416583,
+      "sha256": "798c4c5cc26571d3b3cf05655ce800bd4a62b2e68a9ac82e1a3d8db24479be98"
+    },
+    "reference/original/candidate/marked_candidate.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/candidate/marked_candidate.json.gz",
+      "bytes": 871798,
+      "sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c"
+    },
+    "reference/original/frozen_release/control/marked_control.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/frozen_release/control/marked_control.json.gz",
+      "bytes": 872036,
+      "sha256": "af21a7dd107b765d5fef0a257dcb4df6d6df8689c594f584e4318d15c49aa709"
+    },
+    "reference/original/portable_links/x0_vertex_links.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/portable_links/x0_vertex_links.json.gz",
+      "bytes": 4141058,
+      "sha256": "ae285aa6b2dcbc4e23584a5480fd6a0e2ee916a56179b8d39cd1b8ff15d79c47"
+    },
+    "reference/original/unmarked_contractions_v1/certificate.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/unmarked_contractions_v1/certificate.json.gz",
+      "bytes": 317849,
+      "sha256": "1c45f9cb83d38ca782cfedb6c2dcf1a1bc3d81cdc9e21e1f24f18779240b436c"
+    },
+    "reference/original/unmarked_contractions_v1/endpoint.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/unmarked_contractions_v1/endpoint.json.gz",
+      "bytes": 183557,
+      "sha256": "148ec4488bc288ea71a48c745ad13dae2dcf227d600ede08827776ae69b91f0b"
+    },
+    "reference/original/unmarked_contractions_v1/endpoint_regina.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/unmarked_contractions_v1/endpoint_regina.json.gz",
+      "bytes": 614293,
+      "sha256": "12049a475f0dbb25b7b09f5b501db5a28f09fbe4c0d4ce7d64d629bf4d44716a"
+    },
+    "reference/original/unmarked_contractions_v1/source_facets.json.gz": {
+      "archive_member": "x0_to_G6_verified_v1/original_X0_binding/unmarked_contractions_v1/source_facets.json.gz",
+      "bytes": 427159,
+      "sha256": "7f84647cc8e61bbf37e547b65f1949c66156e03ad270fb9cb97d265382802af6"
+    },
+    "source/elementary/audit_steps012.py": {
+      "archive_member": "x0_to_G6_verified_v1/simplicial/audit_steps012.py",
+      "bytes": 17147,
+      "sha256": "2a8a6be128a8b8533be69c63f538a8574f86ff756fe34705654aad3f9e7d0144"
+    },
+    "source/native/replay_native_and_cap.py": {
+      "archive_member": "x0_to_G6_verified_v1/native/replay_native_and_cap.py",
+      "bytes": 20205,
+      "sha256": "203be2f17481ec7ec514edc089624cd68a552b054245ef573eb1b08ccc9d9dee"
+    }
+  },
+  "original_package_manifest_checked": true,
+  "schema": "x0-reduction-imported-master-files-v1",
+  "source_archive": {
+    "bytes": 23605314,
+    "filename": "x0_to_G6_verified_v1.zip",
+    "sha256": "44c6c1e7c8498c929b956f3cd26df9eabf13667e2a6d4962a7d44bc497bc3f57"
+  }
+}
