@@ -1,11 +1,11 @@
 Title:           Standardness of the double branched cover of the one-roll spun P(-2,3,7)
-Subject:         Computer-assisted PL standardness proof; working draft, revision 4
+Subject:         Computer-assisted PL standardness proof; working draft, revision 5
 Keywords:        
-Author:          
+Author:          Vance Faber and Michael Murphy
 Creator:         LaTeX with hyperref
 Producer:        pdfTeX-1.40.25
-CreationDate:    Wed Oct 28 13:00:00 2026 CDT
-ModDate:         Wed Oct 28 13:00:00 2026 CDT
+CreationDate:    Wed Oct 28 14:25:47 2026 CDT
+ModDate:         Wed Oct 28 14:25:47 2026 CDT
 Custom Metadata: yes
 Metadata Stream: no
 Tagged:          no
@@ -17,6 +17,6 @@ Pages:           13
 Encrypted:       no
 Page size:       612 x 792 pts (letter)
 Page rot:        0
-File size:       356875 bytes
+File size:       358697 bytes
 Optimized:       no
 PDF version:     1.5

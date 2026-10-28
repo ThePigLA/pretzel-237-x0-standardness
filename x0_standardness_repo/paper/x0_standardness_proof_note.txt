@@ -2,7 +2,9 @@ Standardness of the double branched cover of $\tau^0\rho^1\,P(-2,3,7)$
 
 A computer-assisted proof with explicit move certificates
 
-Working draft - 28 October 2026 - Revision 4
+Vance Faber and Michael Murphy
+
+Working draft - 28 October 2026 - Revision 5
 
 ABSTRACT
 
@@ -251,6 +253,10 @@ Here equivalence is taken in the oriented category: an equivalence is an orienta
 7. Certificate extraction
 
 The search combined growth by 2--4 moves, mixing by 3--3 moves and reduction by admissible edge and triangle 2--0 moves, following the simplification strategy described by Burke [13, Section 4.1]. Searches from $G_6$ and a standard reference reached a common isomorphism signature. Loop erasure and extraction from the visited-state graph produced the finite paths in Tables 2--3. Discovery was randomized; verification of the recorded certificate is deterministic.
+
+Acknowledgements and AI assistance
+
+The authors acknowledge substantial assistance from AI tools developed by OpenAI and Anthropic. These tools were used in computational exploration, software development and review, checking mathematical arguments, and preparing the manuscript. The authors take responsibility for the mathematical claims, the interpretation and verification of the computational results, and the final manuscript.
 
 Appendix A. Reproduction and exact input identity
 

@@ -1,9 +1,18 @@
 {
-  "all_imported_bytes_preserved": true,
-  "author_field_empty": true,
+  "ai_assistance_acknowledgement_included": true,
+  "author_field_empty": false,
+  "authors_in_order": [
+    "Vance Faber",
+    "Michael Murphy"
+  ],
   "bibliography_entries": 14,
   "bibliography_tool_required": false,
-  "created_utc": "2026-10-28T18:03:29.615302+00:00",
+  "change_record": {
+    "bytes": 6163,
+    "path": "provenance/revision5_changes.json",
+    "sha256": "4824001b06459d3ec6e5387b45fd391137ec31defeeefd386911c61ca4a9233b"
+  },
+  "created_utc": "2026-10-28T19:27:46.267103+00:00",
   "embedded_bibliography": true,
   "fresh_build": {
     "engine": {
@@ -12,7 +21,6 @@
     },
     "output_pages": 13,
     "passes": 2,
-    "python": "3.12.14",
     "reference_comparison": {
       "byte_equal": false,
       "normalization": "Unicode NFC and whitespace folding only",
@@ -21,16 +29,16 @@
       "pdfinfo_available": true,
       "pdftotext_available": true,
       "reference_extracted_text": {
-        "bytes": 41164,
-        "sha256": "f62cf6b1e232eacbc90584f25394c0cad0d932c0eea8d72aa40d41f6ff14acd2"
+        "bytes": 41668,
+        "sha256": "c2afbc42eace17fb696c7d0aeb7ef3fc21517aa5709e0b33adf134deb6ac7061"
       },
       "reference_pages": 13,
       "reference_present": true
     },
     "relocated_path_contains_spaces": true,
     "report": {
-      "bytes": 3185,
-      "sha256": "0a1e30efc6e95cc2f34b1aae5a7080346e7f8b64018411b5213e8b4dbdc85723"
+      "bytes": 3186,
+      "sha256": "5de90d6e2fe7e0ff810131182cd2381e8b50cd02e494d0190f0858256f25b69a"
     },
     "report_path": "verification/build/BUILD_REPORT.json",
     "source_files": {
@@ -43,47 +51,41 @@
         "sha256": "5be79d16774b6842fbc32a66fe0ae691b26f85490bbe9212534f1210b70121f1"
       },
       "x0_standardness_proof_note.pdf": {
-        "bytes": 356875,
-        "sha256": "d459cf324d86e11437314c2d7c971bb022b18bac4ffc655b47fb33bf3d2aa19b"
+        "bytes": 358697,
+        "sha256": "60968a028042d5b647ad5e362437ce5056a31be4ad7be3345dc011e612916ef9"
       },
       "x0_standardness_proof_note.tex": {
-        "bytes": 41927,
-        "sha256": "841deb53815dc575ab53eda4666105c1a2fb649d295b751680302d9d5d7dd148"
+        "bytes": 42363,
+        "sha256": "57719028a92938ef4ea5dcb417909a374de56c1559eac024834848aa4020c3a3"
       },
       "x0_standardness_proof_note.txt": {
-        "bytes": 37322,
-        "sha256": "da3f078082d36041ca6614542ce46db35e17b3e031444180ebba37b66036c3ac"
+        "bytes": 37788,
+        "sha256": "947e0c1c7c82869a0145df99259b44aa59383464a3734fd7ea8f8d5ffe1012d4"
       }
     },
     "source_files_unchanged": true,
     "typesetting_warnings": [],
-    "wall_seconds": 1.2865548560002935,
+    "wall_seconds": 1.0596633370005293,
     "working_directory_at_invocation": "/tmp"
   },
-  "imported_files": 8,
   "manuscript_date": "2026-10-28",
-  "manuscript_revision": 4,
-  "mathematical_manuscript_changed": false,
+  "manuscript_revision": 5,
+  "mathematical_text_unchanged_from_revision4": true,
   "new_project_citation_metadata_created": false,
   "render_comparison": {
     "all_13_pages_have_identical_pixels": true,
+    "comparison": "Revision 5 supplied reading copy versus fresh relocated Revision 5 build",
     "dpi": 110,
     "receipt": {
-      "bytes": 3161,
-      "sha256": "7f6d0ffc01671df9baf62ad49c62a8ab1b5ef9dcaa58494392f67e481cf8ca01"
+      "bytes": 3089,
+      "sha256": "ebeff5d0be4d024c0c4f07ef517711baf3d84f88ea2ab5209ea56f34cd009c4c"
     }
   },
-  "schema": "x0-paper-repository-validation-v1",
-  "source_archive": {
-    "bytes": 5032209,
-    "filename": "x0_standardness_writeup_v1.zip",
-    "library_version": "3",
-    "sha256": "8249c70fc8a282e6e11d7b414f8af80f16753d4927e721582ad07b514a4fe872"
-  },
+  "schema": "x0-paper-repository-validation-v2",
   "status": "PASS",
   "topology_replay_performed_for_this_packaging": false,
   "visual_review": {
-    "method": "Rendered comparison sheets covering every page; same-renderer pixel equality checked page by page against the preserved reading copy",
+    "method": "All-page contact sheets, plus full-resolution title and acknowledgement pages",
     "pages_reviewed": [
       1,
       2,
@@ -100,6 +102,6 @@
       13
     ],
     "performed": true,
-    "result": "No new clipping, overlap, missing glyphs, table, or pagination defects observed"
+    "result": "No clipping, overlapping text, missing glyphs, or unreadable tables observed"
   }
 }

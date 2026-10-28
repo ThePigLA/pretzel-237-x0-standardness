@@ -1,0 +1,216 @@
+{
+  "component_payloads_freshly_compared_to_previous_repository_release": true,
+  "components": {
+    "construction": {
+      "all_declared_files_byte_identical": true,
+      "archive": "x0_construction_v1.zip",
+      "bytes": 22044956,
+      "files": 330,
+      "module_manifest": {
+        "bytes": 56829,
+        "sha256": "2755fab952cc1abde9b6ca34e0a8b652fe683b9849c9499f9608ad5b25ad8812"
+      },
+      "sha256": "57de10c545b6362bc4942fd4e0f69d4ceb3fa681f9822153d1d39e1b101611db"
+    },
+    "reduction": {
+      "all_declared_files_byte_identical": true,
+      "archive": "x0_reduction_v1.zip",
+      "bytes": 20575690,
+      "files": 84,
+      "module_manifest": {
+        "bytes": 13966,
+        "sha256": "2e0d013f00ee6ae27d3b68ea715e0196b65846d0c9af200db1147ae88456b428"
+      },
+      "sha256": "760329cdbed1dcea5323950a40d3ab1cbf2bbd0c0628a770562ca17e5d505ab7"
+    }
+  },
+  "documentation": {
+    "README.md": {
+      "bytes": 9913,
+      "sha256": "a163dc0b599a152e944e967e4e4bd1561318aa93f9d83dcd219c46ddc01b8d68"
+    },
+    "paper/README.md": {
+      "bytes": 5167,
+      "sha256": "02b76777b0c0fc169e873de7c303ac20e099f052f70ca2ca753657360926cbf4"
+    },
+    "paper/REPOSITORY_MAP.md": {
+      "bytes": 4290,
+      "sha256": "31a98811f8d3adc3aa7d567def089069d6a174a6f8ef36d6655a5ceb84ebbda4"
+    }
+  },
+  "local_document_links": [
+    {
+      "source": "README.md",
+      "target": "paper/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/x0_standardness_proof_note.pdf"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/x0_standardness_proof_note.tex"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/environment/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/docs/INPUTS_AND_TRUST.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/docs/CHAIN_AND_TRUST.md"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "construction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "reduction/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/verification/release_validation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "paper/REPOSITORY_MAP.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "x0_standardness_proof_note.pdf"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "x0_standardness_proof_note.tex"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "x0_standardness_proof_note.txt"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "bibliography.bib"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "REPOSITORY_MAP.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "../construction/README.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "../reduction/README.md"
+    },
+    {
+      "source": "paper/README.md",
+      "target": "REPOSITORY_MAP.md"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../construction/README.md"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/elementary/"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/source/native/"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/certificates/standardization.json"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/source/terminal/verify_x0_standard.py"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/source/terminal/"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/terminal.py"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "supplements/x0_is_standard_v1.1.zip"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "supplements/x0_standardness_audit_v1.zip"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../construction/README.md"
+    },
+    {
+      "source": "paper/REPOSITORY_MAP.md",
+      "target": "../reduction/environment/README.md"
+    }
+  ],
+  "local_document_links_checked": 35,
+  "paper": {
+    "fresh_validation": {
+      "bytes": 3339,
+      "sha256": "a0729c818ab86db6f03a49b134034dcb2587c8dfc352911dcb3f40aa55fa23e9"
+    },
+    "mathematical_text_unchanged_from_revision4": true,
+    "module_manifest": {
+      "bytes": 3970,
+      "sha256": "57de54f07825a80266ce8407ac1c159e69e52adedc90ae3ee1eb943fa914bcd5"
+    },
+    "revision": 5
+  },
+  "prepared_utc": "2026-10-28T19:27:46.280002+00:00",
+  "publication": {
+    "affiliations_finalized": false,
+    "ai_assistance_acknowledgement_included": true,
+    "author_attribution_set": true,
+    "authors_in_order": [
+      "Vance Faber",
+      "Michael Murphy"
+    ],
+    "doi_assigned": false,
+    "new_license_assigned": false,
+    "project_citation_metadata_created": false,
+    "public_release_or_deposit_created": false,
+    "public_repository_created": false,
+    "status": "draft_prepared_for_review"
+  },
+  "purpose": "Review snapshot updated with approved manuscript authorship and AI assistance acknowledgement",
+  "schema": "x0-repository-draft-validation-v2",
+  "status": "PASS",
+  "verification_scope": "Authorship and acknowledgements update only. Fresh relocated paper build and visual review; exact byte checks preserve the accepted construction, reduction, and terminal certificate payloads. No topology replay repeated."
+}

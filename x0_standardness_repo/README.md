@@ -1,5 +1,7 @@
 # X0 standardness: construction, reduction, and proof
 
+**Authors:** Vance Faber and Michael Murphy, in that order.
+
 This repository accompanies the proof that the double branched cover
 
 $$
@@ -12,10 +14,15 @@ the complete recorded reduction, the mathematical checkers, and the paper.
 The standardization is nonequivariant: the reduction does not transport the
 deck involution or marked surfaces through the move sequence.
 
-**Status:** draft prepared for review. Authorship, affiliations,
+**Status:** draft prepared for review. Manuscript Revision 5 adds the author
+attribution and acknowledgement of AI assistance. Affiliations, any further
 acknowledgements, licensing, repository citation metadata, and DOI decisions
 remain open. The manuscript's scholarly references are included; publication
 metadata will be added after those decisions are made.
+
+The authors acknowledge substantial assistance from AI tools developed by
+OpenAI and Anthropic. The authors remain responsible for the mathematics,
+computational verification, and manuscript.
 
 ## Start here
 
@@ -178,14 +185,15 @@ Linux x86-64:
 | Complete 21-stage construction audit | 125.6 seconds | [Construction validation](construction/verification/release_validation.json) |
 | Fresh construction rebuild for reduction | 128.7 seconds | [Reduction validation](reduction/verification/release_validation.json) |
 | Complete six-stage reduction replay | 306.7 seconds | [Reduction validation](reduction/verification/release_validation.json) |
-| Two-pass paper build and reference-text check | 1.3 seconds | [Paper validation](paper/verification/release_validation.json) |
 
 Both construction builds reproduced the accepted outputs byte-for-byte.
 The records bind exact code, inputs, and fresh results, and include targeted
 rejection checks for optimized execution and altered inputs. These timings
 describe the recorded machines and runs; performance elsewhere will vary.
-The rebuilt paper has 13 pages, no typesetting warnings, and identical text
-and rendered page pixels to the preserved Revision 4 reading copy. This
+Paper build and visual-review records for the current manuscript are kept
+separately in [paper validation](paper/verification/release_validation.json).
+Revision 5 adds author attribution and an AI-assistance acknowledgement to
+the Revision 4 mathematical manuscript. Its layout is checked afresh; a
 paper-build check does not rerun the mathematical certificates.
 
 ## Manuscript and release preparation

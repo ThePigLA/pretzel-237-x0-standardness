@@ -1,10 +1,9 @@
     Standardness of the double branched cover of τ 0ρ1 P (−2, 3, 7)
                     A computer-assisted proof with explicit move certificates
 
+                                Vance Faber              Michael Murphy
 
-
-
-                           Working draft – 28 October 2026 – Revision 4
+                           Working draft – 28 October 2026 – Revision 5
 
 
                                                   Abstract
@@ -45,7 +44,7 @@ smooth structure. A triangulation answers that question when its PL structure is
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                               1
+Working draft – 28 October 2026 – Revision 5                                                               1
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -90,7 +89,7 @@ cover.
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                           2
+Working draft – 28 October 2026 – Revision 5                                                           2
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -145,7 +144,7 @@ is periodic, this map is the identity near both boundary components of the colla
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                           3
+Working draft – 28 October 2026 – Revision 5                                                           3
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -202,7 +201,7 @@ Monodromy. The mapping-torus bulk contains 73,696 pentachora and carries the rol
 collar. A six-piece affine source-profile transfer, with checked inverses, face matchings and seam
 
 
-Working draft – 28 October 2026 – Revision 4                                                            4
+Working draft – 28 October 2026 – Revision 5                                                            4
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -255,7 +254,7 @@ conclusion. Corollary 1.3 uses the fixed twist and roll conventions of [1].
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                          5
+Working draft – 28 October 2026 – Revision 5                                                          5
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -308,7 +307,7 @@ affine subface identifications are preserved and reflected by the attaching maps
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                       6
+Working draft – 28 October 2026 – Revision 5                                                       6
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -360,7 +359,7 @@ the move type and the dimension of the selected face, and i is its index in that
 the guarded move and require that the resulting classic signature equals b exactly. Consecutive
 records must have identical adjoining signatures.
 
-Working draft – 28 October 2026 – Revision 4                                                             7
+Working draft – 28 October 2026 – Revision 5                                                             7
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -416,7 +415,7 @@ and transitivity give G6 =
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                         8
+Working draft – 28 October 2026 – Revision 5                                                         8
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -467,7 +466,7 @@ Yr = Σ2 (S 4 , Fr ), and let ιr be its covering involution.
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                           9
+Working draft – 28 October 2026 – Revision 5                                                           9
 Standardness of a roll-spun pretzel-knot cover
 
 
@@ -503,6 +502,14 @@ and extraction from the visited-state graph produced the finite paths in Tables 
 randomized; verification of the recorded certificate is deterministic.
 
 
+Acknowledgements and AI assistance
+The authors acknowledge substantial assistance from AI tools developed by OpenAI and Anthropic.
+These tools were used in computational exploration, software development and review, checking
+mathematical arguments, and preparing the manuscript. The authors take responsibility for the
+mathematical claims, the interpretation and verification of the computational results, and the final
+manuscript.
+
+
 Appendix A. Reproduction and exact input identity
 The terminal certificate is x0_standard_certificate.json, distributed in x0_is_standard_v1.1.zip.
 It is byte-for-byte identical to the certificate audited in x0_standardness_audit_v1.zip. The v1.1
@@ -511,6 +518,11 @@ data. The certificate SHA-256 is
 
 e9ba9f14831bb0da32043d7d93eb0148f0683e2a6e4f67d5156e8e9fc94adcdf
 
+
+Working draft – 28 October 2026 – Revision 5                                                         10
+Standardness of a roll-spun pretzel-knot cover
+
+
 For the supplied replay, use Regina 7.4.1 and, from the extracted x0_is_standard directory, run
 
 python -O verify_x0_standard.py x0_standard_certificate.json
@@ -518,11 +530,6 @@ python -O verify_x0_standard.py x0_standard_certificate.json
 Exit status zero indicates success. The executable source performs explicit checks; optimization
 cannot disable them. In the independent audit directory, run the following commands with fresh
 output filenames:
-
-
-Working draft – 28 October 2026 – Revision 4                                                         10
-Standardness of a roll-spun pretzel-knot cover
-
 
 python -O audit/independent_replay.py --output replay_fresh.json
 
@@ -566,6 +573,11 @@ C4: independent audit archive
 16033754602a61c73eda10934a5f7812c95a2462658fc79ad8dd4ba270da87b6
 
 
+
+Working draft – 28 October 2026 – Revision 5                                                                 11
+Standardness of a roll-spun pretzel-knot cover
+
+
 Appendix B. Verification dependencies
 The proof combines mathematical local-move facts with exact finite computations. The initial
 construction identification retains its recorded source and peripheral transport semantics, geometric
@@ -573,11 +585,6 @@ collar and cap arguments, and branch-model checks. The original closed master ha
 link certificates. The closed simplicial contractions and flips have explicit traces. The punctured
 stage retains Regina’s simplification implementation as recorded in C2. The capping step uses
 explicit boundary and affine gluing checks.
-
-Working draft – 28 October 2026 – Revision 4                                                                 11
-Standardness of a roll-spun pretzel-knot cover
-
-
 For the new terminal segment, the full checker still uses Regina for guarded Pachner moves,
 isomorphism signatures, skeletons and validity queries. The second checker independently implements
 the 2–0 admissibility and facet reconstruction on the actual closed inputs, while sharing the signature
@@ -618,6 +625,11 @@ References
     Geometry 17(3) (1982), 357-453. DOI: 10.4310/jdg/1214437136.
     https://doi.org/10.4310/jdg/1214437136
 
+
+Working draft – 28 October 2026 – Revision 5                                                        12
+Standardness of a roll-spun pretzel-knot cover
+
+
 [6] R. A. Litherland. Deforming twist-spun knots. Transactions of the American Mathematical
     Society 250 (1979), 311-331. DOI: 10.1090/S0002-9947-1979-0530058-4.
     https://doi.org/10.1090/S0002-9947-1979-0530058-4
@@ -626,11 +638,6 @@ References
     theory in the topological category. NYJM Monographs 6 (2025), 1-152. Theorem 3.5(2), pp.
     17-18.
     https://nyjm.albany.edu/m/2025/6p.pdf
-
-
-Working draft – 28 October 2026 – Revision 4                                                        12
-Standardness of a roll-spun pretzel-knot cover
-
 
 [8] Edwin E. Moise. Affine structures in 3-manifolds. V. The triangulation theorem and Hauptver-
     mutung. Annals of Mathematics (2) 56(1) (1952), 96-114. DOI: 10.2307/1969769.
@@ -665,5 +672,5 @@ Working draft – 28 October 2026 – Revision 4                                
 
 
 
-Working draft – 28 October 2026 – Revision 4                                                    13
+Working draft – 28 October 2026 – Revision 5                                                    13
 

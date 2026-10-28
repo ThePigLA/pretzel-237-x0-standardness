@@ -1,0 +1,122 @@
+{
+  "schema": "x0-paper-render-comparison-v2",
+  "status": "PASS",
+  "manuscript_revision": 5,
+  "comparison": "Revision 5 supplied reading copy versus fresh relocated Revision 5 build",
+  "dpi": 110,
+  "pages": 13,
+  "all_pages_identical_pixels": true,
+  "page_results": [
+    {
+      "page": 1,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "da2b039c004f950aef545e400e493cef7a700f419dd8a15f3886f58ea1b012a9",
+      "identical": true
+    },
+    {
+      "page": 2,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "3de3c30a152ca4f0b6cedd72491da44c9404ccc81dfe34e7ecd5c4361f4b00e2",
+      "identical": true
+    },
+    {
+      "page": 3,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "ba5474ea90b05576844a3bf8a636ce17925440706b078738b7960ea5a3ab57b0",
+      "identical": true
+    },
+    {
+      "page": 4,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "2ad35ec77b859c5c44363542a14ebfd8d28e5da28fdaee7c127cf662dd8a2d78",
+      "identical": true
+    },
+    {
+      "page": 5,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "572818fbf1ba528924d7c5b8b99a1fdc1dce9818689bc831521a1fa0144fc939",
+      "identical": true
+    },
+    {
+      "page": 6,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "a4ed0e115beae56e0ca0a1806ead73a1209d27cae6106f10fa4950fa12792ba6",
+      "identical": true
+    },
+    {
+      "page": 7,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "2a87a97905b712639c6102be3a10e2664d91b9063f3a47d612f2230afe421360",
+      "identical": true
+    },
+    {
+      "page": 8,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "7a9d430f2c73ef1242cd62f2868217e9328fb53af19e8ee664e5144cced1ee4f",
+      "identical": true
+    },
+    {
+      "page": 9,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "1499707b04b80c74d0db45a0972b02a3878cdc27286447279bd8eb7cc2759a3d",
+      "identical": true
+    },
+    {
+      "page": 10,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "a46f5a7f957dede4780a17d25ca87149374717d66320aa0a7f26c52d83096658",
+      "identical": true
+    },
+    {
+      "page": 11,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "7f92dd165c19b8bc66a409478a82c838b093b44d7f9dfdfa6dc917e089451271",
+      "identical": true
+    },
+    {
+      "page": 12,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "4b1c0b57d951ca524342ea9747315273777923fb9d53bf70f718e707116eefb7",
+      "identical": true
+    },
+    {
+      "page": 13,
+      "width": 935,
+      "height": 1210,
+      "pixel_sha256": "e8302013b724d72cda046f55ef70a5220f7b491241fa148171e419bea99fafc3",
+      "identical": true
+    }
+  ],
+  "visual_review": {
+    "performed": true,
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "method": "All-page contact sheets, plus full-resolution title and acknowledgement pages",
+    "result": "No clipping, overlapping text, missing glyphs, or unreadable tables observed"
+  }
+}

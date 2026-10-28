@@ -1,0 +1,75 @@
+{
+  "acknowledgement": "The authors acknowledge substantial assistance from AI tools developed by OpenAI and Anthropic. These tools were used in computational exploration, software development and review, checking mathematical arguments, and preparing the manuscript. The authors take responsibility for the mathematical claims, the interpretation and verification of the computational results, and the final manuscript.",
+  "all_other_manuscript_text_unchanged": true,
+  "authors_in_order": [
+    "Vance Faber",
+    "Michael Murphy"
+  ],
+  "bibliography_build_script_and_terminal_supplements_unchanged": true,
+  "changes": {
+    "README.md": {
+      "after": {
+        "bytes": 9913,
+        "sha256": "a163dc0b599a152e944e967e4e4bd1561318aa93f9d83dcd219c46ddc01b8d68"
+      },
+      "before": {
+        "bytes": 9549,
+        "sha256": "33591130507c61d32b2c4118e4c6cee0cd1e5f3baac9272025e5d468aa26a7ba"
+      }
+    },
+    "paper/README.md": {
+      "after": {
+        "bytes": 5167,
+        "sha256": "02b76777b0c0fc169e873de7c303ac20e099f052f70ca2ca753657360926cbf4"
+      },
+      "before": {
+        "bytes": 5030,
+        "sha256": "70ce908243bbfdb77c3a67c54c6aecf6d70fe39849b773944c595f8c6fb06d5d"
+      }
+    },
+    "paper/x0_standardness_proof_note.pdf": {
+      "after": {
+        "bytes": 358697,
+        "sha256": "60968a028042d5b647ad5e362437ce5056a31be4ad7be3345dc011e612916ef9"
+      },
+      "before": {
+        "bytes": 356875,
+        "sha256": "d459cf324d86e11437314c2d7c971bb022b18bac4ffc655b47fb33bf3d2aa19b"
+      }
+    },
+    "paper/x0_standardness_proof_note.tex": {
+      "after": {
+        "bytes": 42363,
+        "sha256": "57719028a92938ef4ea5dcb417909a374de56c1559eac024834848aa4020c3a3"
+      },
+      "before": {
+        "bytes": 41927,
+        "sha256": "841deb53815dc575ab53eda4666105c1a2fb649d295b751680302d9d5d7dd148"
+      }
+    },
+    "paper/x0_standardness_proof_note.txt": {
+      "after": {
+        "bytes": 37788,
+        "sha256": "947e0c1c7c82869a0145df99259b44aa59383464a3734fd7ea8f8d5ffe1012d4"
+      },
+      "before": {
+        "bytes": 37322,
+        "sha256": "da3f078082d36041ca6614542ce46db35e17b3e031444180ebba37b66036c3ac"
+      }
+    }
+  },
+  "construction_and_reduction_modules_unchanged": true,
+  "current_revision": 5,
+  "date": "2026-10-28",
+  "historical_import_inventory": "imported_files.json",
+  "historical_import_inventory_is_not_a_current_manifest": true,
+  "latex_patch": "--- revision4.tex\n+++ revision5.tex\n@@ -4,7 +4,7 @@\n \\usepackage{lmodern,amsmath,amssymb,booktabs,array,geometry,microtype}\n \\usepackage{fancyhdr,fancyvrb,needspace}\n \\usepackage[colorlinks=true,urlcolor=blue,citecolor=blue]{hyperref}\n-\\hypersetup{pdftitle={Standardness of the double branched cover of the one-roll spun P(-2,3,7)},pdfsubject={Computer-assisted PL standardness proof; working draft, revision 4}}\n+\\hypersetup{pdftitle={Standardness of the double branched cover of the one-roll spun P(-2,3,7)},pdfauthor={Vance Faber and Michael Murphy},pdfsubject={Computer-assisted PL standardness proof; working draft, revision 5}}\n \\input{glyphtounicode}\n \\pdfgentounicode=1\n \\geometry{margin=1in,headheight=14pt}\n@@ -15,13 +15,12 @@\n \\fvset{fontsize=\\small}\n \\pagestyle{fancy}\\fancyhf{}\n \\fancyhead[L]{\\small Standardness of a roll-spun pretzel-knot cover}\n-\\fancyfoot[L]{\\footnotesize Working draft -- 28 October 2026 -- Revision 4}\n+\\fancyfoot[L]{\\footnotesize Working draft -- 28 October 2026 -- Revision 5}\n \\fancyfoot[R]{\\thepage}\n-\\fancypagestyle{plain}{\\fancyhf{}\\renewcommand{\\headrulewidth}{0pt}\\fancyfoot[L]{\\footnotesize Working draft -- 28 October 2026 -- Revision 4}\\fancyfoot[R]{\\thepage}}\n+\\fancypagestyle{plain}{\\fancyhf{}\\renewcommand{\\headrulewidth}{0pt}\\fancyfoot[L]{\\footnotesize Working draft -- 28 October 2026 -- Revision 5}\\fancyfoot[R]{\\thepage}}\n \\title{Standardness of the double branched cover of $\\tau^0\\rho^1\\,P(-2,3,7)$\\\\[0.4em]\\large A computer-assisted proof with explicit move certificates}\n-% Author names and affiliations to be supplied by the authors before publication.\n-\\author{}\n-\\date{Working draft -- 28 October 2026 -- Revision 4}\n+\\author{Vance Faber \\and Michael Murphy}\n+\\date{Working draft -- 28 October 2026 -- Revision 5}\n \\begin{document}\n \\maketitle\n \\begin{abstract}\n@@ -271,6 +270,9 @@\n \\section*{7. Certificate extraction}\n The search combined growth by 2--4 moves, mixing by 3--3 moves and reduction by admissible edge and triangle 2--0 moves, following the simplification strategy described by Burke [13, Section 4.1]. Searches from $G_6$ and a standard reference reached a common isomorphism signature. Loop erasure and extraction from the visited-state graph produced the finite paths in Tables 2--3. Discovery was randomized; verification of the recorded certificate is deterministic.\n \n+\\section*{Acknowledgements and AI assistance}\n+The authors acknowledge substantial assistance from AI tools developed by OpenAI and Anthropic. These tools were used in computational exploration, software development and review, checking mathematical arguments, and preparing the manuscript. The authors take responsibility for the mathematical claims, the interpretation and verification of the computational results, and the final manuscript.\n+\n \\section*{Appendix A. Reproduction and exact input identity}\n The terminal certificate is {\\small\\texttt{x0\\_standard\\_certificate.json}}, distributed in {\\small\\texttt{x0\\_is\\_standard\\_v1.1.zip}}. It is byte-for-byte identical to the certificate audited in {\\small\\texttt{x0\\_standardness\\_audit\\_v1.zip}}. The v1.1 revision changes the documentation and supplied verifier; it does not change the mathematical move data. The certificate SHA-256 is\n \n",
+  "previous_repository_archive": {
+    "bytes": 48078128,
+    "filename": "x0_repository_draft_v1.zip",
+    "sha256": "c2288e98ec4bd7f67d28fc5f44a9b37683c5e26306b296da0db6ec6030c66bba"
+  },
+  "previous_revision": 4,
+  "reason": "User-approved author attribution and acknowledgement of substantial AI assistance",
+  "schema": "x0-paper-revision-change-record-v1"
+}
