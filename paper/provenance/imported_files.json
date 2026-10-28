@@ -1,0 +1,52 @@
+{
+  "files": {
+    "bibliography.bib": {
+      "archive_member": "x0_standardness_writeup_v1/bibliography.bib",
+      "bytes": 5945,
+      "sha256": "27d7376888df6383065a58b8280e2870b49f96d02889f7fc5f2ef0c04effbc71"
+    },
+    "provenance/original_revision4_validation.json": {
+      "archive_member": "x0_standardness_writeup_v1/editorial/REVISION4_VALIDATION.json",
+      "bytes": 1245,
+      "sha256": "92b634f827aaed23339b124eed3dd3c394423134ea28140a993ad40977f0c982"
+    },
+    "provenance/original_writeup_manifest.json": {
+      "archive_member": "x0_standardness_writeup_v1/MANIFEST_SHA256.json",
+      "bytes": 1440,
+      "sha256": "3483d443f5f2aac4fa8bb7af09e04ba777e41509c97b21d4168a6bb118e882f0"
+    },
+    "supplements/x0_is_standard_v1.1.zip": {
+      "archive_member": "x0_standardness_writeup_v1/supplements/x0_is_standard_v1.1.zip",
+      "bytes": 1533319,
+      "sha256": "a350c70b9407c9017a5691c8e0df3ce39fe2b5232246522c8a0c3548d7994dfa"
+    },
+    "supplements/x0_standardness_audit_v1.zip": {
+      "archive_member": "x0_standardness_writeup_v1/supplements/x0_standardness_audit_v1.zip",
+      "bytes": 3095404,
+      "sha256": "16033754602a61c73eda10934a5f7812c95a2462658fc79ad8dd4ba270da87b6"
+    },
+    "x0_standardness_proof_note.pdf": {
+      "archive_member": "x0_standardness_writeup_v1/x0_standardness_proof_note.pdf",
+      "bytes": 356875,
+      "sha256": "d459cf324d86e11437314c2d7c971bb022b18bac4ffc655b47fb33bf3d2aa19b"
+    },
+    "x0_standardness_proof_note.tex": {
+      "archive_member": "x0_standardness_writeup_v1/x0_standardness_proof_note.tex",
+      "bytes": 41927,
+      "sha256": "841deb53815dc575ab53eda4666105c1a2fb649d295b751680302d9d5d7dd148"
+    },
+    "x0_standardness_proof_note.txt": {
+      "archive_member": "x0_standardness_writeup_v1/x0_standardness_proof_note.txt",
+      "bytes": 37322,
+      "sha256": "da3f078082d36041ca6614542ce46db35e17b3e031444180ebba37b66036c3ac"
+    }
+  },
+  "manuscript_revision": 4,
+  "schema": "x0-paper-imported-files-v1",
+  "source_archive": {
+    "bytes": 5032209,
+    "filename": "x0_standardness_writeup_v1.zip",
+    "library_version": "3",
+    "sha256": "8249c70fc8a282e6e11d7b414f8af80f16753d4927e721582ad07b514a4fe872"
+  }
+}
