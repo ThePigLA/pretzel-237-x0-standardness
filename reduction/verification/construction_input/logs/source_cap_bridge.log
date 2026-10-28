@@ -1,0 +1,41 @@
+overlay 224 / 1792 common_tets 1094 seconds 2.04
+overlay 448 / 1792 common_tets 2188 seconds 3.89
+overlay 672 / 1792 common_tets 3282 seconds 5.82
+overlay 896 / 1792 common_tets 4376 seconds 8.0
+overlay 1120 / 1792 common_tets 5470 seconds 9.98
+overlay 1344 / 1792 common_tets 6564 seconds 11.98
+overlay 1568 / 1792 common_tets 7658 seconds 14.09
+overlay 1792 / 1792 common_tets 8752 seconds 16.13
+COMMON [1728, 10480, 17504, 8752]
+COLLAR source 9568
+COLLAR cap 14656
+{
+  "schema": "source-cap-bridge-generation-v1",
+  "pentachora": 24224,
+  "f_vector": [
+    2184,
+    19152,
+    54248,
+    61504,
+    24224
+  ],
+  "common_boundary_f_vector": [
+    1728,
+    10480,
+    17504,
+    8752
+  ],
+  "source_boundary_tetrahedra": 96,
+  "cap_boundary_tetrahedra": 1792,
+  "parts": {
+    "source": 9568,
+    "cap": 14656
+  },
+  "ramification_f_vector": [
+    40,
+    96,
+    56
+  ],
+  "seconds": 23.237162921999698,
+  "canonical_sha256": "fedbdaba19a9f8aae5db557917017e12dbc9d68b2349550590096f7889376f52"
+}

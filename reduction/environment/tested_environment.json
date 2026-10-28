@@ -1,0 +1,18 @@
+{
+  "docker_recipe_executed": false,
+  "engine_filename": "engine.cpython-312-x86_64-linux-gnu.so",
+  "engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+  "full_replay_passed": true,
+  "machine": "x86_64",
+  "optimization": 0,
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "python_major_minor": [
+    3,
+    12
+  ],
+  "regina_api_version": "7.4",
+  "regina_distribution_version": "7.4.1",
+  "replay_scope": "full",
+  "system": "Linux"
+}

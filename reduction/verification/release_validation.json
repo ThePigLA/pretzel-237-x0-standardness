@@ -1,0 +1,170 @@
+{
+  "construction_input": {
+    "candidate_files": {
+      "cover_regina.json.gz": {
+        "bytes": 1416583,
+        "sha256": "798c4c5cc26571d3b3cf05655ce800bd4a62b2e68a9ac82e1a3d8db24479be98"
+      },
+      "marked_candidate.json.gz": {
+        "bytes": 871798,
+        "sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c"
+      }
+    },
+    "construction_release_manifest": {
+      "bytes": 56829,
+      "sha256": "2755fab952cc1abde9b6ca34e0a8b652fe683b9849c9499f9608ad5b25ad8812"
+    },
+    "fresh_build_level": "geometry",
+    "fresh_build_report": {
+      "bytes": 18659,
+      "sha256": "02d3f95314cbc27b53e15c8337390a28d4a6cd200be64558a0c4d32249159ce6"
+    },
+    "fresh_build_report_path": "verification/construction_input/build_report.json",
+    "fresh_build_stages": 9,
+    "fresh_build_wall_seconds": 128.68732487200032,
+    "fresh_builder_sha256": "ad26c0ffdb29467e6206db6ee4e0a93f2fa7911ad1823bd9bc0d97705bbea220",
+    "master_and_export_byte_identical_to_release": true,
+    "release_archive": {
+      "bytes": 22044956,
+      "filename": "x0_construction_v1.zip",
+      "sha256": "57de10c545b6362bc4942fd4e0f69d4ceb3fa681f9822153d1d39e1b101611db"
+    }
+  },
+  "created_utc": "2026-10-28T17:34:54.568182+00:00",
+  "fresh_replay": {
+    "all_inputs_and_code_unchanged": true,
+    "code": {
+      "common.py": {
+        "bytes": 7174,
+        "sha256": "1ccb3ac4a02f6ecb5ed4b40ea5b25cd0a3d81b3e8ac21f0b942c77dc786c7945"
+      },
+      "elementary/step0_links/check_links.py": {
+        "bytes": 5756,
+        "sha256": "aa6a86a25e6a79975cc3d90076e2861e2e407ec216a903b26331ac9e0bb2638c"
+      },
+      "elementary/step1_contractions/check_contractions.py": {
+        "bytes": 3541,
+        "sha256": "63158da210cdd77701417f059453e3e2a6a3e508b46655844d11aaebd6bac82c"
+      },
+      "elementary/step2_flips/replay_moves.py": {
+        "bytes": 3178,
+        "sha256": "bb35c4bcd0a233896eb216753ffc037f584045579dcfcd33e98b10fea3896634"
+      },
+      "source/elementary/audit_steps012.py": {
+        "bytes": 17147,
+        "sha256": "2a8a6be128a8b8533be69c63f538a8574f86ff756fe34705654aad3f9e7d0144"
+      },
+      "source/native/replay_native_and_cap.py": {
+        "bytes": 20205,
+        "sha256": "203be2f17481ec7ec514edc089624cd68a552b054245ef573eb1b08ccc9d9dee"
+      },
+      "source/terminal/independent_replay.py": {
+        "bytes": 12469,
+        "sha256": "f55c0618ab3728dfa458f94e676d452e007d0c74b875942240ca64416d833829"
+      },
+      "source/terminal/independent_two_zero.py": {
+        "bytes": 7305,
+        "sha256": "81a626d8b3e452ecbb411923a77bf13ed7c169297301cfe85141ed0fb34a98ba"
+      },
+      "source/terminal/verify_x0_standard.py": {
+        "bytes": 5038,
+        "sha256": "bb869a25ae1d66d67dfe59b7f98c47abf7619b2d66d95f265e33483abbf6a048"
+      },
+      "terminal.py": {
+        "bytes": 24880,
+        "sha256": "a2a5b1968e3cf2b15993d2439ea0c7d56ac8803febc92942e091b8f017f8d2da"
+      },
+      "verify.py": {
+        "bytes": 21587,
+        "sha256": "7c592c85c409716c8f213358076bd37d8fe8ee08f1f5781f14610a0cddd5595b"
+      }
+    },
+    "environment": {
+      "docker_recipe_executed": false,
+      "engine_filename": "engine.cpython-312-x86_64-linux-gnu.so",
+      "engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+      "full_replay_passed": true,
+      "machine": "x86_64",
+      "optimization": 0,
+      "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+      "python": "3.12.14",
+      "python_major_minor": [
+        3,
+        12
+      ],
+      "regina_api_version": "7.4",
+      "regina_distribution_version": "7.4.1",
+      "replay_scope": "full",
+      "system": "Linux"
+    },
+    "report": {
+      "bytes": 20939,
+      "sha256": "d4adb51f20186559cf2d6753d3c9cd584d2ae75de2ab24ce32f3946db3ce3b32"
+    },
+    "report_path": "verification/replay/REDUCTION_REPLAY.json",
+    "source_file_count": 30,
+    "stage_wall_seconds": {
+      "elementary": 68.37950023999838,
+      "native_macros_and_cap": 181.78694929000085,
+      "terminal_composition": 0.2153677719998086,
+      "terminal_independent_replay": 26.51890777799963,
+      "terminal_independent_two_zero": 2.47137703000044,
+      "terminal_supplied_replay": 27.171849808999468
+    },
+    "status": "PASS_MASTER_PL_HOMEOMORPHIC_TO_STANDARD_S4",
+    "wall_seconds": 306.7484604459987
+  },
+  "negative_checks": {
+    "count": 3,
+    "receipt": {
+      "bytes": 1193,
+      "sha256": "2ed4d0eda2667ca1a6c4336b441553b5e649bc775e2ab32db6068263372ebe03"
+    },
+    "status": "PASS"
+  },
+  "release": "x0-reduction-v1",
+  "result": {
+    "capped_endpoint_bound_to_fresh_terminal_replay": true,
+    "explicit_double_export": {
+      "bytes": 777,
+      "sha256": "64af47262d77b6d34e136c82896ea636dfa02402eeef228274f04c1489bf92f7"
+    },
+    "export_path": "verification/replay/terminal/standard_sphere.json",
+    "isoSig": "cPkbbbbaaaaaaaa",
+    "pentachora": 2
+  },
+  "schema": "x0-reduction-module-release-validation-v1",
+  "scope": {
+    "construction_geometry_build_repeated": true,
+    "docker_recipe_executed": false,
+    "equivariant_standardization_claimed": false,
+    "geometric_construction_audit_repeated": false,
+    "independent_two_zero_implementation_used": true,
+    "native_internal_simplify_moves_expanded": false,
+    "terminal_moves_individually_replayed": true,
+    "whole_chain_pure_Pachner": false
+  },
+  "status": "PASS",
+  "validation": "Complete replay from a relocated directory, started with cwd /tmp, using a freshly generated construction candidate",
+  "verified_counts": {
+    "closed_interface_pentachora": 6,
+    "link_flips": 529460,
+    "master_pentachora": 103744,
+    "master_vertices": 4310,
+    "native_guarded_2_4_moves": 54563,
+    "native_macro_blocks": 5173,
+    "prefix_contractions": 3308,
+    "prefix_endpoint_pentachora": 44620,
+    "punctured_endpoint_pentachora": 5,
+    "simplicial_bistellar_flips": 628917,
+    "simplicial_contractions": 957,
+    "simplicial_endpoint_pentachora": 1332,
+    "simplicial_endpoint_vertices": 45,
+    "simplicial_moves": 629874,
+    "terminal_distinct_states": 8435,
+    "terminal_moves": 8436,
+    "terminal_pachner_moves": 7842,
+    "terminal_two_zero_moves": 594,
+    "vertex_links": 4310
+  }
+}
