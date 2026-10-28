@@ -1,4 +1,0 @@
-G6_to_X: PASS 6814 guarded moves
-std6_to_X: PASS 1519 guarded moves
-sphere_to_std6: PASS 103 guarded moves
-{"status": "PASS", "elapsed_seconds": 26.319919, "receipt": "/workspace/scratch/0628b77ee402/x0_reduction_work/relocated repo/replayed/terminal/independent_replay.json", "error": null}

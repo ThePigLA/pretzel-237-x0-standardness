@@ -1,4 +1,0 @@
-# Full replay: CPython 3.12, Linux x86_64.
-# The hash permits exactly the manylinux_2_28_x86_64 wheel recorded in runtime_pins.json.
-regina==7.4.1 \
-    --hash=sha256:d33ccc69697ec680a8dcf8f0c663428853da44f3578898ad9b908e4669e83c71

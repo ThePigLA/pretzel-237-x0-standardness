@@ -1,4 +1,0 @@
-PASS G6 -> W: 6814 moves {'P2': 5830, 'P3': 492, 'Z1': 417, 'Z2': 75}
-PASS std6 -> W: 1519 moves {'P2': 1315, 'P3': 102, 'Z1': 81, 'Z2': 21}
-PASS S^4_2 -> std6 (Pachner only): 103 moves {'P0': 3, 'P1': 6, 'P2': 80, 'P3': 14}
-ALL PASS: G6 is PL homeomorphic to the double of a 4-simplex (standard S^4). With the accepted X0 -> G6 certificate, X0 is PL standard, hence diffeomorphic to S^4.

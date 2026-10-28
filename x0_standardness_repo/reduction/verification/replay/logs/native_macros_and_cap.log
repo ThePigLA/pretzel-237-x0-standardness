@@ -1,8 +1,0 @@
-{"blocks_replayed": 289, "pentachora": 13, "guarded_kicks": 3112, "wall_seconds": 25.27731519900044}
-{"blocks_replayed": 533, "pentachora": 13, "guarded_kicks": 5694, "wall_seconds": 50.314629573000275}
-{"blocks_replayed": 701, "pentachora": 13, "guarded_kicks": 7357, "wall_seconds": 75.39585320399965}
-{"blocks_replayed": 895, "pentachora": 13, "guarded_kicks": 9475, "wall_seconds": 100.47904998100057}
-{"blocks_replayed": 1508, "pentachora": 11, "guarded_kicks": 15997, "wall_seconds": 125.58043679100047}
-{"blocks_replayed": 3012, "pentachora": 5, "guarded_kicks": 31792, "wall_seconds": 150.59054393500082}
-{"blocks_replayed": 4765, "pentachora": 5, "guarded_kicks": 50295, "wall_seconds": 175.60141966000083}
-{"status": "PASS", "blocks": 5173, "kicks": 54563, "final_T5": "fHMLQcabcdeeeecanbpaoazaobWbGb", "closed_G6": "gAMLMQaabcdeffff2a+a2avbmaoaxaOb0aUa", "resources": {"cpu_seconds": 181.445571965, "wall_seconds": 181.48080906799987, "through_macros_cpu_seconds": 181.378478422, "through_macros_wall_seconds": 181.41098994200001, "peak_rss_bytes": 166006784, "address_space_limit_bytes": 8589934592, "cpu_limit_seconds": 900, "wall_alarm_seconds": 1200}}
