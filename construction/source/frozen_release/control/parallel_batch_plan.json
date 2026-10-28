@@ -1,0 +1,35 @@
+{
+  "additional_seed_address_space_caps_bytes": 2147483648,
+  "additional_seed_cpu_allocations_seconds": {
+    "1": 900,
+    "2": 900,
+    "3": 900
+  },
+  "combined_worker_address_space_cap_bytes": 8589934592,
+  "completed_cpu_charge_before": 1185.2140787209999,
+  "max_pentachora_per_working_triangulation": 250000,
+  "max_seed_count": 16,
+  "purpose": "Independent punctures/kicks on the same certified unmarked source. Each subledger is aggregated before any subsequent batch; replay remains a separate charged gate.",
+  "reservation_check": true,
+  "resume_cpu_allocations_seconds": {
+    "0": 600,
+    "1": 600,
+    "2": 600,
+    "3": 600
+  },
+  "resume_policy": "Reuse atomic initial-local checkpoints; fix the optional tracker API; give each resume at most 600 CPU seconds. Initial plus resume per seed remains below its original 900-second allocation.",
+  "running_seed0_wall_cap_seconds": 900,
+  "schema": "bounded-parallel-standardization-allocation-v1",
+  "seed0_initial_cpu_seconds": 130.191108,
+  "seed0_kernel_limits_updated": {
+    "address_space_bytes": 2147483648,
+    "cpu_seconds": 900
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "total_cpu_cap_seconds": 14400
+}

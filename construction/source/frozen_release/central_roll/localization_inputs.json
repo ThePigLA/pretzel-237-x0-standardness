@@ -1,0 +1,708 @@
+{
+  "schema": "source-twist-localization-inputs-v1",
+  "passed": true,
+  "source_sha256": "39758681130d161afd20a0f5ab1959f45c1d86cbff3679b0f271cc78ec73ffa2",
+  "cut_sha256": "69930877ffd4029b6e420501d385106f9bc3ea636a7d04eb5f824977b55e06ee",
+  "diagram_chart_sha256": "c6699bc33b13c51bc40f09bbb66fc37afa231d57ffdb52e17b7433c6e8ea82a2",
+  "mixed_profile_transfer_sha256": "099fe9bfb841f5754db124309ca53c428f903acfd875ccf46a25de6b6be1bbeb",
+  "enlarged_N": {
+    "definition": "original N plus its saved N-adaptor, with the puncture temporarily filled back in; relative coarsening extends by identity over the puncture",
+    "tetrahedra": 1580,
+    "outer_boundary_triangles": 24,
+    "puncture_boundary_triangles": 8,
+    "original_puncture_equator_on_original_torus": true,
+    "puncture_disjoint_from_outer_grid": true,
+    "all_puncture_boundary_faces_internal_after_filling": true
+  },
+  "fixed_circle_vertices": 18,
+  "fixed_circle_edges": 18,
+  "fixed_core_cycle": [
+    32,
+    56,
+    71,
+    47,
+    39,
+    66,
+    36,
+    34,
+    65,
+    35,
+    37,
+    68,
+    38,
+    46,
+    70,
+    57,
+    33,
+    64
+  ],
+  "fixed_locus_is_full_subcomplex": true,
+  "no_simplex_contains_two_vertices_in_one_deck_orbit": true,
+  "fixed_edge_normal_links": [
+    {
+      "edge": [
+        32,
+        56
+      ],
+      "normal_link_cycle": [
+        18,
+        72,
+        19,
+        76
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        32,
+        64
+      ],
+      "normal_link_cycle": [
+        0,
+        75,
+        1,
+        77
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        33,
+        57
+      ],
+      "normal_link_cycle": [
+        17,
+        74,
+        20,
+        78
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        33,
+        64
+      ],
+      "normal_link_cycle": [
+        0,
+        75,
+        1,
+        77
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        34,
+        36
+      ],
+      "normal_link_cycle": [
+        0,
+        72,
+        1,
+        76
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        34,
+        65
+      ],
+      "normal_link_cycle": [
+        0,
+        72,
+        1,
+        76
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        35,
+        37
+      ],
+      "normal_link_cycle": [
+        73,
+        74,
+        79,
+        78
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        35,
+        65
+      ],
+      "normal_link_cycle": [
+        74,
+        75,
+        78,
+        77
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        36,
+        66
+      ],
+      "normal_link_cycle": [
+        40,
+        43,
+        41,
+        45
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        37,
+        68
+      ],
+      "normal_link_cycle": [
+        42,
+        67,
+        44,
+        69
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        38,
+        46
+      ],
+      "normal_link_cycle": [
+        23,
+        72,
+        24,
+        76
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        38,
+        68
+      ],
+      "normal_link_cycle": [
+        67,
+        72,
+        69,
+        76
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        39,
+        47
+      ],
+      "normal_link_cycle": [
+        22,
+        40,
+        78,
+        25,
+        41,
+        74
+      ],
+      "deck_cyclic_shift": 3,
+      "quotient_circle_cells": [
+        3,
+        3
+      ]
+    },
+    {
+      "edge": [
+        39,
+        66
+      ],
+      "normal_link_cycle": [
+        22,
+        43,
+        25,
+        45
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        46,
+        70
+      ],
+      "normal_link_cycle": [
+        2,
+        5,
+        9,
+        6
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        47,
+        71
+      ],
+      "normal_link_cycle": [
+        11,
+        12,
+        14,
+        13
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        56,
+        71
+      ],
+      "normal_link_cycle": [
+        3,
+        4,
+        8,
+        7
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    },
+    {
+      "edge": [
+        57,
+        70
+      ],
+      "normal_link_cycle": [
+        10,
+        12,
+        15,
+        13
+      ],
+      "deck_cyclic_shift": 2,
+      "quotient_circle_cells": [
+        2,
+        2
+      ]
+    }
+  ],
+  "fixed_vertex_links": [
+    {
+      "vertex": 32,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        56,
+        64
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 33,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        57,
+        64
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 34,
+      "link_f": [
+        6,
+        12,
+        8
+      ],
+      "fixed_directions": [
+        36,
+        65
+      ],
+      "quotient_link_f": [
+        4,
+        6,
+        4
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 35,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        37,
+        65
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 36,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        34,
+        66
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 37,
+      "link_f": [
+        12,
+        30,
+        20
+      ],
+      "fixed_directions": [
+        35,
+        68
+      ],
+      "quotient_link_f": [
+        7,
+        15,
+        10
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 38,
+      "link_f": [
+        12,
+        30,
+        20
+      ],
+      "fixed_directions": [
+        46,
+        68
+      ],
+      "quotient_link_f": [
+        7,
+        15,
+        10
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 39,
+      "link_f": [
+        12,
+        30,
+        20
+      ],
+      "fixed_directions": [
+        47,
+        66
+      ],
+      "quotient_link_f": [
+        7,
+        15,
+        10
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 46,
+      "link_f": [
+        18,
+        48,
+        32
+      ],
+      "fixed_directions": [
+        38,
+        70
+      ],
+      "quotient_link_f": [
+        10,
+        24,
+        16
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 47,
+      "link_f": [
+        18,
+        48,
+        32
+      ],
+      "fixed_directions": [
+        39,
+        71
+      ],
+      "quotient_link_f": [
+        10,
+        24,
+        16
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 56,
+      "link_f": [
+        14,
+        36,
+        24
+      ],
+      "fixed_directions": [
+        32,
+        71
+      ],
+      "quotient_link_f": [
+        8,
+        18,
+        12
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 57,
+      "link_f": [
+        16,
+        42,
+        28
+      ],
+      "fixed_directions": [
+        33,
+        70
+      ],
+      "quotient_link_f": [
+        9,
+        21,
+        14
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 64,
+      "link_f": [
+        6,
+        12,
+        8
+      ],
+      "fixed_directions": [
+        32,
+        33
+      ],
+      "quotient_link_f": [
+        4,
+        6,
+        4
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 65,
+      "link_f": [
+        12,
+        30,
+        20
+      ],
+      "fixed_directions": [
+        34,
+        35
+      ],
+      "quotient_link_f": [
+        7,
+        15,
+        10
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 66,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        36,
+        39
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 68,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        37,
+        38
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 70,
+      "link_f": [
+        12,
+        30,
+        20
+      ],
+      "fixed_directions": [
+        46,
+        57
+      ],
+      "quotient_link_f": [
+        7,
+        15,
+        10
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    },
+    {
+      "vertex": 71,
+      "link_f": [
+        10,
+        24,
+        16
+      ],
+      "fixed_directions": [
+        47,
+        56
+      ],
+      "quotient_link_f": [
+        6,
+        12,
+        8
+      ],
+      "quotient_link": "connected closed PL surface, Euler characteristic 2"
+    }
+  ],
+  "regular_neighborhood": "literal epsilon-neighborhood f>=1/2 of the full fixed-circle subcomplex; exact parent partitions bound by cut_orientation receipt",
+  "puncture": {
+    "axis": [
+      204,
+      228
+    ],
+    "equator_positive": [
+      56,
+      150,
+      58,
+      148
+    ],
+    "join_tetrahedron_signs": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "core_longitude_degree": 1,
+    "ball": "actual fixed-edge join its four-edge normal circle",
+    "boundary": "actual suspension of the normal circle"
+  },
+  "theorem_trust_boundary": [
+    "PL regular-neighborhood and relative uniqueness theorem",
+    "first apply the separately checked simultaneous u/v profile transfer and enlarge N through its saved adaptor",
+    "oriented normal D2 bundle over a circle is trivial; prescribe the now-interior local puncture chart",
+    "meridian-preserving OUTER GRID pair chart extends, with boundary isotopy supported away from puncture; original cut torus is not simultaneously straightened",
+    "lift the framed downstairs pair homeomorphism through the marked double branched cover"
+  ],
+  "not_claimed": "no global finite D2-bundle atlas, extension cell list or conjugating map is exported by this checker",
+  "seconds": 0.03537206499822787
+}

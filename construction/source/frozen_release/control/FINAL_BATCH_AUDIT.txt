@@ -1,0 +1,63 @@
+FINAL FOUR-SEED NATIVE SEARCH AND BUDGET AUDIT
+Result: PASS for accounting, checkpoint provenance and acceptance guards.
+Final seed-1 replay PASSED to 2072 pentachora; standardization remains FALSE.
+Final milestone: CONTROL_NOT_STANDARDIZED_WITHIN_DECLARED_BATCH.
+
+SAVED COMPLETE ENDPOINTS
+Seed 0: 2252 pentachora; two blocks (local, full); 7 saved guarded kicks.
+        Worker completed normally. Complete final path has not yet been replayed.
+Seed 1: 2072 pentachora; two blocks (local, full); 9 saved guarded kicks.
+        Next macro was interrupted by the CPU cap. Its candidate is discarded.
+        Fresh full-path native replay PASSED, including both saved blocks and 9 kicks.
+Seed 2: 9708 pentachora; one local block, replayed during restoration.
+        Full macro was interrupted. The log objective 2395 is NOT a saved endpoint.
+Seed 3: 2113 pentachora; two blocks (local, full); 6 saved guarded kicks.
+        Worker completed normally. Complete final path has not yet been replayed.
+
+All four certificates match the unchanged 44728-pentachoron native work source,
+the independently replayed 3307-contraction prefix, the marked-master facet hash,
+and their exact puncture indices and five distinct source vertex labels.
+Each last saved size agrees with the last completed macro block and the log.
+The four restore receipts prove only the initial local blocks. Their block hashes
+remain bound to those prefixes. Seed 1 now also has a completed final receipt.
+That receipt matches the source, certificate, puncture, program/version, both
+block logs, final numbered hash and exact final tight encoding. Seeds 0 and 3
+retain saved complete endpoints without a separate full-path replay.
+
+CPU ACCOUNTING
+Five completed ledger totals: 5757.218281721 CPU seconds.
+Conservative bounded diagnostic charge: 45.000000000 CPU seconds.
+Completed total: 5802.218281721 CPU seconds.
+Final native replay actual external charge: 365.186981000 CPU seconds (included above).
+Remaining replay reservation: 0.000000000 CPU seconds.
+Completed plus reserved: 5802.218281721 CPU seconds.
+Ceiling: 14400 CPU seconds; headroom after reservation: 8597.781718279.
+All failed, superseded and interrupted attempts are charged. The two 600-second
+cap terminations recorded 600.274608 and 600.239906 seconds; no charge was rounded
+down to the allocation. Search covered FOUR distinct seeds and twelve worker
+attempts. Four CPU hours and sixteen seeds are CEILINGS, not claims of exhaustion.
+
+MEMORY AND SCOPE
+Final four workers each had a 2 GiB address-space cap (8 GiB combined).
+Sum of their separately reported peak RSS values: 2665508864 bytes.
+That sum is an upper bound, not a simultaneous sample. No final worker hit memory
+cap. The first two admission RSS samples were invalidated in the original ledger;
+this audit does not certify those unavailable historical memory measurements.
+
+FINAL CONTROL GUARD
+Current replay code checks source/version/master/prefix/puncture, every legal
+recorded move, each per-block policy and endpoint hash/size, and final exact tight
+encoding. Standardization additionally requires isomorphism to Example4.ball().
+The milestone full-match filter rejects all resume-prefix receipts. It accepts
+only final replay filenames, checks current certificate/source/master bindings,
+and explicitly compares block/kick counts, size, numbered hash, encoding-match
+flag and puncture. Success additionally requires ball=true, one pentachoron
+and isoSig baa. Seed 1 passes replay but fails that standardization criterion.
+No material acceptance issue was found. Native PL move/simplification semantics
+remain an explicit software trust boundary; macro receipts are not elementary
+Pachner transcripts. Bounded heuristic noncompletion gives no exoticness claim.
+
+This audit used only independent standard-library reads, hashes, arithmetic, log
+checks and static code review. It ran no native triangulation computation.
+Only FINAL_BATCH_AUDIT.json and FINAL_BATCH_AUDIT.txt were written.
+The JSON records exact input snapshot hashes and all charged completed runs.

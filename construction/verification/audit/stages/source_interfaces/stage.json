@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "-E",
+    "-B",
+    "frozen_release/diagram/audit_source_chain.py"
+  ],
+  "executed": true,
+  "log": "stages/source_interfaces/stage.log",
+  "log_sha256": "a85d4c32fc5f054276c649d3b97f48df3751a4c3b3d51d86541b4af3559cf138",
+  "name": "source_interfaces",
+  "purpose": "Recheck signed source normal orientations, exact peripheral endpoint and interface bindings",
+  "receipts": [
+    {
+      "path": "stages/source_interfaces/receipts/source_audit_certificate.json",
+      "recomputed_this_run": true,
+      "sha256": "c4f5b662d0573c5f7e664eb99bcfd10f3f8af8f9d58074975edc7e48009105d3"
+    }
+  ],
+  "status": "PASS",
+  "tier": "geometry",
+  "wall_seconds": 1.8723201820102986,
+  "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+  "worktree_retained": false
+}

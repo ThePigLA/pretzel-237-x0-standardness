@@ -1,0 +1,28 @@
+{
+  "schema": "independent-residual-group-tail-review-v1",
+  "result": "PASS",
+  "scope": "Residual two-generator tail only; source presentation and 60,485-move prefix replay belong to the parent group audit.",
+  "prefix_file_sha256": "d1796f40fe8240504e4c2ec870c5a8ee47d18902d53c76a5a2de957f127146d2",
+  "tail_file_sha256": "2016a359f631ea708fddeab2860faa944863aeba83b10aa551ee4160e3958a83",
+  "initial_generators": [
+    14941,
+    15470
+  ],
+  "initial_relators": 324,
+  "moves": {
+    "relator_shortening": 13,
+    "eliminate": 2
+  },
+  "endpoint": "empty presentation",
+  "short_algebra_original_relator_indices": [
+    47,
+    46,
+    262,
+    26
+  ],
+  "negative_control": {
+    "name": "corrupt_shortened_relator",
+    "rejected": true,
+    "reason": "shortening result"
+  }
+}

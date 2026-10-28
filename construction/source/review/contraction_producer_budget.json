@@ -1,0 +1,13 @@
+{
+  "stage": "X0 bounded closed contraction prefix production",
+  "exit_code": 0,
+  "wall_seconds": 35.77818064999883,
+  "cpu_seconds": 35.727965,
+  "peak_rss_bytes": 348954624,
+  "soft_preparation_and_search_wall_seconds": 55,
+  "cpu_ceiling_seconds": 120,
+  "address_space_ceiling_bytes": 8589934592,
+  "wall_ceiling_seconds": 240,
+  "source": "candidate/marked_candidate.json.gz",
+  "script": "scripts/contract_candidate.py"
+}

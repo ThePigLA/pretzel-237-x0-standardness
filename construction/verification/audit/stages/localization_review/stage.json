@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "-E",
+    "-B",
+    "frozen_release/cap/verify_review_inputs.py"
+  ],
+  "executed": true,
+  "log": "stages/localization_review/stage.log",
+  "log_sha256": "20c447f9c07d188a769deab78107a8fdb69d7fd6a4652b588484c54d5c8d2fa8",
+  "name": "localization_review",
+  "purpose": "Check the finite inputs to the stated relative-PL localization and local branch arguments",
+  "receipts": [
+    {
+      "path": "stages/localization_review/receipts/geometric_review.json",
+      "recomputed_this_run": true,
+      "sha256": "20c447f9c07d188a769deab78107a8fdb69d7fd6a4652b588484c54d5c8d2fa8"
+    }
+  ],
+  "status": "PASS",
+  "tier": "geometry",
+  "wall_seconds": 0.16553552199911792,
+  "worktree_policy": "Pristine isolated copy; original source/reference files are never edited",
+  "worktree_retained": false
+}

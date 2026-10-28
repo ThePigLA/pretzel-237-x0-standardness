@@ -1,0 +1,134 @@
+{
+  "schema": "even-cap-independent-verification-v1",
+  "scope": "SOURCE_INDEPENDENT_CAP_TEMPLATE; no knot-source attachment, global Phi_m, X2 or X0 is asserted",
+  "shared": {
+    "vertex_links_spheres": 432,
+    "hemisphere_slab_balls": 8,
+    "slab_tetrahedra": [
+      224,
+      224,
+      224,
+      224,
+      224,
+      224,
+      224,
+      224
+    ],
+    "equator_f_vector": [
+      416,
+      1248,
+      832
+    ]
+  },
+  "cases": {
+    "0": {
+      "result": "PASS",
+      "pentachora": 5824,
+      "boundary_tetrahedra": 1792,
+      "spherical_refinement_tetrahedra": 1792,
+      "spherical_coarse_tetrahedra": 256,
+      "boundary_child_triangles": 832,
+      "exact_collar_prisms": 64,
+      "collar_tetrahedra": 1920,
+      "ramification_components": 2,
+      "normal_circle_checks": 16,
+      "twin_sphere": true,
+      "winding_edge_count": 8,
+      "upstairs_winding": "0",
+      "downstairs_winding": 0,
+      "unwrapped_displacement": [
+        0,
+        4
+      ]
+    },
+    "2": {
+      "result": "PASS",
+      "pentachora": 5824,
+      "boundary_tetrahedra": 1792,
+      "spherical_refinement_tetrahedra": 1792,
+      "spherical_coarse_tetrahedra": 256,
+      "boundary_child_triangles": 832,
+      "exact_collar_prisms": 64,
+      "collar_tetrahedra": 1920,
+      "ramification_components": 2,
+      "normal_circle_checks": 16,
+      "twin_sphere": true,
+      "winding_edge_count": 16,
+      "upstairs_winding": "-1",
+      "downstairs_winding": -2,
+      "unwrapped_displacement": [
+        -8,
+        4
+      ]
+    }
+  },
+  "puncture_refinement": {
+    "result": "PASS",
+    "coarse_sphere_f_vector": [
+      6,
+      12,
+      8
+    ],
+    "fine_sphere_f_vector": [
+      10,
+      24,
+      16
+    ],
+    "angle_map": "coarse e_j -> fine f_(2j), odd fine vertices are edge midpoints",
+    "deck_equivariant": true
+  },
+  "negative_controls": [
+    {
+      "name": "parity_only_m2",
+      "rejected": true,
+      "reason": "integer displacement record"
+    },
+    {
+      "name": "parity_only_spherical_map",
+      "rejected": true,
+      "reason": "spherical map not bound to the angular beta chart"
+    },
+    {
+      "name": "wrong_twist_binding",
+      "rejected": true,
+      "reason": "beta vertex equation"
+    },
+    {
+      "name": "wrong_deck",
+      "rejected": true,
+      "reason": "cap involution"
+    },
+    {
+      "name": "missing_cap_facet",
+      "rejected": true,
+      "reason": "cap f vector"
+    },
+    {
+      "name": "corrupt_boundary_chart",
+      "rejected": true,
+      "reason": "child outside parent"
+    }
+  ],
+  "native": {
+    "0": {
+      "regina": "7.4",
+      "valid": true,
+      "orientable": true,
+      "connected": true,
+      "boundary_components": 1,
+      "euler": 2,
+      "homology": "NOT_RUN in admission; topology is supplied by the product/collar/cone construction"
+    },
+    "2": {
+      "regina": "7.4",
+      "valid": true,
+      "orientable": true,
+      "connected": true,
+      "boundary_components": 1,
+      "euler": 2,
+      "homology": "NOT_RUN in admission; topology is supplied by the product/collar/cone construction"
+    }
+  },
+  "result": "PASS",
+  "seconds": 6.803626595999958
+}

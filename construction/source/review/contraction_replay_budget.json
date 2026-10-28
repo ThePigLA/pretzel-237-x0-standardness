@@ -1,0 +1,11 @@
+{
+  "stage": "X0 exact independent closed contraction replay",
+  "exit_code": 0,
+  "wall_seconds": 29.462451095998404,
+  "cpu_seconds": 29.434122,
+  "peak_rss_bytes": 397398016,
+  "cpu_ceiling_seconds": 120,
+  "address_space_ceiling_bytes": 8589934592,
+  "wall_ceiling_seconds": 240,
+  "script": "scripts/replay_candidate_contractions.py"
+}

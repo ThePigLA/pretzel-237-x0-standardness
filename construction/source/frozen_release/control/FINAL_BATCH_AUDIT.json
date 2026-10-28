@@ -1,0 +1,1107 @@
+{
+  "audit_method": "Independent Python standard-library JSON, hash, source binding, log, arithmetic and static-code checks; no Regina imports, decoding, native replay or search.",
+  "budget": {
+    "accounting_scope": "Native control admission, attempted native invariants, certified closed PL prefix, standardization searches, diagnostics, and final native replay. Includes superseded and interrupted runs. Source construction and other exact combinatorial audits are separate.",
+    "all_completed_failed_superseded_and_interrupted_runs_charged": true,
+    "completed_cpu_seconds_decimal": "5802.21828172099983",
+    "completed_cpu_seconds_including_diagnostic": 5802.218281721,
+    "completed_final_replay_ledger": "control/native_final_replay_budget.json",
+    "completed_final_replay_record": {
+      "arguments": [
+        "replay",
+        "--seed",
+        "1",
+        "--work-source"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 1200.0,
+      "cpu_seconds": 365.18698099999995,
+      "exit_code": 0,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 1200
+      },
+      "log": "native_final_replay_budget_run_01.log",
+      "mode": "replay",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 666591232,
+      "peak_waited_worker_rss_bytes": 666591232,
+      "seed": null,
+      "status": "COMPLETED",
+      "wall_cap_seconds": 1500.0,
+      "wall_seconds": 365.4249622649986
+    },
+    "completed_ledger_cpu_seconds": 5757.218281721,
+    "completed_plus_reserved_cpu_seconds": 5802.218281721,
+    "cpu_ceiling_seconds": 14400,
+    "diagnostic_charge_basis": "Conservative full 45-second bound for the tight-decoding skeleton diagnostic; no result is claimed from it.",
+    "diagnostic_charge_seconds": 45,
+    "headroom_after_reservation_seconds": 8597.781718279,
+    "latest_aggregate_values_and_all_five_ledger_hashes_independently_match": true,
+    "ledger_totals": [
+      {
+        "completed_cpu_seconds": 2143.503703721,
+        "completed_cpu_seconds_decimal": "2143.5037037210001",
+        "file": "control/native_budget_ledger.json",
+        "runs": 9
+      },
+      {
+        "completed_cpu_seconds": 1090.082175,
+        "completed_cpu_seconds_decimal": "1090.0821750000001",
+        "file": "control/native_seed1_budget.json",
+        "runs": 3
+      },
+      {
+        "completed_cpu_seconds": 1100.543923,
+        "completed_cpu_seconds_decimal": "1100.54392299999988",
+        "file": "control/native_seed2_budget.json",
+        "runs": 3
+      },
+      {
+        "completed_cpu_seconds": 1057.9014989999998,
+        "completed_cpu_seconds_decimal": "1057.9014989999998",
+        "file": "control/native_seed3_budget.json",
+        "runs": 3
+      },
+      {
+        "completed_cpu_seconds": 365.18698099999995,
+        "completed_cpu_seconds_decimal": "365.18698099999995",
+        "file": "control/native_final_replay_budget.json",
+        "runs": 1
+      }
+    ],
+    "reservation_within_ceiling": true,
+    "reserved_final_replay_cpu_seconds": 0.0,
+    "termination_latency": "The two nominal 600-CPU-second stops recorded 600.274608 and 600.239906 seconds; these actual charges, including termination latency, are included without truncation."
+  },
+  "charged_completed_runs": [
+    {
+      "arguments": [
+        "admit",
+        "--which",
+        "cover"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 14400,
+      "cpu_seconds": 11.179402,
+      "exit_code": 0,
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_01.log",
+      "mode": "admit",
+      "peak_process_group_rss_bytes": null,
+      "run_index": 0,
+      "sampled_rss_invalidated": "Initial monitor used a namespace-local pid against host /proc; waited-child CPU and wall data remain valid. Later runs use hard kernel limits, getrusage peak RSS, and corrected host-pid resolution.",
+      "seed": null,
+      "status": "COMPLETED",
+      "wall_cap_seconds": 600.0,
+      "wall_seconds": 11.289655009000853
+    },
+    {
+      "arguments": [
+        "admit",
+        "--which",
+        "quotient"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 14388.820598,
+      "cpu_seconds": 5.389818,
+      "exit_code": 0,
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_02.log",
+      "mode": "admit",
+      "peak_process_group_rss_bytes": null,
+      "run_index": 1,
+      "sampled_rss_invalidated": "Initial monitor used a namespace-local pid against host /proc; waited-child CPU and wall data remain valid. Later runs use hard kernel limits, getrusage peak RSS, and corrected host-pid resolution.",
+      "seed": null,
+      "status": "COMPLETED",
+      "wall_cap_seconds": 600.0,
+      "wall_seconds": 5.525073647000681
+    },
+    {
+      "arguments": [
+        "invariants",
+        "--which",
+        "cover"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 14383.43078,
+      "cpu_seconds": 783.704313,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 8589934592,
+        "worker_cpu_seconds": 14383
+      },
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_03.log",
+      "mode": "invariants",
+      "peak_process_group_rss_bytes": 1275109376,
+      "peak_waited_worker_rss_bytes": 1275109376,
+      "result": "No native endpoint or invariant result claimed; worker deliberately stopped after verified PL contraction source became available.",
+      "run_index": 2,
+      "seed": null,
+      "status": "SUPERSEDED_BY_CERTIFIED_SMALLER_SOURCE",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 783.9110067260008
+    },
+    {
+      "cpu_seconds": 42.626235521,
+      "ledger": "native_budget_ledger.json",
+      "mode": "certified_PL_prefix_producer_summary",
+      "peak_process_group_rss_bytes": 349491200,
+      "receipt": "unmarked_contractions_v1/producer_summary.json",
+      "run_index": 3,
+      "status": "COMPLETED",
+      "wall_seconds": 42.628503601001285
+    },
+    {
+      "cpu_seconds": 42.3255872,
+      "ledger": "native_budget_ledger.json",
+      "mode": "certified_PL_prefix_independent_replay",
+      "peak_process_group_rss_bytes": 399519744,
+      "receipt": "unmarked_contractions_v1/independent_replay.json",
+      "run_index": 4,
+      "status": "COMPLETED",
+      "wall_seconds": 42.34752618499988
+    },
+    {
+      "arguments": [
+        "invariants",
+        "--which",
+        "cover",
+        "--work-source",
+        "--local"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 13514.774644279,
+      "cpu_seconds": 299.988723,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 8589934592,
+        "worker_cpu_seconds": 13514
+      },
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_06.log",
+      "mode": "invariants",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 594657280,
+      "peak_waited_worker_rss_bytes": 594657280,
+      "run_index": 5,
+      "seed": null,
+      "status": "WALL_CAP",
+      "wall_cap_seconds": 300.0,
+      "wall_seconds": 300.08578370399846
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "0",
+        "--seconds",
+        "600",
+        "--trials",
+        "300",
+        "--work-source",
+        "--initial-local"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 13214.785921279,
+      "cpu_seconds": 130.191108,
+      "exit_code": 1,
+      "hard_kernel_limits": {
+        "address_space_bytes": 8589934592,
+        "worker_cpu_seconds": 13214
+      },
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_07.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 665063424,
+      "peak_waited_worker_rss_bytes": 665063424,
+      "run_index": 6,
+      "seed": 0,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 130.45154083200032
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "0",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 272.862906,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_08.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 360284160,
+      "peak_waited_worker_rss_bytes": 360275968,
+      "run_index": 7,
+      "seed": 0,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 273.0284744240016
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "0",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 555.2356110000001,
+      "exit_code": 0,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_budget_ledger.json",
+      "log": "native_run_09.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 666435584,
+      "peak_waited_worker_rss_bytes": 666435584,
+      "run_index": 8,
+      "seed": 0,
+      "status": "COMPLETED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 555.3014246489984
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "1",
+        "--seconds",
+        "600",
+        "--trials",
+        "300",
+        "--work-source",
+        "--initial-local"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 900.0,
+      "cpu_seconds": 159.727601,
+      "exit_code": 1,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 900
+      },
+      "ledger": "native_seed1_budget.json",
+      "log": "native_seed1_budget_run_01.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 666025984,
+      "peak_waited_worker_rss_bytes": 666025984,
+      "run_index": 0,
+      "seed": 1,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 159.87992634600232
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "1",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 330.079966,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_seed1_budget.json",
+      "log": "native_seed1_budget_run_02.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 351887360,
+      "peak_waited_worker_rss_bytes": 351862784,
+      "run_index": 1,
+      "seed": 1,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 330.1699326939997
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "1",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 600.2746080000001,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_seed1_budget.json",
+      "log": "native_seed1_budget_run_03.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 666509312,
+      "peak_waited_worker_rss_bytes": 666509312,
+      "run_index": 2,
+      "seed": 1,
+      "status": "CUMULATIVE_CPU_CAP",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 600.3605698259998
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "2",
+        "--seconds",
+        "600",
+        "--trials",
+        "300",
+        "--work-source",
+        "--initial-local"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 900.0,
+      "cpu_seconds": 170.23292899999998,
+      "exit_code": 1,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 900
+      },
+      "ledger": "native_seed2_budget.json",
+      "log": "native_seed2_budget_run_01.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 665399296,
+      "peak_waited_worker_rss_bytes": 665399296,
+      "run_index": 0,
+      "seed": 2,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 170.452578026001
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "2",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 330.071088,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_seed2_budget.json",
+      "log": "native_seed2_budget_run_02.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 340090880,
+      "peak_waited_worker_rss_bytes": 339988480,
+      "run_index": 1,
+      "seed": 2,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 330.2905322830011
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "2",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 600.2399059999999,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_seed2_budget.json",
+      "log": "native_seed2_budget_run_03.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 665968640,
+      "peak_waited_worker_rss_bytes": 665968640,
+      "run_index": 2,
+      "seed": 2,
+      "status": "CUMULATIVE_CPU_CAP",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 600.2662105829986
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "3",
+        "--seconds",
+        "600",
+        "--trials",
+        "300",
+        "--work-source",
+        "--initial-local"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 900.0,
+      "cpu_seconds": 157.520069,
+      "exit_code": 1,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 900
+      },
+      "ledger": "native_seed3_budget.json",
+      "log": "native_seed3_budget_run_01.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 665858048,
+      "peak_waited_worker_rss_bytes": 665858048,
+      "run_index": 0,
+      "seed": 3,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 157.61365382800068
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "3",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 330.0389559999999,
+      "exit_code": -15,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_seed3_budget.json",
+      "log": "native_seed3_budget_run_02.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 352202752,
+      "peak_waited_worker_rss_bytes": 352092160,
+      "run_index": 1,
+      "seed": 3,
+      "status": "WORKER_FAILED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 330.20168479600034
+    },
+    {
+      "arguments": [
+        "search",
+        "--seed",
+        "3",
+        "--seconds",
+        "540",
+        "--trials",
+        "300",
+        "--work-source",
+        "--resume"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 600.0,
+      "cpu_seconds": 570.3424739999999,
+      "exit_code": 0,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 600
+      },
+      "ledger": "native_seed3_budget.json",
+      "log": "native_seed3_budget_run_03.log",
+      "mode": "search",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 666595328,
+      "peak_waited_worker_rss_bytes": 666562560,
+      "run_index": 2,
+      "seed": 3,
+      "status": "COMPLETED",
+      "wall_cap_seconds": 900.0,
+      "wall_seconds": 570.635816369002
+    },
+    {
+      "arguments": [
+        "replay",
+        "--seed",
+        "1",
+        "--work-source"
+      ],
+      "cpu_accounting": "max of process-tree sampled user+system CPU and waited-child getrusage user+system CPU",
+      "cpu_remaining_before": 1200.0,
+      "cpu_seconds": 365.18698099999995,
+      "exit_code": 0,
+      "hard_kernel_limits": {
+        "address_space_bytes": 2147483648,
+        "worker_cpu_seconds": 1200
+      },
+      "ledger": "native_final_replay_budget.json",
+      "log": "native_final_replay_budget_run_01.log",
+      "mode": "replay",
+      "monitor_pid_resolution": "exact worker executable and argument vector in host /proc; Popen pid may be namespace-local",
+      "peak_process_group_rss_bytes": 666591232,
+      "peak_waited_worker_rss_bytes": 666591232,
+      "run_index": 0,
+      "seed": null,
+      "status": "COMPLETED",
+      "wall_cap_seconds": 1500.0,
+      "wall_seconds": 365.4249622649986
+    }
+  ],
+  "checkpoints": [
+    {
+      "block_policies": [
+        "local",
+        "full"
+      ],
+      "block_sizes": [
+        9090,
+        2252
+      ],
+      "certificate": "control/standardization_seed0.json",
+      "certificate_sha256": "b14d7e424404931851b5e145aca749fb1c31f858c45d96f119d83bd1f311d872",
+      "checkpoint_ball_claim": false,
+      "completed_saved_full_macros_this_phase": 1,
+      "discarded_incomplete_candidate_macros_this_phase": 0,
+      "endpoint_numbered_sha256": "6f6b22ea7c44cba346f06e664bb3aceff128dd437ddabc51733d1653d527a1cf",
+      "endpoint_tight_encoding_utf8_sha256": "5416356243c74da7b1315139494e2c1d7be675cec8cb84ab2bc5f9789c57ffff",
+      "final_run_log": "control/native_run_09.log",
+      "final_search_worker_cpu_seconds": 555.2356110000001,
+      "final_search_worker_status": "COMPLETED",
+      "full_macro_starts_this_phase": 1,
+      "full_saved_path_replay_status": "NOT_YET_REPLAYED",
+      "guarded_kicks_in_saved_path": 7,
+      "initial_prefix_blocks_replayed": 1,
+      "initial_prefix_replay_receipt": "control/standardization_seed0_resume_prefix_replay.json",
+      "last_progress_objective": 2264,
+      "prefix_recorded_blocks_bind_to_current_certificate": true,
+      "prefix_whole_certificate_hash_still_current": false,
+      "progress_inside_interrupted_macro_is_certified_endpoint": false,
+      "puncture_index": 25247,
+      "puncture_vertices": [
+        273,
+        341,
+        401,
+        721,
+        722
+      ],
+      "saved_blocks": 2,
+      "saved_complete_endpoint_pentachora": 2252,
+      "scope": "Saved complete macro endpoint; this audit does not execute native macros. Interrupted candidate progress is excluded.",
+      "seed": 0,
+      "source_and_puncture_bindings_pass": true,
+      "standardization_established": false,
+      "total_cpu_seconds_all_three_search_attempts": 958.2896250000001
+    },
+    {
+      "block_policies": [
+        "local",
+        "full"
+      ],
+      "block_sizes": [
+        9164,
+        2072
+      ],
+      "certificate": "control/standardization_seed1.json",
+      "certificate_sha256": "5ef4e32d2eab30ed30c2d5168d9f2a9be8f34321dd771612b6bf57c48ca32f06",
+      "checkpoint_ball_claim": null,
+      "completed_saved_full_macros_this_phase": 1,
+      "discarded_incomplete_candidate_macros_this_phase": 1,
+      "endpoint_numbered_sha256": "4f908feff00b9893668de1afeffa712d2311b995588bfdb23df9983d10f93316",
+      "endpoint_tight_encoding_utf8_sha256": "5453a7347c5ba869778aeb1606d0d04f517804a720fc749dea0978f26604722d",
+      "final_run_log": "control/native_seed1_budget_run_03.log",
+      "final_search_worker_cpu_seconds": 600.2746080000001,
+      "final_search_worker_status": "CUMULATIVE_CPU_CAP",
+      "full_macro_starts_this_phase": 2,
+      "full_saved_path_replay_status": "PASS_COMPLETE_SAVED_PATH_TO_NONSTANDARDIZED_ENDPOINT",
+      "guarded_kicks_in_saved_path": 9,
+      "initial_prefix_blocks_replayed": 1,
+      "initial_prefix_replay_receipt": "control/standardization_seed1_resume_prefix_replay.json",
+      "last_progress_objective": 2072,
+      "prefix_recorded_blocks_bind_to_current_certificate": true,
+      "prefix_whole_certificate_hash_still_current": false,
+      "progress_inside_interrupted_macro_is_certified_endpoint": false,
+      "puncture_index": 8805,
+      "puncture_vertices": [
+        66,
+        142,
+        241,
+        242,
+        699
+      ],
+      "saved_blocks": 2,
+      "saved_complete_endpoint_pentachora": 2072,
+      "scope": "Saved complete macro endpoint; this audit does not execute native macros. Interrupted candidate progress is excluded.",
+      "seed": 1,
+      "source_and_puncture_bindings_pass": true,
+      "standardization_established": false,
+      "total_cpu_seconds_all_three_search_attempts": 1090.082175
+    },
+    {
+      "block_policies": [
+        "local"
+      ],
+      "block_sizes": [
+        9708
+      ],
+      "certificate": "control/standardization_seed2.json",
+      "certificate_sha256": "fb17bd4cab7f3bc2d8bd621bf9d20746046170eb5007c246f7bc9966c8136372",
+      "checkpoint_ball_claim": null,
+      "completed_saved_full_macros_this_phase": 0,
+      "discarded_incomplete_candidate_macros_this_phase": 1,
+      "endpoint_numbered_sha256": "36b3a7769d337d0a5b571b4ebae7f20be15c9c2167acc0a31ef045fc403394be",
+      "endpoint_tight_encoding_utf8_sha256": "a5023bba1b8778e00898347a280e0059d96ef94a208fe7e69200b4f563cce2a9",
+      "final_run_log": "control/native_seed2_budget_run_03.log",
+      "final_search_worker_cpu_seconds": 600.2399059999999,
+      "final_search_worker_status": "CUMULATIVE_CPU_CAP",
+      "full_macro_starts_this_phase": 1,
+      "full_saved_path_replay_status": "INITIAL_LOCAL_PATH_REPLAYED",
+      "guarded_kicks_in_saved_path": 0,
+      "initial_prefix_blocks_replayed": 1,
+      "initial_prefix_replay_receipt": "control/standardization_seed2_resume_prefix_replay.json",
+      "last_progress_objective": 2395,
+      "prefix_recorded_blocks_bind_to_current_certificate": true,
+      "prefix_whole_certificate_hash_still_current": true,
+      "progress_inside_interrupted_macro_is_certified_endpoint": false,
+      "puncture_index": 3706,
+      "puncture_vertices": [
+        34,
+        35,
+        307,
+        731,
+        969
+      ],
+      "saved_blocks": 1,
+      "saved_complete_endpoint_pentachora": 9708,
+      "scope": "Saved complete macro endpoint; this audit does not execute native macros. Interrupted candidate progress is excluded.",
+      "seed": 2,
+      "source_and_puncture_bindings_pass": true,
+      "standardization_established": false,
+      "total_cpu_seconds_all_three_search_attempts": 1100.543923
+    },
+    {
+      "block_policies": [
+        "local",
+        "full"
+      ],
+      "block_sizes": [
+        9057,
+        2113
+      ],
+      "certificate": "control/standardization_seed3.json",
+      "certificate_sha256": "ae3c3d6b069c39bb1f57dbf658fb9c3b92ed2c79416f456f8a46a77bb53932b9",
+      "checkpoint_ball_claim": false,
+      "completed_saved_full_macros_this_phase": 1,
+      "discarded_incomplete_candidate_macros_this_phase": 0,
+      "endpoint_numbered_sha256": "b9ee8f885b29d79844601c36afd06ccbcb09977f99799fcda47476655f41b6e6",
+      "endpoint_tight_encoding_utf8_sha256": "4c5921aec277b5c9cfc80e5da5bb8a238719a40b5d039e6f5f15332665cbec71",
+      "final_run_log": "control/native_seed3_budget_run_03.log",
+      "final_search_worker_cpu_seconds": 570.3424739999999,
+      "final_search_worker_status": "COMPLETED",
+      "full_macro_starts_this_phase": 1,
+      "full_saved_path_replay_status": "NOT_YET_REPLAYED",
+      "guarded_kicks_in_saved_path": 6,
+      "initial_prefix_blocks_replayed": 1,
+      "initial_prefix_replay_receipt": "control/standardization_seed3_resume_prefix_replay.json",
+      "last_progress_objective": 2141,
+      "prefix_recorded_blocks_bind_to_current_certificate": true,
+      "prefix_whole_certificate_hash_still_current": false,
+      "progress_inside_interrupted_macro_is_certified_endpoint": false,
+      "puncture_index": 15595,
+      "puncture_vertices": [
+        105,
+        904,
+        906,
+        1392,
+        1421
+      ],
+      "saved_blocks": 2,
+      "saved_complete_endpoint_pentachora": 2113,
+      "scope": "Saved complete macro endpoint; this audit does not execute native macros. Interrupted candidate progress is excluded.",
+      "seed": 3,
+      "source_and_puncture_bindings_pass": true,
+      "standardization_established": false,
+      "total_cpu_seconds_all_three_search_attempts": 1057.9014989999998
+    }
+  ],
+  "created_utc": "2026-10-26T19:41:36.372499+00:00",
+  "final_control_guard": {
+    "failure_inference": "A bounded search that does not reach the reference ball yields no exoticness inference.",
+    "final_replay_guards_reviewed": [
+      "native source hash",
+      "Regina version",
+      "master facet hash",
+      "complete PL-prefix snapshot",
+      "puncture index range and exact five distinct source labels",
+      "nonempty saved path",
+      "every recorded guarded Pachner move",
+      "per-block simplification policy and exact numbered endpoint hash/size",
+      "final checkpoint size and exact tight encoding",
+      "one-pentachoron endpoint isomorphism to Example4.ball()"
+    ],
+    "material_acceptance_issue_found": false,
+    "milestone_filename_regex": "standardization_seed[0-9]+_replay\\.json",
+    "milestone_filter_test_cases": {
+      "standardization_seed0.json": false,
+      "standardization_seed0_replay.json": true,
+      "standardization_seed0_replay.json.bak": false,
+      "standardization_seed0_resume_prefix_replay.json": false,
+      "standardization_seed12_replay.json": true
+    },
+    "milestone_requires_ball_size_one_and_isoSig_baa_for_success": true,
+    "milestone_requires_current_certificate_source_master_hashes_and_replay": true,
+    "milestone_requires_exact_block_kick_size_hash_encoding_and_puncture_bindings": true,
+    "native_macro_trust_boundary": "Guarded Regina PL move semantics and deterministic simplification macros; macro receipts are not portable elementary Pachner transcripts.",
+    "resume_prefix_receipts_excluded_from_final_acceptance": true,
+    "standardization_guard": "No standardization claim unless the immutable-source PL prefix, complete native path replay, and terminal reference-ball isomorphism all pass."
+  },
+  "final_milestone_status": "CONTROL_NOT_STANDARDIZED_WITHIN_DECLARED_BATCH",
+  "final_replay_receipt": {
+    "blocks": 2,
+    "endpoint_numbered_sha256": "4f908feff00b9893668de1afeffa712d2311b995588bfdb23df9983d10f93316",
+    "endpoint_pentachora": 2072,
+    "endpoint_tight_encoding_match": true,
+    "external_cpu_charge_seconds": 365.18698099999995,
+    "file_sha256": "c539ad234434b9c211d813370fb5e6d3c14b66d242b3b69ffc7caa83104f1c42",
+    "guarded_kicks": 9,
+    "path": "control/standardization_seed1_replay.json",
+    "replay_passed": true,
+    "source_certificate_program_puncture_and_log_bindings_verified": true,
+    "standardization_passed": false
+  },
+  "final_replay_status_at_snapshot": "COMPLETED_PASS_FOR_PARTIAL_PL_SIMPLIFICATION_ONLY",
+  "immutable_master": {
+    "facets_sha256": "65de21dd16c5c11fa880e6f0c80a3cbf25a4780ba3d04ba7a6ab838ef37e5587",
+    "file": "control/marked_control.json.gz",
+    "file_sha256": "af21a7dd107b765d5fef0a257dcb4df6d6df8689c594f584e4318d15c49aa709",
+    "unchanged": true
+  },
+  "input_snapshot_hashes": {
+    "NATIVE_BATCH_RESULT.md": {
+      "bytes": 5735,
+      "file_sha256": "5bba80989546c6c4e15849c9a40c9a463aed9e6027defb228bdb6caeedbcd5d2",
+      "snapshot_only_if_later_updated": false
+    },
+    "aggregate_native_budget.py": {
+      "bytes": 2750,
+      "file_sha256": "3a68304c7de8bb3a404bab757d46aaabce5981a1450b57a8f6329ef08bf4472c",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/MILESTONE_STATUS.json": {
+      "bytes": 3351,
+      "file_sha256": "18fd1949edd9d6a36249ec9fe5e3c2d035ba2d512bf9cabb8e02e87e3cd47a01",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/NATIVE_BATCH_RESULT.json": {
+      "bytes": 4027,
+      "file_sha256": "9fb3fa8ccf124768530f4a63501a68e1aea48b271b82bad981736d43bf4f1236",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/marked_control.json.gz": {
+      "bytes": 872036,
+      "file_sha256": "af21a7dd107b765d5fef0a257dcb4df6d6df8689c594f584e4318d15c49aa709",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_budget_aggregate.json": {
+      "bytes": 18909,
+      "file_sha256": "48c6f4194175136234620f19c89b7cd4dad8310de66e237f3c1777b0e2c8df29",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_budget_ledger.json": {
+      "bytes": 5304,
+      "file_sha256": "2fc876a0531374ae1843175427e0ab48e70a98c1786e8322165e06996c7e81bd",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_final_replay_budget.json": {
+      "bytes": 810,
+      "file_sha256": "755f1fe6e81d47bc254683356be426f28f6aead9a56220765398c45188dddbfe",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_final_replay_budget_run_01.log": {
+      "bytes": 1318,
+      "file_sha256": "b941334ed0db32975586e423c1eb20b04feb35f61f9c753dce3d95b8cca02355",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_01.log": {
+      "bytes": 630,
+      "file_sha256": "e332e2ab2ecc6155f98a88e065ad6019187c94787c73e75997a6f324e397d7ce",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_02.log": {
+      "bytes": 623,
+      "file_sha256": "1519f920b644e0143e2f06cb8a8de05637ceb44cf12940066c2b45c867df4a75",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_03.log": {
+      "bytes": 0,
+      "file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_06.log": {
+      "bytes": 79,
+      "file_sha256": "6fb8d720c8d116f72dc70210746bdfae534daefe97f0af3627e3b10dcc5a5b24",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_07.log": {
+      "bytes": 911,
+      "file_sha256": "5f970571c59d07f346701884152afb29fce994e9aaa584f1480997f385f5dc6d",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_08.log": {
+      "bytes": 16,
+      "file_sha256": "8ee860f6e8ccaa7623785b436859a2907df3635eef1c5b93d8c5182e2acc17ff",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_run_09.log": {
+      "bytes": 753,
+      "file_sha256": "56ff3297ec8d0fc8a9d32c57cce5a3d1c3fd6d2b051f262183cd6c0e19f0fa44",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed1_budget.json": {
+      "bytes": 2269,
+      "file_sha256": "d253dd18e21566a64cf32967bf2e1e7ff2580866fe8f94f902c18b1733eca017",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed1_budget_run_01.log": {
+      "bytes": 799,
+      "file_sha256": "6afb6d68f4118cccb25702e27a0759f0eeee5d9373c9b3eaf363450ca7f3a4c1",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed1_budget_run_02.log": {
+      "bytes": 16,
+      "file_sha256": "2643f3189253bb717c45021692798dd91572dd0845b112a9e4c1903f67de5b8a",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed1_budget_run_03.log": {
+      "bytes": 863,
+      "file_sha256": "a6ccb57fcaeafe36468f0ac36e7fb1cf0c28eaa30498d8b4697e7d85e25915aa",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed2_budget.json": {
+      "bytes": 2275,
+      "file_sha256": "3ca5c9c0a076337ac1903a776ec1204f4c31f38af264f82ca9d1c2b48f038045",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed2_budget_run_01.log": {
+      "bytes": 799,
+      "file_sha256": "0908f6c7bc25c91cb6f4319bf04793ce6e388e4fec692a92ddeebdaafbd8bd06",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed2_budget_run_02.log": {
+      "bytes": 68,
+      "file_sha256": "be539b8de8de35cdcf2e089c68aa49b1825ad60a44c8fb041dd0a4196b861604",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed2_budget_run_03.log": {
+      "bytes": 797,
+      "file_sha256": "263be59c0550240ca60080a360abb7f11829317504a8298b5297eda0a6871054",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed3_budget.json": {
+      "bytes": 2265,
+      "file_sha256": "a07c9bf01d0ddc758e8ebb69a82ee2ccd3764d90801e5f2ca9398849194307bf",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed3_budget_run_01.log": {
+      "bytes": 800,
+      "file_sha256": "21656b5a5866eec6adeb8cc2f8e49a2edef598341b958173f52143ffde92308c",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed3_budget_run_02.log": {
+      "bytes": 16,
+      "file_sha256": "06252c5e8ff239ba79c69e0023227bbf3a36adf3c2deeb520dc8e9fdb1c839a9",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_seed3_budget_run_03.log": {
+      "bytes": 799,
+      "file_sha256": "7bfdcc6da399dccd44f7ded6695974ec41a9a59ee29d67f974362e15a4c14e32",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/native_work_source.json": {
+      "bytes": 983,
+      "file_sha256": "47c20961d36abde70a0a4aace55b2b81987eef4962004821eb4b81c1561c3b0e",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed0.json": {
+      "bytes": 26698,
+      "file_sha256": "b14d7e424404931851b5e145aca749fb1c31f858c45d96f119d83bd1f311d872",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed0_resume_prefix_replay.json": {
+      "bytes": 727,
+      "file_sha256": "c0409c3f0a57b3738eb1d97f99727e413e8e356ee76c8b8575da55f1c4b23eda",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed1.json": {
+      "bytes": 24667,
+      "file_sha256": "5ef4e32d2eab30ed30c2d5168d9f2a9be8f34321dd771612b6bf57c48ca32f06",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed1_replay.json": {
+      "bytes": 829,
+      "file_sha256": "c539ad234434b9c211d813370fb5e6d3c14b66d242b3b69ffc7caa83104f1c42",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed1_resume_prefix_replay.json": {
+      "bytes": 727,
+      "file_sha256": "5752f890ab2b07bb0a1c389fe8ba064dd4626ead7dd08869126b67c4b3e25736",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed2.json": {
+      "bytes": 108864,
+      "file_sha256": "fb17bd4cab7f3bc2d8bd621bf9d20746046170eb5007c246f7bc9966c8136372",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed2_resume_prefix_replay.json": {
+      "bytes": 728,
+      "file_sha256": "ddfdfb848170fe0073d2d7e2df16414859b8bdcc4931092eb7e364126a26a821",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed3.json": {
+      "bytes": 25188,
+      "file_sha256": "ae3c3d6b069c39bb1f57dbf658fb9c3b92ed2c79416f456f8a46a77bb53932b9",
+      "snapshot_only_if_later_updated": false
+    },
+    "control/standardization_seed3_resume_prefix_replay.json": {
+      "bytes": 727,
+      "file_sha256": "484bebd44ec475124d732f1db4c093e660e48663e852e3be08e0694870f6bc63",
+      "snapshot_only_if_later_updated": false
+    },
+    "finalize_native_batch.py": {
+      "bytes": 9953,
+      "file_sha256": "930003173d716e8778e737819fa590f4147d92dced56643128932ed8ba9ac146",
+      "snapshot_only_if_later_updated": false
+    },
+    "native_control.py": {
+      "bytes": 15198,
+      "file_sha256": "9cc6462ab0263d3240c0a1832586a7d836731abfca739670a8c1c2234b67b452",
+      "snapshot_only_if_later_updated": false
+    },
+    "supervise_native.py": {
+      "bytes": 5571,
+      "file_sha256": "a228d68e54b95d7955fa678b12d55d7e570a762b05c3b0fb132f3e0ec9c6e86a",
+      "snapshot_only_if_later_updated": false
+    },
+    "unmarked_contractions_v1/certificate.json.gz": {
+      "bytes": 317895,
+      "file_sha256": "79acf8165fbd4b08d0a86854eaa50678f3084373738b68ac8d1332be61c8b7b4",
+      "snapshot_only_if_later_updated": false
+    },
+    "unmarked_contractions_v1/endpoint.json.gz": {
+      "bytes": 184042,
+      "file_sha256": "8ae70fdbb43b16485e909bacd4e599d88846c85e2bb1e2f4b72253dac1fdf5cc",
+      "snapshot_only_if_later_updated": false
+    },
+    "unmarked_contractions_v1/endpoint_regina.json.gz": {
+      "bytes": 615521,
+      "file_sha256": "4155432efdffb657934814e7faa5c3ad4902f304357005dfef7787d56d459f24",
+      "snapshot_only_if_later_updated": false
+    },
+    "unmarked_contractions_v1/independent_replay.json": {
+      "bytes": 1325,
+      "file_sha256": "0c9ebb6bdc29fc10753de47637d3a88f099c7b4666a5b92e1960bb0b0571d4b3",
+      "snapshot_only_if_later_updated": false
+    },
+    "unmarked_contractions_v1/source_facets.json.gz": {
+      "bytes": 427279,
+      "file_sha256": "c5c03ba1e95c35837029d2bc5d57b3aafe05d730d25c427460d3591b12f7ba4c",
+      "snapshot_only_if_later_updated": false
+    },
+    "update_milestone.py": {
+      "bytes": 6047,
+      "file_sha256": "b290a7765c2c552edd11b6b5e1d2783ddefeb9e9386a9280a503f71fc87f701d",
+      "snapshot_only_if_later_updated": false
+    }
+  },
+  "memory": {
+    "final_four_worker_combined_address_space_limit_bytes": 8589934592,
+    "final_replay_address_space_cap_bytes": 2147483648,
+    "final_replay_reported_peak_rss_bytes": 666591232,
+    "final_workers_address_space_limit_bytes_each": 2147483648,
+    "max_single_reported_final_worker_peak_rss_bytes": 666595328,
+    "no_final_worker_memory_cap_event": true,
+    "scope": "Sum of separately measured worker peaks is a conservative upper bound, not a simultaneous RSS sample. The first two admission-run RSS samples were invalidated in the ledger; this audit does not retroactively certify those unavailable measurements.",
+    "sum_of_four_reported_final_worker_peak_rss_bytes": 2665508864
+  },
+  "mutation_policy": "Only FINAL_BATCH_AUDIT.json and FINAL_BATCH_AUDIT.txt are written. README, MILESTONE_STATUS, budget aggregate, source, certificates and native code are untouched.",
+  "result": "PASS_SEARCH_ACCOUNTING_AND_ACCEPTANCE_GUARDS",
+  "schema": "independent-final-native-batch-audit-v1",
+  "search_scope": {
+    "ceilings_were_not_exhausted": true,
+    "cpu_hours_ceiling": 4,
+    "current_four_seed_search_batch_finished": true,
+    "distinct_seed_count": 4,
+    "distinct_seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "max_distinct_seeds_ceiling": 16,
+    "scope_statement": "Four-seed bounded batch. Four CPU hours and sixteen seeds are ceilings, not minimum work requirements or claims of exhaustion.",
+    "search_worker_attempts": 12
+  },
+  "snapshot_policy": "All five charged ledgers are closed, the final replay receipt is complete, and reservation is zero. This audit binds the current aggregate, final milestone and final batch summary; it does not promote the partial PL simplification to standardization.",
+  "source": {
+    "certified_closed_work_source_pentachora": 44728,
+    "closed_PL_contractions": 3307,
+    "current_prefix_hash_bindings_pass": true,
+    "native_source_sha256": "4155432efdffb657934814e7faa5c3ad4902f304357005dfef7787d56d459f24"
+  },
+  "standardization_established": false
+}

@@ -1,0 +1,52 @@
+INDEPENDENT REVIEW OF THE TWO-GENERATOR GROUP TAIL
+================================================
+
+Let a=14941 and b=15470 in the residual presentation exported by the
+60,485-move prefix. Four of its original 324 relators suffice:
+
+  index 47:  b^-1 a^2 b a^-1,
+  index 46:  b^-1 a^3 b a^-3,
+  index 262: b^2 a^-1 b^-3 a b,
+  index 26:  b^-1 a b^-1 a b^-1 a^-1 b^2 a^-1.
+
+Indices are zero-based positions in group_audit/tietze_certificate.json.gz.
+Their literal generator-labelled words are checked by verify_group_tail.py.
+
+Write T(x)=b^-1 x b. The first two relations give
+
+  T(a^2)=a,       T(a^3)=a^3,
+
+and therefore
+
+  T(a)=T(a^2)^-1 T(a^3)=a^-1 a^3=a^2.
+
+Substitution into the first equation gives a^4=a, hence a^3=1.
+Cyclically rotating relator 262 gives b^3 a^-1 b^-3 a=1, so T^3(a)=a.
+But T(a)=a^2 implies T^3(a)=a^8. Thus a^7=1 as well, and
+
+  a=a^7 (a^3)^-2=1.
+
+With a=1, relator 26 freely reduces to b^-1. Thus b=1. This argument uses
+consequences of retained relators; it imposes no extra quotient relation.
+
+Independent exact replay
+------------------------
+The separate saved residual tail has 15 logged moves: 13 retained-relator
+shortenings followed by two one-occurrence generator eliminations. An
+independent replayer in this directory imports no group producer. It checks
+each rule is present and retained while a DIFFERENT relator is changed.
+If a cyclic conjugate of a retained relator is UV, replacing U by V^-1 in
+another relator preserves the normal closure: the old and new relators
+differ by the retained relation. Exact free and cyclic reduction is checked.
+Each generator elimination is solved from a relation with exactly one
+occurrence and substituted in every remaining relation. The endpoint is
+the empty presentation. A corrupted shortening result is rejected.
+
+    python verify_group_tail.py
+
+group_tail_review.json binds the prefix and tail files by their byte hashes.
+The scope is the small residual tail. Independently verifying its connection
+to the source's actual two-skeleton and replaying all prefix eliminations
+remain the responsibility of the parent group audit. Once that audit passes,
+the tail proves triviality of the source-linked fundamental group. This is
+not a PL standardization certificate for the closed four-manifold.

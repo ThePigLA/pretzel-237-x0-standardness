@@ -1,0 +1,15 @@
+INITIAL 3 15595 9057 156.59
+Traceback (most recent call last):
+  File "/workspace/scratch/0628b77ee402/j_source_v1/native_control.py", line 141, in <module>
+    for i in b['kicks']:
+                      ^^^
+  File "/workspace/scratch/0628b77ee402/j_source_v1/native_control.py", line 107, in search
+    cert['endpoint_tight_encoding']=T.tightEncoding()
+    ^^^^^^^^^
+  File "/workspace/scratch/0628b77ee402/j_source_v1/native_control.py", line 27, in simple
+    regina.RandomEngine.reseedWithDefault();T.simplifyToLocalMinimum();return
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __init__(): incompatible constructor arguments. The following argument types are supported:
+    1. regina.ProgressTrackerObjective(arg0: typing.SupportsInt)
+
+Invoked with: 

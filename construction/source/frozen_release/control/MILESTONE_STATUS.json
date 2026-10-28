@@ -1,0 +1,76 @@
+{
+  "certified_unmarked_closed_prefix": {
+    "contractions": 3307,
+    "pentachora": 44728,
+    "receipt": "unmarked_contractions_v1/independent_replay.json",
+    "receipt_sha256": "0c9ebb6bdc29fc10753de47637d3a88f099c7b4666a5b92e1960bb0b0571d4b3"
+  },
+  "closed_X0_constructed": false,
+  "exoticness_inference": null,
+  "fundamental_group": {
+    "independent_source_replay": true,
+    "receipt": "group_audit/independent_replay.json",
+    "receipt_sha256": "4259b4e7e794a259fe21088dbdd226352c66005792f23565e5d607bdc95d6c8a",
+    "value": "trivial"
+  },
+  "geometric_construction": {
+    "passed": true,
+    "receipt": "control/GEOMETRIC_CONSTRUCTION_ADMISSION.json",
+    "receipt_sha256": "4dd03a21e6693930943832a44636bc61a590ead00e6c09440910e7ac710e053a",
+    "trust_basis": "Exact finite geometry and signed markings, pinned native PL transport/recognition, and the reviewed relative PL normal-neighborhood and boundary-extension theorem. A finite global normal-bundle matrix atlas is not claimed."
+  },
+  "homology_derivation": "pi1=1 gives H1=0. For the admitted connected closed oriented 4-manifold, PD/UCT give H3=0 and torsion-free H2. chi=2 forces rank H2=0.",
+  "homotopy_type": "S4",
+  "homotopy_type_basis": "The source-bound trivial fundamental group and integral homology of S4 imply homotopy equivalence to S4 by Hurewicz and the homological Whitehead theorem. This is not a PL standardization.",
+  "integral_homology": {
+    "H0": "Z",
+    "H1": "0",
+    "H2": "0",
+    "H3": "0",
+    "H4": "Z"
+  },
+  "marked_master": {
+    "canonical_sha256": "13cc3c95f89bbb5cfb4c9e95a6ceb148a8b12a9d68de80a9be8a7fa2e9a5c7e8",
+    "facets_sha256": "65de21dd16c5c11fa880e6f0c80a3cbf25a4780ba3d04ba7a6ab838ef37e5587",
+    "file_sha256": "af21a7dd107b765d5fef0a257dcb4df6d6df8689c594f584e4318d15c49aa709",
+    "parts": {
+      "E": 37344,
+      "N": 25216,
+      "bridge": 24224,
+      "cap": 5824,
+      "central": 11136
+    },
+    "path": "control/marked_control.json.gz",
+    "pentachora": 103744,
+    "quotient_pentachora": 51872,
+    "unchanged": true
+  },
+  "parameters": {
+    "knot": "P(-2,3,7)",
+    "roll": 1,
+    "twist": 2
+  },
+  "schema": "marked-control-milestone-status-v1",
+  "scope": "Homotopy-sphere invariants and faithful geometric identification are separate from a standardization certificate. Failed or bounded heuristic search implies no exoticness claim.",
+  "standardization": {
+    "acceptance_rule": "Immutable source -> independently replayed closed PL contraction prefix -> embedded simplex puncture -> all guarded native macros replayed with exact hashes -> isomorphism to Example4.ball(), isoSig baa.",
+    "partial_replays": [
+      {
+        "blocks": 2,
+        "certificate": "control/standardization_seed1.json",
+        "certificate_sha256": "5ef4e32d2eab30ed30c2d5168d9f2a9be8f34321dd771612b6bf57c48ca32f06",
+        "endpoint_isoSig": null,
+        "endpoint_pentachora": 2072,
+        "guarded_kicks": 9,
+        "replay": "control/standardization_seed1_replay.json",
+        "replay_sha256": "c539ad234434b9c211d813370fb5e6d3c14b66d242b3b69ffc7caa83104f1c42",
+        "seed": 1
+      }
+    ],
+    "passed": false,
+    "search_finished_for_this_batch": true,
+    "successful_replays": []
+  },
+  "status": "CONTROL_NOT_STANDARDIZED_WITHIN_DECLARED_BATCH",
+  "updated_utc": "2026-10-26T19:40:37.922212+00:00"
+}

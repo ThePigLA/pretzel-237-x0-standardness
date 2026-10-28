@@ -1,0 +1,56 @@
+{
+  "candidate_comparison": {
+    "candidate_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+    "candidate_file_sha256": "251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c",
+    "common_cap_pentachora": 2816,
+    "common_total_pentachora": 100736,
+    "identical_marked_surface_labels": true,
+    "identical_orientation_on_all_shared_cells": true,
+    "identical_source_and_cap_port_maps": true,
+    "identical_vertex_labels_and_deck": true,
+    "inserted_m0_cap_pentachora": 3008,
+    "original_master_file_sha256": "af21a7dd107b765d5fef0a257dcb4df6d6df8689c594f584e4318d15c49aa709",
+    "removed_m2_cap_pentachora": 3008,
+    "result": "PASS",
+    "unchanged_noncap_pentachora": 97920
+  },
+  "checker_sha256": "6af62e1f85423d53c50e6c00d23c89ae2afa4ea962a1c86e10aabc31e2253370",
+  "result": "PASS",
+  "schema": "independent-X0-zero-cap-geometry-review-v1",
+  "wall_seconds": 1.8774855970041244,
+  "zero_cap": {
+    "F0": "identity",
+    "Phi0": "identity",
+    "cap_pentachora": 5824,
+    "common_cap_pentachora": 2816,
+    "complete_cap_cone_halves": 2,
+    "downstairs_full_turns": 0,
+    "each_half_pentachora": 2912,
+    "filling_product_tetrahedra": 96,
+    "filling_refinement_collar_tetrahedra": 1920,
+    "full_cell_identity_argument": "Each nondegenerate tetrahedron has four exact physical source=target vertex equations; affine extension is identity on its entire interior and faces.",
+    "halves_intersection_exactly_filling_torus": true,
+    "identity_chart_index_digest": "64049628ff3abfa9e967699c940e84af2e866ba2c4a2c5d070da5b3c10091e43",
+    "identity_spherical_tetrahedra": 1792,
+    "input_file_sha256": {
+      "bridge": "6ef384e230e8c5aea5a7d7deeed85634ed09514065b482bf967defce9e30b5f5",
+      "central_certificate": "9bd0fa71a1ffa748d8c1c759f09226ea101465f4dc00a09ac79efd4c0ffbb752",
+      "central_receipt": "5c26f37617c95e9286a1b277efc0e5ff55953bb11eadbfed7ff445819dc82719",
+      "m0": "c38a070c326277a9ad7433e5c2c967b92c15f10eb30391114527a9b2913dc6b4",
+      "m2": "a64d6f8745d7aa2b672a9c53320fe6fcd5c721286d8c819cd1ec263a759cc97d",
+      "shared": "3ad1b2f3a6f6fda34d4fe51a585c34d1d3a8e09de6c5f6ed920a3c092dc7d4b2"
+    },
+    "inserted_m0_cap_pentachora": 3008,
+    "removed_m2_cap_pentachora": 3008,
+    "result": "PASS",
+    "same_cap_boundary": true,
+    "same_cap_vertex_labels_and_deck": true,
+    "scope": "Additional finite checks on the frozen open m0 cap and its exact identity attachment. Existing cap/bridge/source receipts remain required; no closed X0 assembled here.",
+    "unchanged_central_transfer": "u-only; full source winding (1,0)",
+    "upstairs_full_turns": 0,
+    "zero_lift_displacement": [
+      0,
+      4
+    ]
+  }
+}

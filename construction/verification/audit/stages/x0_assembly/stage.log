@@ -1,0 +1,97 @@
+Regenerated every product, bridge and cap pentachoron
+Full fixed subcomplex and every orbit-quotient gluing square verified
+{
+  "schema": "independent-marked-X0-assembly-verification-v1",
+  "passed": true,
+  "source_model_canonical_sha256": "94f4bd341016c061aed4abe3e46ae4c07943dc2ea91fab21bd8b7b6db681fb4a",
+  "source_facets_sha256": "f40b43c09373dff94cde542a3076a8c2f482b1632726b63eed2c5610ddd1e92b",
+  "parts_regenerated": {
+    "N": 25216,
+    "E": 37344,
+    "central": 11136,
+    "bridge": 24224,
+    "cap": 5824
+  },
+  "f_vector": [
+    4310,
+    64796,
+    216104,
+    259360,
+    103744
+  ],
+  "source_port_tetrahedra": 96,
+  "cap_port_tetrahedra": 1792,
+  "cover_face_pairings": 259360,
+  "quotient_face_pairings": 129680,
+  "quotient_cells": 51872,
+  "quotient_vertices": 2208,
+  "all_covering_face_squares_commute": true,
+  "deck_orientation_preserving": true,
+  "no_simplex_inversions": true,
+  "full_fixed_subcomplex_checked": true,
+  "omitted_fixed_vertices_or_edges": 0,
+  "ramification_f_vector": [
+    106,
+    312,
+    208
+  ],
+  "twin_f_vector": [
+    10,
+    24,
+    16
+  ],
+  "normal_branch_circles_checked": 208,
+  "twin_intersection": [
+    {
+      "global_vertex": 4047,
+      "cap_vertex": 432,
+      "full_ambient_star_unchanged_from_cap": true
+    },
+    {
+      "global_vertex": 4048,
+      "cap_vertex": 433,
+      "full_ambient_star_unchanged_from_cap": true
+    }
+  ],
+  "orientation_anchor": {
+    "source_N_tetrahedron_index": 68,
+    "source_sorted_chain_sign": -1,
+    "source_vertices_in_product_order": [
+      11,
+      207,
+      97,
+      96
+    ],
+    "branch_order_sign": 1,
+    "last_vertical_product_affine_determinant": "1/4",
+    "canonical_vertices_affine_determinant_in_sorted_source_then_time": "-1/4",
+    "canonical_pentachoron_index": 66553,
+    "canonical_orientation": 1,
+    "meaning": "canonical Seifert master = signed-diagram ambient, followed by positive time"
+  },
+  "full_source_roll_winding": "1",
+  "quarter_source_displacement": [
+    "1/4",
+    "0"
+  ],
+  "bound_native_admission": {
+    "cover": {
+      "bound_to_current_file": true,
+      "simplex_count": 103744,
+      "closed_nonideal_valid": true
+    },
+    "quotient": {
+      "bound_to_current_file": true,
+      "simplex_count": 51872,
+      "closed_nonideal_valid": true
+    }
+  },
+  "input_bindings": {
+    "adaptor": "cf38a69079d08ed8334ad5d9d48b3a4d910342e6e6ab9e4dddc635c43b072058",
+    "central": "3b9a726033b4468d06e0360aa702ac0cdcc4abfa25064dc350f90ec08112d6fa",
+    "bridge": "f51dc234438236aba8b4d3c3190ac4d4981d37d29dbab8cf4adfdb382f758919",
+    "cap": "84440311293ee6775fc352ff5170c2d69e8fd5527f18cc0dfcb15a33b38b9e26"
+  },
+  "scope": "Actual assembled finite cells, source orientation and markings, and orbit quotient. The zero-twist source geometry is bound separately; PL standardization remains unproved.",
+  "seconds": 5.71596762399713
+}

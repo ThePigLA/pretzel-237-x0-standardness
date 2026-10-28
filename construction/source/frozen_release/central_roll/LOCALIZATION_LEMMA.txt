@@ -1,0 +1,339 @@
+SOURCE-LINKED LOCALIZATION OF THE POSITIVE m=2 TWIST
+=================================================
+
+Status and scope
+----------------
+This is a geometric PL proof identifying the source torus-supported twist
+with the finite puncture-cap attachment. It uses the relative PL regular-
+neighborhood and boundary-extension theorems. It does not assert that a
+global normal-disk-bundle trivialization of the saved N tetrahedra has been
+enumerated or independently replayed as a finite cell map.
+
+The source is the actual marked double branched cover constructed in this
+project. The accepted trefoil controls are not premises for its geometry.
+The independent finite inputs for this lemma are recorded in
+central_roll/localization_inputs.json, with canonical hashes of the source,
+cut, and corrected signed-diagram chart. The finite central roll is checked
+separately in central_roll/independent_verification.json. The finite cap
+family and its local F2/Phi pullback are checked under cap/.
+
+1. Actual source pair and local normal orientation
+------------------------------------------------
+Let M be the closed oriented source, D its deck involution, and C the fixed
+circle. In the compressed source, C is the full subcomplex on 18 fixed
+vertices and 18 fixed edges. No tetrahedron contains two vertices in the
+same deck orbit. Thus the fixed point set of the simplicial action is
+exactly C: there are no additional fixed simplex interiors.
+
+Every fixed edge has a circular normal link, and deck acts by a free cyclic
+half-turn on that circle. The lengths are four for 17 edges and six for one
+edge. Every fixed vertex has a triangulated 2-sphere link, with exactly the
+two fixed directions of the core. Its quotient link is a closed connected
+PL surface of Euler characteristic two. The fixed-direction links are the
+already verified free normal circles. These checks give the standard
+locally flat branched pair at every point of C, downstairs and upstairs.
+
+N is the literal epsilon-neighborhood
+
+  N = {x : sum of barycentric coordinates at fixed source vertices >= 1/2}.
+
+Its equality with the saved clipped cells is tied to the exact parent
+partition and determinant checks in peripheral/cut_orientation.json.
+Because C is full, this is a PL regular neighborhood of the source core.
+Deck preserves its defining function. This is a source-relative regular-
+neighborhood assertion, stronger than recognition of an unmarked solid
+torus by a native program. Its quotient is a regular neighborhood of the
+locally flat downstairs core.
+
+The actual removed puncture ball is the join of the fixed edge [204,228]
+with the four-edge normal circle. Its boundary is the suspension of that
+circle. The positive normal cycle is [56,150,58,148]. The four ordered join
+tetrahedra [204,228,e_i,e_(i+1)] all have positive master orientation, and
+the oriented core containing [204,228] evaluates +1 under the longitude
+cocycle. Thus the puncture angle is the positive upstairs normal angle.
+Deck adds one half-turn. In the chosen ambient orientation,
+
+  orientation(M) = du wedge dr wedge dv,
+  orientation(boundary N) = -du wedge dv,
+  orientation(boundary E) = +du wedge dv.
+
+These signs agree with the corrected diagram chart (u_old,-v_old), the
+signed knot exterior identification, and the native handedness calibration.
+
+1A. Enlarge the tube before prescribing the puncture chart
+--------------------------------------------------------
+There is a necessary geometric distinction here. The four actual puncture
+equator vertices lie on the original cut torus, at cut level 1/2. Their
+harmonic longitude coordinates are not constant. Thus it would be wrong
+to require a single chart of the original N both to equal that boundary
+torus chart and to turn the puncture into a constant-longitude normal ball.
+
+Use the saved N-adaptor to enlarge N to N-plus, before removing the
+puncture. Its outer boundary is the rectangular grid at r=1. The actual
+puncture ball is now entirely interior to N-plus, and its marked sphere
+is disjoint from the outer grid. The checked relative coarsening fixes
+the puncture boundary and extends by identity over the puncture ball.
+The filled compact N-plus has 1,580 tetrahedra, boundary equal to the 24
+outer grid triangles, and every one of the eight puncture-sphere triangles
+is an interior face. These incidence assertions are checked directly in
+central_roll/mixed_profile_transfer.json. Attaching a product collar and
+applying the certified relative ball replacements preserve its regular-
+neighborhood pair type.
+
+First push BOTH components of the original mixed torus shear into the
+central collar. On the full source collar r=3*s_input in [0,3] put
+
+  H0(r)=r/3,   H1(r)=clamp(r-1,0,1).
+
+Use the same exact six-triangle PL scalar J(r,t) already checked for roll,
+but set
+
+  Psi_t(u,v,r) = (u+J(r,t),v+J(r,t),r).
+
+The homogeneous forward and inverse matrices on all six cells are recorded
+and checked in mixed_profile_transfer.json. They have determinant one,
+commute with deck, and satisfy
+
+  J(r,0)=0,   J(r,1)=H0(r)-H1(r),   J(0,t)=J(3,t)=0.
+
+Therefore the central mixed monodromy (H1,H1) composed with Psi_1 equals
+Psi_0 composed with the source mixed monodromy (H0,H0), in unwrapped
+coordinates. Psi is identity on original N and on r=0, so it fixes the
+actual puncture, including its contact circle with the original torus.
+After this transfer both monodromy components are identity on N-plus,
+and their support is the central collar 1<=r<=2. All uses of a framed
+normal chart below are on this enlarged N-plus and its OUTER grid.
+
+2. A framed pair trivialization exists with both boundary prescriptions
+---------------------------------------------------------------------
+The ordinary PL normal-neighborhood theorem, applied downstairs, identifies
+the enlarged regular-neighborhood pair with an oriented normal D2 bundle over S1.
+In dimension three this oriented disk bundle is trivial. One may prescribe
+a standard local normal chart on a short core interval containing the
+puncture; relative regular-neighborhood uniqueness makes this compatible
+with the actual join ball. The interval chart preserves the ordered core
+endpoints and the positive normal circle just checked.
+
+There is also an exact PL torus chart on boundary N-plus: the outer grid,
+with markings transported through the saved source adaptor. Its meridian bounds the normal disk and
+its oriented longitude has degree +1 on the core. Start with a product
+trivialization that agrees with the local puncture chart. Adjust its normal
+framing to the marked longitude; any integer adjustment can be supported
+away from the prescribed short interval. The difference between its
+boundary map and the specified outer torus map then acts trivially on the two
+oriented homology generators of the torus. Such a torus map is isotopic to
+the identity. Extend that boundary isotopy in an outer collar of N-plus,
+disjoint from the puncture. This produces a PL pair homeomorphism whose
+boundary restriction is the actual torus chart and whose puncture chart
+is the prescribed normal join chart.
+
+Equivalently, the extension criterion is preservation of the meridian
+class; the longitude fixes the framing ambiguity. The criterion follows
+by first extending across a meridian disk and then across the ball obtained
+by cutting the solid torus along that disk. Keeping a prescribed inner
+normal ball is the relative version, obtained by the local chart and
+outer-collar adjustment above.
+
+Lift this downstairs pair homeomorphism through the marked double
+branched cover. The boundary projection has the recorded form
+
+  (u,v_up) -> (u,2 v_up),
+
+so the cover kernel and meridian sign agree with the product branched
+model. Choose a lift agreeing with the prescribed upstairs marking;
+the other possible lift is a constant deck half-shift. Either choice
+conjugates the meridional shear and the deck-equivariant disk loop in the
+same way, so it does not change the transfer or its angular winding. A
+phase can be fixed by the puncture join chart. The local branch-link models extend the
+lift across the core. The resulting upstairs pair chart is equivariant
+and sends deck to half-rotation of a normal disk. This construction is the
+explicit theorem dependency; the software has not output this entire
+pair chart as matrices on source cells. It is not required to straighten
+the interior original cut torus; that incompatible extra requirement has
+been removed by section 1A.
+
+The primary PL normal-neighborhood reference is Rourke and Sanderson,
+"Block bundles, I", Annals of Mathematics 87 (1968), 1-28, section 4,
+Theorems 4.3-4.4 and the relative addendum 4.5. Their proof constructs the
+normal blocks from dual cells of the locally flat triangulated pair and
+gives relative uniqueness by ambient isotopy. The low-dimensional solid-
+torus extension also has the usual disk-and-ball proof; see Hatcher,
+"Notes on Basic 3-Manifold Topology", section 2.1, the explanation that a
+meridian attachment determines the solid-torus filling.
+
+  https://webhomes.maths.ed.ac.uk/~v1ranick/papers/rs003.pdf
+  https://pi.math.cornell.edu/~hatcher/3M/3M.pdf
+
+3. Use a genuine PL disk loop, not a polar bilinear formula
+---------------------------------------------------------
+The finite cap family R_t on the sphere preserves time, poles, deck, and
+the diamond radial coordinate on both hemispheres. Its equator is exactly
+
+  theta -> theta - t,
+
+and R_0=R_1=id. Radial preservation is an affine identity on every one of
+the 1,792 recorded family tetrahedra. A hemisphere therefore supplies a
+finite PL disk-isotopy loop h_t. This does not mean h_t is uniform angular
+rotation at every radius or that {h_t} is a circle group action.
+
+Put a scaled copy of h_t on an inner normal disk of radius a<1 in the pair
+chart from section 2. Extend the boundary rotation through the outer
+normal annulus using an equivariant PL product chart S1 x [a,1]. On that
+annulus the map is (theta,r,t)->(theta-t,r,t). It is jointly PL in its
+product charts. It matches h_t at the inner circle and the actual torus
+angle at the outer circle. Both parts have time endpoints equal to the
+identity and commute with deck.
+
+Choose the standard local puncture as the suspension ball
+
+  |u-u0| + rho <= a
+
+in this inner normal chart (with the appropriate short interval rescaling).
+The inner disk family preserves rho and u, so it preserves this ball
+literally. Its boundary loop is the same radial disk loop on each
+hemisphere. Relative regular-neighborhood uniqueness supplied the pair
+chart identifying this standard ball with the actual source join ball.
+
+If the finite cap's north and south hemisphere extensions differ from
+this common disk extension, their difference is a disk-loop fixing the
+equator, the pole and both time endpoints. That difference has a joint PL,
+deck-equivariant Alexander contraction, as described next. Thus the
+actual finite cap family represents the same marked boundary loop.
+
+4. Parametric Alexander contraction with a joint PL formula
+---------------------------------------------------------
+Let delta(z)=(delta_t(x),t) on the convex 3-ball
+
+  B = D2_diamond x [0,1],   z=(x,t),   c=(0,0,1/2).
+
+Assume delta is PL, time preserving, identity on all of boundary B, fixes
+the pole axis, and commutes with the half-turn. These properties hold for
+the difference of the two disk-loop extensions after a common refinement.
+For a in [0,1] define A_a to be identity outside c+a(B-c), and inside use
+
+  A_a(z) = c + a [ delta(c+(z-c)/a) - c ].
+
+At a=0 set A_0=id. This scales disk and time together; scaling only disk
+radius in a time-dependent formula would create an unjustified bilinear
+term. Here, if delta(w)=Lw+b on one affine cell, the displayed expression
+is
+
+  Lz + (I-L)c + a(Lc+b-c),
+
+which is affine in (z,a). Its domain is the cone over that affine cell
+with apex (c,0). Together with the complementary cells these form a finite
+polyhedral subdivision. The inverse uses delta inverse in the same formula.
+Boundary equality gives continuity. Since delta leaves t fixed, A_a also
+leaves t fixed; it fixes the pole axis and time endpoints. The half-turn
+commutes with the centered scaling, so equivariance is preserved.
+
+This is a PL homotopy through disk loops, rel equator, pole and time
+endpoints. It need not preserve every disk radius during the homotopy;
+that is not required for comparing the boundary loops. Applying it on the
+two sphere hemispheres gives an isotopy between the two S2 x S1 attaching
+maps. The full equatorial winding is unchanged, since the homotopy fixes
+the equator pointwise after taking the difference of the loops.
+
+To make the matching of boundary loops a relative source map, use a small
+added spherical collar with coordinate q from its puncture end to its
+bulk end. Pull the contraction back by a=1-q and extend identity beyond
+that collar. Because A preserves time, this is a joint PL map of collar
+times time, with a joint PL inverse. It realizes the desired difference
+delta at q=0, is identity at q=1 and at both time endpoints, and commutes
+with deck. Its support is disjoint from the central roll. Thus the phrase
+"after matching their boundary loops" below has a concrete PL collar
+construction; it is not an appeal merely to homotopy of unmarked degrees.
+
+5. Explicit central torus-to-deck isotopy and its source seam
+-----------------------------------------------------------
+After the source profile transfer of section 1A, use the marked central
+torus coordinates (u,v,s), where s=r-1 increases from N-plus to E-plus.
+The positive m=2 lifted twist f in this central representative is
+
+  f(u,v,s) = (u,v+s,s)
+
+on this torus collar and identity on N-plus and E-plus. The endpoint shifts s=0 and
+s=1 are identity modulo the meridian period, while interior s is not.
+Define K_t on the collar by
+
+  K_t(u,v,s) = (u,v-min(1-s,t),s).
+
+On N-plus use the PL normal-disk loop from section 3, and on E-plus use identity.
+At s=0 the collar map is v->v-t, matching the outer normal circle. At s=1
+it is identity, matching E-plus. The collar has two affine charts s+t<=1 and
+s+t>=1; each has determinant one and an inverse obtained by changing the
+sign of the correction. On N-plus joint PL and an inverse follow from the
+finite disk-loop family and the fixed PL pair chart. Hence these pieces
+give a joint PL isotopy of the punctured source, preserving deck.
+
+Its endpoints satisfy K_0=id and
+
+  K_1(u,v,s)=(u,v+s-1,s)=(u,v+s,s) mod Z,
+
+so K_1=f on this central source representative. The integer -1 has been displayed rather
+than discarded: it is exactly the negative full normal turn followed at
+the puncture boundary. In the accepted unwrapped seam convention this
+is the identity 1+(v+s-1)=v+s. The bulk deck square is identity as a map;
+the path of the isotopy and cap winding still contain that full turn.
+
+Let g be the positive roll, g(u,v,s)=(u+s,v,s) on the same central collar,
+identity on N-plus and E-plus. The two maps commute, and every K_t commutes with g:
+on the torus collar the corrections use separate u and v coordinates and
+depend only on s,t, while g is identity on N-plus. With the convention
+
+  (x,1) ~ (f g(x),0),
+
+the map [x,t] -> [K_t(x),t] to the roll-only mapping torus is well defined,
+because g K_1=K_0 f g. Compose first with the simultaneous (u,v) profile
+transfer of section 1A to start from the original mixed source shear.
+No commutation between that profile transfer and the global normal-disk
+loop on N-plus is needed or asserted. The existing u-only central
+certificate remains the correct roll-only transfer; the mixed version
+is separately checked in mixed_profile_transfer.json.
+
+The restriction of K_t to the puncture is the negative full normal sphere
+loop. Section 4 identifies it, preserving its equator winding and source
+puncture labels, with the actual finite beta2 family. Thus attaching the
+finite cap to the shared even roll bulk gives the source m=2,n=1 closed
+construction, under the explicitly stated PL normal-neighborhood theorem
+dependency. This does not follow from deck parity or from homology.
+
+6. Relation to the finite localized F2/Phi certificate
+---------------------------------------------------
+On the added spherical collar let q run from puncture to bulk. The cap
+certificate uses the actual finite negative-turn family R_s and sets
+
+  F2(x,q) = R_(1-q)(x),
+  Phi(x,q,t) = R_min(1-q,t)(x).
+
+These maps are PL by finite affine pullback cells and have explicitly
+checked inverses. Their physical seam is Phi_1=F2, with identity bulk
+deck square. At the equator the F2 lift is theta+q-1; the accepted positive
+lift theta+q is obtained by adding the displayed integer one. Phi at q=0
+is theta-t. The eight-angle/four-time cap path is therefore (-8,4), not
+(0,4). No reduction of endpoint vertex labels changes this integer path.
+
+The original torus-supported f and the spherical-collar F2 are relative
+representatives of the same construction. After matching their boundary
+loops, Phi_t inverse composed with K_t is an isotopy fixing the puncture
+boundary. It starts at identity and ends at F2 inverse composed with f.
+Both are deck equivariant and commute with the roll. This identifies their
+relative mapping tori and the corresponding cap attachment. It does not
+claim that the two pointwise source maps are equal.
+
+7. Audit boundary
+-----------------
+Finite certificates establish the source, the signed marked torus chart,
+the regular-neighborhood local hypotheses, the actual puncture normal
+chart, the torus adaptors, central roll, finite cap, and local F2/Phi map.
+The global extension from the saved boundary chart and local puncture
+chart to an equivariant framed chart on all of the enlarged N-plus is a theorem-level PL
+existence/uniqueness step. No finite matrix atlas for that chart is exported.
+The source-linked lemma above is sufficient for the geometric identification
+once this conventional PL theorem is included in the trust basis. A demand
+for an entirely finite pointwise replay of the global source conjugacy
+would require an additional normal-disk-bundle atlas; the present software
+does not claim that stronger certification.
+
+Nothing in this lemma proves PL standardness of X2 or authorizes the
+guarded X0 construction. Those remain separate gates.

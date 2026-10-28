@@ -1,0 +1,1 @@
+{"Phi_3_facets":12544,"Phi_4_cells":3584,"Phi_vertices":1306,"boundary_facets_by_side":{"q0":1792,"q1":16,"t0":16,"t1":1792},"canonical_sha256":"24360e52f6813010f23e597173c74fbb5b9ab0bd478b291e4dd893378c22772c","gamma_tetrahedra":1792,"gamma_vertices":442,"schema":"finite-transfer-generation-v1","source_angle_cycle":[56,150,58,148]}

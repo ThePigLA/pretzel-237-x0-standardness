@@ -1,0 +1,18 @@
+RESUME_PREFIX_REPLAYED 0 1 9090
+RESUME 0 1 9090
+TRIAL 0 1 source 9090
+MACRO_START 0 1 7 9104
+NATIVE_PROGRESS 7742 Trying 3-3 and open-book moves
+NATIVE_PROGRESS 6158 Trying 3-3 and open-book moves
+NATIVE_PROGRESS 4428 Trying 3-3 and open-book moves
+NATIVE_PROGRESS 2858 Trying 3-3 and open-book moves
+NATIVE_PROGRESS 2360 Trying 3-3 and open-book moves
+NATIVE_PROGRESS 2280 Trying 3-3 and open-book moves
+NATIVE_PROGRESS 2264 Trying run of 1× 2-4 moves
+NATIVE_PROGRESS 2264 Trying run of 1× 2-4 moves
+NATIVE_PROGRESS 2264 Trying run of 1× 2-4 moves
+NATIVE_PROGRESS 2264 Trying run of 1× 2-4 moves
+NATIVE_PROGRESS 2264 Trying run of 1× 2-4 moves
+NATIVE_PROGRESS 2264 Trying run of 1× 2-4 moves
+REDUCED 0 2252 2 554.97
+SEARCH_DONE 0 2252 False None

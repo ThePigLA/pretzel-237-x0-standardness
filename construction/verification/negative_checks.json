@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "build_rejects_optimization",
+      "rejected": true,
+      "exit_code": 1
+    },
+    {
+      "case": "audit_rejects_optimization",
+      "rejected": true,
+      "exit_code": 1
+    },
+    {
+      "case": "changed_roll_parameter_rejected_before_audit",
+      "rejected": true,
+      "exit_code": 1
+    }
+  ]
+}
