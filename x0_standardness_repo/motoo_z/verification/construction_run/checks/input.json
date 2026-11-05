@@ -1,0 +1,16 @@
+{
+  "adapter_sha256": "1bdf5a869783721039ef5aae7e3f82e50f8e6a1dd6688e0798cc35e76f48d9f9",
+  "components": 8,
+  "crossings": 188,
+  "historical_adapter_bytes_unavailable_metadata_digest_recomputed": true,
+  "historical_oriented_sha256": "c6b4d9c7522a69b4df67d35029638480ff74b62e78ee5c3377a25c0b311f8acd",
+  "marked_pd_decorations_and_orientation_checks_match_historical_input": true,
+  "oriented_sha256": "83c0ff55e3592529405b0a34d6838141bbb6195cb34312292267e05ae9b8a666",
+  "original_drawing_identification_reproved_here": false,
+  "reversed_components": [
+    5,
+    7
+  ],
+  "source_sha256": "5aeaea4ffa70b3d4084fbae11cd144c256ae3af361cbebb10da07166cad3427f",
+  "status": "PASS_MARKED_PD_AND_AUXILIARY_ORIENTATION"
+}

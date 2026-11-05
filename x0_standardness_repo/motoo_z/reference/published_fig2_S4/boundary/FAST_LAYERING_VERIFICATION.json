@@ -1,0 +1,24 @@
+{
+  "boundary_isosig": "gLALQccbefefdpcghfc",
+  "boundary_tetrahedra": 6,
+  "closed_manifold_constructed": false,
+  "every_new_boundary_triangle_checked_against_raw4d_gluings": true,
+  "final_extraction": {
+    "four_dimensional_skeleton_used": false,
+    "maximum_triangle_walk_pentachora": 19,
+    "tetrahedra": 6
+  },
+  "final_raw_boundary_independently_extracted": true,
+  "four_dimensional_skeleton_used": false,
+  "guarded_4d_shelling_checks_performed": false,
+  "manifold_premise_inherited_from_source": true,
+  "moves": 22304,
+  "path_sha256": "f1014e73417e65bfdf947183e9d339b4f7d6b7843d1c3f7a22f8216124b2f870",
+  "pentachora": 23696,
+  "raw_reverse_attachments_recover_source": true,
+  "seconds": 17.584384968999984,
+  "source_pentachora": 1392,
+  "source_sha256": "754122baa2a4a381f0c4859e2cd883cc8538d5513a83eed6134fa7b302f8287d",
+  "standardness_asserted": false,
+  "status": "PASS_LABELLED_3D_REPLAY_AND_EXPLICIT_4D_LAYERING"
+}

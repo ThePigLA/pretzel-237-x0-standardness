@@ -1,0 +1,74 @@
+{
+  "schema": "motoo-z-terminal-wrapper-review-v1",
+  "status": "PASS_TERMINAL_POSITIVE_AND_REJECTION_CHECKS",
+  "verifier_sha256": "c0512f7213b7dbc8b8d3725a8829628ba3685c7841a1202c135888ced8e6197e",
+  "python_optimization": 1,
+  "seconds": 0.2146846790001291,
+  "tests": [
+    {
+      "case": "released_certificate",
+      "status": "PASS_STANDARD_S4",
+      "moves": 430,
+      "standard_sphere_proved": true,
+      "maximum_pentachora": 14
+    },
+    {
+      "case": "wrong_move_count",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Wrong total move count"
+    },
+    {
+      "case": "broken_chain",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Broken terminal segment chain"
+    },
+    {
+      "case": "unknown_direction",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Unknown segment direction"
+    },
+    {
+      "case": "negative_face_index",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Invalid face index"
+    },
+    {
+      "case": "boolean_face_index",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Invalid face index"
+    },
+    {
+      "case": "unknown_move_family",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Unsupported terminal move kind"
+    },
+    {
+      "case": "wrong_endpoint_size",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Wrong recorded endpoint size"
+    },
+    {
+      "case": "forged_target_label",
+      "status": "PASS_PARTIAL_PATH",
+      "moves": 30,
+      "standard_sphere_proved": false,
+      "maximum_pentachora": 12
+    },
+    {
+      "case": "partial_cannot_satisfy_standard_requirement",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "The path does not reach the explicit standard sphere"
+    },
+    {
+      "case": "nonclosed_source",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Triangulation is not a finite closed connected orientable PL manifold"
+    },
+    {
+      "case": "duplicate_json_key",
+      "status": "REJECTED_AS_REQUIRED",
+      "error": "Duplicate JSON key: start"
+    }
+  ],
+  "full_journal_replayed": false
+}

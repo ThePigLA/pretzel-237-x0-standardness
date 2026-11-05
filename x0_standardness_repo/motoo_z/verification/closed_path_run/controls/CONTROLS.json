@@ -1,0 +1,55 @@
+{
+  "status": "PASS_EXACT_SERIALIZATION_POSITIVE_AND_ORIGINAL_FALLBACK_CONTROLS",
+  "cases": [
+    {
+      "name": "sphere",
+      "result": true,
+      "expected_result": true,
+      "shortcut_accepted": true,
+      "native_input_tight_sha256": "6da3e66ddaee8d256c0199e783134aba8a08cc22f454e37bc2880eaf23b0016d",
+      "exact_native_query_serialization_verified": true,
+      "calls": 1
+    },
+    {
+      "name": "ball",
+      "result": true,
+      "expected_result": true,
+      "shortcut_accepted": true,
+      "native_input_tight_sha256": "9cb122fbffbaa915a4df944cebc3ffb936338576b727ab08c9611bb3e8d731ef",
+      "exact_native_query_serialization_verified": true,
+      "calls": 1
+    },
+    {
+      "name": "rp3",
+      "result": false,
+      "expected_result": false,
+      "shortcut_accepted": false,
+      "native_input_tight_sha256": "5c41cf5f3814fcea60116f8e876a1e736b5bd465a30fe98d44e68245c8a28cfd",
+      "exact_native_query_serialization_verified": true,
+      "calls": 1
+    },
+    {
+      "name": "poincare",
+      "result": false,
+      "expected_result": false,
+      "shortcut_accepted": false,
+      "native_input_tight_sha256": "ff0ae9b6153f2ff7b6dd66b444f883055316a152c1b853a7c8eeffdee1b515d4",
+      "exact_native_query_serialization_verified": true,
+      "calls": 1
+    },
+    {
+      "name": "solid_torus",
+      "result": false,
+      "expected_result": false,
+      "shortcut_accepted": false,
+      "native_input_tight_sha256": "3b90ff9a05481a88357734a2b12a5e6d9eb59d6e549b8e69595f13fb0c8d6963",
+      "exact_native_query_serialization_verified": true,
+      "calls": 1
+    }
+  ],
+  "native_4d_internal_calls_verified": 5,
+  "native_4d_vertex_link_encodings_match": true,
+  "four_dimensional_guard_kernel_modified": false,
+  "python_optimization_level": 1,
+  "all_tests_use_explicit_runtime_checks": true
+}

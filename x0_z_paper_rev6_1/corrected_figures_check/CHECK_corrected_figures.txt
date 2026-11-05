@@ -1,0 +1,30 @@
+Corrected figures (rollspun_2.pdf, sha256 381b8eff...) checked against earlier transcriptions, 2026-11-05
+
+## Corrected Figure 2 vs first drawing with the two spot crossings changed (= both freehand redrawings)
+decorations [0, None, None, -1, None, 0, 0, 0] [0, None, None, -1, None, 0, 0, 0] equal
+signatures equal: True  volumes 64.149943 64.149943
+isometries preserving component order with meridians/longitudes -> +-themselves: 1
+CERTIFIED_SAME_MARKED_LINK
+
+## Corrected Figure 2 vs first drawing as drawn
+decorations [0, None, None, -1, None, 0, 0, 0] [0, None, None, -1, None, 0, 0, 0] equal
+signatures equal: False  volumes 64.149943 63.621883
+isometries preserving component order with meridians/longitudes -> +-themselves: 0
+NOT_CERTIFIED
+
+## Corrected Figure 1 vs first drawing with the two spot crossings changed (= its redrawing)
+decorations [0, None, None, -1, None, 0, 0, 0] [0, None, None, -1, None, 0, 0, 0] equal
+signatures equal: True  volumes 67.375541 67.375541
+isometries preserving component order with meridians/longitudes -> +-themselves: 1
+CERTIFIED_SAME_MARKED_LINK
+
+## Corrected Figure 1 vs first drawing as drawn
+decorations [0, None, None, -1, None, 0, 0, 0] [0, None, None, -1, None, 0, 0, 0] equal
+signatures equal: False  volumes 67.375541 66.728929
+isometries preserving component order with meridians/longitudes -> +-themselves: 0
+NOT_CERTIFIED
+
+## Crossing-by-crossing comparison, first drawing -> corrected (archive component names; C3 = -1 handle, C1/C2 dotted, C0 = mu)
+Figure 2: (373,397) C1 over C3 -> C3 over C1; (358,403) C2 over C3 -> C3 over C2; no other change
+Figure 1: (373,146) C1 over C3 -> C3 over C1; (358,152) C2 over C3 -> C3 over C2; no other change
+Strip check (all four drawings): along C1 and C2 the only crossing between mu (C0) and the spot is the one with C3 at the spot.

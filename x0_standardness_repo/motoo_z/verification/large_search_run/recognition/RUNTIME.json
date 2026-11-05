@@ -1,0 +1,92 @@
+{
+  "schema": "motoo.primal-recognition-runtime.v1",
+  "recognition_backend": "positive primal-group shortcut with independent proof replay; original Regina fallback",
+  "original_engine": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/runtime/regina/engine.cpython-312-x86_64-linux-gnu.so",
+  "original_engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+  "regina_distribution": "7.4.1",
+  "bridge_sha256": "a8c9b417cde793bd42c3fe4b2bfd6bc37d9539502bbaec0e90cbe51b8e4e2353",
+  "python_optimization_level": 0,
+  "bridge_source_sha256": "8613768b468c8db9ae165b123481e3d55c67406cd2d7cf33e54d7f575bc9df30",
+  "bridge_export_map_sha256": "2a5d6887518745f8ad745d056c9806373c99f8b54378c62fcd03f92513e97f55",
+  "launcher_sha256": "78b44448a40764fd6516081bd2f6e555e77290dbda95a4b793f05960b8877132",
+  "solver_sha256": "097bd70358512370583cfaae07a7f49fc43dc2bdae798acbc484b6c1670123f7",
+  "independent_verifier_sha256": "10766605df5a06d73b29bee4b9c1bd829228880cbe3ada33afe337ca695de39f",
+  "intercepted_operations": [
+    "Triangulation3.isSphere",
+    "Triangulation3.isBall"
+  ],
+  "four_dimensional_guard_kernel_modified": false,
+  "cached_object_fields_written_by_bridge": false,
+  "command": [
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/reduce_closed_sampled.py",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+    "--out",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/walk",
+    "--seconds",
+    "1.8",
+    "--seed",
+    "11",
+    "--growth",
+    "8",
+    "--burst24",
+    "2",
+    "--mix",
+    "4",
+    "--birth-every",
+    "3",
+    "--birth-vertices",
+    "5",
+    "--chunk-size",
+    "50",
+    "--probes",
+    "64",
+    "--edge20-first"
+  ],
+  "calls": [
+    {
+      "directory": "call_00001_sphere",
+      "receipt_sha256": "80d1a100b693a3796e6adf8008163ef34005d86ae100ade2ce78d406e6983690",
+      "published_files_sha256": {
+        "source.rga": "067f7d42bb743bdf0e725cbf4884df7c8783b209eaff2af4d2094d9b75a6cced",
+        "INDEPENDENT_REPLAY.json": "0ffd032bbe65ac942256a38a82ec17b9b57916973abb42effdbfbfab1047c972",
+        "CALL.json": "80d1a100b693a3796e6adf8008163ef34005d86ae100ade2ce78d406e6983690",
+        "proof_output.txt": "3e48d34afdf587e164da3dd9df676ada40863e24dda4fe907d9e710fdeadafcb",
+        "proof/eliminations.jsonl": "3aaba2d08831862a4393690c1c643ab90b690f627380697a1b02ddf69aba7f35",
+        "proof/RESULT.json": "dbde24b50944df12e037cf4844d63b4bbe7136c9566e627762afab87ca2571df",
+        "proof/SOURCE.json": "0e18504aa7e4b53a2de1ac1a3f5535cd40b95775f1fe1fb89888a2c41936ded3"
+      },
+      "accepted_positive": true,
+      "input_tight_sha256": "7711c2c9ababb765f1b2cefec3e02918505441bdd59c94ced5bcfb235c469377"
+    }
+  ],
+  "status": "TARGET_COMPLETED",
+  "pinned_files": {
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/runtime/regina/engine.cpython-312-x86_64-linux-gnu.so": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/helper/primal_recognition_bridge.so": "a8c9b417cde793bd42c3fe4b2bfd6bc37d9539502bbaec0e90cbe51b8e4e2353",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/run_with_primal_recognition.py": "78b44448a40764fd6516081bd2f6e555e77290dbda95a4b793f05960b8877132",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_recognition_bridge.cpp": "8613768b468c8db9ae165b123481e3d55c67406cd2d7cf33e54d7f575bc9df30",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_recognition_bridge.map": "2a5d6887518745f8ad745d056c9806373c99f8b54378c62fcd03f92513e97f55",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_triangle_group.py": "097bd70358512370583cfaae07a7f49fc43dc2bdae798acbc484b6c1670123f7",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/verify_primal_triangle_group.py": "10766605df5a06d73b29bee4b9c1bd829228880cbe3ada33afe337ca695de39f"
+  },
+  "proof_execution": "in-process decoded copy in private temporary directory; independently replayed and atomically published before acceptance",
+  "private_proof_directory": "/tmp/motoo-primal-recognition-q9xkjdi8",
+  "callback_serialized_by_python_lock": true,
+  "seconds": 2.1369298469999194,
+  "bridge_counters": {
+    "sphere_calls": 1,
+    "ball_calls": 0,
+    "proved_positive": 1,
+    "original_fallbacks": 0,
+    "bridge_errors": 0
+  },
+  "pinned_files_unchanged_at_exit": {
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/runtime/regina/engine.cpython-312-x86_64-linux-gnu.so": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/helper/primal_recognition_bridge.so": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/run_with_primal_recognition.py": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_recognition_bridge.cpp": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_recognition_bridge.map": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_triangle_group.py": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/verify_primal_triangle_group.py": true
+  }
+}

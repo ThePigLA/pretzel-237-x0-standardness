@@ -1,0 +1,12 @@
+{
+  "archived_file_sha256": "754122baa2a4a381f0c4859e2cd883cc8538d5513a83eed6134fa7b302f8287d",
+  "compressed_file_bytes_match_archive": false,
+  "file": "lower/lower_v1.rga",
+  "name": "lower",
+  "pentachora": 1392,
+  "sha256": "22c7f76aa4053b0c88b54b9e6150431a503d8eb0f2997f0ced7e568fbacf3985",
+  "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+  "tight_sha256": "a10761b045c3a22933f66200f192bacb8b1855a6748ba3eb134ebcc724276c54",
+  "uncompressed_file_bytes_match_archive": true,
+  "uncompressed_payload_sha256": "ea8e5a8966517a9a759eaa794a1a16df58694fc08e7e54ff3804cb3e2fc7353f"
+}

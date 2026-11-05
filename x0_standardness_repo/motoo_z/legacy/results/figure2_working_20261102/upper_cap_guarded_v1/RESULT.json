@@ -1,0 +1,99 @@
+{
+  "status": "PASS_GUARDED_PATH_TO_SAVED_UPPER_CAP",
+  "attempt": 0,
+  "moves": 15,
+  "source_pentachora": 24,
+  "target_pentachora": 9,
+  "source_sha256": "5d435806c52d64b056bd8b02e33de0887613948a82acebe6025e04d92bf401f0",
+  "source_tight_sha256": "02467c65e6bc171745b3304764fd63d40b40f7cc9846b56448fa214b66574d1f",
+  "target_file_sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1",
+  "endpoint_sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1",
+  "endpoint_tight_sha256": "dd1f0a488ffc68591e19f685d8b8fb729211125f2fa778bf5cd9d00f09f8fbe1",
+  "endpoint_isosig": "jafbGbafqajaadiLaNa",
+  "moves_sha256": "154094594ee460da0cc459659a38d09d1f990ea86bab1e76653246b35ea1a66f",
+  "seconds": 0.012967483002285007,
+  "isomorphism_to_saved_target": {
+    "simplices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ]
+  },
+  "move_counts": {
+    "['C', 1]": 15
+  },
+  "all_moves_guarded": true,
+  "native_4d_simplify_used": false,
+  "standardness_of_any_closed_4_manifold_asserted": false
+}

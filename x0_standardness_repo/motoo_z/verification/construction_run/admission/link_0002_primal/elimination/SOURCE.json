@@ -1,0 +1,20 @@
+{
+  "source_sha256": "c422e893464e0677c37b9e350eb5b3a77c0e83719314628893f16fb7db3862c3",
+  "source_file": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/admission/link_0002_primal/explicit_link.rga",
+  "vertices": 6,
+  "edges": 15,
+  "triangles": 18,
+  "tetrahedra": 9,
+  "generators": 10,
+  "tree_edges": [
+    0,
+    1,
+    4,
+    7,
+    10
+  ],
+  "presentation_sha256": "971f69bc5cb42efeb5da9a777355124e1af52e5d774d11e76c2253f51902e2d5",
+  "triangulation_valid_finite_connected": true,
+  "presentation_basis": "primal1-skeleton spanning tree and oriented triangle boundaries",
+  "checker_sha256": "097bd70358512370583cfaae07a7f49fc43dc2bdae798acbc484b6c1670123f7"
+}

@@ -1,0 +1,68 @@
+{
+ "schema": "x0_z.cover_obstruction.v1",
+ "snappy": "3.3.2",
+ "inputs": {
+  "old": {
+   "path": "corrected_figures_check/old_fig1.json",
+   "sha256": "18b9ff0b48a2ac263512be67e1ff94d9b29f1540a5178a1cba8f89418559a17b",
+   "dotted_filled": 3,
+   "cusps_after_filling": 5,
+   "H1": "Z + Z + Z + Z + Z"
+  },
+  "new": {
+   "path": "corrected_figures_check/new_fig1.json",
+   "sha256": "1b0cadf72ae244bd08a88bfda992f85613e9cd333be1d7965b059292f2fae49c",
+   "dotted_filled": 3,
+   "cusps_after_filling": 5,
+   "H1": "Z + Z + Z + Z + Z"
+  }
+ },
+ "degrees": [
+  {
+   "degree": 2,
+   "covers": [
+    31,
+    31
+   ],
+   "differing_H1_counts_old_new": {
+    "Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     5,
+     4
+    ],
+    "Z/2 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     5,
+     9
+    ],
+    "Z/2 + Z/2 + Z + Z + Z + Z + Z + Z + Z": [
+     15,
+     8
+    ],
+    "Z/2 + Z/2 + Z/2 + Z + Z + Z + Z + Z + Z": [
+     0,
+     4
+    ],
+    "Z/2 + Z/2 + Z/2 + Z/2 + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/2 + Z/6 + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/2 + Z/8 + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/3 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/6 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     0
+    ]
+   }
+  }
+ ],
+ "status": "DIFFERENT_EXTERIORS"
+}

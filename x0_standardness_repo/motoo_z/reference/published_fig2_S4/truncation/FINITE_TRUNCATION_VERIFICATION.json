@@ -1,0 +1,18 @@
+{
+  "boundary_is_exact_original_vertex_link_up_to_explicit_isomorphism": true,
+  "boundary_tetrahedra": 1528,
+  "closed_manifold_constructed": false,
+  "code_sha256": "ee88bfd11bf478f01137f4d849900e4bdecb6f6e4e3442a6a9e29dedaf946473",
+  "finite_manifold_follows_from_explicit_truncation": true,
+  "finite_pentachora": 6112,
+  "finite_sha256": "3da4605e87047418b42f5464182aa928b55e5d04be6142b67b35395a4e501665",
+  "finite_vertices": 30,
+  "input_vertex_links_audited": true,
+  "native_regina_truncateIdeal_used": false,
+  "seconds": 10.298643751000327,
+  "source": "../../katie_pub/run1/raw_katie.rga",
+  "source_pentachora": 1528,
+  "source_sha256": "f1590ec6de3e7a9d9fdeb2175f98a9cd70688027776d274de0f2da4718a119bb",
+  "standardness_asserted": false,
+  "status": "PASS_EXPLICIT_FINITE_TRUNCATION"
+}

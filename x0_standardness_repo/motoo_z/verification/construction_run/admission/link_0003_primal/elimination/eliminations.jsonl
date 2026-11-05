@@ -1,0 +1,8 @@
+{"step":0,"triangle":0,"reduced_relator":[1],"child":1,"parent":0,"sign":1}
+{"step":1,"triangle":1,"reduced_relator":[2],"child":2,"parent":0,"sign":1}
+{"step":2,"triangle":3,"reduced_relator":[3],"child":3,"parent":0,"sign":1}
+{"step":3,"triangle":4,"reduced_relator":[4],"child":4,"parent":0,"sign":1}
+{"step":4,"triangle":6,"reduced_relator":[-5],"child":5,"parent":0,"sign":1}
+{"step":5,"triangle":8,"reduced_relator":[6],"child":6,"parent":0,"sign":1}
+{"step":6,"triangle":9,"reduced_relator":[7],"child":7,"parent":0,"sign":1}
+{"step":7,"triangle":12,"reduced_relator":[8],"child":8,"parent":0,"sign":1}

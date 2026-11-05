@@ -1,0 +1,291 @@
+{
+  "build_report": {
+    "path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_REPORT.json",
+    "sha256": "686e8c7d2c2718f2a60773b3a2d0a868dc4d8c479aa964bfcc81b18fdd231c0c"
+  },
+  "large_replay_not_duplicated": true,
+  "long_replay": {
+    "freshly_executed": true,
+    "moves": 780847,
+    "path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/closed_path_audit/REPLAY.json",
+    "seconds": 1256.30431124,
+    "sha256": "11503c3c6999ac4df101e4f1deca4e31a425bd4adb03c58d406f8fe79a6f2fa7",
+    "status": "PASS_PARTIAL_CLOSED_PATH"
+  },
+  "long_replay_entrypoint": "unchanged legacy verifier under unchanged pinned recognition launcher",
+  "module_manifest_sha256": "f2a71b1e180bc173ccabd72ac65928e1ab074a36c196bb5613cd163305296fc9",
+  "module_verify_sha256": "2b3c376776ef9a24b02abea9ef3feadff7d5e8699727bcbd205c952ca1d33f79",
+  "new_full_wrapper_invoked_as_one_separate_end_to_end_command": false,
+  "recognition": {
+    "calls": 19,
+    "counters": {
+      "ball_calls": 0,
+      "bridge_errors": 0,
+      "original_fallbacks": 0,
+      "proved_positive": 19,
+      "sphere_calls": 19
+    },
+    "four_dimensional_guard_kernel_modified": false,
+    "original_engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+    "runtime_sha256": "f36e0d37a8d10cd56553ed67d6302fb2066ee36462235d1489f3ba51b2b2f944"
+  },
+  "recognition_controls": {
+    "calls": 10,
+    "counters": {
+      "ball_calls": 2,
+      "bridge_errors": 0,
+      "original_fallbacks": 3,
+      "proved_positive": 7,
+      "sphere_calls": 8
+    },
+    "four_dimensional_guard_kernel_modified": false,
+    "original_engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+    "runtime_sha256": "d975db331120b84502e3c41292c3fa8ccba691b3816e01e8f9b52bd423971ae9"
+  },
+  "scope": "Fresh construction is bound by exact XML and labelled state to the independently replayed closed source; geometric diagram identification remains the separately documented premise.",
+  "source_identity_bridge": {
+    "certificate_rewritten": false,
+    "complete_xml_payload_equal": true,
+    "compressed_bytes_equal": false,
+    "exact_tight_encoding_equal": true,
+    "initial_tight_sha256": "1f698ed1061bffaf7f380ec5b4ed8075306e6cffd8f6c3cc281873f67003f92d",
+    "released_path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/reference/published_fig2_S4/closed/closed_candidate.rga",
+    "released_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+    "replay_source_path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/reference/published_fig2_S4/closed/closed_candidate.rga",
+    "replay_source_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+    "selected_path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/closed/closed_candidate.rga",
+    "selected_sha256": "f96fca14a16931782183304af29b33c739907dd65d58b698b3e9bd56fe4795e6",
+    "selected_source_file_modified": false,
+    "status": "PASS_EXACT_XML_AND_LABELLED_STATE_IDENTITY",
+    "xml_payload_sha256": "132b4682563f577366e2cbac45f80f467482650c610159a18cb4f047f7c514bd"
+  },
+  "status": "PASS_FRESH_COMPOSED_CONSTRUCTION_TO_STANDARD_SPHERE_BINDING",
+  "terminal_replay": {
+    "all_moves_guarded": true,
+    "certificate_sha256": "54819a4b09ece5267e08d00e6168b674642c5d2c4b379259db8ff1b62a6d8a91",
+    "directions": {
+      "backward": 7,
+      "forward": 423
+    },
+    "discovery_code_imported": false,
+    "end": "cPkbbbbaaaaaaaa",
+    "explicit_identity_glued_double_constructed": true,
+    "final_admission": {
+      "euler_characteristic": 2,
+      "finite_closed_connected_orientable_valid": true,
+      "pentachora": 2,
+      "vertices": 5
+    },
+    "maximum_pentachora": 14,
+    "move_counts": {
+      "['20', 1]": 13,
+      "['20', 2]": 7,
+      "['44', 1]": 3,
+      "['C', 1]": 3,
+      "['P', 1]": 7,
+      "['P', 2]": 370,
+      "['P', 3]": 24,
+      "['P', 4]": 3
+    },
+    "moves": 430,
+    "regina_distribution": "7.4.1",
+    "schema": "motoo-z-independent-terminal-replay-v1",
+    "segments": [
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 0,
+        "moves": 30
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 1,
+        "moves": 28
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 2,
+        "moves": 45
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 3,
+        "moves": 29
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 4,
+        "moves": 32
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 5,
+        "moves": 41
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 6,
+        "moves": 35
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 7,
+        "moves": 26
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 8,
+        "moves": 26
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 9,
+        "moves": 31
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 6,
+        "direction": "forward",
+        "index": 10,
+        "moves": 30
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 6,
+        "direction": "forward",
+        "index": 11,
+        "moves": 30
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 6,
+        "direction": "forward",
+        "index": 12,
+        "moves": 17
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 4,
+        "direction": "forward",
+        "index": 13,
+        "moves": 10
+      },
+      {
+        "applied_source_pentachora": 4,
+        "applied_target_pentachora": 4,
+        "direction": "forward",
+        "index": 14,
+        "moves": 9
+      },
+      {
+        "applied_source_pentachora": 4,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 15,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 8,
+        "direction": "forward",
+        "index": 16,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 6,
+        "direction": "forward",
+        "index": 17,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 4,
+        "direction": "forward",
+        "index": 18,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 4,
+        "direction": "backward",
+        "index": 19,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 10,
+        "applied_target_pentachora": 6,
+        "direction": "backward",
+        "index": 20,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 8,
+        "applied_target_pentachora": 10,
+        "direction": "backward",
+        "index": 21,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 8,
+        "direction": "backward",
+        "index": 22,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 6,
+        "applied_target_pentachora": 6,
+        "direction": "backward",
+        "index": 23,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 4,
+        "applied_target_pentachora": 6,
+        "direction": "backward",
+        "index": 24,
+        "moves": 1
+      },
+      {
+        "applied_source_pentachora": 2,
+        "applied_target_pentachora": 4,
+        "direction": "backward",
+        "index": 25,
+        "moves": 1
+      }
+    ],
+    "source_admission": {
+      "euler_characteristic": 2,
+      "finite_closed_connected_orientable_valid": true,
+      "pentachora": 8,
+      "vertices": 1
+    },
+    "standard_reference": "cPkbbbbaaaaaaaa",
+    "standard_sphere_proved": true,
+    "start": "iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a",
+    "status": "PASS_STANDARD_S4",
+    "trust": "Regina 7.4.1 local-move guards, skeleton, signature codec and isomorphism checks"
+  },
+  "total_moves_after_closed_construction": 781277,
+  "wrapper_input_extraction_and_composition_functions_executed": true
+}

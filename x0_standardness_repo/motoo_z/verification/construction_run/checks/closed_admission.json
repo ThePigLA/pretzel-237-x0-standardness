@@ -1,0 +1,12 @@
+{
+  "admission_sha256": "017dac8cf2279931f12121c5e03d486a8215ffa85b112ab78741b21b7328ae4f",
+  "euler_characteristic": 2,
+  "f_vector": [
+    19,
+    12136,
+    48374,
+    60425,
+    24170
+  ],
+  "status": "PASS_CLOSED_ADMISSION_BINDS_REBUILT_STATE"
+}

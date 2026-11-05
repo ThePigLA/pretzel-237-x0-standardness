@@ -1,0 +1,52 @@
+{
+  "schema": "motoo.closed-bursts.source.v1",
+  "source_file": "/tmp/claude-0/-home-claude/06a3c9ec-0cbc-508e-93f5-734d1003d1e3/scratchpad/katie_pub/closed_v1/closed_candidate.rga",
+  "source_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+  "start_tight_sha256": "1f698ed1061bffaf7f380ec5b4ed8075306e6cffd8f6c3cc281873f67003f92d",
+  "source_admission": {
+    "pentachora": 24170,
+    "vertices": 19,
+    "closed": true,
+    "valid": true,
+    "orientable": true,
+    "connected": true,
+    "recognition": "Regina7.4.1 kernel with separately audited positive primal-group 3D recognition shortcut",
+    "recognition_runtime_file": "/tmp/claude-0/-home-claude/06a3c9ec-0cbc-508e-93f5-734d1003d1e3/scratchpad/katie_pub/closed_v1/recog_proofs_full11/RUNTIME.json"
+  },
+  "regina": "7.4.1",
+  "seed": 11,
+  "policy": {
+    "growth": 40,
+    "burst24": 12,
+    "mix": 80,
+    "birth_every": 3,
+    "birth_target_vertices": 5,
+    "chunk_size": 1000,
+    "initial_burst": false,
+    "birth_cycles_preserve_vertices_from_edge_collapse": true,
+    "candidate_selection": "bounded_random_probes_then_complete_cyclic_scan",
+    "random_probes": 64,
+    "edge20_first": true,
+    "two_zero_descent_order": [
+      [
+        "Z",
+        1
+      ],
+      [
+        "Z",
+        2
+      ]
+    ],
+    "mix_selection": "random_move_family_first_then_other_family_if_empty",
+    "uniform_distribution_among_all_legal_moves_asserted": false
+  },
+  "code_sha256": "33c2fba6e5a68a6307f13dc28187042c3cdca9baff6b941af715fc4e9a518070",
+  "guard_and_journal_code_sha256": "8bbb9e5b4a4dd3f8cff02bfa569a3cb84e7b9065b14870b47ef94398a1b0a6e7",
+  "pinned_files": {
+    "/tmp/claude-0/-home-claude/06a3c9ec-0cbc-508e-93f5-734d1003d1e3/scratchpad/katie_pub/closed_v1/closed_candidate.rga": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+    "/tmp/claude-0/-home-claude/06a3c9ec-0cbc-508e-93f5-734d1003d1e3/scratchpad/simp_zip/motoo_figure2_simplification_v1/code/reduce_closed_sampled.py": "33c2fba6e5a68a6307f13dc28187042c3cdca9baff6b941af715fc4e9a518070",
+    "/tmp/claude-0/-home-claude/06a3c9ec-0cbc-508e-93f5-734d1003d1e3/scratchpad/simp_zip/motoo_figure2_simplification_v1/code/reduce_closed_bursts.py": "8bbb9e5b4a4dd3f8cff02bfa569a3cb84e7b9065b14870b47ef94398a1b0a6e7"
+  },
+  "target": "explicit double of Delta4, all five gluings identity",
+  "native_4d_simplify_used": false
+}

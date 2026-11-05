@@ -1,0 +1,16 @@
+{
+  "call": 6,
+  "kind": "sphere",
+  "accepted_positive": true,
+  "native_fallback_required": false,
+  "input_tight_sha256": "49eb26a75e4270533f6859b6a282338e5627cf885e033ca585fbffebd5f8a247",
+  "exact_encoding_roundtrip": true,
+  "tetrahedra": 8,
+  "source_sha256": "2ee6c68033106636c2b91e52d1d3af99de3d44976fe140a3a3ddb58db07117be",
+  "finite_valid_connected_orientable_hypotheses": true,
+  "proof_result_sha256": "d7c441f454a64e87edba03f764844e3b6a5fda016dee2bc5e15784171c51099a",
+  "independent_replay_sha256": "4c23f72bd8549d6a4dae9bfd68b50e6baa9d672321089a0e4384ff666231f000",
+  "proof_source_reloaded_equals_native_query": true,
+  "status": "PROVED_POSITIVE",
+  "seconds": 0.08621453300020221
+}

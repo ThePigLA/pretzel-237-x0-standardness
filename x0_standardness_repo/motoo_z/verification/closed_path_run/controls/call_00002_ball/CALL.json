@@ -1,0 +1,16 @@
+{
+  "call": 2,
+  "kind": "ball",
+  "accepted_positive": true,
+  "native_fallback_required": false,
+  "input_tight_sha256": "9cb122fbffbaa915a4df944cebc3ffb936338576b727ab08c9611bb3e8d731ef",
+  "exact_encoding_roundtrip": true,
+  "tetrahedra": 1,
+  "source_sha256": "2473ce278a2ff09c239c272a751694fca20e82518938a8084a312802e9e29de6",
+  "finite_valid_connected_orientable_hypotheses": true,
+  "proof_result_sha256": "fce1080266b287c196787fbe15f8b9e87bba06aa995bdafb0ac9d64769885712",
+  "independent_replay_sha256": "783932a8a9c1a800d7cebc1d97934087ed3dc38c0f223322eb54d2217e6e21ee",
+  "proof_source_reloaded_equals_native_query": true,
+  "status": "PROVED_POSITIVE",
+  "seconds": 0.10910118200081342
+}

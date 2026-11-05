@@ -1,0 +1,101 @@
+--- history/x0_z_standardness_note_rev6.tex	2026-11-05 15:40:24.406448853 -0600
++++ x0_z_standardness_note_rev6_1.tex	2026-11-05 15:40:45.661458951 -0600
+@@ -4,7 +4,7 @@
+ \usepackage{lmodern,amsmath,amssymb,booktabs,array,geometry,microtype}
+ \usepackage{fancyhdr,fancyvrb,needspace,graphicx}
+ \usepackage[colorlinks=true,urlcolor=blue,citecolor=blue]{hyperref}
+-\hypersetup{pdftitle={Standardness of the double branched cover of the one-roll spun P(-2,3,7) and of a related homotopy four-sphere},pdfauthor={Vance Faber; Michael Murphy; Motoo Tange},pdfsubject={Computer-assisted PL standardness proofs; confidential working draft, revision 6}}
++\hypersetup{pdftitle={Standardness of the double branched cover of the one-roll spun P(-2,3,7) and of a related homotopy four-sphere},pdfauthor={Vance Faber; Michael Murphy; Motoo Tange},pdfsubject={Computer-assisted PL standardness proofs; confidential working draft, revision 6.1}}
+ \input{glyphtounicode}
+ \pdfgentounicode=1
+ \pdfminorversion=7
+@@ -17,14 +17,14 @@
+ \pagestyle{fancy}\fancyhf{}
+ \fancyhead[L]{\small Standardness of a roll-spun pretzel-knot cover and a related homotopy sphere}
+ \fancyhead[R]{\small Confidential draft}
+-\fancyfoot[L]{\footnotesize Working draft -- 5 November 2026 -- Revision 6 -- confidential, for co-author review}
++\fancyfoot[L]{\footnotesize Working draft -- 5 November 2026 -- Revision 6.1 -- confidential, for co-author review}
+ \fancyfoot[R]{\thepage}
+-\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}\fancyfoot[L]{\footnotesize Working draft -- 5 November 2026 -- Revision 6 -- confidential, for co-author review}\fancyfoot[R]{\thepage}}
++\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}\fancyfoot[L]{\footnotesize Working draft -- 5 November 2026 -- Revision 6.1 -- confidential, for co-author review}\fancyfoot[R]{\thepage}}
+ \title{Standardness of the double branched cover of $\tau^0\rho^1\,P(-2,3,7)$\\ and of a related homotopy four-sphere\\[0.4em]\large Computer-assisted proofs with explicit move certificates}
+ % Author order retained from the supplied combined Revision 5. Affiliations to be added.
+ % Section 7 and the abstract refer to Motoo Tange as "the third author"; update these if the order changes.
+ \author{Vance Faber \and Michael Murphy \and Motoo Tange}
+-\date{Working draft -- 5 November 2026 -- Revision 6}
++\date{Working draft -- 5 November 2026 -- Revision 6.1}
+ \begin{document}
+ \maketitle
+ \begin{abstract}
+@@ -87,16 +87,16 @@
+ \bottomrule
+ \end{tabular}
+ \end{center}
+-\begin{quote}\small\ttfamily
+-$G_6$  gAMLMQaabcdeffff2a+a2avbmaoaxaOb0aUa\par
+-$W$  gLAMPQaccddefefffaaaubaaMafapboapboa\par
+-$S_6$  gLAPPQacbedeeffffaaawaaaobcacaQbPboa\par
+-$S_2$  cPkbbbbaaaaaaaa\par
+-$T_5$  fHMLQcabcdeeeecanbpaoazaobWbGb\par
+-$Z^\circ_8$ iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a\par
+-$W_4$  eLAQcabbcdddcaaaga2amamaya\par
+-$Z_8$  iLLLAQQkbcfdegegfghhhUagbdayaSazawaob8aca1atbba\par
+-$Z_6$  gALLQQaacdeffeffqbgaJbCa5ajbwbQbwbwb\par
++\begin{quote}\small
++\makebox[2.2em][l]{$G_6$}\quad \mbox{\small\ttfamily gAMLMQaabcdeffff2a+a2avbmaoaxaOb0aUa}\par
++\makebox[2.2em][l]{$W$}\quad \mbox{\small\ttfamily gLAMPQaccddefefffaaaubaaMafapboapboa}\par
++\makebox[2.2em][l]{$S_6$}\quad \mbox{\small\ttfamily gLAPPQacbedeeffffaaawaaaobcacaQbPboa}\par
++\makebox[2.2em][l]{$S_2$}\quad \mbox{\small\ttfamily cPkbbbbaaaaaaaa}\par
++\makebox[2.2em][l]{$T_5$}\quad \mbox{\small\ttfamily fHMLQcabcdeeeecanbpaoazaobWbGb}\par
++\makebox[2.2em][l]{$Z^\circ_8$}\quad \mbox{\small\ttfamily iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a}\par
++\makebox[2.2em][l]{$W_4$}\quad \mbox{\small\ttfamily eLAQcabbcdddcaaaga2amamaya}\par
++\makebox[2.2em][l]{$Z_8$}\quad \mbox{\small\ttfamily iLLLAQQkbcfdegegfghhhUagbdayaSazawaob8aca1atbba}\par
++\makebox[2.2em][l]{$Z_6$}\quad \mbox{\small\ttfamily gALLQQaacdeffeffqbgaJbCa5ajbwbQbwbwb}\par
+ \end{quote}
+ \end{minipage}\par\smallskip
+ \section*{2. The geometric construction input}
+@@ -348,7 +348,9 @@
+ Figure 3. The spot at which the first drawing (a) and Figure 2 (b) differ. The two crossings are circled. The dashed circle marks the $0$-framed 2-handle $\mu$ of Lemma 7.1. Figure 1 and its first drawing differ in the same way.
+ \end{figure}
+ 
+-With the dotted-circle basis fixed, the two versions are not related by an isotopy in the boundary of the 1-handlebody: the attaching circle of the $-1$-framed 2-handle represents different classes in $H_1(\#_3(S^1\times S^2);\mathbb{Z})$. It links one of the two dotted circles once in the first drawing, and the other one in Figure 2. This does not obstruct a handle slide. As the third author observed, a single such slide relates the two diagrams.
++With the dotted-circle basis fixed, the two versions are not related by an isotopy in the boundary of the 1-handlebody: the attaching circle of the $-1$-framed 2-handle represents different classes in $H_1(\#_3(S^1\times S^2);\mathbb{Z})$. It links one of the two dotted circles once in the first drawing, and the other one in Figure 2.
++
++More is true. Filling each dotted cusp of the link exterior along its zero slope gives the exterior of the five framed attaching circles in $\#_3(S^1\times S^2)$. For Figure 2 and its first drawing, these five-cusped exteriors each have 572 connected 3-fold covers, and the multisets of their first homology groups differ. For Figure 1 and its first drawing, the 31 connected double covers already differ. The covers are enumerated combinatorially and their homology is computed exactly, so no homeomorphism of $\#_3(S^1\times S^2)$ carries one family of attaching circles to the other. In particular, the two versions are not related by an isotopy in the boundary of the 1-handlebody, with any choice of basis, or by 1-handle slides. None of this obstructs a slide of one 2-handle over another. As the third author observed, a single such slide relates the two diagrams.
+ 
+ \Needspace{4\baselineskip}\medskip\noindent\textbf{Lemma 7.1.} Sliding the $-1$-framed 2-handle once over the $0$-framed 2-handle $\mu$ of Figure 3, followed by an isotopy, carries the first drawing of Figure 2 to Figure 2. Hence $W^\circ$ is diffeomorphic to $W_Z$, and $Z^\circ$ to $Z$. The same holds for Figure 1 and its first drawing.
+ 
+@@ -471,7 +473,7 @@
+ 
+ python -O audit/verify_bindings.py --output bindings_fresh.json
+ \end{Verbatim}
+-These commands respectively replay every terminal move, independently reconstruct every 2--0 step, and check the byte identities and the exact interface with the earlier accepted reduction. They do not rerun the large construction or punctured macro trace. That earlier trace is reproduced from the separate X0-to-G6 package in its recorded compatible environment.
++These commands respectively replay every terminal move, independently reconstruct every 2--0 step, and check the byte identities and the exact interface with the earlier accepted reduction. They do not rerun the large construction or punctured macro trace. That earlier trace is reproduced from the separate $X_0$-to-$G_6$ package in its recorded compatible environment.
+ 
+ \noindent\begin{minipage}{\linewidth}
+ \begin{center}\small
+@@ -496,7 +498,7 @@
+ {\small\ttfamily 251d7ad38235869fa268e9ee6ec9da2f397cf1ca71db267d0bf0ca9b434c5e4c\par}
+ \Needspace{3\baselineskip}\smallskip\textbf{Geometric admission receipt}\par
+ {\small\ttfamily 28c0dddcf683d98d943b3a6936d072c9a394ff351f8aad44b62850f00925c969\par}
+-\Needspace{3\baselineskip}\smallskip\textbf{C2: X0-to-G6 archive}\par
++\Needspace{3\baselineskip}\smallskip\textbf{C2: $X_0$-to-$G_6$ archive}\par
+ {\small\ttfamily 44c6c1e7c8498c929b956f3cd26df9eabf13667e2a6d4962a7d44bc497bc3f57\par}
+ \Needspace{3\baselineskip}\smallskip\textbf{C3: terminal v1.1 archive}\par
+ {\small\ttfamily a350c70b9407c9017a5691c8e0df3ce39fe2b5232246522c8a0c3548d7994dfa\par}
+@@ -524,6 +526,15 @@
+ \end{Verbatim}
+ It checks the two crossing switches, the empty quadrilateral in each planar rotation system, and the linking and framing conditions for the slide. This check starts from the supplied PD records; it does not re-extract the drawings or replace the geometric handle-slide argument.
+ 
++\Needspace{6\baselineskip}\smallskip\textbf{Cover obstruction (Section 7.2).} The same four records, with SnapPy, give the cover comparison of Section 7.2:
++\begin{Verbatim}
++python3 corrected_figures_check/cover_obstruction.py \
++  corrected_figures_check/old_fig2.json \
++  corrected_figures_check/new_fig2.json \
++  --degrees 2,3 --output cover_fig2.json
++\end{Verbatim}
++and likewise for Figure 1. The recorded results are in \path{corrected_figures_check/COVER_OBSTRUCTION_fig1.json} and \path{COVER_OBSTRUCTION_fig2.json}. This comparison supports the remark in Section 7.2 and is not used in the proof of Theorem 1.4.
++
+ \Needspace{6\baselineskip}\smallskip\textbf{Certificate for $Z^\circ$ (Sections 7.3-7.5).} The diagram, triangulations, receipts and code are distributed in \path{published_fig2_S4.zip}, and the 780,847-move log in \path{published_fig2_closed_path_moves.tar.xz}. The key files are bound by the following SHA-256 hashes.
+ \begin{Verbatim}
+ diagram/fig2_published_katie.json  5aeaea4ffa70b3d4084fbae11cd144c2

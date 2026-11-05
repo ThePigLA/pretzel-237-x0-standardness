@@ -1,0 +1,22 @@
+{
+  "created_unix_time": 1793918159.94263,
+  "guard_journal_sha256": "8bbb9e5b4a4dd3f8cff02bfa569a3cb84e7b9065b14870b47ef94398a1b0a6e7",
+  "input": {
+    "kind": "file",
+    "path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+    "root_triangulation_packet": true,
+    "sha256": "1e170b5e297d64e95a1438dbbbfee8de9dc5f792280eb6a6c2ec747cc8cd815e"
+  },
+  "phase": "large",
+  "producer_sha256": "33c2fba6e5a68a6307f13dc28187042c3cdca9baff6b941af715fc4e9a518070",
+  "regina_distribution": "7.4.1",
+  "release_manifest_sha256": "2906300eedc1d3d8455aa983684f57adc159299b6906a730c73f83ffd341b5bf",
+  "schema": "motoo-z-search-input-v1",
+  "source": {
+    "path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+    "pentachora": 8,
+    "sha256": "1e170b5e297d64e95a1438dbbbfee8de9dc5f792280eb6a6c2ec747cc8cd815e",
+    "tight_sha256": "43fdb32848802ce7f49df04f4c100410f4a411275f76661426243681fa686bdb"
+  },
+  "source_admission": "Performed afresh by the guarded large runner, optionally inside the helper"
+}

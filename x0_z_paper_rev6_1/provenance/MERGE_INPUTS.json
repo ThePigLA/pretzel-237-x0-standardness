@@ -1,0 +1,39 @@
+{
+  "revision": "combined Revision 6",
+  "date": "2026-11-05",
+  "restore_source": "X0-only Revision 6, 2026-10-28",
+  "inputs": {
+    "combined_rev5_pdf": {
+      "filename": "x0_z_standardness_note_rev5.pdf",
+      "sha256": "6c5e032a5ce2e915f8d96055b47894811c4b47028320b739f26856f70867c48f",
+      "bytes": 859210
+    },
+    "combined_rev5_tex": {
+      "filename": "x0_z_standardness_note_rev5.tex",
+      "sha256": "44ffa811c5150abae8db8a97f60330831b5062586203d5ad3a51bf60ee7fc104",
+      "bytes": 66999
+    },
+    "accepted_x0_only_rev6_tex": {
+      "filename": "x0_standardness_proof_note.tex",
+      "sha256": "8b683ac811d3ead58c84260ac57b3f3a7b76b6dfbc68bf05258494862e1bde61",
+      "bytes": 45489
+    },
+    "accepted_x0_repository_zip": {
+      "filename": "x0_repository_draft_v1.zip",
+      "sha256": "12feda9b5815fec120efa058ba5b6092052c5e93ff59486d7b1d3596241bb15b",
+      "bytes": 48172458
+    },
+    "swapped_coordinate_control_zip": {
+      "filename": "maggie_twist_verified_v1.zip",
+      "sha256": "8a0cdb66a11de260ac7de2739dbffe5f6ff159cd2e0a216884bcad5095840e25",
+      "bytes": 1837764
+    }
+  },
+  "authors": [
+    "Vance Faber",
+    "Michael Murphy",
+    "Motoo Tange"
+  ],
+  "certificate_payloads_modified": false,
+  "large_proof_replays_rerun": false
+}

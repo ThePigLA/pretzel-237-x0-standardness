@@ -1,0 +1,619 @@
+{
+  "status": "PASS_TWO_CROSSING_CORRECTION_EMPTY_STRIP_AND_LINKING_CHECKS",
+  "schema": "x0_z.corrected_pd_local_audit.v1",
+  "script_sha256": "795a4b9bba16f4fa74f5501ce6ad0a8dddb1d42a8f4c958ebf6ebd93f6f769e5",
+  "scope": "Four supplied PD transcriptions only. Does not re-extract diagrams from PDF or certify a full standardization.",
+  "method": "Exact integer combinatorics of labelled PD records; standard Python only.",
+  "sign_convention": "Component directions follow declared cyclic arc labels. The chosen planar crossing sign may differ by a common global sign from another PD convention; all zero-linking and slide-consistency statements are unchanged.",
+  "geometric_lemma": "The empty quadrilateral verifies the band-strip premise of the geometric handle-slide proof. The handle-slide isotopy remains the mathematical local argument in Lemma 7.1.",
+  "pairs": [
+    {
+      "figure": 1,
+      "old": {
+        "path": "corrected_figures_check/old_fig1.json",
+        "sha256": "18b9ff0b48a2ac263512be67e1ff94d9b29f1540a5178a1cba8f89418559a17b",
+        "crossings": 64,
+        "projection_vertices": 64,
+        "projection_edges": 128,
+        "projection_faces": 66,
+        "projection_euler_characteristic": 2,
+        "empty_quadrilateral_darts": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            29,
+            0
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "empty_quadrilateral_edge_labels": [
+          3,
+          45,
+          77,
+          17
+        ],
+        "empty_quadrilateral_components": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "signed_linking_matrix": [
+          [
+            0,
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "mu_class_in_dotted_basis_C1_C2_C4": [
+          -1,
+          1,
+          0
+        ],
+        "minus_one_class_in_dotted_basis_C1_C2_C4": [
+          0,
+          1,
+          0
+        ],
+        "mu_links_other_framed_components_zero": true
+      },
+      "new": {
+        "path": "corrected_figures_check/new_fig1.json",
+        "sha256": "1b0cadf72ae244bd08a88bfda992f85613e9cd333be1d7965b059292f2fae49c",
+        "crossings": 64,
+        "projection_vertices": 64,
+        "projection_edges": 128,
+        "projection_faces": 66,
+        "projection_euler_characteristic": 2,
+        "empty_quadrilateral_darts": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            29,
+            3
+          ],
+          [
+            13,
+            2
+          ]
+        ],
+        "empty_quadrilateral_edge_labels": [
+          3,
+          45,
+          77,
+          17
+        ],
+        "empty_quadrilateral_components": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "signed_linking_matrix": [
+          [
+            0,
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "mu_class_in_dotted_basis_C1_C2_C4": [
+          -1,
+          1,
+          0
+        ],
+        "minus_one_class_in_dotted_basis_C1_C2_C4": [
+          1,
+          0,
+          0
+        ],
+        "mu_links_other_framed_components_zero": true
+      },
+      "changed_crossings": [
+        {
+          "row_zero_based": 13,
+          "old": [
+            76,
+            17,
+            77,
+            16
+          ],
+          "new": [
+            16,
+            76,
+            17,
+            77
+          ],
+          "cyclic_shift": 3
+        },
+        {
+          "row_zero_based": 29,
+          "old": [
+            77,
+            45,
+            78,
+            46
+          ],
+          "new": [
+            45,
+            78,
+            46,
+            77
+          ],
+          "cyclic_shift": 1
+        }
+      ],
+      "slide_homology": "C3_new = C3_old - C0",
+      "framing_formula": "-1 + 0 - 2*0 = -1",
+      "other_linking_numbers_unchanged": true
+    },
+    {
+      "figure": 2,
+      "old": {
+        "path": "corrected_figures_check/old_fig2.json",
+        "sha256": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767",
+        "crossings": 60,
+        "projection_vertices": 60,
+        "projection_edges": 120,
+        "projection_faces": 62,
+        "projection_euler_characteristic": 2,
+        "empty_quadrilateral_darts": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            29,
+            0
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "empty_quadrilateral_edge_labels": [
+          3,
+          43,
+          73,
+          17
+        ],
+        "empty_quadrilateral_components": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "signed_linking_matrix": [
+          [
+            0,
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            2,
+            -1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "mu_class_in_dotted_basis_C1_C2_C4": [
+          -1,
+          1,
+          0
+        ],
+        "minus_one_class_in_dotted_basis_C1_C2_C4": [
+          0,
+          1,
+          0
+        ],
+        "mu_links_other_framed_components_zero": true
+      },
+      "new": {
+        "path": "corrected_figures_check/new_fig2.json",
+        "sha256": "fa91a000bdeb68b66d99cd3451229afc9bc01eaa2f0ac295e5778e3a168ed46a",
+        "crossings": 60,
+        "projection_vertices": 60,
+        "projection_edges": 120,
+        "projection_faces": 62,
+        "projection_euler_characteristic": 2,
+        "empty_quadrilateral_darts": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            29,
+            3
+          ],
+          [
+            13,
+            2
+          ]
+        ],
+        "empty_quadrilateral_edge_labels": [
+          3,
+          43,
+          73,
+          17
+        ],
+        "empty_quadrilateral_components": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "signed_linking_matrix": [
+          [
+            0,
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            2,
+            -1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "mu_class_in_dotted_basis_C1_C2_C4": [
+          -1,
+          1,
+          0
+        ],
+        "minus_one_class_in_dotted_basis_C1_C2_C4": [
+          1,
+          0,
+          0
+        ],
+        "mu_links_other_framed_components_zero": true
+      },
+      "changed_crossings": [
+        {
+          "row_zero_based": 13,
+          "old": [
+            72,
+            17,
+            73,
+            16
+          ],
+          "new": [
+            16,
+            72,
+            17,
+            73
+          ],
+          "cyclic_shift": 3
+        },
+        {
+          "row_zero_based": 29,
+          "old": [
+            73,
+            43,
+            74,
+            44
+          ],
+          "new": [
+            43,
+            74,
+            44,
+            73
+          ],
+          "cyclic_shift": 1
+        }
+      ],
+      "slide_homology": "C3_new = C3_old - C0",
+      "framing_formula": "-1 + 0 - 2*0 = -1",
+      "other_linking_numbers_unchanged": true
+    }
+  ]
+}

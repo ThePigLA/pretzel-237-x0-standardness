@@ -1,0 +1,101 @@
+{
+  "all_bound_inputs_and_code_unchanged": true,
+  "auditor_sha256": "7189d284c60ffa177669d8f55afd3778686192c21909e1c0b2ed0dae8f299784",
+  "common_sha256": "9c883098aaeede5ee8f222bb5a399aca9b0cba58505f04a21503a6dc54c114e7",
+  "four_dimensional_moves_replayed": 0,
+  "journal": {
+    "archive_sha256": "cf0a077bc3680e331a444b8b4fe1564e5077d00d20ca51d81c610717cb70e4ab",
+    "chunk_sha256_checked": true,
+    "chunks": 781,
+    "duplicate_metadata_byte_identical": true,
+    "indices_hashes_sizes_continuous": true,
+    "maximum_pentachora": 24170,
+    "member_safety_checked": true,
+    "minimum_pentachora": 8,
+    "operation_counts": {
+      "['C', 1]": 1287,
+      "['F', 1]": 286182,
+      "['P', 1]": 15036,
+      "['P', 2]": 293738,
+      "['P', 3]": 82355,
+      "['P', 4]": 8160,
+      "['Z', 0]": 6891,
+      "['Z', 1]": 71713,
+      "['Z', 2]": 15485
+    },
+    "records_scanned": 780847,
+    "regular_files": 786,
+    "uncompressed_bytes": 215214466
+  },
+  "limitations": [
+    "No journal move was applied or checked for admissibility.",
+    "No source vertex link or geometric construction was recognised.",
+    "Historical replay receipts were checked for binding, not substituted for a fresh replay."
+  ],
+  "manifold_recognition_performed": false,
+  "move_legality_checked": false,
+  "paper_bound_files": {
+    "closed/closed_candidate.rga": {
+      "bytes": 340267,
+      "sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467"
+    },
+    "diagram/fig2_published_katie.json": {
+      "bytes": 6548,
+      "sha256": "5aeaea4ffa70b3d4084fbae11cd144c256ae3af361cbebb10da07166cad3427f"
+    },
+    "final/CERTIFICATE.json": {
+      "bytes": 9247,
+      "sha256": "54819a4b09ece5267e08d00e6168b674642c5d2c4b379259db8ff1b62a6d8a91"
+    },
+    "katie/raw_katie.rga": {
+      "bytes": 15167,
+      "sha256": "f1590ec6de3e7a9d9fdeb2175f98a9cd70688027776d274de0f2da4718a119bb"
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "regina_distribution": "7.4.1",
+  "regina_version_string": "7.4",
+  "schema": "motoo-z-structural-bindings-v1",
+  "scope": "STRUCTURAL_ONLY",
+  "seconds": 10.054700267999579,
+  "standardness_proved": false,
+  "status": "PASS_STRUCTURAL_BINDINGS_ONLY",
+  "terminal": {
+    "backward_blocks": 7,
+    "backward_moves": 7,
+    "backward_operation_counts": {
+      "['C', 1]": 2,
+      "['P', 2]": 1,
+      "['P', 3]": 4
+    },
+    "blocks": 26,
+    "canonical_signatures_checked": 27,
+    "common_four_pentachoron_isosig": "eLAQcabbcdddcaaaga2amamaya",
+    "forward_blocks": 19,
+    "forward_moves": 423,
+    "forward_operation_counts": {
+      "['20', 1]": 13,
+      "['20', 2]": 7,
+      "['44', 1]": 3,
+      "['C', 1]": 1,
+      "['P', 1]": 7,
+      "['P', 2]": 369,
+      "['P', 3]": 20,
+      "['P', 4]": 3
+    },
+    "move_legality_checked": false,
+    "moves_described": 430
+  },
+  "total_moves_described": 781277,
+  "triangulation_interfaces": {
+    "closed_pentachora": 24170,
+    "closed_tight_sha256": "1f698ed1061bffaf7f380ec5b4ed8075306e6cffd8f6c3cc281873f67003f92d",
+    "journal_endpoint_isosig": "iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a",
+    "journal_endpoint_pentachora": 8,
+    "journal_endpoint_tight_sha256": "43fdb32848802ce7f49df04f4c100410f4a411275f76661426243681fa686bdb",
+    "manifold_recognition_performed": false,
+    "standard_anchor_construction": "two pentachora, all five facet gluings identity",
+    "standard_anchor_isomorphism_checked": true,
+    "standard_anchor_isosig": "cPkbbbbaaaaaaaa"
+  }
+}

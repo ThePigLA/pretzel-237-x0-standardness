@@ -1,0 +1,12 @@
+{
+  "archived_file_sha256": "f1590ec6de3e7a9d9fdeb2175f98a9cd70688027776d274de0f2da4718a119bb",
+  "compressed_file_bytes_match_archive": false,
+  "file": "katie/raw_katie.rga",
+  "name": "raw",
+  "pentachora": 1528,
+  "sha256": "d82b7658cc11fb87f8e375e092ee66bb028f211cedf1f5100491b0211a82d485",
+  "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+  "tight_sha256": "d4750392cf2661bc4af787afc2a253235fb62357b17e1ca0266c8de0e38f4478",
+  "uncompressed_file_bytes_match_archive": true,
+  "uncompressed_payload_sha256": "ec74cefc0fe20748fe91a79abd75cafaa619e1ecfa5c5f772655f3026e834f45"
+}

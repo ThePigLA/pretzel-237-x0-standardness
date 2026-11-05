@@ -1,0 +1,66 @@
+{
+  "schema": "motoo-z-module-integration-validation-v1",
+  "status": "PASS_CONSTRUCTION_REDUCTION_AND_BINDINGS",
+  "date_utc": "2026-11-05",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "regina_distribution": "7.4.1",
+  "full_construction": {
+    "status": "PASS_CONSTRUCTION_FROM_MARKED_PD_WITH_KATIE",
+    "seconds": 343.10110176499984,
+    "katie_executed": true,
+    "closed_pentachora": 24170,
+    "vertex_links": 19,
+    "all_eight_checkpoints_exact_labelled_and_xml": true,
+    "report": "construction_run/BUILD_REPORT.json"
+  },
+  "long_replay": {
+    "status": "PASS_PARTIAL_CLOSED_PATH",
+    "moves": 780847,
+    "seconds": 1256.30431124,
+    "entrypoint": "unchanged independent legacy verifier with pinned positive-recognition helper",
+    "report": "closed_path_run/REPLAY.json"
+  },
+  "terminal": {
+    "moves": 430,
+    "explicit_double_anchor": "cPkbbbbaaaaaaaa",
+    "status": "PASS_STANDARD_S4"
+  },
+  "composition": {
+    "status": "PASS_FRESH_COMPOSED_CONSTRUCTION_TO_STANDARD_SPHERE_BINDING",
+    "moves": 781277,
+    "fresh_generated_source_bound": true,
+    "report": "FRESH_COMPOSED_REPLAY.json",
+    "new_full_wrapper_monolithic_second_replay_run": false,
+    "new_full_wrapper_preflight_and_composition_executed": true
+  },
+  "search_checks": {
+    "small_search_and_resume_completed": true,
+    "small_saved_best_chain_moves": 0,
+    "large_sampled_journal_moves": 10799,
+    "large_journal_independently_replayed": true,
+    "new_standardization_discovery_claimed": false
+  },
+  "structural_audit": "focused_checks/bindings_v1.json",
+  "marked_diagram_comparison": "focused_checks/marked_diagram_v1.json",
+  "terminal_positive_and_negative_review": "focused_checks/terminal_wrapper_review_v1.json",
+  "portability_fixes": [
+    "Root and nested Regina packet input supported.",
+    "Exact labelled state and complete XML bridge for differing RGA gzip bytes.",
+    "All twelve previously external legacy scripts recovered unchanged and their hashes matched."
+  ],
+  "software_trust": [
+    "Regina 7.4.1 guarded moves, native constructors, signature codec, and a single declared native lower-piece simplify.",
+    "Optional pinned recognition helper has independently replayed positive group proofs and original recognition fallback.",
+    "Optional SnapPy marked-exterior comparison does not independently certify PDF transcription or interval hyperbolicity."
+  ],
+  "publication_performed": false,
+  "tested_public_code_sha256": {
+    "build.py": "cf0f0d70d975ac648402aa4dfe4c77b4749ed1e7d79a05f1bfc2b06e48be73d1",
+    "verify.py": "2b3c376776ef9a24b02abea9ef3feadff7d5e8699727bcbd205c952ca1d33f79",
+    "search.py": "d74faa8a51517e8931938295e699b1bab2aef6998aeaad8507b731367c5f7385",
+    "audit_bindings.py": "7189d284c60ffa177669d8f55afd3778686192c21909e1c0b2ed0dae8f299784",
+    "audit_diagram.py": "2ff1dde7b1fe6ec03356cb27e737c670a70920063f0146d4c1aafe683a2e8cd4",
+    "common.py": "9c883098aaeede5ee8f222bb5a399aca9b0cba58505f04a21503a6dc54c114e7"
+  }
+}

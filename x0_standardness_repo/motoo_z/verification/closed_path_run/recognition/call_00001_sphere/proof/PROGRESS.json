@@ -1,0 +1,8 @@
+{
+  "stage": "SIGNED_UNION_FIND_ELIMINATION",
+  "eliminations": 115865,
+  "remaining_roots": 3987,
+  "examined_relators": 232066,
+  "queue": 10642,
+  "seconds": 5.000003896000635
+}

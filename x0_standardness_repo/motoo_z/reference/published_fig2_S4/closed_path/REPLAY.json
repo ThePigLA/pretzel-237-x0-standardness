@@ -1,0 +1,41 @@
+{
+  "schema": "motoo.closed-bursts.independent-replay.v1",
+  "status": "PASS_PARTIAL_CLOSED_PATH",
+  "source_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+  "moves": 780847,
+  "counts": {
+    "['C', 1]": 1287,
+    "['Z', 1]": 71713,
+    "['Z', 2]": 15485,
+    "['P', 1]": 15036,
+    "['P', 4]": 8160,
+    "['P', 3]": 82355,
+    "['F', 1]": 286182,
+    "['P', 2]": 293738,
+    "['Z', 0]": 6891
+  },
+  "source_admission": {
+    "pentachora": 24170,
+    "vertices": 19,
+    "finite_closed_connected_orientable_valid": true
+  },
+  "final_admission": {
+    "pentachora": 8,
+    "vertices": 1,
+    "finite_closed_connected_orientable_valid": true
+  },
+  "best_pentachora": 8,
+  "best_at_move": 780847,
+  "maximum_pentachora": 24170,
+  "final_tight_sha256": "43fdb32848802ce7f49df04f4c100410f4a411275f76661426243681fa686bdb",
+  "standard_sphere_proved": false,
+  "source_metadata_sha256": "1f562bc3bc3f0cd35fdc20784d9f4c7dfe49d739a4cc0f438146276985269da3",
+  "checkpoint_sha256": "4b1256a2defd20c77cca2cf8d7119c4c5307aefc89ba339de73fe03dd7e47de2",
+  "verifier_sha256": "5fc138e9cd563b8f323814f90a22067d9120ff6432a2db143c916625309f2461",
+  "all_bound_files_unchanged_through_replay": true,
+  "seconds_including_source_admission": 1375.4725444549986,
+  "recognition_runtime": "/tmp/claude-0/-home-claude/06a3c9ec-0cbc-508e-93f5-734d1003d1e3/scratchpad/katie_pub/closed_v1/recog_proofs_replay/RUNTIME.json",
+  "trust": "Regina 7.4.1 checked local moves; separately implemented replay; exact standard target",
+  "runner_imported": false,
+  "native_4d_simplify_used": false
+}

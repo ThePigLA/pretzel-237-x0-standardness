@@ -1,0 +1,1154 @@
+{
+  "schema": "motoo-z-imported-files-v1",
+  "all_imported_bytes_unchanged": true,
+  "files": [
+    {
+      "path": "certificates/published_fig2_closed_path_moves.tar.xz",
+      "archive": "published_fig2_closed_path_moves.tar.xz",
+      "member": null,
+      "bytes": 32810768,
+      "sha256": "cf0a077bc3680e331a444b8b4fe1564e5077d00d20ca51d81c610717cb70e4ab"
+    },
+    {
+      "path": "diagram/original_figure2_pd.json",
+      "archive": "x0_z_paper_rev6_1_reviewed.zip",
+      "member": "x0_z_paper_rev6_1/corrected_figures_check/old_fig2.json",
+      "bytes": 1748,
+      "sha256": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767"
+    },
+    {
+      "path": "legacy/code/assemble_redraw_pd.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/assemble_redraw_pd.py",
+      "bytes": 13465,
+      "sha256": "d762712fe9bf966d91c32c0247ec724fae0b49d7faa9f07619acc09babe3f5f4"
+    },
+    {
+      "path": "legacy/code/audit_fast_closed_gluing.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_fast_closed_gluing.py",
+      "bytes": 7280,
+      "sha256": "c1ec4103f9a826deeda2d4b0af42c12d07c63a8af7dee43169cbb76546d3a433"
+    },
+    {
+      "path": "legacy/code/audit_figure2_finite.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_figure2_finite.py",
+      "bytes": 5567,
+      "sha256": "457cc84037a50fdb86af5ea36660e6415f1be841a2e2ee7a16f374ebcea561dc"
+    },
+    {
+      "path": "legacy/code/audit_figure2_snaps.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_figure2_snaps.py",
+      "bytes": 5771,
+      "sha256": "ec369904bafea78c506a0033a1c7bf055520bbc643ef8d4702ee3fb8036325a7"
+    },
+    {
+      "path": "legacy/code/audit_ideal_sealed.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_ideal_sealed.py",
+      "bytes": 7015,
+      "sha256": "a5c2b5753a7efb7aa6317dfc471979a907993ecf5b81d3ef5d62074973afdb88"
+    },
+    {
+      "path": "legacy/code/audit_layering_collar.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_layering_collar.py",
+      "bytes": 18808,
+      "sha256": "68891d6dd115af8c53965fc79ed5153e09c9070c3723294df5e810a9d671037f"
+    },
+    {
+      "path": "legacy/code/audit_raw_algebra4.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_raw_algebra4.py",
+      "bytes": 17081,
+      "sha256": "24cb05029bdf90115aad1fe99cd8ff0a0ac76636be414740538e19c6332d9573"
+    },
+    {
+      "path": "legacy/code/audit_raw_closed4.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/audit_raw_closed4.py",
+      "bytes": 10353,
+      "sha256": "da589f2b29e16e886e12de13c5a6724eca6089082fe76c30fd7629bdfeb55683"
+    },
+    {
+      "path": "legacy/code/bind_collar_completion.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/bind_collar_completion.py",
+      "bytes": 20346,
+      "sha256": "219800203c0906f78ddb7195f34e1a517116241f46e581e3ce8c7a52c11b01cf"
+    },
+    {
+      "path": "legacy/code/boundary_bridge_bfs.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/boundary_bridge_bfs.py",
+      "bytes": 4474,
+      "sha256": "38138a4aa9564fa480e953db57f8c6f9f8737066b3e8a9948bc8e7f446533322"
+    },
+    {
+      "path": "legacy/code/boundary_greedy44.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/boundary_greedy44.py",
+      "bytes": 7173,
+      "sha256": "5c4321a75a0ef048014a8a83a345b6b9eb2b248b13113d6dae68f7e361ff8d46"
+    },
+    {
+      "path": "legacy/code/boundary_layer_compact.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/boundary_layer_compact.py",
+      "bytes": 19432,
+      "sha256": "48d1137e9a5c605cef98e20518b314b6e6c68b74f9725744bf720aa54033a8c7"
+    },
+    {
+      "path": "legacy/code/boundary_layer_fast.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/boundary_layer_fast.py",
+      "bytes": 19135,
+      "sha256": "df0385a75a6fbeeba1b6fce378ade704a20407ea35e1beba2fbb2ab1f0ad59ac"
+    },
+    {
+      "path": "legacy/code/boundary_pachner_fast.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/boundary_pachner_fast.py",
+      "bytes": 10822,
+      "sha256": "43507caaee47ee8c4c0bc2b7ba74ad31809af5c8eb9955c8aec89a6c5bcd9ad9"
+    },
+    {
+      "path": "legacy/code/boundary_pachner_path.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/boundary_pachner_path.py",
+      "bytes": 6608,
+      "sha256": "4810bb4a5d90194e299b39b56df04800e62fa4ef1aad627ba83e3ce6cd359e2e"
+    },
+    {
+      "path": "legacy/code/build_distribution.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/build_distribution.py",
+      "bytes": 5783,
+      "sha256": "a0fadb763a99415ed554a12bde17a82ab67fa2dd8ea9b0b2f05bacca11dc496a"
+    },
+    {
+      "path": "legacy/code/build_figure2_simplification_bundle.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/build_figure2_simplification_bundle.py",
+      "bytes": 3909,
+      "sha256": "9ec6950f070783a224fd83b39e6b4ca4e7a17ed19b67519ca379181329251b22"
+    },
+    {
+      "path": "legacy/code/build_readiness_distribution.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/build_readiness_distribution.py",
+      "bytes": 14359,
+      "sha256": "20b607ce890eebc3882f876008397681ac918aea99839d065495cd3f1eb4aca7"
+    },
+    {
+      "path": "legacy/code/build_redraw_intake.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/build_redraw_intake.py",
+      "bytes": 4617,
+      "sha256": "90aa5845a785f7e2af0ff8bc5912099004e28ba24348775f0b4b53ff9f4fafab"
+    },
+    {
+      "path": "legacy/code/build_redraw_transcription_bundle.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/build_redraw_transcription_bundle.py",
+      "bytes": 4438,
+      "sha256": "a94d06d812714125f28dacf0396547bc219b3ee32c215145659667a8bcc66723"
+    },
+    {
+      "path": "legacy/code/check_archive_hashes.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_archive_hashes.py",
+      "bytes": 774,
+      "sha256": "3c9d16312ee5dc906f3da1e42bb0546409771459ec1e14e51db25307e5585c84"
+    },
+    {
+      "path": "legacy/code/check_boundary.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_boundary.py",
+      "bytes": 16870,
+      "sha256": "b92b34cef0b85b9b37c9b6fb35df89d30966bfe702dd3472880497dd0b5c79ab"
+    },
+    {
+      "path": "legacy/code/check_diagram_normalization.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_diagram_normalization.py",
+      "bytes": 4958,
+      "sha256": "301ddfe3b2c9020f7688759847a8c3950705dfae6c9be616155eacb19e95f468"
+    },
+    {
+      "path": "legacy/code/check_handlebody_group.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_handlebody_group.py",
+      "bytes": 15443,
+      "sha256": "c03d5ead5e33e93d16a1dbe38267b246fabe702b58f6518d89cd3e03cdf96b3f"
+    },
+    {
+      "path": "legacy/code/check_katie_controls.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_katie_controls.py",
+      "bytes": 4106,
+      "sha256": "45553e5e7b8cb79a156668987a65c7b62bed6b05bef8d5ca2cb4584c108fa92a"
+    },
+    {
+      "path": "legacy/code/check_katie_projection_admission.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_katie_projection_admission.py",
+      "bytes": 2810,
+      "sha256": "4f2560264f9ef8d185e934bc0da128d83dad33e238d9cf646f63cf0828db18de"
+    },
+    {
+      "path": "legacy/code/check_pickup_macros.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_pickup_macros.py",
+      "bytes": 14710,
+      "sha256": "d47da8b771d22d233fdc5e07db67e5b847f856eaaf60becb97d668fa93826fdd"
+    },
+    {
+      "path": "legacy/code/check_redraw_markings.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_redraw_markings.py",
+      "bytes": 4769,
+      "sha256": "8fab4a9c40f979c9939c13b76cc4e999523f46242e5e5b027db7e111d51a15c2"
+    },
+    {
+      "path": "legacy/code/check_reduce4_tight_replay.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/check_reduce4_tight_replay.py",
+      "bytes": 8074,
+      "sha256": "16e9e344f31124e7db654655a0ed1e674f28508b1a64af4cd8a71dd88db7a857"
+    },
+    {
+      "path": "legacy/code/complete_redraw_conditional.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/complete_redraw_conditional.py",
+      "bytes": 11289,
+      "sha256": "88402449a3954ab7d0d7bc54dc0ed9ec49824c9d51d17fac60f24390008227b9"
+    },
+    {
+      "path": "legacy/code/complete_upper_handles.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/complete_upper_handles.py",
+      "bytes": 21654,
+      "sha256": "da557b47ec4d0e53948c18f9bac8ade0b4766ee08ba981a0d54de3efe90803c7"
+    },
+    {
+      "path": "legacy/code/diagnose_figure2_native.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/diagnose_figure2_native.py",
+      "bytes": 10944,
+      "sha256": "e972665e4a83fbbb078fe0b61fa59b1f6022fbc9e68336937489a80a2084afae"
+    },
+    {
+      "path": "legacy/code/diagnose_vertex_link_group.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/diagnose_vertex_link_group.py",
+      "bytes": 6135,
+      "sha256": "88bdc5ebb1b48d37994229239155f8c9e28c5cf78cc054b2c0a1e5a0a369debe"
+    },
+    {
+      "path": "legacy/code/export_ideal_prefix.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/export_ideal_prefix.py",
+      "bytes": 4040,
+      "sha256": "83cccbf56f771ea121e41deb8dda4371e8d35de06878330a914bcf21f05259a0"
+    },
+    {
+      "path": "legacy/code/extract_closed_best.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/extract_closed_best.py",
+      "bytes": 5635,
+      "sha256": "dbe3e37480a83e9f5dc487cd08a21e01357c6a86e1ec4ed19701e7ba8c5b0ec4"
+    },
+    {
+      "path": "legacy/code/extract_diagrams.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/extract_diagrams.py",
+      "bytes": 23035,
+      "sha256": "3dd7737ef87f31974553862eef070b06b64c1336b8095a8b58583d82c2eebb8e"
+    },
+    {
+      "path": "legacy/code/extract_redraw.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/extract_redraw.py",
+      "bytes": 7904,
+      "sha256": "00da32df4a671d5481f0230f274acb7758c0367b475cfd3433bcf38faca5c391"
+    },
+    {
+      "path": "legacy/code/figure2_completion_fast.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/figure2_completion_fast.py",
+      "bytes": 11984,
+      "sha256": "ee88bfd11bf478f01137f4d849900e4bdecb6f6e4e3442a6a9e29dedaf946473"
+    },
+    {
+      "path": "legacy/code/freeze_figure2_finite_boundary.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/freeze_figure2_finite_boundary.py",
+      "bytes": 9445,
+      "sha256": "1569d6f7a559bdf426402cd49d76633cd221a2c6ffc4786742f1fadabb7bd852"
+    },
+    {
+      "path": "legacy/code/ideal_first_relabelling.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/ideal_first_relabelling.py",
+      "bytes": 2825,
+      "sha256": "4e05805a61a6e0e70cea1ae478cf61855f17f2bb18a097a3a3bf819c8126b5d1"
+    },
+    {
+      "path": "legacy/code/intake_redraw.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/intake_redraw.py",
+      "bytes": 21475,
+      "sha256": "7e0c26ca1c860070fcf6d28b8147807983fb65def2fc6fdc9beffc32c70df11c"
+    },
+    {
+      "path": "legacy/code/native_ideal_chunk.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/native_ideal_chunk.py",
+      "bytes": 3290,
+      "sha256": "5ec0b5012bdd4f59e70efbca28299959b94f0433beabd1a72759e80b4ef32b9c"
+    },
+    {
+      "path": "legacy/code/normalize_diagram.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/normalize_diagram.py",
+      "bytes": 8010,
+      "sha256": "fd02570875378f2b4da5e4a58ed861944c99d91b623f90b4da6beaabff4b7687"
+    },
+    {
+      "path": "legacy/code/orient_katie_diagram.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/orient_katie_diagram.py",
+      "bytes": 11000,
+      "sha256": "bfc4378e229e0c297140a53e5f02ceb68b5c2f43964049779de7f048dea57c11"
+    },
+    {
+      "path": "legacy/code/primal_recognition_bridge.cpp",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/primal_recognition_bridge.cpp",
+      "bytes": 4404,
+      "sha256": "8613768b468c8db9ae165b123481e3d55c67406cd2d7cf33e54d7f575bc9df30"
+    },
+    {
+      "path": "legacy/code/primal_recognition_bridge.map",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/primal_recognition_bridge.map",
+      "bytes": 225,
+      "sha256": "2a5d6887518745f8ad745d056c9806373c99f8b54378c62fcd03f92513e97f55"
+    },
+    {
+      "path": "legacy/code/primal_recognition_bridge.so",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/primal_recognition_bridge.so",
+      "bytes": 23360,
+      "sha256": "a8c9b417cde793bd42c3fe4b2bfd6bc37d9539502bbaec0e90cbe51b8e4e2353"
+    },
+    {
+      "path": "legacy/code/primal_triangle_group.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/primal_triangle_group.py",
+      "bytes": 9650,
+      "sha256": "097bd70358512370583cfaae07a7f49fc43dc2bdae798acbc484b6c1670123f7"
+    },
+    {
+      "path": "legacy/code/raw_f_vector4.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/raw_f_vector4.py",
+      "bytes": 4025,
+      "sha256": "a606641601edd369161bec41e433fa4a814e74dda5350018cf801c382f328f12"
+    },
+    {
+      "path": "legacy/code/reconstruct_redraw.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/reconstruct_redraw.py",
+      "bytes": 15558,
+      "sha256": "bd86711690a0fd525813a2174781aa6903c9e55052712d597aec647116da6d6f"
+    },
+    {
+      "path": "legacy/code/redraw_crossing_crops.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/redraw_crossing_crops.py",
+      "bytes": 2219,
+      "sha256": "6a697e864371c8c8379878a15c6c084604507bad84d0aaec0b537f0b7f1a8220"
+    },
+    {
+      "path": "legacy/code/reduce4_checked.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/reduce4_checked.py",
+      "bytes": 16290,
+      "sha256": "0756ddfe643c14a0cbd8189b4038cab367f1178b53060344c6f1fc27ff3b6836"
+    },
+    {
+      "path": "legacy/code/reduce_closed_bursts.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/reduce_closed_bursts.py",
+      "bytes": 15143,
+      "sha256": "8bbb9e5b4a4dd3f8cff02bfa569a3cb84e7b9065b14870b47ef94398a1b0a6e7"
+    },
+    {
+      "path": "legacy/code/reduce_closed_sampled.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/reduce_closed_sampled.py",
+      "bytes": 8949,
+      "sha256": "33c2fba6e5a68a6307f13dc28187042c3cdca9baff6b941af715fc4e9a518070"
+    },
+    {
+      "path": "legacy/code/reduce_finite_checked.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/reduce_finite_checked.py",
+      "bytes": 15736,
+      "sha256": "fd73d3e1f03ec57e0f31109ae21b15f912c927ca8dcaf857821dfbb13889d6d5"
+    },
+    {
+      "path": "legacy/code/reduce_ideal_checked.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/reduce_ideal_checked.py",
+      "bytes": 20277,
+      "sha256": "0b4ab617349706325d8877eb6176605e87d67512d0d9e8a97e3cb0fe25864d0b"
+    },
+    {
+      "path": "legacy/code/replay_reidemeister.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/replay_reidemeister.py",
+      "bytes": 2339,
+      "sha256": "83a1b6354fa998d4bf60b7d3c70177a199344fff89119935ba3ea3a7a2b9bf53"
+    },
+    {
+      "path": "legacy/code/retrace_ideal_burst.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/retrace_ideal_burst.py",
+      "bytes": 7430,
+      "sha256": "2c8593664bf401a22d64f3dc3719105d8ba53f63a21288f9d980778613d42099"
+    },
+    {
+      "path": "legacy/code/run_bounded_native.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/run_bounded_native.py",
+      "bytes": 2708,
+      "sha256": "5a4897ce3f666d6beaf89ffce0adddecc85e1de0da4a536c50079464223968ec"
+    },
+    {
+      "path": "legacy/code/run_katie.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/run_katie.py",
+      "bytes": 12358,
+      "sha256": "1463639b9837a035960a1d777c45390124c7f17501523efa90517ac438350c1b"
+    },
+    {
+      "path": "legacy/code/run_with_primal_recognition.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/run_with_primal_recognition.py",
+      "bytes": 14490,
+      "sha256": "78b44448a40764fd6516081bd2f6e555e77290dbda95a4b793f05960b8877132"
+    },
+    {
+      "path": "legacy/code/search_katie_position_growth.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/search_katie_position_growth.py",
+      "bytes": 10947,
+      "sha256": "ed5def4a99f7d90cef5c4f2465a048a805c211856c0a51c9180e076872956561"
+    },
+    {
+      "path": "legacy/code/search_upper_cap_guarded.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/search_upper_cap_guarded.py",
+      "bytes": 5771,
+      "sha256": "8cae279e1d16100b9705ba3c1921af527ac10df7d3a32a519235c3008171fa9d"
+    },
+    {
+      "path": "legacy/code/setup_katie_linux.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/setup_katie_linux.py",
+      "bytes": 2892,
+      "sha256": "9968e0af9ba6a78f7fe2e783171377339d49edeeb70df0a072359d855192844c"
+    },
+    {
+      "path": "legacy/code/shorten_boundary_path.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/shorten_boundary_path.py",
+      "bytes": 4739,
+      "sha256": "29ea504449116da61fa1560155faa17b29a8f70e3e481fffc3cc4566ab73ea84"
+    },
+    {
+      "path": "legacy/code/shorten_ideal_log.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/shorten_ideal_log.py",
+      "bytes": 3344,
+      "sha256": "a999f9d663c5d9ed9106f417e85558f382a6872b85adec1e437d3be694ea5a6a"
+    },
+    {
+      "path": "legacy/code/test_primal_recognition_bridge.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/test_primal_recognition_bridge.py",
+      "bytes": 3556,
+      "sha256": "712eba65eadda065625ecf49d9f2e705e1d9c9d1e5675de4d5e9e4b87fbd490b"
+    },
+    {
+      "path": "legacy/code/test_raw_algebra4.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/test_raw_algebra4.py",
+      "bytes": 3803,
+      "sha256": "931e7d4a5f0fd272422bd6d682cd1cd3e817e44c84583e9a5926e0bff06530c5"
+    },
+    {
+      "path": "legacy/code/trace_redraw_centerlines.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/trace_redraw_centerlines.py",
+      "bytes": 8641,
+      "sha256": "549d45b779dcf45b0798f0092fb793904666ff437a272b2a89203bb453b5629d"
+    },
+    {
+      "path": "legacy/code/verify_closed_bursts.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_closed_bursts.py",
+      "bytes": 9397,
+      "sha256": "5fc138e9cd563b8f323814f90a22067d9120ff6432a2db143c916625309f2461"
+    },
+    {
+      "path": "legacy/code/verify_closed_chain.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_closed_chain.py",
+      "bytes": 5229,
+      "sha256": "b0f878d2dde640b8d321efbddb7aef008ab5e261af587159e2cb01ddd0b95bd6"
+    },
+    {
+      "path": "legacy/code/verify_completion_control.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_completion_control.py",
+      "bytes": 18160,
+      "sha256": "aa3b0be2b0083fa68255f0e51ff7464bd466eeea17ca72ff95d39b289e7a6900"
+    },
+    {
+      "path": "legacy/code/verify_fast_layering.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_fast_layering.py",
+      "bytes": 2532,
+      "sha256": "57e3d24bb95f689f447e32797be0690b4650858d968f7cef1ca768130774b757"
+    },
+    {
+      "path": "legacy/code/verify_figure2_bundle.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_figure2_bundle.py",
+      "bytes": 6643,
+      "sha256": "0d9035a968ec47636291b8d5b2459b66dff7ce8f957996c9643b6a950ca34afe"
+    },
+    {
+      "path": "legacy/code/verify_ideal270.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_ideal270.py",
+      "bytes": 3058,
+      "sha256": "556fbfacd33714151154ae02821e75d99d6ed996ac0d7dc540d0792b2aa6979e"
+    },
+    {
+      "path": "legacy/code/verify_inputs.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_inputs.py",
+      "bytes": 4466,
+      "sha256": "22fdde0eaad5526fa3a958b527842f5fd0229e217b0d6b87eb4ef334354ad2e7"
+    },
+    {
+      "path": "legacy/code/verify_layer_shellings_raw.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_layer_shellings_raw.py",
+      "bytes": 6737,
+      "sha256": "e08b991a12c7fcbbdc274fc1ce3bd8c4b6aaee92e02ff9762c85efdf2ff4f629"
+    },
+    {
+      "path": "legacy/code/verify_primal_triangle_group.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_primal_triangle_group.py",
+      "bytes": 8938,
+      "sha256": "10766605df5a06d73b29bee4b9c1bd829228880cbe3ada33afe337ca695de39f"
+    },
+    {
+      "path": "legacy/code/verify_redraw_transcription.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_redraw_transcription.py",
+      "bytes": 15073,
+      "sha256": "96f585daf08211ce8d6c76066110f756ee47bc51da8ae664c299f8edf80ea066"
+    },
+    {
+      "path": "legacy/code/verify_saved_figure2_paths.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_saved_figure2_paths.py",
+      "bytes": 7033,
+      "sha256": "1c19e95972a85f8fba96dac03bffce11ff596880f73ea9da3e23d75674df5f9f"
+    },
+    {
+      "path": "legacy/code/verify_staircase_truncation.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_staircase_truncation.py",
+      "bytes": 5794,
+      "sha256": "5ffe930d8a1f3205239a18a3d793feb3c411231df9e84116a12fe6a12a7c1e52"
+    },
+    {
+      "path": "legacy/code/verify_upper_cap_guarded.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_upper_cap_guarded.py",
+      "bytes": 8061,
+      "sha256": "9dc360fc62eb790d3025e7844ac66702659f321ca2c971a6935ec71eee37d481"
+    },
+    {
+      "path": "legacy/code/verify_upper_cap_shellings.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/verify_upper_cap_shellings.py",
+      "bytes": 3831,
+      "sha256": "34129daa59301b0a085925f50b859ac8c0dfb854aad045824b04d26cbb3ea7bf"
+    },
+    {
+      "path": "legacy/code/weighted_pickup.py",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/code/weighted_pickup.py",
+      "bytes": 13024,
+      "sha256": "1087f1641ffdbceb20c524a2c887b36ef64469a0fb9f80284cc5dc6a2707a3f6"
+    },
+    {
+      "path": "legacy/results/boundary/standard_cap_six_boundary_v1/LAYERING_VERIFICATION.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/LAYERING_VERIFICATION.json",
+      "bytes": 4934,
+      "sha256": "e48553a4301f477f0017c4e74c15bb741551becce5e41174aa9055c709b29eaf"
+    },
+    {
+      "path": "legacy/results/boundary/standard_cap_six_boundary_v1/SHELLING_BACKCHECK.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/SHELLING_BACKCHECK.json",
+      "bytes": 4453,
+      "sha256": "37392a4d5ba33a284aad4194010ff2c6ec8dbe9b8d8d0d441ad7bb609fc43e1d"
+    },
+    {
+      "path": "legacy/results/boundary/standard_cap_six_boundary_v1/boundary_locations.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/boundary_locations.json",
+      "bytes": 651,
+      "sha256": "ef115914036ab905c2b377effeb59d7b08ae2398af558751a69338bfefeac42e"
+    },
+    {
+      "path": "legacy/results/boundary/standard_cap_six_boundary_v1/cap_with_matched_boundary.rga",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/cap_with_matched_boundary.rga",
+      "bytes": 6742,
+      "sha256": "2b46b7e8d760ce52641f78cb78c998748a8e476410b9c6525ae1b28168ca31b7"
+    },
+    {
+      "path": "legacy/results/boundary/standard_cap_six_boundary_v1/layering_events.jsonl.gz",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/layering_events.jsonl.gz",
+      "bytes": 31526,
+      "sha256": "9c6a5793cf3178e965365fc539aa35fd5acbce4302e2db3d57dabc2266d0f484"
+    },
+    {
+      "path": "legacy/results/boundary/standard_cap_six_boundary_v1/matched_boundary.rga",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/matched_boundary.rga",
+      "bytes": 189,
+      "sha256": "28cf8563eac3bbc47464e6dc1c9899cb088e26990051be3ca421159cf9071ed8"
+    },
+    {
+      "path": "legacy/results/boundary/upper_cap_selftest_v1/REFERENCE_CONSTRUCTION.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/upper_cap_selftest_v1/REFERENCE_CONSTRUCTION.json",
+      "bytes": 3088,
+      "sha256": "b33ea5fea3eb76a5e432f8003b9911171adcb8c6eff112f81e7871ede1fb5a0c"
+    },
+    {
+      "path": "legacy/results/boundary/upper_cap_selftest_v1/reference_boundary.rga",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/upper_cap_selftest_v1/reference_boundary.rga",
+      "bytes": 348,
+      "sha256": "e457bfd3442ce0ecd634d92b25ae5c56be1fb665a7f3854635301ed06d06e9cd"
+    },
+    {
+      "path": "legacy/results/boundary/upper_cap_selftest_v1/reference_boundary_locations.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/upper_cap_selftest_v1/reference_boundary_locations.json",
+      "bytes": 2653,
+      "sha256": "7c0dc71454e67052ceea48819f6366158526350cdbc43b000222abf376f23032"
+    },
+    {
+      "path": "legacy/results/boundary/upper_cap_selftest_v1/reference_cap.rga",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/boundary/upper_cap_selftest_v1/reference_cap.rga",
+      "bytes": 201,
+      "sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/ALL_UPPER_SHELLINGS.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/ALL_UPPER_SHELLINGS.json",
+      "bytes": 115879,
+      "sha256": "167b186fdc8cd91c05771b1088e20a2eed02727b9471db52129497b2df42896f"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/INDEPENDENT_REPLAY.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/INDEPENDENT_REPLAY.json",
+      "bytes": 1776,
+      "sha256": "757d2c8bd7a3ba7816139ca204befd41e36f051d2781217fd815c72b2df5a587"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/README.md",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/README.md",
+      "bytes": 2315,
+      "sha256": "85422e212fcbe4237cba3fc52d1bbd94d479648481f7efce7ea807dc64a464e8"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/RESULT.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/RESULT.json",
+      "bytes": 1739,
+      "sha256": "e94e6e6cf0af4a359c30a712e760c7b5cf83e3b7c19b2ac166d114b0b4c5e362"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/SOURCE_CONSTRUCTION.json",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/SOURCE_CONSTRUCTION.json",
+      "bytes": 3868,
+      "sha256": "a8bcefc9eb14308c7f15252b30d93c9a152f889ec3261a8e1ac3b199f4813ae9"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/constructed_upper24.rga",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/constructed_upper24.rga",
+      "bytes": 292,
+      "sha256": "5d435806c52d64b056bd8b02e33de0887613948a82acebe6025e04d92bf401f0"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/guarded_upper9.rga",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/guarded_upper9.rga",
+      "bytes": 201,
+      "sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1"
+    },
+    {
+      "path": "legacy/results/figure2_working_20261102/upper_cap_guarded_v1/moves.jsonl",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/results/figure2_working_20261102/upper_cap_guarded_v1/moves.jsonl",
+      "bytes": 3244,
+      "sha256": "154094594ee460da0cc459659a38d09d1f990ea86bab1e76653246b35ea1a66f"
+    },
+    {
+      "path": "legacy/source/katie_7_4_1.cpp",
+      "archive": "motoo_figure2_simplification_v1.zip",
+      "member": "motoo_figure2_simplification_v1/source/katie_7_4_1.cpp",
+      "bytes": 63655,
+      "sha256": "3c1c0e02591090d9da13bb6c65a4c13044f81c15b79babc92669ab29c59761c7"
+    },
+    {
+      "path": "reference/published_fig2_S4/README.md",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/README.md",
+      "bytes": 4182,
+      "sha256": "516d1390db4641c9abdd4120b4b13ecce9502b3f11bb299a560eac8d288fe2cd"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/BOUNDARY_EXTRACTION.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/BOUNDARY_EXTRACTION.json",
+      "bytes": 3458,
+      "sha256": "ba436b4184c3cd32bd9ed71ed9f49318c2fd1c253fb1b2fe8f8e239c898c372d"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/COLLAR_ATTACHMENT_AUDIT.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/COLLAR_ATTACHMENT_AUDIT.json",
+      "bytes": 1654,
+      "sha256": "378a6abae4dfd027eecc7883694d416bb2994729fe64f1e51f2a339445b871fe"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/FAST_LAYERING_VERIFICATION.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/FAST_LAYERING_VERIFICATION.json",
+      "bytes": 941,
+      "sha256": "01117e20d26fb84cec88bec3975438ee92b7828ca13175577548a3d3902b5b01"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/boundary.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/boundary.rga",
+      "bytes": 9545,
+      "sha256": "f4314c5d555e5a7260dc91e8b42efbede18178009cfe3fac64d2591c1daf57e3"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/boundary_locations.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/boundary_locations.json",
+      "bytes": 663,
+      "sha256": "5f2073237c1112ab333c3ba291353ada29b8693d4fd10670911f7b92ec0a0256"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/layered_piece.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/layered_piece.rga",
+      "bytes": 333443,
+      "sha256": "e0d1b39192ddfc7fc8852d210658d7e0647a0ba0d0a36b8fe07c704483bc9a37"
+    },
+    {
+      "path": "reference/published_fig2_S4/boundary/path_short.json.gz",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/boundary/path_short.json.gz",
+      "bytes": 1208335,
+      "sha256": "2238a9e4699ea6977562a4b8d95799402f3377e688c0d448a2d22a4742304405"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/CLOSED_MANIFOLD_ADMISSION.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/CLOSED_MANIFOLD_ADMISSION.json",
+      "bytes": 233874,
+      "sha256": "d9ced96886cedc0e8dda1295c2a708388f1063af3bdbdf6c827f7f667abe806e"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/INDEPENDENT_BOUNDARY_GLUING.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/INDEPENDENT_BOUNDARY_GLUING.json",
+      "bytes": 1130,
+      "sha256": "7226e05af66d5032f8b34cc20a8cc0e037aeeb027b0a61186b4820b5e3db26c0"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/PROGRESS.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/PROGRESS.json",
+      "bytes": 1038,
+      "sha256": "4d3a21b9182915e72bcb34c8a0485cfdf4d3e3e879aae2ea1277affa0b424e7f"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/RAW_CLOSED_GLUING.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/RAW_CLOSED_GLUING.json",
+      "bytes": 970,
+      "sha256": "8783a1a0c396604db36fa4524e25b4971aaad4c18f94db1a1703c056ef5fdb64"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/VERTEX_LINKS.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/VERTEX_LINKS.json",
+      "bytes": 43911,
+      "sha256": "6019e41f26f2bfd8924367c3a5cb602a23e44364bb0df63cda7185417aa5a385"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/boundary_gluing.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/boundary_gluing.json",
+      "bytes": 1599,
+      "sha256": "1b5202893cbf52b3ac04b148cf76d9b0edac96eefd0f786511c189ac58317da3"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed/closed_candidate.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed/closed_candidate.rga",
+      "bytes": 340267,
+      "sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed_path/CHECKPOINT.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed_path/CHECKPOINT.json",
+      "bytes": 143176,
+      "sha256": "4b1256a2defd20c77cca2cf8d7119c4c5307aefc89ba339de73fe03dd7e47de2"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed_path/EXTRACTION.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed_path/EXTRACTION.json",
+      "bytes": 762,
+      "sha256": "350e89adfa3085a1696430f916b1c7f403ad5b5c0c4bf4febb3b096ee1e9b61b"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed_path/REPLAY.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed_path/REPLAY.json",
+      "bytes": 1595,
+      "sha256": "3c843dd15149859094a491122ea28c1bb726141dd4c2b7eb66713e82c08bc082"
+    },
+    {
+      "path": "reference/published_fig2_S4/closed_path/SOURCE.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/closed_path/SOURCE.json",
+      "bytes": 2407,
+      "sha256": "1f562bc3bc3f0cd35fdc20784d9f4c7dfe49d739a4cc0f438146276985269da3"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/ARCHIVE_SCRIPTS_USED.sha256",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/ARCHIVE_SCRIPTS_USED.sha256",
+      "bytes": 1136,
+      "sha256": "27f38efc019fb9e2e496373c251bda8c75625ddf4ef08c766d2ea27615f2b4db"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/helper/primal_recognition_bridge.cpp",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/helper/primal_recognition_bridge.cpp",
+      "bytes": 4404,
+      "sha256": "8613768b468c8db9ae165b123481e3d55c67406cd2d7cf33e54d7f575bc9df30"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/helper/primal_recognition_bridge.map",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/helper/primal_recognition_bridge.map",
+      "bytes": 225,
+      "sha256": "2a5d6887518745f8ad745d056c9806373c99f8b54378c62fcd03f92513e97f55"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/helper/primal_triangle_group.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/helper/primal_triangle_group.py",
+      "bytes": 9650,
+      "sha256": "097bd70358512370583cfaae07a7f49fc43dc2bdae798acbc484b6c1670123f7"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/helper/run_with_primal_recognition.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/helper/run_with_primal_recognition.py",
+      "bytes": 14533,
+      "sha256": "e5f9b959502d305e193ca3ad829f01c61a8a0eef5b6e999766eb3f5cef1200ea"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/helper/verify_primal_triangle_group.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/helper/verify_primal_triangle_group.py",
+      "bytes": 8938,
+      "sha256": "10766605df5a06d73b29bee4b9c1bd829228880cbe3ada33afe337ca695de39f"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/simplify_penta.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/simplify_penta.py",
+      "bytes": 19868,
+      "sha256": "fe5b8c2cad6a3d4b3099ff4f44f4a1e0cb16993f2f25ada4b186dee1d5ca1c7a"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/boundary_path.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/boundary_path.py",
+      "bytes": 4254,
+      "sha256": "59612c7d313987bd80ce2bd048cc048cf27d1dd72ac4c012c294bf59cf19a482"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/bridge_bfs.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/bridge_bfs.py",
+      "bytes": 2420,
+      "sha256": "872b1095a25727a9834d43b5b71de09e25e95e87d317addb076e58b040381e00"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/check_dropped.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/check_dropped.py",
+      "bytes": 1460,
+      "sha256": "05b3c1b9011d158d1ef5120bcd857e1ba14265a27940764b73d81d719295ddca"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/closed_simplify.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/closed_simplify.py",
+      "bytes": 1609,
+      "sha256": "6c49d8316fd2379b1a283704de48477f306e8ad37cd9e3394d2d0f5b46014ea5"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/colour_diag.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/colour_diag.py",
+      "bytes": 2600,
+      "sha256": "d476859dc1954eb4db57b97d4ac2ce20de622b3a608740fbd0e7e4aecc93ccf6"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/crops.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/crops.py",
+      "bytes": 980,
+      "sha256": "247f0a6c9a736cd55c711e0e85e3e0cce26f64307eb719f8be71a05792a811b1"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/drop_thin.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/drop_thin.py",
+      "bytes": 645,
+      "sha256": "bb5a7799fd9ce520d0135cf1dcb1ca86d8becc43160f757c2c3119fd5d5f5e95"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/finalize.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/finalize.py",
+      "bytes": 5802,
+      "sha256": "c1bbeb41317d425b8c9f8625c6dcf2272de3c056592093d06c8ac53df70d62eb"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/finger.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/finger.py",
+      "bytes": 12010,
+      "sha256": "73c8aff5ac3d84fc1a32f69d041a88e708233d0838725a8eb613e1683a1facea"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/finger_search.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/finger_search.py",
+      "bytes": 3871,
+      "sha256": "563854f2e123c4d80514086c02df64a68017f202b90bd5bebe0b6ede9892a0e2"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/finite_simplify.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/finite_simplify.py",
+      "bytes": 771,
+      "sha256": "8cc93553c6670eecb052828c09a5c24e86f62c0d78dae6781e45de646d794d97"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/flip_original.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/flip_original.py",
+      "bytes": 1463,
+      "sha256": "3b5a2d05421d20a260941f4f0af513cbbab0146b4bf10b4795a4ec5c34d6ace2"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/flip_redraw_pairs.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/flip_redraw_pairs.py",
+      "bytes": 1360,
+      "sha256": "d84e3dd45d5d8d0303d363d0c77184bf55dbe3795fb66bd407f0debe1e8f7355"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/ideal_simplify.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/ideal_simplify.py",
+      "bytes": 798,
+      "sha256": "7707f19a2249386f13012143d22f336d53804f0a835fe1f2ea13bf945a7bd24e"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/katie_shrink.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/katie_shrink.py",
+      "bytes": 3944,
+      "sha256": "e1f6cc3443585b5df41cfe07b75d6ab51d2965f06f2786041df463de41d36ba7"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/link_sheet.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/link_sheet.py",
+      "bytes": 2327,
+      "sha256": "2d2185f5007e689057b21555d7ed74aa5c663133e6065dec4ac0a2c07dcf51e3"
+    },
+    {
+      "path": "reference/published_fig2_S4/code/v3/piece_widths.py",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/code/v3/piece_widths.py",
+      "bytes": 1255,
+      "sha256": "d71b1717303b960c47789dfbd65cdcb1666affb7ad2e326a51e9b2fd7071920b"
+    },
+    {
+      "path": "reference/published_fig2_S4/diagram/CERTIFICATION.txt",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/diagram/CERTIFICATION.txt",
+      "bytes": 2543,
+      "sha256": "e11c573da033234e1557a4e9b9e1ced80e8c963413a774b89090daaf104b7d6e"
+    },
+    {
+      "path": "reference/published_fig2_S4/diagram/fig2_published_katie.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/diagram/fig2_published_katie.json",
+      "bytes": 6548,
+      "sha256": "5aeaea4ffa70b3d4084fbae11cd144c256ae3af361cbebb10da07166cad3427f"
+    },
+    {
+      "path": "reference/published_fig2_S4/diagram/published_fig2_katie_diagram.png",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/diagram/published_fig2_katie_diagram.png",
+      "bytes": 322775,
+      "sha256": "e298c65e270a31dbdbe68b9f3600cf273a4e62c6b009cd1d7c720cc9cd1d17ca"
+    },
+    {
+      "path": "reference/published_fig2_S4/final/CERTIFICATE.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/final/CERTIFICATE.json",
+      "bytes": 9247,
+      "sha256": "54819a4b09ece5267e08d00e6168b674642c5d2c4b379259db8ff1b62a6d8a91"
+    },
+    {
+      "path": "reference/published_fig2_S4/final/log.txt",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/final/log.txt",
+      "bytes": 1572,
+      "sha256": "36a74ce08e9e0bcbdacdc9ec367024bd78a66ef7bad727f6a51bc61c478f5e39"
+    },
+    {
+      "path": "reference/published_fig2_S4/katie/RUN_RECEIPT.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/katie/RUN_RECEIPT.json",
+      "bytes": 185621,
+      "sha256": "6be83c4914dc4a1bcbb966ce83a3fec5728a58f79dab6851e5b4d9dc0c05a219"
+    },
+    {
+      "path": "reference/published_fig2_S4/katie/input_oriented.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/katie/input_oriented.json",
+      "bytes": 105246,
+      "sha256": "c6b4d9c7522a69b4df67d35029638480ff74b62e78ee5c3377a25c0b311f8acd"
+    },
+    {
+      "path": "reference/published_fig2_S4/katie/raw_katie.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/katie/raw_katie.rga",
+      "bytes": 15167,
+      "sha256": "f1590ec6de3e7a9d9fdeb2175f98a9cd70688027776d274de0f2da4718a119bb"
+    },
+    {
+      "path": "reference/published_fig2_S4/katie/triangulation.isosig",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/katie/triangulation.isosig",
+      "bytes": 10451,
+      "sha256": "027f30408ebad565976d8f5579bcc4d2cc5efdcd66c27d30eed3f7a453b302a8"
+    },
+    {
+      "path": "reference/published_fig2_S4/lower/lower_v1.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/lower/lower_v1.rga",
+      "bytes": 20026,
+      "sha256": "754122baa2a4a381f0c4859e2cd883cc8538d5513a83eed6134fa7b302f8287d"
+    },
+    {
+      "path": "reference/published_fig2_S4/truncation/BOUNDARY_ISOMORPHISM.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/truncation/BOUNDARY_ISOMORPHISM.json",
+      "bytes": 101800,
+      "sha256": "c444da3470b8739acd42046c7af0fb8ca87302da73b22d5344a36d09235dd340"
+    },
+    {
+      "path": "reference/published_fig2_S4/truncation/FINITE_TRUNCATION_VERIFICATION.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/truncation/FINITE_TRUNCATION_VERIFICATION.json",
+      "bytes": 800,
+      "sha256": "c0cea046e7655bf7a246a17c2666eac52956d3af8c0da101ddf8fec93b400c68"
+    },
+    {
+      "path": "reference/published_fig2_S4/truncation/SOURCE_VERTEX_LINKS.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/truncation/SOURCE_VERTEX_LINKS.json",
+      "bytes": 4701,
+      "sha256": "b145a175306307a1907b2d35ce2f806f13bb515487dd929d22979a4b50c33e23"
+    },
+    {
+      "path": "reference/published_fig2_S4/truncation/STAIRCASE_CONSTRUCTION.json",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/truncation/STAIRCASE_CONSTRUCTION.json",
+      "bytes": 1464452,
+      "sha256": "7ddedc9853d9882511b4064a6770a7d8aa2594c5d0a15806497c134c6012b6b4"
+    },
+    {
+      "path": "reference/published_fig2_S4/truncation/finite_boundary.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/truncation/finite_boundary.rga",
+      "bytes": 13222,
+      "sha256": "5feb8caea3278e17573c3e6612450dfb2d649de3d9dcf4cd8c0eecc32c8087d1"
+    },
+    {
+      "path": "reference/published_fig2_S4/truncation/finite_staircase.rga",
+      "archive": "published_fig2_S4.zip",
+      "member": "published_fig2_S4/truncation/finite_staircase.rga",
+      "bytes": 69738,
+      "sha256": "3da4605e87047418b42f5464182aa928b55e5d04be6142b67b35395a4e501665"
+    }
+  ]
+}

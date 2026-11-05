@@ -1,0 +1,31 @@
+Identity of the constructed Katie-position diagram (fig2_published_katie.json) with the published Figure 2
+=========================================================================================================
+
+Published Figure 2 link: zip/motoo_kirby_v1/inputs/figure2_link.json (vector-PDF transcription; re-transcribed
+independently from the stroke paths and certified identical on 2026-11-01).
+
+Constructed diagram: Motoo's 2026-11-04 redraw (151 crossings after cleanup), plus two computed finger clasps of
+the -1-framed handle (blue). Each clasp hooks one dotted circle at the point where its over-arc meets its
+under-arc, so the over/under structure of every dotted circle is preserved. The search for clasp placements used
+the intermediate target "published link with only crossing 5 changed" (volume 63.871480075) for the green clasp,
+then the published link itself (volume 63.621883397) for the salmon clasp.
+Result: 188 crossings, planar (Regina isClassical: True), 8 components.
+
+1. Decorated isometry signature (SnapPy isometry_signature(of_link=True), which includes the meridians):
+   identical strings (sha256 prefix 9a1363abc59802cf) for the published link and the constructed diagram.
+   Both canonical signatures are reached by homeomorphism-preserving retriangulation of each exterior, so equal
+   strings mean the exteriors are homeomorphic, preserving meridians.
+2. SnapPy isometry that preserves meridians and Seifert longitudes (cusp maps +-I) and matches decorations:
+     C0 (0) -> red (0)        C1 (x) -> green (x)     C2 (x) -> salmon (x)    C3 (-1) -> blue (-1)
+     C4 (x) -> navy (x)       C5 (0) -> purple (0)    C6 (0) -> yellow (0)    C7 (0) -> cyan (0)
+   CERTIFIED_SAME_MARKED_LINK
+3. Multiset of H1 over all 255 connected 2-fold covers: IDENTICAL.
+4. Katie position (dotted_report): green 16 O + 18 U, salmon U/O/U (one cyclic U-block) 36, navy 5 O + 5 U;
+   no dotted self-crossings and no dotted-dotted crossings. orient_katie_diagram reversed the orientation of
+   dotted components 5 and 7 only, which does not change the link.
+5. Katie framing convention: each 2-handle's self-writhe is adjusted by Reidemeister-I curls to equal the given
+   integer, so the integers are framings relative to the Seifert framing (Kirby convention).
+
+The Nov 4 redraw itself is the same link as the Nov 1 redraw (identical decorated signatures). Both redraws equal
+the published diagram with crossings 4 and 5 changed: there the -1 handle passes over, rather than under, the two
+dotted circles near the "-1" label.

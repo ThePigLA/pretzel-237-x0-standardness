@@ -1,0 +1,195 @@
+{
+  "status": "PASS_IDENTITY_COMPONENT_CORRESPONDENCE_FOR_ALL_SIX_INPUTS",
+  "snappy_version": "3.3.2",
+  "method": "Observed live evaluation of cover_obstruction.link_with_map on each PD; source labels for rich spot-switched records taken from components[*].arc_labels. Each returned map equalled {i:i for i in range(8)}. Record materialized from that completed command output.",
+  "scope": "Confirms declared C0,...,C7 correspondence for the supplied PD records and runtime; does not audit PDF extraction.",
+  "source_inspection": "SnapPy Link.exterior constructs its triangulation from Link.KLPProjection(); KLPProjection transmits strand component indices without permuting them.",
+  "files": [
+    {
+      "file": "new_fig1.json",
+      "sha256": "1b0cadf72ae244bd08a88bfda992f85613e9cd333be1d7965b059292f2fae49c",
+      "crossings": 64,
+      "components": 8,
+      "cusp_to_source_component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_decorations": [
+        0,
+        "x",
+        "x",
+        -1,
+        "x",
+        0,
+        0,
+        0
+      ],
+      "zero_filled_cusps": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "file": "new_fig2.json",
+      "sha256": "fa91a000bdeb68b66d99cd3451229afc9bc01eaa2f0ac295e5778e3a168ed46a",
+      "crossings": 60,
+      "components": 8,
+      "cusp_to_source_component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_decorations": [
+        0,
+        "x",
+        "x",
+        -1,
+        "x",
+        0,
+        0,
+        0
+      ],
+      "zero_filled_cusps": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "file": "old_fig1.json",
+      "sha256": "18b9ff0b48a2ac263512be67e1ff94d9b29f1540a5178a1cba8f89418559a17b",
+      "crossings": 64,
+      "components": 8,
+      "cusp_to_source_component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_decorations": [
+        0,
+        "x",
+        "x",
+        -1,
+        "x",
+        0,
+        0,
+        0
+      ],
+      "zero_filled_cusps": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "file": "old_fig1_spot_switched.json",
+      "sha256": "cd34ae79e070c1c78814ba6c5262c9bb026ffa7231164413cf03acc61be75f69",
+      "crossings": 64,
+      "components": 8,
+      "cusp_to_source_component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_decorations": [
+        0,
+        "x",
+        "x",
+        -1,
+        "x",
+        0,
+        0,
+        0
+      ],
+      "zero_filled_cusps": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "file": "old_fig2.json",
+      "sha256": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767",
+      "crossings": 60,
+      "components": 8,
+      "cusp_to_source_component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_decorations": [
+        0,
+        "x",
+        "x",
+        -1,
+        "x",
+        0,
+        0,
+        0
+      ],
+      "zero_filled_cusps": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "file": "old_fig2_spot_switched.json",
+      "sha256": "acdf99ff187c4da52532af8449ea7bc64cd3163469596b5400645f2f05a4c5ba",
+      "crossings": 60,
+      "components": 8,
+      "cusp_to_source_component": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_decorations": [
+        0,
+        "x",
+        "x",
+        -1,
+        "x",
+        0,
+        0,
+        0
+      ],
+      "zero_filled_cusps": [
+        1,
+        2,
+        4
+      ]
+    }
+  ]
+}

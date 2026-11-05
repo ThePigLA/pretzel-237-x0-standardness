@@ -1,0 +1,12 @@
+{
+  "archived_file_sha256": "e0d1b39192ddfc7fc8852d210658d7e0647a0ba0d0a36b8fe07c704483bc9a37",
+  "compressed_file_bytes_match_archive": false,
+  "file": "layered_lower/layered_piece.rga",
+  "name": "layered",
+  "pentachora": 23696,
+  "sha256": "6cbdcd7637cedbca143b6a033d360b5f9ee02936622979e1f03cbb29addbf806",
+  "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+  "tight_sha256": "e26233b6916921c97e95318f6ff73628617b303bc25a5af46a969a3436c9a95b",
+  "uncompressed_file_bytes_match_archive": true,
+  "uncompressed_payload_sha256": "484c22cb4a0fba0444228f0cb1efd0409a6456754a8ae2de080d97357a17ca16"
+}

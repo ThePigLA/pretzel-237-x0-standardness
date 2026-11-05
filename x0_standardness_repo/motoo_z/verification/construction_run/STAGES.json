@@ -1,0 +1,239 @@
+{
+  "boundary_searches_rerun": false,
+  "mode": "from_marked_pd_with_katie",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "regina_distribution": "7.4.1",
+  "released_file_integrity": {
+    "bytes": 38782783,
+    "files": 178,
+    "manifest_sha256": "6c3e4900ce586a979fc0f991577ac8875ed9cfb8ef8cb8168b706bed711d5ff9",
+    "status": "PASS_RELEASED_FILE_INTEGRITY"
+  },
+  "schema": "motoo-z-construction-v1",
+  "source_drawing_identification_reproved_here": false,
+  "stages": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/build.py",
+        "_step",
+        "input",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_CONTEXT.json"
+      ],
+      "log": "logs/input.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "input",
+      "returncode": 0,
+      "seconds": 0.4072071250002409
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/build.py",
+        "_step",
+        "katie",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_CONTEXT.json"
+      ],
+      "log": "logs/katie.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "katie",
+      "returncode": 0,
+      "seconds": 25.532057140999314
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/figure2_completion_fast.py",
+        "--source",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/katie/raw_katie.rga",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/truncation"
+      ],
+      "log": "logs/finite_truncation.log",
+      "log_sha256": "9191aca94b8d4f125be65bf41c08d76f327fd6bff131ad27b91a670ec7f444ee",
+      "name": "finite_truncation",
+      "returncode": 0,
+      "seconds": 10.866298293
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/verify_staircase_truncation.py",
+        "--source",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/katie/raw_katie.rga",
+        "--folder",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/truncation",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/checks/independent_truncation.json"
+      ],
+      "log": "logs/independent_truncation.log",
+      "log_sha256": "0af854e6d2aed59970e385fc33c886bc5f0c19138841f3608ba69139c9c8c3de",
+      "name": "independent_truncation",
+      "returncode": 0,
+      "seconds": 1.7686113379995732
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/build.py",
+        "_step",
+        "simplify",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_CONTEXT.json"
+      ],
+      "log": "logs/simplify.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "simplify",
+      "returncode": 0,
+      "seconds": 187.407521051
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/verify_upper_cap_guarded.py",
+        "--certificate",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/results/figure2_working_20261102/upper_cap_guarded_v1",
+        "--target",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/results/boundary/upper_cap_selftest_v1/reference_cap.rga",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/checks/cap24_to9.json"
+      ],
+      "log": "logs/independent_cap24_to9.log",
+      "log_sha256": "fddc190aa1ebd2c5cf91679b4a16c01698759a43d3da1f9719dc9fe67ca16c14",
+      "name": "independent_cap24_to9",
+      "returncode": 0,
+      "seconds": 0.21436310299941397
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/build.py",
+        "_step",
+        "cap",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_CONTEXT.json"
+      ],
+      "log": "logs/cap.log",
+      "log_sha256": "895d10c7fef884f1d48457333e71222975b211df577b683ddbd79d2cfa61ea3c",
+      "name": "cap",
+      "returncode": 0,
+      "seconds": 57.15820749199975
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/build.py",
+        "_step",
+        "path",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_CONTEXT.json"
+      ],
+      "log": "logs/path.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "path",
+      "returncode": 0,
+      "seconds": 0.22597974200016324
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/boundary_layer_fast.py",
+        "--source",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/lower/lower_v1.rga",
+        "--path",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/inputs/lower_boundary_path.json",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/layered_lower"
+      ],
+      "log": "logs/lower_boundary_layering.log",
+      "log_sha256": "293ba53c3e75954371d901544158e2c6177a8524c6efa7f7420bcdf3280530c0",
+      "name": "lower_boundary_layering",
+      "returncode": 0,
+      "seconds": 15.373449028999858
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/audit_layering_collar.py",
+        "--source",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/lower/lower_v1.rga",
+        "--path",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/inputs/lower_boundary_path.json",
+        "--layered",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/layered_lower/layered_piece.rga",
+        "--events",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/layered_lower/layering_events.jsonl.gz",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/checks/collar.json"
+      ],
+      "log": "logs/independent_collar.log",
+      "log_sha256": "8e58285a1b270eb78f1a548924e89fe183f577b5fb1b560df5d1962a3450014a",
+      "name": "independent_collar",
+      "returncode": 0,
+      "seconds": 21.245030386000508
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/boundary_layer_fast.py",
+        "--source",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/layered_lower/layered_piece.rga",
+        "--glue-second",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/cap/cap_with_matched_boundary.rga",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/closed"
+      ],
+      "log": "logs/glue_finite_pieces.log",
+      "log_sha256": "ee30ce64a45db6853b899257de52568e5f58f261d02a9c60de42f7daadc9ca59",
+      "name": "glue_finite_pieces",
+      "returncode": 0,
+      "seconds": 0.5120538660003149
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/audit_fast_closed_gluing.py",
+        "--folder",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/closed",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/checks/gluing.json"
+      ],
+      "log": "logs/independent_gluing.log",
+      "log_sha256": "65773b83bd7d443916f554102c8ea0b86898855a01caba5b8f1f5244246bf359",
+      "name": "independent_gluing",
+      "returncode": 0,
+      "seconds": 2.1668009609993533
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/audit_raw_algebra4.py",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/closed/closed_candidate.rga",
+        "--method",
+        "primal",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/admission",
+        "--group-seconds",
+        "120"
+      ],
+      "log": "logs/closed_manifold_admission.log",
+      "log_sha256": "c0b2f5c5f141735d3dd2cf79800eadaa02c4ac97002d9256d021288b10e077b1",
+      "name": "closed_manifold_admission",
+      "returncode": 0,
+      "seconds": 19.873999593000008
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/build.py",
+        "_step",
+        "finish",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/BUILD_CONTEXT.json"
+      ],
+      "log": "logs/finish.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "finish",
+      "returncode": 0,
+      "seconds": 0.27993234999939887
+    }
+  ],
+  "standardness_asserted_by_construction": false,
+  "status": "RUNNING"
+}

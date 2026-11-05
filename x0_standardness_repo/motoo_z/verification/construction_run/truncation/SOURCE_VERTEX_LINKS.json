@@ -1,0 +1,143 @@
+{
+  "all_other_links_are_3_spheres": true,
+  "ideal_link_is_two_S1xS2": true,
+  "ideal_vertex": 1,
+  "status": "PASS_NATIVE_LINK_RECOGNITION",
+  "vertices": [
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 1528,
+      "seconds": 0.18064994600081263,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 0
+    },
+    {
+      "H1": "2 Z",
+      "original_link_tetrahedra": 1528,
+      "recognised_two_S1xS2_summands": true,
+      "seconds": 0.4029313379996893,
+      "simplified_link_is_sphere": false,
+      "simplified_link_isosig": "gLLMQaeeffdfbdepkbg",
+      "simplified_link_tetrahedra": 6,
+      "summand_isosigs": [
+        "cMcabbjaj",
+        "cMcabbjaj"
+      ],
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 1
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 1528,
+      "seconds": 0.19350765899980615,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 2
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 884,
+      "seconds": 0.07173777999923914,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 3
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 520,
+      "seconds": 0.03717327300000761,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 4
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 144,
+      "seconds": 0.002282090999869979,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 5
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 644,
+      "seconds": 0.031602740000380436,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 6
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 108,
+      "seconds": 0.001843548000579176,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 7
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 160,
+      "seconds": 0.00358621299983497,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 8
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 232,
+      "seconds": 0.007116210999811301,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 9
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 188,
+      "seconds": 0.0026531220000833855,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 10
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 40,
+      "seconds": 0.0002352559995415504,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 11
+    },
+    {
+      "H1": "0",
+      "original_link_tetrahedra": 136,
+      "seconds": 0.0019228270002713543,
+      "simplified_link_is_sphere": true,
+      "simplified_link_isosig": "bkaagj",
+      "simplified_link_tetrahedra": 1,
+      "trust_boundary": "native Regina3D simplify and sphere recognition on a link copy",
+      "vertex": 12
+    }
+  ]
+}

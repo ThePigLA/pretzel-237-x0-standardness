@@ -1,0 +1,9 @@
+{
+    global:
+        _ZNK6regina13TriangulationILi3EE8isSphereEv;
+        _ZNK6regina13TriangulationILi3EE6isBallEv;
+        motoo_primal_configure;
+        motoo_primal_error;
+        motoo_primal_counter;
+    local: *;
+};

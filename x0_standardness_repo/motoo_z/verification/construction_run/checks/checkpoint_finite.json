@@ -1,0 +1,12 @@
+{
+  "archived_file_sha256": "3da4605e87047418b42f5464182aa928b55e5d04be6142b67b35395a4e501665",
+  "compressed_file_bytes_match_archive": false,
+  "file": "truncation/finite_staircase.rga",
+  "name": "finite",
+  "pentachora": 6112,
+  "sha256": "c215f1ec4729acda7ab3cb7dd22a64690cdaae3ec134e88bbd8d3e972181002a",
+  "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+  "tight_sha256": "9af38481e4f93cfe5a1505bb5a3e927e88b51f1aa6692e678d10db10dfa0302d",
+  "uncompressed_file_bytes_match_archive": true,
+  "uncompressed_payload_sha256": "877028c08aca3c892d77cccb6d47e404b148350fe4a886250e89d481c92d91b5"
+}

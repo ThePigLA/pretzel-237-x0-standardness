@@ -1,0 +1,19 @@
+{
+  "status": "PASS_TRIVIAL_PRIMAL_FUNDAMENTAL_GROUP",
+  "source_sha256": "e908e2c5bdf26dda2528376a52c050e44b95ee0d9e2fd0368ab58fd1aa3a4cb4",
+  "presentation_sha256": "278d97e5c7045b03be8d714a8acf7e0add932656a639f67c8f7faf210b72ce87",
+  "generators": 75,
+  "eliminations": 75,
+  "remaining_generator_classes": 0,
+  "remaining_roots": [],
+  "elimination_log_sha256": "bb2b7c83fe003a3e5f6168f3832de33481dea534ae9d26f78cd6d3f353641a5f",
+  "all_original_generators_proved_identity": true,
+  "examined_relators": 147,
+  "seconds": 0.0026246750003338093,
+  "bound_seconds_including_extraction": 120,
+  "geometric_simplification_used": false,
+  "regina_group_computation_used": false,
+  "torsion_relations_dropped": false,
+  "nontriviality_claimed": false,
+  "standardness_of_source_claimed": false
+}

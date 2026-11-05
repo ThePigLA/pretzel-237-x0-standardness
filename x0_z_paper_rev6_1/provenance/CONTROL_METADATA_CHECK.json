@@ -1,0 +1,112 @@
+{
+  "archive_file": "/workspace/scratch/0628b77ee402/paper_merge_20261105/recovered/maggie_twist_verified_v1.zip",
+  "archive_bytes": 1837764,
+  "archive_sha256": "8a0cdb66a11de260ac7de2739dbffe5f6ff159cd2e0a216884bcad5095840e25",
+  "files": {
+    "input/marked_control.json.gz": {
+      "bytes": 847345,
+      "sha256": "473f5dcbf801a7ddf2a3b37197b6c2205c8674ba4ecaeb27ad7a70e0f41c76f6"
+    },
+    "results/red_s0.moves.jsonl.gz": {
+      "bytes": 908913,
+      "sha256": "0126abc89757878d8ecb9eb16299d3dd2c063c3cd491a8e0bf295c722f99a331"
+    },
+    "verify_certificate_strict.sh": {
+      "bytes": 3797,
+      "sha256": "50eab6654fde8c44fec09e2afef5a9257385bdb21dae0a96c527e1d2e2bd951f"
+    },
+    "fresh_review/strict_replay/STRICT_VERIFICATION.json": {
+      "bytes": 1136,
+      "sha256": "388d3f26a299d70ad68b5e318a1028171934483d5192e7bcd20fc3a276639f8a"
+    },
+    "fresh_review/strict_replay/endpoint.json.gz": {
+      "bytes": 404,
+      "sha256": "513af3538ed9b32fb5f57529fcea380f3efef55e744b1f5d90d9797551b76dca"
+    },
+    "MANIFEST_SHA256.json": {
+      "bytes": 7848,
+      "sha256": "f13081a6a25739a245e2cdcef886771819e9cc3d9d974ba0ebe6a1e7966c6483"
+    }
+  },
+  "moves_counted_without_replay": 161328,
+  "move_counts": {
+    "2-4": 4297,
+    "3-3": 134673,
+    "4-2": 18138,
+    "5-1": 17,
+    "edge_contraction": 4203
+  },
+  "recorded_endpoint_chain": {
+    "source": "/workspace/scratch/0628b77ee402/maggie_twist_review_work/maggie_twist_verified_v1/input/marked_control.json.gz",
+    "certificate": "/workspace/scratch/0628b77ee402/maggie_twist_review_work/maggie_twist_verified_v1/results/red_s0.moves.jsonl.gz",
+    "moves": 161328
+  },
+  "recorded_endpoint_facets": [
+    [
+      227,
+      259,
+      271,
+      349,
+      359
+    ],
+    [
+      227,
+      259,
+      271,
+      349,
+      654
+    ],
+    [
+      227,
+      259,
+      271,
+      359,
+      654
+    ],
+    [
+      227,
+      259,
+      349,
+      359,
+      654
+    ],
+    [
+      227,
+      271,
+      349,
+      359,
+      654
+    ],
+    [
+      259,
+      271,
+      349,
+      359,
+      654
+    ]
+  ],
+  "recorded_strict_receipt": {
+    "PYTHONOPTIMIZE_unset": true,
+    "assertions_enabled": true,
+    "branch_complement_group": "one generator, zero relations after Regina simplification",
+    "certificate_sha256": "0126abc89757878d8ecb9eb16299d3dd2c063c3cd491a8e0bf295c722f99a331",
+    "checked_utc": "2026-10-29T01:12:05.732125+00:00",
+    "direct_subprocess_exit_statuses_checked": true,
+    "endpoint": "boundary of a 5-simplex",
+    "endpoint_facets": 6,
+    "full_search_rerun": false,
+    "log_sha256": {
+      "group_Z.log": "b8166cf6da1e2c3692d083ee6fe73d75e0f448fc3c8392ee4791883b217f7a23",
+      "group_extraction.log": "e08d9460fbc91e2b25bc5083596d7b38bc2edc4e4d62e2cf93161d6c0fe37123",
+      "input.log": "4a3bdfdf76bebaae8aa28ac1d0db5ef49b6ae0c364fd766fb16013dec344fb9d",
+      "reduction.log": "fdd43fa28c2bb30ad3307aa6e02b95935783cd9e7a16c4508ea9f8974c7d15a2",
+      "vertex_links.log": "1427ef977342eee692208a64ff430cb94380c0578107d8cce6b90f5723bc4087"
+    },
+    "master_sha256": "473f5dcbf801a7ddf2a3b37197b6c2205c8674ba4ecaeb27ad7a70e0f41c76f6",
+    "moves_replayed": 161328,
+    "regina_distribution": "7.4.1",
+    "status": "STRICT_ALL_CHECKS_PASS",
+    "vertex_links_checked": 4226
+  },
+  "not_a_fresh_move_replay": true
+}

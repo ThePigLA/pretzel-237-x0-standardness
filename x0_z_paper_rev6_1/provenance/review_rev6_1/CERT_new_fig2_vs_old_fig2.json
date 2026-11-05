@@ -1,0 +1,36 @@
+{
+  "status": "NOT_CERTIFIED",
+  "first_path": "/workspace/scratch/0628b77ee402/paper_review_rev6_1/x0_z_paper_rev6_1/corrected_figures_check/new_fig2.json",
+  "second_path": "/workspace/scratch/0628b77ee402/paper_review_rev6_1/x0_z_paper_rev6_1/corrected_figures_check/old_fig2.json",
+  "negative_result_is_nonisotopy_certificate": false,
+  "component_order_scope": "Identity on the cusp order induced by the supplied PD inputs; archive component correspondence is a prerequisite.",
+  "first_sha256": "fa91a000bdeb68b66d99cd3451229afc9bc01eaa2f0ac295e5778e3a168ed46a",
+  "second_sha256": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767",
+  "first_decorations": [
+    0,
+    null,
+    null,
+    -1,
+    null,
+    0,
+    0,
+    0
+  ],
+  "second_decorations": [
+    0,
+    null,
+    null,
+    -1,
+    null,
+    0,
+    0,
+    0
+  ],
+  "snappy_version": "3.3.2",
+  "first_decorated_signature": "-crbvLLwvvMzvvvwvwwPzMwLvMwvPQzLMAALLAMAAzMQLQLPMAQQQQQPQQdafagalanaoayasazaHaGaLazaNawaOayaBaOa0aDa1aUaJaVa4aLaXaZa7aKaVaZaWaXaSaTa1a7aUaTa8afbWa9afb3adb-a9a3akbab6ambeblbhbcb+aib-ahbnbobhbpbibobjbjbmbgbpbqbiblbqbnbnbqbpboddbdiafvdaajaoacvuafaagkafgbaowjjgbooqovuuvuutuqiqacfakofofkbodevlkhvvmouaojeuukj_abBabBabbBBcbaBbabBabaBbabBabaCb",
+  "second_decorated_signature": "-clbvLvLvvwvvMwzMwLLzMvLLwLwzzQMwvvAPzLQPQPAQQQQQQQQQQeajakavanasapaBaCataGaHaJaxaIaMazaAaXaXaZaTaMaTa2aHaLaKa3aYaPa1a3a0a-aSa5a9aYaeb4aVaabcbfbcbZa0a5ahb9a8a2acb6aibdbib9aab8a+a-afbbbebbbfbjbgbibgbkbjbkbkboagaoiiaagaiaguaccaaammmaookoococntbauoiwvmauacgahipcmaxpockvrbokncgoccgnsnr_baCbbaabbBababBaabBaabBBbBabbaBb",
+  "signatures_equal": false,
+  "accepted_marked_isometries": [],
+  "reason": "The required positive marked identification was not established.",
+  "exit_code": 1
+}

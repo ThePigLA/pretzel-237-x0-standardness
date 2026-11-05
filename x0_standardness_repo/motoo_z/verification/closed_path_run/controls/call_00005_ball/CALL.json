@@ -1,0 +1,13 @@
+{
+  "call": 5,
+  "kind": "ball",
+  "accepted_positive": false,
+  "native_fallback_required": true,
+  "input_tight_sha256": "3b90ff9a05481a88357734a2b12a5e6d9eb59d6e549b8e69595f13fb0c8d6963",
+  "exact_encoding_roundtrip": true,
+  "tetrahedra": 1,
+  "source_sha256": "444c4d147bc26a1f19c6f00bb9ca0b7a1a9463865e74b272cfe45e6bba01fa61",
+  "status": "HYPOTHESES_NOT_MET_USE_ORIGINAL",
+  "reason": "ball boundary is not S2",
+  "seconds": 0.05552231599995139
+}

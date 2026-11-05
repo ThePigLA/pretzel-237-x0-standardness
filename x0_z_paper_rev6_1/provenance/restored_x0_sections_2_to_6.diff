@@ -1,0 +1,166 @@
+--- attached_combined_rev5_sections2-6
++++ accepted_X0_revision6_sections2-6
+@@ -11,12 +11,30 @@
+ \[
+ (S^4,\tau^0\rho^1(J))\cong\bigl((B^3,a)\times_R S^1\bigr)\cup_{\mathrm{id}}\bigl((S^2,\partial a)\times D^2\bigr).
+ \]
+-The identity attachment is taken in the fixed boundary product coordinates. The roll is supported in a collar $T^2\times[0,1]$ of the torus $T^2=\partial\nu(\partial B^3\cup a)$, where $\nu$ denotes a regular neighbourhood. In longitude and meridian coordinates $u,v\in\mathbb{R}/\mathbb{Z}$, respectively, its collar model is
+-
+-\[
+-(u,v,r)\longmapsto(u+h(r),v,r),
+-\]
+-where $h$ increases from $0$ to $1$ and is constant near the endpoints. Since the longitudinal coordinate is periodic, this map is the identity near both boundary components of the collar.
++The identity attachment is taken in the fixed boundary product coordinates. The roll is supported in a collar $T^2\times[0,1]$ of the torus $T^2=\partial\nu(\partial B^3\cup a)$, where $\nu$ denotes a regular neighbourhood. Identify this with the peripheral torus of $J$ and fix its preferred zero-linking longitude $\lambda$ and meridian $\mu$. Our ordered parametrization $\varphi:(\mathbb{R}/\mathbb{Z})^2\to T^2$ satisfies
++\[
++s\longmapsto\varphi(s,v_0)\ \text{represents }\lambda,
++\qquad
++s\longmapsto\varphi(u_0,s)\ \text{represents }\mu.
++\]
++Thus $u$ records position along a longitude at fixed $v$, and $v$ records position along a meridian at fixed $u$. In these coordinates the collar map is
++\[
++R(u,v,r)=(u+h(r),v,r),
++\]
++where $h$ increases from $0$ on the tube side to $1$ on the exterior side and is constant near the endpoints. This agrees with [1, proof of Proposition 2.1], whose ordered circle coordinates are $(\mu,\lambda)$: our $u$ is their longitude coordinate and our $v$ their meridian coordinate, each normalized to period one. For a transverse arc $\gamma(r)=(u_0,v_0,r)$, the endpoints of $R\gamma$ and $\gamma$ agree and
++\[
++[R\gamma\cdot\gamma^{-1}]=[\lambda]
++\quad\text{in }H_1(T^2\times[0,1];\mathbb{Z}).
++\]
++Here the concatenation first follows $R\gamma$, then $\gamma$ in reverse. Its longitude and meridian windings are $(1,0)$.
++
++We distinguish the downstairs meridian coordinate $v$ from the upstairs coordinate $\widetilde v$ used by the triangulation. The covering map and involution on the peripheral torus are
++\[
++q(u,\widetilde v)=(u,2\widetilde v),
++\qquad
++\iota(u,\widetilde v)=(u,\widetilde v+\tfrac12).
++\]
++The lift of the roll is therefore $(u,\widetilde v,r)\mapsto(u+h(r),\widetilde v,r)$. In contrast, the one-meridian shear downstairs lifts to $(u,\widetilde v,r)\mapsto(u,\widetilde v+h(r)/2,r)$: it extends as the identity on the tube/puncture side and as the deck involution on the exterior side. Its exterior mapping torus has a deck identification at the time seam, as in the odd-twist case of [1, proof of Theorem 1.1]. A full turn in $\widetilde v$ would represent two meridional turns downstairs.
+ 
+ \Needspace{4\baselineskip}\medskip\noindent\textbf{Lemma 2.2.} Let $V=\Sigma_2(S^3,J)$, let $V_*$ be the complement of an invariant open ball centred on the branch circle, and let $R'$ be the lift of $R$ that is the identity on a boundary collar. In the marked product coordinates on $\partial V_*\times S^1$, there is a diffeomorphism
+ 
+@@ -37,7 +55,9 @@
+ \subsection*{2.3. What the construction certificate establishes}
+ Source. The source is assembled from equivariant Seifert pieces, initially with 7,440 tetrahedra and then compressed to 628. Its deck involution has quotient $S^3$. A peripheral-preserving PL identification of its branch exterior with the exterior of the signed $12$-crossing diagram $T(-1/2)+T(1/3)+T(1/7)$ is obtained by the recorded source/import transport and an exact combinatorial isomorphism of the resulting marked triangulations. Both the meridian and longitude are preserved. Meridian filling therefore recovers the pair $(S^3,J)$. The source audit also checks the determinant and Alexander polynomial. The recorded native simplification and peripheral transport semantics, including the use of SnapPy and Spherogram, remain dependencies of this identification.
+ 
+-Monodromy. The mapping-torus bulk contains 73,696 pentachora and carries the roll in a central collar. A six-piece affine source-profile transfer, with checked inverses, face matchings and seam equations, identifies the recorded monodromy with the central longitudinal shear. Its winding is one in the longitude and zero in the meridian, both upstairs and downstairs, and it is the identity near the puncture. The comparison is relative to the marked ports and boundary collar.
++Peripheral coordinates. In the downstairs source quotient, write $N$ for the solid tube and $E$ for the knot exterior. The coordinate periods are restrictions of closed integral cocycles $c_N$ on $N$ and $c_E$ on $E$. The first evaluates to $+1$ on the actual core curve; the second evaluates to $+1$ on a geometric normal meridian. A separate replay of the mesh presentations verifies $H_1(N)=H_1(E)=\mathbb{Z}$. The actual peripheral loops have $(c_N,c_E)$-periods $(1,0)$ for $\lambda$ and $(0,1)$ for $\mu$. Consequently the first direction is the core-positive zero-framing longitude: its exterior homology class is zero. The rational vertex potentials used to flatten the torus telescope to zero on these loops. Exact adaptor checks preserve this ordered basis, and all 516 upstairs peripheral edges satisfy the projection equation $\Delta(u,v)=(\Delta u,2\Delta\widetilde v)$.
++
++Monodromy. The mapping-torus bulk contains 73,696 pentachora and carries the roll in a central collar. A six-piece affine source-profile transfer, with checked inverses, face matchings and seam equations, identifies the recorded monodromy with the central longitudinal shear. Its winding is one in the longitude and zero in the meridian, both upstairs and downstairs, and it is the identity near the puncture. The comparison is relative to the marked ports and boundary collar. An additional audit reconstructs all 11,136 central pentachora in the accepted master and both source interfaces. It checks the rational chart identifications and traces a transverse arc and its image through 6 and 14 actual master pentachora, respectively. Their endpoints agree as barycentric combinations of the same global vertices, and their closed difference has longitude and meridian periods $(1,0)$. The scripts and full rational path records are provided in the repository's \texttt{coordinate\_audit/} supplement. These checks make the direction of the implemented shear explicit; the previously stated source-transport dependencies remain.
+ 
+ Cap. Product collars containing 24,224 pentachora join the $96$-tetrahedron boundary of the mapping-torus piece to the $1,792$-tetrahedron cap boundary. The cap contains 5,824 pentachora: two four-balls, each a $2,912$-pentachoron cone on the boundary of $D^2\times D^2$, glued along the filling solid torus to form $S^2\times D^2$. For $m=0$, the attaching map is the identity on all 1,792 boundary tetrahedra in the marked coordinates, checked at exact rational coordinates.
+ 
+@@ -67,7 +87,7 @@
+ \]
+ For a triangulation of a compact PL manifold without boundary, this condition guarantees that the edge contraction preserves PL type; see Nevo [11, Theorem 1.4]. The checks use the full face sets, rather than only the vertex sets of the links.
+ 
+-A second simplicial trace consists of 629,874 checked moves: 957 full-link edge contractions, 50,016 bistellar 2-4 moves, 517,325 bistellar 3-3 moves, and 61,576 bistellar 4-2 moves. Its endpoint $C$ has 1,332 facets, 45 vertices, and face vector
++A second simplicial trace consists of 629,874 checked moves: 957 full-link edge contractions, 50,016 bistellar 2--4 moves, 517,325 bistellar 3--3 moves, and 61,576 bistellar 4--2 moves. Its endpoint $C$ has 1,332 facets, 45 vertices, and face vector
+ 
+ \[
+ f(C)=(45,795,2750,3330,1332).
+@@ -75,13 +95,14 @@
+ The ordered facets at this endpoint agree with the generalized triangulation used in the next stage. All 3,330 facet pairs, equivalently 6,660 half-facets, were checked across that conversion. Up to this point the reduction is a closed-manifold PL equivalence in the simplicial category. It does not transport the covering involution or the branch and twin markings.
+ 
+ \subsection*{3.2. Puncturing and the manifold with boundary}
+-The reduction certificate verifies that simplex 25 of $C$, with vertex labels [3,19,419,504,918], is embedded. Remove its open interior and write $M=C\setminus\operatorname{int}(\sigma)$. This leaves 1,331 pentachora, with $\partial M=\partial\sigma$. A native Regina trace of 5,173 macro blocks, containing 54,563 explicit guarded 2-4 kicks and recorded simplification calls, implies the existence of a PL homeomorphism $h:M\longrightarrow T_5$. The first simplification produces 51 pentachora. The final endpoint is the five-pentachoron manifold $T_5$ named in Table 1.
+-
+-This earlier native trace was replayed with its recorded block hashes in the specified Linux Regina environment. Its simplification calls remain a software dependency of Proposition 3.1; they are not expanded into individual moves by the new terminal certificate. The explicit boundary of $T_5$ is identified with the standard one-tetrahedron PL three-sphere of signature bkaagj. Nothing in the argument at this stage assumes that $T_5$ is a four-ball.
++The reduction certificate verifies that simplex 25 of $C$, with vertex labels [3,19,419,504,918], is embedded. Remove its open interior and write $M=C\setminus\operatorname{int}(\sigma)$. This leaves 1,331 pentachora, with $\partial M=\partial\sigma$. A native Regina trace of 5,173 macro blocks, containing 54,563 explicit guarded 2--4 kicks and recorded simplification calls, implies the existence of a PL homeomorphism $h:M\longrightarrow T_5$. The first simplification produces 51 pentachora. The final endpoint is the five-pentachoron manifold $T_5$ named in Table 1.
++
++This earlier native trace was replayed with its recorded block hashes in the specified Linux Regina environment. Its simplification calls remain a software dependency of Proposition 3.1; they are not expanded into individual moves by the new terminal certificate. The explicit boundary of $T_5$ is identified with the standard one-tetrahedron PL three-sphere of signature {\small\texttt{bkaagj}}. Nothing in the argument at this stage assumes that $T_5$ is a four-ball.
+ 
+ \subsection*{3.3. The cap replacement}
+ Let $B$ be the cone on the recognized PL sphere $\partial T_5$. It is a PL four-ball. The certificate supplies an explicit boundary PL isomorphism $f:\partial B\longrightarrow\partial T_5$ and forms the union $T_5\cup_f B$. It checks that both pieces embed in the union and intersect exactly in their identified boundary. Their ordered affine subface identifications are preserved and reflected by the attaching maps.
+ 
++\Needspace{5\baselineskip}
+ As a numerical consistency check, the face counts satisfy
+ 
+ \[
+@@ -103,23 +124,23 @@
+ 
+ \section*{4. Local moves and certificate soundness}
+ \subsection*{4.1. The permitted moves}
+-The terminal certificate uses Pachner moves and admissible $2$-$0$ moves about edges or triangles. A Pachner move replaces one side of the boundary of a five-simplex by the complementary side. The four-dimensional move types are $1$-$5$, $2$-$4$, $3$-$3$, $4$-$2$ and $5$-$1$. Under the usual admissibility conditions these preserve PL type [12].
+-
+-An edge or triangle 2-0 move removes two pentachora meeting around a degree-two face and identifies the outer facets in pairs. The selected face must be valid and interior, the two pentachora must be distinct, and its link must be the appropriate doubled-simplex sphere. Further identification conditions exclude closed chains of faces that would invalidate the replacement. For the closed inputs here, these are tested as acyclicity conditions on the affected face-pair identifications. The specific guarded operation is documented in Regina [14].
+-
+-Admissible edge and triangle $2$-$0$ moves are PL-preserving local simplifications [13, Section 4.1 and Appendix C]. Their guarded implementation and restrictions on face identifications are documented in Regina [14]. The flattening quotient itself is not the homeomorphism: the local replacement preserves the ambient PL manifold. The certificate uses these admissible operations directly.
++The terminal certificate uses Pachner moves and admissible 2--0 moves about edges or triangles. A Pachner move replaces one side of the boundary of a five-simplex by the complementary side. The four-dimensional move types are 1--5, 2--4, 3--3, 4--2 and 5--1. Under the usual admissibility conditions these preserve PL type [12].
++
++An edge or triangle 2--0 move removes two pentachora meeting around a degree-two face and identifies the outer facets in pairs. The selected face must be valid and interior, the two pentachora must be distinct, and its link must be the appropriate doubled-simplex sphere. Further identification conditions exclude closed chains of faces that would invalidate the replacement. For the closed inputs here, these are tested as acyclicity conditions on the affected face-pair identifications.
++
++Admissible edge and triangle 2--0 moves are PL-preserving local simplifications [13, Section 4.1 and Appendix C]. Their guarded implementation and restrictions on face identifications are documented in Regina [14]. The flattening quotient itself is not the homeomorphism: the local replacement preserves the ambient PL manifold. The certificate uses these admissible operations directly.
+ 
+ \subsection*{4.2. Encoding and a soundness lemma}
+ A record in the terminal certificate is a quadruple $(a,m,i,b)$. The strings $a$ and $b$ are canonical classic Regina isomorphism signatures. Decode $a$ to obtain a canonically labelled triangulation; $m$ specifies the move type and the dimension of the selected face, and $i$ is its index in that decoding. Perform the guarded move and require that the resulting classic signature equals $b$ exactly. Consecutive records must have identical adjoining signatures.
+ 
+-The code $P_k$ denotes a Pachner move about a face of dimension $k$: it replaces $5-k$ pentachora by $k+1$, changing their number by $2k-4$. Thus $P_0,P_1,P_2,P_3,P_4$ denote 5-1, 4-2, 3-3, 2-4, and 1-5 moves, respectively. The codes Z1 and Z2 denote the edge and triangle 2-0 operations, each changing that number by minus two. The checker validates the face index, move legality, count change, and output signature separately. The supplied certificate is pinned to the exact hash in Appendix A.
++The code $P_k$ denotes a Pachner move about a face of dimension $k$: it replaces $5-k$ pentachora by $k+1$, changing their number by $2k-4$. Thus $P_0,P_1,P_2,P_3,P_4$ denote 5--1, 4--2, 3--3, 2--4, and 1--5 moves, respectively. The codes {\small\texttt{Z1}} and {\small\texttt{Z2}} denote the edge and triangle 2--0 operations, each changing that number by minus two. The checker validates the face index, move legality, count change, and output signature separately. The supplied certificate is pinned to the exact hash in Appendix A.
+ 
+ \Needspace{4\baselineskip}\medskip\noindent\textbf{Lemma 4.1 (certificate soundness).} Suppose a finite sequence of records chains from signature $a_0$ to signature $a_N$. Suppose each recorded local move is admissible and preserves PL type, and its output has the recorded next signature. Then the triangulations decoded from $a_0$ and $a_N$ are PL-homeomorphic.
+ 
+ Proof. Each local move gives a PL equivalence from its source to its output. Equality of the output and next-source signatures supplies a combinatorial isomorphism to the canonical representative used by the next record. Composing these equivalences proves the claim. In particular, several forward paths with a common endpoint may be combined by symmetry and transitivity of PL homeomorphism; reverse-move logs are unnecessary for this inference.
+ 
+ \section*{5. The terminal standardness certificate}
+-Let $S_2$ be the double of a four-simplex: take two abstract four-simplices and identify each pair of corresponding boundary facets by the identity. This is the standard PL four-sphere. The verifier constructs it explicitly and checks that its signature is \mbox{\small\ttfamily cPkbbbbaaaaaaaa}. It also agrees with Regina's Example4.sphere(). Let $S_6$ and $W$ be the triangulations in Table 1. The three recorded paths are
++Let $S_2$ be the double of a four-simplex: take two abstract four-simplices and identify each pair of corresponding boundary facets by the identity. This is the standard PL four-sphere. The verifier constructs it explicitly and checks that its signature is \mbox{\small\ttfamily cPkbbbbaaaaaaaa}. It also agrees with Regina's {\small\texttt{Example4.sphere()}}. Let $S_6$ and $W$ be the triangulations in Table 1. The three recorded paths are
+ 
+ \[
+ G_6\longrightarrow W\longleftarrow S_6\longleftarrow S_2.
+@@ -131,9 +152,9 @@
+ \toprule
+ \textbf{Path} & \textbf{Moves} & \textbf{Max. pentachora} & \textbf{Vertices} \\
+ \midrule
+-G6 to W & 6,814 & 22 & 2 \\
+-S6 to W & 1,519 & 16 & 2 \\
+-S2 to S6 & 103 & 14 & 2-5 \\
++$G_6\to W$ & 6,814 & 22 & 2 \\
++$S_6\to W$ & 1,519 & 16 & 2 \\
++$S_2\to S_6$ & 103 & 14 & 2--5 \\
+ \bottomrule
+ \end{tabular}
+ \end{center}
+@@ -143,28 +164,28 @@
+ Table 3. Individually checked moves in each terminal path.\par\smallskip
+ \begin{tabular}{lrrrrrr}
+ \toprule
+-\textbf{Path} & \textbf{5-1} & \textbf{4-2} & \textbf{3-3} & \textbf{2-4} & \textbf{2-0 edge} & \textbf{2-0 triangle} \\
++\textbf{Path} & \textbf{5--1} & \textbf{4--2} & \textbf{3--3} & \textbf{2--4} & \textbf{2--0 edge} & \textbf{2--0 triangle} \\
+ \midrule
+-G6 to W & 0 & 0 & 5,830 & 492 & 417 & 75 \\
+-S6 to W & 0 & 0 & 1,315 & 102 & 81 & 21 \\
+-S2 to S6 & 3 & 6 & 80 & 14 & 0 & 0 \\
++$G_6\to W$ & 0 & 0 & 5,830 & 492 & 417 & 75 \\
++$S_6\to W$ & 0 & 0 & 1,315 & 102 & 81 & 21 \\
++$S_2\to S_6$ & 3 & 6 & 80 & 14 & 0 & 0 \\
+ Total & 3 & 6 & 7,225 & 608 & 498 & 96 \\
+ \bottomrule
+ \end{tabular}
+ \end{center}
+ \end{minipage}\par\smallskip
+-Every record in these paths passes the checks of Section 4. The first two paths contain only 3-3, 2-4, and admissible 2-0 moves. The third is entirely Pachner. The total is 8,436 moves, comprising 7,842 Pachner moves and 594 2-0 moves. There are no edge collapses in this final certificate.
++Every record in these paths passes the checks of Section 4. The first two paths contain only 3--3, 2--4, and admissible 2--0 moves. The third is entirely Pachner. The total is 8,436 moves, comprising 7,842 Pachner moves and 594 2--0 moves. There are no edge collapses in this final certificate.
+ 
+ Proof of Theorem 1.2. By Lemma 4.1 the three paths establish $G_6\cong_{\mathrm{PL}}W$, $S_6\cong_{\mathrm{PL}}W$, and $S_2\cong_{\mathrm{PL}}S_6$. Since $S_2$ is the explicit double of a four-simplex, it is a standard PL sphere. Symmetry and transitivity give $G_6\cong_{\mathrm{PL}}S^4$.
+ 
+ \subsection*{5.1. Independent checks of the terminal certificate}
+ An independently written full-path checker imports none of the discovery or supplied verification code. It checks the endpoint signatures against separately specified constants, rejects malformed records, tests the canonical source states, and checks the selected faces, guarded local operations, exact count changes, and every next signature. All 8,435 distinct states are checked to be valid, closed, connected, orientable, and of Euler characteristic two. The checker was executed with Python optimization enabled; its essential checks use explicit failures rather than assertions.
+ 
+-A second checker treats all 594 2-0 steps independently of Regina's 2-0 move implementation. It checks the doubled-link gluing permutations and the acyclicity of the relevant face identifications. It then rebuilds the surviving facet pairing by tracing through the removed pillow and composing the explicit affine permutations. Every reconstructed target has the required signature. This checker never invokes move20, has20, or twoZeroMove. It still shares Regina's signature codec, skeleton and validity routines, and simplex construction.
++A second checker treats all 594 2--0 steps independently of Regina's 2--0 move implementation. It checks the doubled-link gluing permutations and the acyclicity of the relevant face identifications. It then rebuilds the surviving facet pairing by tracing through the removed pillow and composing the explicit affine permutations. Every reconstructed target has the required signature. This checker never invokes {\small\texttt{move20}}, {\small\texttt{has20}}, or {\small\texttt{twoZeroMove}}. It still shares Regina's signature codec, skeleton and validity routines, and simplex construction.
+ 
+ Finally, a dependency check reconstructs the capped endpoint recorded by the earlier reduction from its actual facet-pairing data, checks all thirty reciprocal gluing equations, and confirms that it is exactly the starting $G_6$ of the terminal certificate. Thus the new proof attaches to the previously verified reduction without a relabelling or endpoint ambiguity. This check also binds the relevant completed receipts and source files by their recorded hashes.
+ 
+-The full independent replay took 28.4 seconds and the separate 2-0 reconstruction took 2.2 seconds in the recorded Python 3.12.14 / Regina 7.4.1 environment. The hardened v1.1 supplied verifier was also executed successfully with Python optimization enabled, in 26.3 seconds. These are observed execution times, not hardware-independent bounds.
++The full independent replay took 28.4 seconds and the separate 2--0 reconstruction took 2.2 seconds in the recorded Python 3.12.14 / Regina 7.4.1 environment. The hardened v1.1 supplied verifier was also executed successfully with Python optimization enabled, in 26.3 seconds. These are observed execution times, not hardware-independent bounds.
+ 
+ \section*{6. The smooth conclusion and the scope of the result}
+ Proof of Theorem 1.1. By Construction input 2.1, $X_0$ is a compatible smoothing of the PL manifold underlying $K_0$. Proposition 3.1 identifies that manifold with $G_6$, and Theorem 1.2 identifies $G_6$ with the standard PL sphere. Therefore $X_0\cong_{\mathrm{PL}}S^4$. A compact PL four-manifold admits a compatible smoothing unique up to diffeomorphism [7, Theorem 3.5(2)]. This is uniqueness for a fixed PL structure; see also the classical smoothing theory of Hirsch-Mazur [9, Part II, Theorem 4.2], with Cerf's theorem $\Gamma_4=0$ [10] among its low-dimensional ingredients. Applying this to the compatible smooth structure in the construction yields $X_0\cong_{\mathrm{DIFF}}S^4$.
+@@ -172,7 +193,7 @@
+ The conclusion is nonequivariant. It identifies the underlying smooth manifold, as asked in [1, Question 1.4]. The reduction does not establish that the branch two-knot is unknotted, that the covering involution is conjugate to a standard involution, or that the marked twin configuration is standardized.
+ 
+ \subsection*{6.1. Connected sums and covering involutions}
+-Let $F=\tau^0\rho^1P(-2,3,7)$. For a positive integer $r$, let $F_r$ be the connected sum of $r$ copies of $F$, let $Y_r=\Sigma_2(S^4,F_r)$, and let $\iota_r$ be its covering involution.
++Let $F=\tau^0\rho^1\,P(-2,3,7)$. For a positive integer $r$, let $F_r$ be the connected sum of $r$ copies of $F$, let $Y_r=\Sigma_2(S^4,F_r)$, and let $\iota_r$ be its covering involution.
+ 
+ \Needspace{4\baselineskip}\medskip\noindent\textbf{Corollary 6.1.} For every $r\geq1$, the manifold $Y_r$ is diffeomorphic to the standard $S^4$. The covering involutions, transported to the oriented standard $S^4$, form an infinite family of pairwise inequivalent involutions under orientation-preserving equivariant diffeomorphism. None preserves a Riemannian metric of positive scalar curvature.
+ 

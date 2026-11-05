@@ -1,0 +1,12 @@
+{
+  "archived_file_sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1",
+  "compressed_file_bytes_match_archive": true,
+  "file": "cap/reference_cap9.rga",
+  "name": "upper9",
+  "pentachora": 9,
+  "sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1",
+  "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+  "tight_sha256": "dd1f0a488ffc68591e19f685d8b8fb729211125f2fa778bf5cd9d00f09f8fbe1",
+  "uncompressed_file_bytes_match_archive": true,
+  "uncompressed_payload_sha256": "f5a590538f44d65f62ebffef07081ca95ab82e8146aea7387cc3a301ca52d3cf"
+}

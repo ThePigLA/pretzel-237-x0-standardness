@@ -1,0 +1,43 @@
+{
+  "schema": "motoo.closed-sampled.selection.v1",
+  "counts": {
+    "single_vertex_collapse_skips": 2372,
+    "face_probes": 107605,
+    "fallback_scans": 12832,
+    "empty_candidate_sets": 11857,
+    "guard_calls": 29125,
+    "sample_hits": 9824,
+    "fallback_hits": 975
+  },
+  "policy": {
+    "growth": 8,
+    "burst24": 2,
+    "mix": 4,
+    "birth_every": 3,
+    "birth_target_vertices": 5,
+    "chunk_size": 50,
+    "initial_burst": false,
+    "birth_cycles_preserve_vertices_from_edge_collapse": true,
+    "candidate_selection": "bounded_random_probes_then_complete_cyclic_scan",
+    "random_probes": 64,
+    "edge20_first": true,
+    "two_zero_descent_order": [
+      [
+        "Z",
+        1
+      ],
+      [
+        "Z",
+        2
+      ]
+    ],
+    "mix_selection": "random_move_family_first_then_other_family_if_empty",
+    "uniform_distribution_among_all_legal_moves_asserted": false
+  },
+  "pinned_files_unchanged": {
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/reduce_closed_sampled.py": true,
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/reduce_closed_bursts.py": true
+  },
+  "seconds_after_admission": 1.803646254999876
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXACT_PREFIX_EXTRACTION_NOT_A_MOVE_REPLAY",
+  "source_metadata_sha256": "1f562bc3bc3f0cd35fdc20784d9f4c7dfe49d739a4cc0f438146276985269da3",
+  "original_checkpoint_sha256": "6fb43017707f8d03aa25abeba454bb38c1fb0a823f12529a92b173e6234fa2fe",
+  "original_run_moves": 8010238,
+  "extracted_moves": 780847,
+  "best_pentachora": 8,
+  "best_tight_sha256": "43fdb32848802ce7f49df04f4c100410f4a411275f76661426243681fa686bdb",
+  "best_rga_sha256": "1e170b5e297d64e95a1438dbbbfee8de9dc5f792280eb6a6c2ec747cc8cd815e",
+  "extracted_checkpoint_sha256": "4b1256a2defd20c77cca2cf8d7119c4c5307aefc89ba339de73fe03dd7e47de2",
+  "extractor_sha256": "dbe3e37480a83e9f5dc487cd08a21e01357c6a86e1ec4ed19701e7ba8c5b0ec4",
+  "independent_move_replay_required": true
+}

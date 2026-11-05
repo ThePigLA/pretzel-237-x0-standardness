@@ -1,0 +1,22 @@
+{
+  "created_unix_time": 1793918141.766232,
+  "input": {
+    "kind": "file",
+    "path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+    "root_triangulation_packet": true,
+    "sha256": "1e170b5e297d64e95a1438dbbbfee8de9dc5f792280eb6a6c2ec747cc8cd815e"
+  },
+  "known_targets": null,
+  "phase": "small",
+  "producer_sha256": "fe5b8c2cad6a3d4b3099ff4f44f4a1e0cb16993f2f25ada4b186dee1d5ca1c7a",
+  "regina_distribution": "7.4.1",
+  "release_manifest_sha256": "2906300eedc1d3d8455aa983684f57adc159299b6906a730c73f83ffd341b5bf",
+  "schema": "motoo-z-search-input-v1",
+  "source_admission": {
+    "euler_characteristic": 2,
+    "finite_closed_connected_orientable_valid": true,
+    "pentachora": 8,
+    "vertices": 1
+  },
+  "start": "iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a"
+}

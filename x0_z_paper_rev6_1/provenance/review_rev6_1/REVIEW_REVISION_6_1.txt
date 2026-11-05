@@ -1,0 +1,127 @@
+REVISION 6.1: CORRECTED-DIAGRAM AND COVER-OBSTRUCTION AUDIT
+
+Verdict
+-------
+The restored strong statement in Section 7.2 is now supported at the
+paper's stated SnapPy/software trust level. The new calculation fills
+the three dotted cusps before comparing covers. It therefore distinguishes
+the five-component attaching-link exteriors in #3(S^1 x S^2), which was
+the specific evidence missing from the earlier version. This is an
+optional strengthening of the diagram discussion, not a new premise of
+the standardness theorem.
+
+Fresh executions
+----------------
+I read cover_obstruction.py before executing it, then ran it for both
+figures under the isolated SnapPy 3.3.2 environment supplied by the parent
+agent. The generated receipts agree with the supplied receipts in every
+JSON field and also byte for byte:
+
+Figure 1: 31 connected double covers for each exterior; the homology
+          multiplicities differ in 9 classes.
+Figure 2: 31 connected double covers for each exterior, equal homology
+          multisets; 572 connected triple covers for each exterior, with
+          multiplicities differing in 63 homology classes.
+
+For example, in Figure 2 the triple-cover homology Z/14 + Z^6 occurs zero
+times for the first drawing and once for the corrected drawing. In
+Figure 1, double-cover homology Z^9 occurs five times for the first
+drawing and four times for the corrected drawing.
+
+Fresh files:
+  COVER_OBSTRUCTION_fig1_fresh.json
+  COVER_OBSTRUCTION_fig2_fresh.json
+  COVER_RECEIPT_COMPARISON.json
+
+The replay is a fresh execution of the same cover-enumeration and
+homology implementation. It is not a second independent implementation
+of either algorithm.
+
+Component correspondence and fillings
+------------------------------------
+I directly evaluated the PD-to-component mapping on all six supplied
+PD inputs: old_fig1, new_fig1, old_fig2, new_fig2, and both older
+archive-order spot-switched records. In every case the runtime component
+order is C0,...,C7. The dotted cusps are consequently exactly 1, 2, and 4.
+The source check of Link.exterior/KLPProjection confirms that these
+component indices are transmitted to the exterior construction. The
+record is CUSP_COMPONENT_MAPPING_FRESH.json.
+
+For the four compact PD records, the three dotted-component sublinks
+also simplify by Spherogram's basic Reidemeister simplification to the
+unlink: sublink() drops one crossing-free unknot; the remaining two
+components have eight crossings and simplify to two crossing-free
+unknots. This is consistent with the dotted-unlink premise of the
+Kirby diagrams. It was a small supporting check, not a new recorded
+Reidemeister certificate.
+
+The script fills the dotted cusps with (0,1), leaving each framed cusp
+unfilled with (0,0). In the peripheral basis inherited from the link
+exterior, this is zero surgery using the Seifert longitude. Both output
+records have exactly five remaining cusps and H1 = Z^5. In particular,
+this is not a comparison of the original eight-cusped S^3 link exteriors.
+
+Why the stronger conclusion follows
+-----------------------------------
+Zero surgery on the dotted three-component unlink gives #3(S^1 x S^2).
+The unfilled five components are the 2-handle attaching circles in that
+boundary. A homeomorphism carrying one family of circles to the other
+would restrict to a homeomorphism of their exteriors. Such a map would
+give a bijection of all connected covers of any fixed degree, preserving
+their first integral homology. The observed differing multisets obstruct
+this without requiring a fixed ordering, orientation, or basis for the
+circles. It therefore also excludes an identification by 1-handle slides
+alone. It does not exclude a slide of one 2-handle over another; that
+operation need not preserve the attaching-link exterior in the
+1-handlebody boundary.
+
+API/source check
+----------------
+The SnapPy 3.3.2 documentation for Manifold.covers describes enumeration
+of all finite covers of the requested degree, with the low_index method
+used by default for general covers. Manifold.homology returns the first
+integral homology of the underlying Dehn-filled manifold. The argument
+uses the combinatorial covers and integral homology, not a failure to
+find an isometry or a difference of floating-point volumes.
+
+Primary API reference:
+  https://snappy.computop.org/manifold.html
+The runtime and input identities are recorded in the fresh receipts.
+
+Positive and negative marked-link receipts
+------------------------------------------
+I checked the input hashes, status/signature fields, identity cusp
+permutations, and all peripheral matrices in the four supplied receipts.
+The two positive comparisons have eight +I peripheral matrices and
+matching dotted/framing lists. The negative comparisons correctly say
+NOT_CERTIFIED and explicitly disclaim a non-isotopy certificate.
+The parent agent separately freshly reran these four comparisons.
+
+The identity-component prerequisite of cert_candidate.py is satisfied
+for these six files. The checker does not automatically enforce that
+prerequisite for arbitrary replacement PD inputs, so the separately
+recorded correspondence check should be retained in this package.
+
+The new positive receipts compare the corrected figures with the older
+archive-order spot-switched records. They do not, by themselves, replay
+all comparisons with the freehand redrawings and the 188-crossing
+standard-position diagram used in Proposition 7.3. Those remain the
+external proof-package dependencies already disclosed in the README.
+The new cover obstruction does not require those additional records.
+
+Minor documentation points
+--------------------------
+1. Section 7.2's strong no-boundary-homeomorphism conclusion may remain.
+   An optional precision edit is: "For Figure 1 and its first drawing,
+   each exterior has 31 connected double covers, and their homology
+   multisets already differ."
+2. cover_obstruction.py is a reporting tool: NO_DIFFERENCE_FOUND would
+   still end with shell status zero. The proof checks the JSON status
+   DIFFERENT_EXTERIORS and nonempty discrepancy records, not shell
+   success alone. The manuscript currently makes no incorrect promise
+   about its exit status. No code change is required for these records.
+3. The scripts and receipts concern the supplied PD records. They do
+   not independently re-extract curves from the PDFs or rerun the
+   four-dimensional standardization certificate.
+
+No source manuscripts or supplied records were modified in this audit.

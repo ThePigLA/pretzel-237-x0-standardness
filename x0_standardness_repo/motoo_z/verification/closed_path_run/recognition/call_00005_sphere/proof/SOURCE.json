@@ -1,0 +1,18 @@
+{
+  "source_sha256": "13c6bcfe6273a3c08f6edbbfcc75af9ba1509b28ee0ec9fabef8204d4a10d8f4",
+  "source_file": "/tmp/motoo-primal-recognition-jgxdr2fq/call_00005_sphere/source.rga",
+  "vertices": 4,
+  "edges": 8,
+  "triangles": 8,
+  "tetrahedra": 4,
+  "generators": 5,
+  "tree_edges": [
+    0,
+    1,
+    5
+  ],
+  "presentation_sha256": "162b57d94cc4296658ff0fcc77bbac8447d472b8ca6238ab3d3618b74dfd6013",
+  "triangulation_valid_finite_connected": true,
+  "presentation_basis": "primal1-skeleton spanning tree and oriented triangle boundaries",
+  "checker_sha256": "097bd70358512370583cfaae07a7f49fc43dc2bdae798acbc484b6c1670123f7"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "permutation": [
+      3,
+      2,
+      1,
+      4,
+      0
+    ],
+    "source_boundary_tetrahedron": 0,
+    "source_facet": 0,
+    "source_pentachoron": 23689,
+    "target_boundary_tetrahedron": 2,
+    "target_facet": 3,
+    "target_pentachoron": 466
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      4,
+      2,
+      3
+    ],
+    "source_boundary_tetrahedron": 1,
+    "source_facet": 3,
+    "source_pentachoron": 23689,
+    "target_boundary_tetrahedron": 1,
+    "target_facet": 2,
+    "target_pentachoron": 466
+  },
+  {
+    "permutation": [
+      3,
+      2,
+      4,
+      0,
+      1
+    ],
+    "source_boundary_tetrahedron": 2,
+    "source_facet": 0,
+    "source_pentachoron": 23694,
+    "target_boundary_tetrahedron": 3,
+    "target_facet": 3,
+    "target_pentachoron": 471
+  },
+  {
+    "permutation": [
+      0,
+      4,
+      3,
+      1,
+      2
+    ],
+    "source_boundary_tetrahedron": 3,
+    "source_facet": 2,
+    "source_pentachoron": 23694,
+    "target_boundary_tetrahedron": 0,
+    "target_facet": 3,
+    "target_pentachoron": 464
+  },
+  {
+    "permutation": [
+      1,
+      4,
+      2,
+      3,
+      0
+    ],
+    "source_boundary_tetrahedron": 4,
+    "source_facet": 0,
+    "source_pentachoron": 23695,
+    "target_boundary_tetrahedron": 4,
+    "target_facet": 1,
+    "target_pentachoron": 473
+  },
+  {
+    "permutation": [
+      1,
+      4,
+      2,
+      3,
+      0
+    ],
+    "source_boundary_tetrahedron": 5,
+    "source_facet": 3,
+    "source_pentachoron": 23695,
+    "target_boundary_tetrahedron": 5,
+    "target_facet": 3,
+    "target_pentachoron": 473
+  }
+]

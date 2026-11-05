@@ -1,0 +1,12 @@
+{
+  "archived_file_sha256": "2b46b7e8d760ce52641f78cb78c998748a8e476410b9c6525ae1b28168ca31b7",
+  "compressed_file_bytes_match_archive": true,
+  "file": "cap/cap_with_matched_boundary.rga",
+  "name": "upper474",
+  "pentachora": 474,
+  "sha256": "2b46b7e8d760ce52641f78cb78c998748a8e476410b9c6525ae1b28168ca31b7",
+  "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+  "tight_sha256": "9ddcd8590142bf08cb94ad7bbda02d38506cef96f47d23f1e6fde7c70ca58e78",
+  "uncompressed_file_bytes_match_archive": true,
+  "uncompressed_payload_sha256": "46b8862530643c2f7190e303f447ac8566386ebcd129c514ba9da2f7d58a8c00"
+}

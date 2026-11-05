@@ -1,0 +1,97 @@
+{
+  "boundary_moves": 465,
+  "checkpoint": {
+    "archived_file_sha256": "2b46b7e8d760ce52641f78cb78c998748a8e476410b9c6525ae1b28168ca31b7",
+    "compressed_file_bytes_match_archive": true,
+    "file": "cap/cap_with_matched_boundary.rga",
+    "name": "upper474",
+    "pentachora": 474,
+    "sha256": "2b46b7e8d760ce52641f78cb78c998748a8e476410b9c6525ae1b28168ca31b7",
+    "status": "PASS_EXACT_PUBLISHED_STATE_AND_SERIALIZED_PAYLOAD",
+    "tight_sha256": "9ddcd8590142bf08cb94ad7bbda02d38506cef96f47d23f1e6fde7c70ca58e78",
+    "uncompressed_file_bytes_match_archive": true,
+    "uncompressed_payload_sha256": "46b8862530643c2f7190e303f447ac8566386ebcd129c514ba9da2f7d58a8c00"
+  },
+  "collapse_log_sha256": "154094594ee460da0cc459659a38d09d1f990ea86bab1e76653246b35ea1a66f",
+  "construction_sha256": "a8bcefc9eb14308c7f15252b30d93c9a152f889ec3261a8e1ac3b199f4813ae9",
+  "coordinate_product_reconstructed": true,
+  "every_recorded_affine_gluing_recomputed": true,
+  "guarded_edge_collapses": 15,
+  "layering_events_sha256": "9c6a5793cf3178e965365fc539aa35fd5acbce4302e2db3d57dabc2266d0f484",
+  "manifold_audit": {
+    "H1": "2 Z",
+    "H2": "0",
+    "boundary_isosig": "gLALQccbefefdpcghfc",
+    "boundary_summands": [
+      "cMcabbjaj",
+      "cMcabbjaj"
+    ],
+    "boundary_tetrahedra": 6,
+    "fundamental_group": "< a b >",
+    "isosig": "-cAhHrvvMPfQPQwLAPwMPkPMwzzwALvMwQQMzQQwMvPAQAAPQzLLPQPvMMPPzLMwzQwMAwzAzQLAAzzLAMwMQPzLwQwMQLvAwwQzwAQLLvPALQzPMAQzPAQwMLQzvvvQwAPLMMQQcMwzMAAQAPPLQMLQQPzzPLwMMvwPzQPQQQvAPPwMQzPQQMzAQQPQQPLPLPzMvMAQAPQQQwMMQwPAAQPMwLPLwwPPMMPPMLQQvwLQzAMLzvvQQzwPMAMPzLQvMwvMMQPwzAvwPMAAAPPzwQwLzMMMMQQQvPMzQQPQMQMQQzQLMQMQMQvMMzQAvzPzMMvzQAvvwMAwPQQMQAMQLMPQMPwAQMALLLAAQMMPQLQzzAAQPzwPwMMwQQvMQPPvAQwAQQLMQMQQAMQQbahakagakalalanamanakaiajaoalararatararawaxaqasasasazazazazaAaDaEaGaGaIaLaCaPaPaQaFaQaQaRaRaRaJaSaOaSaSaUaUaUaUaWaVa0a1aPa1aPaSa0a0aRaYa3a5aZa5a5aXa6a9a6aabab+aabab8a9aeb6a-agbhbcb9acbjbmbjbnbnbqbrbqbqbqbtbmbmbmbvbxbkbkbvbCbCbBbvbpbEbFbFbHbJbubLbMbwbObObPbDbDbDbPbPbQbTbWbKbIbKbYbFb0b1b0b0b0b3b6b6bMb8b2b5bYbQbbcdcccecbcecgcicjc3b3b3bncacac5b6bscsc+btcqc5bqcucqc9b9b9b-bxcycycyctcncBcDctcDcDcBcjcNcNcNclcmcEcScUcUcAcpcpcWcAcAcrcucucucyczcwcxc1c2c2cWc3cEc4cSc4cUcScHcIc7c7cLcIc9cLcOcOcadMcad+c9c-cNc+c-cXcbdfdddididgd4cWcWcpdrdpdtdpdsdsdududndod4cgdgdgd9c6c9c8chdydwd-czdkdDdzdzdddzdedHdDdDdDdmdmdmdFdmdIdJdxdldLdLdqdqdqdHdMdMdvdudtdudtdtdNdNdAdQdQdSdTdTdUdCdWdZdNdNdGd1dMd1d1dYdLdLdQd2d2d2dWd1dPdTdTdPdRd6d6d7d7dVdVdXd+d+d+d3d-d-daeae3d3d3d+d5dceeeeeeeeejelenenepepeneqeqeqeqesetegeseheuevejeveveueueyeDeoeDezeCeDeDeseGeIeveQeQeQezeQeEeBeSeFeFeEeFeXeHeHeZe0eKeYe4e4eMeMe7eRe5e9e9e9edfTecfcfXeXeXegfififmfnfnfnfqfqf2erf3esf4eufsfjfff7ewfvfkfvfefyfofFfGfbfrfrfAfAfJfifAfvfAfvfkfkflflfNfJfJfJfPfLfLfLfpfEfEfFfFfFfsfsfufSfSfSfIfIfTfTfTfyfTfyfzfUfRfCfDfDfWfWfRfRfYfYfZfZfZfIfSfQf0f0fPf2f2f0f5f6fQf4f4fXfWf-fcgcgbg2ffgfg4f7flglglgigig+ftgcgvgvgwgugugdgugzgxgxgxgygAgAghghgkgngkgCglgkgCgDgBgngogFgogFgGgGgFgBgrgCgHgKgLgKgLgvgMgxgygNgPgTgGgCgUgUgUgVgUgGgIgIgXgYgYgVgYgWgQgQgQgOgQg3gRg4g5g5g5g4g6g7g7g8gXg8g9g0gahdh4gehehghfhghghgh5gjh9gahah+gbhlhehmhphphdhdhphohshshththjhrhrhmhvhvhuhvhphqhmhxhshxhxhqhqhqhthwhvhwhwhyhzhzhzhzhaaqbaayaaaaaaaaajbTaaagavaaaEbvavaaavavaaaaabafafafaaaaaaaaaaaaa7aaaaaaaaa2aaaaa7aTbaaaaaaaaaavatajbaaaalalalalaaaaaaaaa2aaa2aqbaaaaTbtaaaaaPbaaaabaaaaarbaaaaKbaaaaDataiabaQbaadaRaPbvaaaaaKbaaaaiaaaaaaaaaiaQbQbQbaaaaqbqbPaaaaaLaJboaaaaaaaaaaavaJblavaaaaaaavavavaaaaaObaaaambcaCahboaaaPaaaaaaaaaaaaa2aobtataXbbaaaaaaaaaObaaaaaaaambmbmbaaPaPasasaaaaa1aaajb1ajbQajb2a+a+aSaNbaaaaaataQbaaaagbaaaaObfaaaaaaaya2aZakbaaaa7acacaaa7a7avaOaOaOa1aHbqbbaEaaaaaMbaayaaaXbaacbwaqbPbaaaacabauafaqbqbaagaaaaaiaDbgawbEbpbtaaaaaaaaaAb-acacaaaaaMaaaiaUaUa0a0azb7aobYaYaYaqbKaqbmbLbUaeafa0avaaaHaHaoaHabaaatatataSaSaSaaaSaaaaadboaaaaanananaObaaaaLbmbmbmbmbmbaaaapbaaaaaaaaaaaaPbaaia9a9abaaalbaaaavbqbqbZbkbkbkbebOboapbpboaKaaaaaaaaagagaPbaaaaaaJaaaaaaaaaSaSaSaGb2aaaZaZaZavbaalaaamaaaaaaaaaaaaaaaobaabaNbCavbWagaWaWavbvbaaaaibaaObabwbOb2aaamasaaaaaaacamaba2aaaububFbPbTaoaoaaaaawamaaaaa2a2aaaXa7aSbSbSbiaQbtataxbxbxbaaaaaaaa8a8a8aaaaaGaaavaaaqbaasbnaNa2aaaaabbaaoaNbIaaaaa+aWaWaSbSbaaUb3bua3bSbvavavavaaawbwbwb7aEbEbEbPbxbxbibibibububvaaaaaaaRaRaaaaaaa2aaa2afaaaGbgaoacatauaGbGbWaWaaaaaaa+aabvaaaaaBbaaaaaaWaaaMbEbEb5afbaaaaaauaoaaaaayaLbaaaaaapapaPbaa2aaaaaaahadbradbGbEaEaEa-aaaaaqbqbqb9aqbaaSavaaaaa4a2aPbEafaTarbYa+abagaPbzbaaaaaaaaPbaaUbubmaaaaajaqbaaaaaa7aaaoafafaaaaaaaPbtazbkakakavakaaagaaaaaaaaaaaaaaaaaaafaPbaafaaaaaqbaaaaaaaaaaaaaagaaaQavbfafaUbaa1aaaaaaafafaaaaaaaaaaaaavaaaaaAbaaaaaaaaUbfafaaa6aaaaafafafagagavagagahbjaYbYbYb",
+    "pentachora": 474,
+    "status": "PASS",
+    "vertex_links": [
+      {
+        "index": 0,
+        "kind": "sphere",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 272
+      },
+      {
+        "index": 1,
+        "kind": "sphere",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 368
+      },
+      {
+        "index": 2,
+        "kind": "ball",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 1522
+      },
+      {
+        "index": 3,
+        "kind": "sphere",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 40
+      },
+      {
+        "index": 4,
+        "kind": "sphere",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 162
+      },
+      {
+        "index": 5,
+        "kind": "sphere",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 2
+      },
+      {
+        "index": 6,
+        "kind": "sphere",
+        "native_link_simplification_used": true,
+        "recognised": true,
+        "simplified_tetrahedra": 1,
+        "tetrahedra": 4
+      }
+    ],
+    "vertices": 7
+  },
+  "reverse_guarded_shellings_recover_generated_cap9": true,
+  "saved_cap_substituted": false,
+  "status": "PASS_COORDINATE_CAP_RECONSTRUCTION_AND_GUARDED_LAYERING"
+}

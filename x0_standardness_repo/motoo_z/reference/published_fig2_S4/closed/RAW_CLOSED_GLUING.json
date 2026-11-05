@@ -1,0 +1,19 @@
+{
+  "all_facets_paired": true,
+  "boundary_tetrahedra_glued": 6,
+  "closed_rga_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+  "closed_tight_sha256": "1f698ed1061bffaf7f380ec5b4ed8075306e6cffd8f6c3cc281873f67003f92d",
+  "explicit_boundary_isomorphism_checked": true,
+  "first_pentachora": 23696,
+  "first_sha256": "e0d1b39192ddfc7fc8852d210658d7e0647a0ba0d0a36b8fe07c704483bc9a37",
+  "first_source": "layered_v1/layered_piece.rga",
+  "four_dimensional_skeleton_used": false,
+  "four_manifold_admission_performed": false,
+  "pentachora": 24170,
+  "second_pentachora": 474,
+  "second_sha256": "2b46b7e8d760ce52641f78cb78c998748a8e476410b9c6525ae1b28168ca31b7",
+  "second_source": "../simp_zip/motoo_figure2_simplification_v1/results/boundary/standard_cap_six_boundary_v1/cap_with_matched_boundary.rga",
+  "seconds": 0.26545127400004276,
+  "standardness_asserted": false,
+  "status": "RAW_CLOSED_FACET_GLUING_CONSTRUCTED_ADMISSION_PENDING"
+}

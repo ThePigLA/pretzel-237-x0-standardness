@@ -1,0 +1,135 @@
+{
+  "accepted_isometries": [
+    {
+      "cusp_images": [
+        1,
+        5,
+        6,
+        4,
+        7,
+        3,
+        0,
+        2
+      ],
+      "peripheral_matrices": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      ]
+    }
+  ],
+  "actual_native_component_ownership_checked": true,
+  "checker_sha256": "2ff1dde7b1fe6ec03356cb27e737c670a70920063f0146d4c1aafe683a2e8cd4",
+  "decorated_signature": "-clbvLvLvvwvvMwzMwLLzMvLLwLwzzQMwvvAPzLQPQPAQQQQQQQQQQeajakavanasapaBaCataGaHaJaxaIaMazaAaXaXaZaTaMaTa2aHaLaKa3aYaPa1a3a0a-aSa5a9aYaeb4aVaabcbfbcbZa0a5ahb9a8a2acb6aibdbib9aab8a+a-afbbbebbbfbjbgbibgbkbjbkbkboagaoiiaagaiaguaccaaammmaookoococntbauoiwvmauacgahipcmaxpockvrbokncgoccgnsnr_baCbbaabbBababBaabBaabBBbBabbaBb",
+  "four_dimensional_standardness_proved": false,
+  "framings_and_dotted_roles_preserved": true,
+  "katie_crossings": 188,
+  "katie_order": [
+    "yellow",
+    "red",
+    "cyan",
+    "purple",
+    "blue",
+    "green",
+    "salmon",
+    "navy"
+  ],
+  "katie_pd_sha256": "5aeaea4ffa70b3d4084fbae11cd144c256ae3af361cbebb10da07166cad3427f",
+  "kirby_slide_argument_reproved": false,
+  "original_crossings": 60,
+  "original_order": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+  ],
+  "original_pd_sha256": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767",
+  "pdf_transcription_reverified": false,
+  "schema": "motoo-z-marked-diagram-comparison-v1",
+  "seconds": 0.7508602870002505,
+  "snappy_distribution": "3.3.2",
+  "spherogram_distribution": "2.4.1",
+  "status": "PASS_POSITIVE_MARKED_EXTERIOR_COMPARISON",
+  "trust": "SnapPy/Spherogram PD exteriors, decorated signatures and positive marked isometry computation; not an independent interval hyperbolicity proof"
+}

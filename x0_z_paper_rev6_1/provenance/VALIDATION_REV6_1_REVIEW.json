@@ -1,0 +1,36 @@
+{
+  "status": "PASS_REVISION_6_1_TARGETED_REVIEW",
+  "date": "2026-11-05",
+  "revision": "combined Revision 6.1; documentation-only review packaging",
+  "input_archive_sha256": "39c8f08ab6e1450d468dd7cfb678352fc54c1569259a0d269c6bf6382a179025",
+  "paper_pdf_sha256": "85eae476fe0e92b88181ebb5ef88715d8191946358ed18739d2c76cec07ea501",
+  "paper_tex_sha256": "665cf78c9d008afc38741e43746d6ad24761bb3967ef1fb01ae15b852b462669",
+  "paper_source_and_all_pdfs_unchanged": true,
+  "x0_sections_2_to_6_identical_to_accepted_combined_revision6": true,
+  "all_nine_named_signatures_preserved": true,
+  "original_figures_and_pd_records_unchanged": true,
+  "submitted_manifest_valid_and_complete": true,
+  "snappy_version": "3.3.2",
+  "cover_obstruction_fig1_fresh_match": true,
+  "cover_obstruction_fig2_fresh_match": true,
+  "four_marked_link_comparisons_fresh_match": true,
+  "identity_cusp_component_correspondence_checked_on_six_inputs": true,
+  "visual_review_pages": [
+    3,
+    13,
+    20
+  ],
+  "historical_revision6_validation_retained_unchanged": true,
+  "full_standardization_or_vertex_link_replays_rerun": false,
+  "original_diagram_extraction_rerun": false,
+  "fresh_receipts_sha256": {
+    "CERT_new_fig1_vs_old_fig1.json": "a728421c2e63abd1a4d7fedb4b5551622dddddf2bd0d00cc6ed17159012c95e2",
+    "CERT_new_fig1_vs_old_fig1_spot_switched.json": "543cd0a7226564ddeb6d42c2717394762e58b9527f10ad80131c4dcb40b777b0",
+    "CERT_new_fig2_vs_old_fig2.json": "8d171c34f78a85d192f3a2148ee1f81ec6c1799b6179b603b6b1b60caf8d4b25",
+    "CERT_new_fig2_vs_old_fig2_spot_switched.json": "e7fc72ed74d9b600cb4f05a81f0320002ba43c73a55f9d40840169beeb6cc71d",
+    "COVER_OBSTRUCTION_fig1_fresh.json": "a4cd64d805e94ee3f3624ba23d0951faac4c79521db1a25d62fbf539bdcd42b1",
+    "COVER_OBSTRUCTION_fig2_fresh.json": "05f4e2ec9ee96738b686bc0d31a0e3ae9e9cf00181ad78b7ef2f5f6d849cf3ae",
+    "COVER_RECEIPT_COMPARISON.json": "4aabdc12ba6cf8ca40f9fa95852de7854cd7618175baf802eca427c177232bb6",
+    "CUSP_COMPONENT_MAPPING_FRESH.json": "dd2079364a61c3b38e7651b863652a0a850230a9b7d34b4968bb8c33002f992b"
+  }
+}

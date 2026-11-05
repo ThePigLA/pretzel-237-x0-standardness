@@ -1,0 +1,292 @@
+{
+ "schema": "x0_z.cover_obstruction.v1",
+ "snappy": "3.3.2",
+ "inputs": {
+  "old": {
+   "path": "corrected_figures_check/old_fig2.json",
+   "sha256": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767",
+   "dotted_filled": 3,
+   "cusps_after_filling": 5,
+   "H1": "Z + Z + Z + Z + Z"
+  },
+  "new": {
+   "path": "corrected_figures_check/new_fig2.json",
+   "sha256": "fa91a000bdeb68b66d99cd3451229afc9bc01eaa2f0ac295e5778e3a168ed46a",
+   "dotted_filled": 3,
+   "cusps_after_filling": 5,
+   "H1": "Z + Z + Z + Z + Z"
+  }
+ },
+ "degrees": [
+  {
+   "degree": 2,
+   "covers": [
+    31,
+    31
+   ],
+   "differing_H1_counts_old_new": {}
+  },
+  {
+   "degree": 3,
+   "covers": [
+    572,
+    572
+   ],
+   "differing_H1_counts_old_new": {
+    "Z + Z + Z + Z + Z + Z": [
+     10,
+     11
+    ],
+    "Z + Z + Z + Z + Z + Z + Z + Z": [
+     23,
+     21
+    ],
+    "Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     47,
+     46
+    ],
+    "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     22,
+     23
+    ],
+    "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     1
+    ],
+    "Z/12 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/12 + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     3
+    ],
+    "Z/14 + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/2 + Z + Z + Z + Z + Z + Z": [
+     11,
+     7
+    ],
+    "Z/2 + Z + Z + Z + Z + Z + Z + Z": [
+     6,
+     8
+    ],
+    "Z/2 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     4,
+     3
+    ],
+    "Z/2 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     3
+    ],
+    "Z/2 + Z/12 + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/2 + Z/2 + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     2
+    ],
+    "Z/2 + Z/2 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/2 + Z/2 + Z/2 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/2 + Z/2 + Z/2 + Z/6 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/2 + Z/4 + Z + Z + Z + Z + Z + Z": [
+     2,
+     1
+    ],
+    "Z/2 + Z/6 + Z + Z + Z + Z + Z + Z": [
+     2,
+     4
+    ],
+    "Z/2 + Z/6 + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/20 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/21 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/21 + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/24 + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/24 + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/28 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/28 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/3 + Z + Z + Z + Z + Z + Z": [
+     11,
+     8
+    ],
+    "Z/3 + Z + Z + Z + Z + Z + Z + Z": [
+     46,
+     51
+    ],
+    "Z/3 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     43,
+     42
+    ],
+    "Z/3 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     19,
+     16
+    ],
+    "Z/3 + Z/12 + Z + Z + Z + Z + Z + Z": [
+     1,
+     3
+    ],
+    "Z/3 + Z/18 + Z + Z + Z + Z + Z + Z + Z": [
+     3,
+     2
+    ],
+    "Z/3 + Z/3 + Z + Z + Z + Z + Z + Z": [
+     8,
+     11
+    ],
+    "Z/3 + Z/3 + Z + Z + Z + Z + Z + Z + Z": [
+     14,
+     17
+    ],
+    "Z/3 + Z/3 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     1
+    ],
+    "Z/3 + Z/33 + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     0
+    ],
+    "Z/3 + Z/6 + Z + Z + Z + Z + Z + Z": [
+     4,
+     5
+    ],
+    "Z/3 + Z/6 + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     2
+    ],
+    "Z/3 + Z/9 + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/3 + Z/9 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/4 + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     2
+    ],
+    "Z/4 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     3
+    ],
+    "Z/4 + Z/4 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/5 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/5 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/6 + Z + Z + Z + Z + Z + Z": [
+     9,
+     11
+    ],
+    "Z/6 + Z + Z + Z + Z + Z + Z + Z": [
+     16,
+     10
+    ],
+    "Z/6 + Z + Z + Z + Z + Z + Z + Z + Z": [
+     3,
+     5
+    ],
+    "Z/6 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     3
+    ],
+    "Z/6 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     2
+    ],
+    "Z/6 + Z/12 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/6 + Z/6 + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/7 + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ],
+    "Z/7 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     9,
+     7
+    ],
+    "Z/7 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     3,
+     4
+    ],
+    "Z/7 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     2,
+     1
+    ],
+    "Z/7 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/8 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     2
+    ],
+    "Z/8 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/9 + Z + Z + Z + Z + Z + Z": [
+     3,
+     2
+    ],
+    "Z/9 + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     0,
+     1
+    ],
+    "Z/9 + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z": [
+     1,
+     0
+    ]
+   }
+  }
+ ],
+ "status": "DIFFERENT_EXTERIORS"
+}

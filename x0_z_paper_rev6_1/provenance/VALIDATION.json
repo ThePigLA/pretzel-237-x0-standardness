@@ -1,0 +1,33 @@
+{
+  "status": "PASS_REVISION_MERGE_AND_LOCAL_VALIDATION",
+  "revision": "combined Revision 6",
+  "date": "2026-11-05",
+  "pdf_pages": 23,
+  "pdf_sha256": "f3ca665461ff3770fe57f0d38f669c96fee9e1d70265816a5b8e31be0c88d7b7",
+  "source_sha256": "452d8827ee17a902b93e9f2e65c14510cc3e0b4b425e07c3d910f510da57d5a7",
+  "x0_sections_2_to_6_exactly_preserved_except_new_control": true,
+  "all_nine_named_isomorphism_signatures_preserved_in_source_and_rendered_pdf": true,
+  "figures_unchanged_sha256": {
+    "fig_tange_X0.pdf": "be0ee79a978d900416b1b170d3c4afb3660e8e7fb03d74b9f913c6be91002a53",
+    "fig_tange_Z.pdf": "436f56ad8c802f8f5879a081a668f5cdb635492c404daef95e7eab5241d0a8b7",
+    "fig_spot.pdf": "c9a2c1eb2ff3755dd35d86282bcc275ccf956366f0f1ecd49fda78cc6ba4a498",
+    "fig_katie_Z.pdf": "5122e6344826404fe9d58a1ea946908fdcd8aa7658feeb3d012368387aca3325"
+  },
+  "pd_inputs_unchanged_sha256": {
+    "old_fig1.json": "18b9ff0b48a2ac263512be67e1ff94d9b29f1540a5178a1cba8f89418559a17b",
+    "new_fig1.json": "1b0cadf72ae244bd08a88bfda992f85613e9cd333be1d7965b059292f2fae49c",
+    "old_fig2.json": "45808e31280cfa002b8a7849683647f291a647909df5967df01ff0e93ef21767",
+    "new_fig2.json": "fa91a000bdeb68b66d99cd3451229afc9bc01eaa2f0ac295e5778e3a168ed46a"
+  },
+  "local_pd_audit_passed": true,
+  "local_pd_audit_run_with_optimization": true,
+  "build_warnings": [],
+  "visual_qa_all_23_pages": true,
+  "bibliography_page_break_fixed_and_rechecked": true,
+  "large_proof_replays_rerun": false,
+  "control_metadata_and_log_counts_checked": true,
+  "control_move_replay_rerun": false,
+  "control_vertex_link_recognition_rerun": false,
+  "snappy_positive_comparisons_rerun": false,
+  "cert_candidate_positive_branch_tested": false
+}

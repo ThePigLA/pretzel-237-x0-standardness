@@ -1,0 +1,31 @@
+{
+  "all_moves_guarded": true,
+  "certificate_sha256": "dc6aff04767d24744ab5242ebd722467f094228f488abf2435402597dc161224",
+  "directions": {},
+  "discovery_code_imported": false,
+  "end": "iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a",
+  "explicit_identity_glued_double_constructed": true,
+  "final_admission": {
+    "euler_characteristic": 2,
+    "finite_closed_connected_orientable_valid": true,
+    "pentachora": 8,
+    "vertices": 1
+  },
+  "maximum_pentachora": 8,
+  "move_counts": {},
+  "moves": 0,
+  "regina_distribution": "7.4.1",
+  "schema": "motoo-z-independent-terminal-replay-v1",
+  "segments": [],
+  "source_admission": {
+    "euler_characteristic": 2,
+    "finite_closed_connected_orientable_valid": true,
+    "pentachora": 8,
+    "vertices": 1
+  },
+  "standard_reference": "cPkbbbbaaaaaaaa",
+  "standard_sphere_proved": false,
+  "start": "iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a",
+  "status": "PASS_PARTIAL_PATH",
+  "trust": "Regina 7.4.1 local-move guards, skeleton, signature codec and isomorphism checks"
+}

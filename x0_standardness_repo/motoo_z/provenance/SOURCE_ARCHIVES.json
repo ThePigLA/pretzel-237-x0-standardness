@@ -1,0 +1,30 @@
+{
+  "schema": "motoo-z-source-archives-v1",
+  "purpose": "Preserve supplied and recovered source bytes for a separate repository module.",
+  "archives": [
+    {
+      "filename": "published_fig2_S4.zip",
+      "sha256": "0a74670bc689fea3bee3feece4eee0685825848b2b4d2bbac8bcd2b9f1e6b1b1",
+      "bytes": 2492886
+    },
+    {
+      "filename": "published_fig2_closed_path_moves.tar.xz",
+      "sha256": "cf0a077bc3680e331a444b8b4fe1564e5077d00d20ca51d81c610717cb70e4ab",
+      "bytes": 32810768
+    },
+    {
+      "filename": "motoo_figure2_simplification_v1.zip",
+      "sha256": "16539a380e8b65f362c21ecb124628c4bc6d63e18fdde9ab54a7378e3da1c04d",
+      "bytes": 112644965
+    },
+    {
+      "filename": "x0_z_paper_rev6_1_reviewed.zip",
+      "sha256": "c704a91aec05ecf5a94d55700fec883d7cf96359e647faed3e765bb0b3237d05",
+      "bytes": 6927345,
+      "used_for": "Original 60-crossing marked Figure-2 PD input for optional exterior comparison."
+    }
+  ],
+  "source_scope": "Original-drawing Z-circle, 188-crossing Katie input and the 24,170-cell closed construction. This module does not assert identity with the 181-crossing redraw without the separate paper argument.",
+  "repository_base_observed": "ThePigLA/pretzel-237-x0-standardness@4c8f0365a6c9bdabb98aabc1e71c431b2fbdda6b",
+  "publication_performed": false
+}

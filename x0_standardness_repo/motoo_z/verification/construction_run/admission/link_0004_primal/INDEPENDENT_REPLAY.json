@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_TRIVIAL_GROUP_PROOF",
+  "source_sha256": "ad2138ca4d756b0bce2f7d9621b67ee255387be8868684ef6865e2c6f50a485c",
+  "presentation_sha256": "cbee6a195b422babbe621b29b59ba651ae699b2f21ec04e287e52e77ed0a87c4",
+  "proof_result_sha256": "70f1cff267a1903e379a9870c1530e56ebe84c048d63eea653abb88d9a7da75d",
+  "elimination_log_sha256": "c781b23eb90dcb05e7e17739031b8d10a52be73b5af90abe9037513822cbe84b",
+  "eliminations": 5,
+  "original_generators": 5,
+  "remaining_generator_classes": 0,
+  "triangulation_valid_finite_connected": true,
+  "triangulation_orientable": true,
+  "triangulation_closed": true,
+  "boundary": {
+    "components": 0
+  },
+  "recognised_link_kind_by_poincare_and_3d_schoenflies": "sphere",
+  "triangle_relators_regenerated_via_tetrahedron_embeddings": true,
+  "producer_code_imported": false,
+  "regina_group_computation_used": false,
+  "geometric_simplification_used": false,
+  "standardness_of_any_4_manifold_asserted": false,
+  "seconds": 0.0005672110000887187,
+  "checker_sha256": "10766605df5a06d73b29bee4b9c1bd829228880cbe3ada33afe337ca695de39f"
+}

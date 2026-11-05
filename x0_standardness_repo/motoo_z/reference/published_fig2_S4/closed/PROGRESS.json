@@ -1,0 +1,22 @@
+{
+  "stage": "PRIMAL_PROOF_PRODUCED_BEGIN_INDEPENDENT_REPLAY",
+  "vertex": 18,
+  "source_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+  "completed_vertex_links": 18,
+  "seconds": 16.994829242999913,
+  "link_facts": {
+    "recognition_method": "primal_triangle_presentation_signed_elimination_with_independent_replay",
+    "tetrahedra": 4,
+    "valid_finite_connected_orientable_3_manifold": true,
+    "closed": true,
+    "boundary": {
+      "components": 0
+    },
+    "link_tight_sha256": "138a5c91894022ea5675ac30c445a4ecea5156694a3e2c07d6c1129749fb9dcf",
+    "recognised_kind": "sphere",
+    "theorem": "A finite closed connected orientable 3-manifold with trivial fundamental group is homeomorphic to S3 by the three-dimensional Poincare theorem. Uniqueness of PL structures in dimension three identifies its given PL triangulation with the standard PL 3-sphere.",
+    "geometric_simplification_used": false,
+    "native_3d_sphere_ball_recognition_used": false,
+    "cached_flags_modified": false
+  }
+}

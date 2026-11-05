@@ -1,0 +1,70 @@
+{
+  "checker_sha256": "d2c9aa67b40c305bc3347070eda05c95d9c1ea47843f585091e3042cd172cdce",
+  "elapsed_seconds": 51.69642336600009,
+  "end_boundary": "gLALQccbefefdpcghfc",
+  "final_cap_audit": {
+    "H1": "2 Z",
+    "H2": "0",
+    "boundary_isosig": "gLALQccbefefdpcghfc",
+    "boundary_summands": [
+      "cMcabbjaj",
+      "cMcabbjaj"
+    ],
+    "boundary_tetrahedra": 6,
+    "fundamental_group": "< a b >",
+    "isosig": "-cAhHrvvMPfQPQwLAPwMPkPMwzzwALvMwQQMzQQwMvPAQAAPQzLLPQPvMMPPzLMwzQwMAwzAzQLAAzzLAMwMQPzLwQwMQLvAwwQzwAQLLvPALQzPMAQzPAQwMLQzvvvQwAPLMMQQcMwzMAAQAPPLQMLQQPzzPLwMMvwPzQPQQQvAPPwMQzPQQMzAQQPQQPLPLPzMvMAQAPQQQwMMQwPAAQPMwLPLwwPPMMPPMLQQvwLQzAMLzvvQQzwPMAMPzLQvMwvMMQPwzAvwPMAAAPPzwQwLzMMMMQQQvPMzQQPQMQMQQzQLMQMQMQvMMzQAvzPzMMvzQAvvwMAwPQQMQAMQLMPQMPwAQMALLLAAQMMPQLQzzAAQPzwPwMMwQQvMQPPvAQwAQQLMQMQQAMQQbahakagakalalanamanakaiajaoalararatararawaxaqasasasazazazazaAaDaEaGaGaIaLaCaPaPaQaFaQaQaRaRaRaJaSaOaSaSaUaUaUaUaWaVa0a1aPa1aPaSa0a0aRaYa3a5aZa5a5aXa6a9a6aabab+aabab8a9aeb6a-agbhbcb9acbjbmbjbnbnbqbrbqbqbqbtbmbmbmbvbxbkbkbvbCbCbBbvbpbEbFbFbHbJbubLbMbwbObObPbDbDbDbPbPbQbTbWbKbIbKbYbFb0b1b0b0b0b3b6b6bMb8b2b5bYbQbbcdcccecbcecgcicjc3b3b3bncacac5b6bscsc+btcqc5bqcucqc9b9b9b-bxcycycyctcncBcDctcDcDcBcjcNcNcNclcmcEcScUcUcAcpcpcWcAcAcrcucucucyczcwcxc1c2c2cWc3cEc4cSc4cUcScHcIc7c7cLcIc9cLcOcOcadMcad+c9c-cNc+c-cXcbdfdddididgd4cWcWcpdrdpdtdpdsdsdududndod4cgdgdgd9c6c9c8chdydwd-czdkdDdzdzdddzdedHdDdDdDdmdmdmdFdmdIdJdxdldLdLdqdqdqdHdMdMdvdudtdudtdtdNdNdAdQdQdSdTdTdUdCdWdZdNdNdGd1dMd1d1dYdLdLdQd2d2d2dWd1dPdTdTdPdRd6d6d7d7dVdVdXd+d+d+d3d-d-daeae3d3d3d+d5dceeeeeeeeejelenenepepeneqeqeqeqesetegeseheuevejeveveueueyeDeoeDezeCeDeDeseGeIeveQeQeQezeQeEeBeSeFeFeEeFeXeHeHeZe0eKeYe4e4eMeMe7eRe5e9e9e9edfTecfcfXeXeXegfififmfnfnfnfqfqf2erf3esf4eufsfjfff7ewfvfkfvfefyfofFfGfbfrfrfAfAfJfifAfvfAfvfkfkflflfNfJfJfJfPfLfLfLfpfEfEfFfFfFfsfsfufSfSfSfIfIfTfTfTfyfTfyfzfUfRfCfDfDfWfWfRfRfYfYfZfZfZfIfSfQf0f0fPf2f2f0f5f6fQf4f4fXfWf-fcgcgbg2ffgfg4f7flglglgigig+ftgcgvgvgwgugugdgugzgxgxgxgygAgAghghgkgngkgCglgkgCgDgBgngogFgogFgGgGgFgBgrgCgHgKgLgKgLgvgMgxgygNgPgTgGgCgUgUgUgVgUgGgIgIgXgYgYgVgYgWgQgQgQgOgQg3gRg4g5g5g5g4g6g7g7g8gXg8g9g0gahdh4gehehghfhghghgh5gjh9gahah+gbhlhehmhphphdhdhphohshshththjhrhrhmhvhvhuhvhphqhmhxhshxhxhqhqhqhthwhvhwhwhyhzhzhzhzhaaqbaayaaaaaaaaajbTaaagavaaaEbvavaaavavaaaaabafafafaaaaaaaaaaaaa7aaaaaaaaa2aaaaa7aTbaaaaaaaaaavatajbaaaalalalalaaaaaaaaa2aaa2aqbaaaaTbtaaaaaPbaaaabaaaaarbaaaaKbaaaaDataiabaQbaadaRaPbvaaaaaKbaaaaiaaaaaaaaaiaQbQbQbaaaaqbqbPaaaaaLaJboaaaaaaaaaaavaJblavaaaaaaavavavaaaaaObaaaambcaCahboaaaPaaaaaaaaaaaaa2aobtataXbbaaaaaaaaaObaaaaaaaambmbmbaaPaPasasaaaaa1aaajb1ajbQajb2a+a+aSaNbaaaaaataQbaaaagbaaaaObfaaaaaaaya2aZakbaaaa7acacaaa7a7avaOaOaOa1aHbqbbaEaaaaaMbaayaaaXbaacbwaqbPbaaaacabauafaqbqbaagaaaaaiaDbgawbEbpbtaaaaaaaaaAb-acacaaaaaMaaaiaUaUa0a0azb7aobYaYaYaqbKaqbmbLbUaeafa0avaaaHaHaoaHabaaatatataSaSaSaaaSaaaaadboaaaaanananaObaaaaLbmbmbmbmbmbaaaapbaaaaaaaaaaaaPbaaia9a9abaaalbaaaavbqbqbZbkbkbkbebOboapbpboaKaaaaaaaaagagaPbaaaaaaJaaaaaaaaaSaSaSaGb2aaaZaZaZavbaalaaamaaaaaaaaaaaaaaaobaabaNbCavbWagaWaWavbvbaaaaibaaObabwbOb2aaamasaaaaaaacamaba2aaaububFbPbTaoaoaaaaawamaaaaa2a2aaaXa7aSbSbSbiaQbtataxbxbxbaaaaaaaa8a8a8aaaaaGaaavaaaqbaasbnaNa2aaaaabbaaoaNbIaaaaa+aWaWaSbSbaaUb3bua3bSbvavavavaaawbwbwb7aEbEbEbPbxbxbibibibububvaaaaaaaRaRaaaaaaa2aaa2afaaaGbgaoacatauaGbGbWaWaaaaaaa+aabvaaaaaBbaaaaaaWaaaMbEbEb5afbaaaaaauaoaaaaayaLbaaaaaapapaPbaa2aaaaaaahadbradbGbEaEaEa-aaaaaqbqbqb9aqbaaSavaaaaa4a2aPbEafaTarbYa+abagaPbzbaaaaaaaaPbaaUbubmaaaaajaqbaaaaaa7aaaoafafaaaaaaaPbtazbkakakavakaaagaaaaaaaaaaaaaaaaaaafaPbaafaaaaaqbaaaaaaaaaaaaaagaaaQavbfafaUbaa1aaaaaaafafaaaaaaaaaaaaavaaaaaAbaaaaaaaaUbfafaaa6aaaaafafafagagavagagahbjaYbYbYb",
+    "pentachora": 474,
+    "status": "PASS",
+    "vertex_links": [
+      {
+        "index": 0,
+        "kind": "sphere",
+        "recognised": true,
+        "tetrahedra": 272
+      },
+      {
+        "index": 1,
+        "kind": "sphere",
+        "recognised": true,
+        "tetrahedra": 368
+      },
+      {
+        "index": 2,
+        "kind": "ball",
+        "recognised": true,
+        "tetrahedra": 1522
+      },
+      {
+        "index": 3,
+        "kind": "sphere",
+        "recognised": true,
+        "tetrahedra": 40
+      },
+      {
+        "index": 4,
+        "kind": "sphere",
+        "recognised": true,
+        "tetrahedra": 162
+      },
+      {
+        "index": 5,
+        "kind": "sphere",
+        "recognised": true,
+        "tetrahedra": 2
+      },
+      {
+        "index": 6,
+        "kind": "sphere",
+        "recognised": true,
+        "tetrahedra": 4
+      }
+    ],
+    "vertices": 7
+  },
+  "initial_pentachora": 9,
+  "moves": 465,
+  "source_cap_sha256": "6ff5b588fb2cf655e1a5a40d630312c5fe82da9a2327ea22f2ca5176ab1c0cb1",
+  "source_path_sha256": "f071661f74dc236f2e8880fc6e295f87c7fe90c135126b984fa333d449980a61",
+  "start_boundary": "zvLLvzvAALQAzQwQQkedkoljpkplpqssuwrutxvyxwyyrcaarctruoagoraactcatrcvnb",
+  "status": "PASS_EXPLICIT_4D_LAYERING"
+}

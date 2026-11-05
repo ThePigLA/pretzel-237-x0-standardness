@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "url": "https://people.debian.org/~bab/regina/pool/main/r/regina-normal/regina-normal_7.4.1-1~ubuntu24.04.1~regina1_amd64.deb",
+      "file": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/katie_setup/scratch/katie/downloads/regina-normal_7.4.1-1~ubuntu24.04.1~regina1_amd64.deb",
+      "sha256": "5e51f280a41437330cf37086e75b999cf7f8999b7db0f78884ea98502b2f0a6b",
+      "bytes": 22702544
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/libgmpxx4ldbl_6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+      "file": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/katie_setup/scratch/katie/downloads/libgmpxx4ldbl_6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+      "sha256": "6f59344240b6dc139ed23ef236b8aa146e5d25e23aa90e79f814e2e4cc4b5752",
+      "bytes": 9888
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/t/tokyocabinet/libtokyocabinet9t64_1.4.48-15.1build3_amd64.deb",
+      "file": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/katie_setup/scratch/katie/downloads/libtokyocabinet9t64_1.4.48-15.1build3_amd64.deb",
+      "sha256": "21883c591e7f619eb6ae0acceff9d021ad35f6093daf5f6344f7bcecb5daecc1",
+      "bytes": 394706
+    }
+  ],
+  "version": "Regina 7.4.1 (Upstream Ubuntu 24.04 package)",
+  "executable_sha256": "8e39cdd9af8f756c2c8e90e853cf857a2e2f4f76f1c9dcb3e8d0b1cfbce09dd4",
+  "system_packages_changed": false
+}

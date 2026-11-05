@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scope": "Fresh executions of the supplied cover_obstruction.py in isolated SnapPy 3.3.2; exact comparison of all recorded output fields with supplied receipts. Same implementation replay, not an independent cover enumerator.",
+  "script_sha256": "6972a67ad591f3ddaa3dd5dbf491fc47d3ce546ebb4cd6cc1d649ae669308f97",
+  "figures": [
+    {
+      "figure": 1,
+      "shipped_sha256": "a4cd64d805e94ee3f3624ba23d0951faac4c79521db1a25d62fbf539bdcd42b1",
+      "fresh_sha256": "a4cd64d805e94ee3f3624ba23d0951faac4c79521db1a25d62fbf539bdcd42b1",
+      "all_json_fields_identical": true,
+      "degrees": [
+        {
+          "degree": 2,
+          "covers": [
+            31,
+            31
+          ],
+          "differing_homology_classes": 9
+        }
+      ]
+    },
+    {
+      "figure": 2,
+      "shipped_sha256": "05f4e2ec9ee96738b686bc0d31a0e3ae9e9cf00181ad78b7ef2f5f6d849cf3ae",
+      "fresh_sha256": "05f4e2ec9ee96738b686bc0d31a0e3ae9e9cf00181ad78b7ef2f5f6d849cf3ae",
+      "all_json_fields_identical": true,
+      "degrees": [
+        {
+          "degree": 2,
+          "covers": [
+            31,
+            31
+          ],
+          "differing_homology_classes": 0
+        },
+        {
+          "degree": 3,
+          "covers": [
+            572,
+            572
+          ],
+          "differing_homology_classes": 63
+        }
+      ]
+    }
+  ]
+}

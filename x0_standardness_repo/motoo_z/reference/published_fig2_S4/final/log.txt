@@ -1,0 +1,16 @@
+2026-11-05 08:18:14 start iLAALMQkabcccfefhghhhcaaavava2aaaoacbZb6aEa8a8a size 8; workers 1; new run; best 8; pool 1
+2026-11-05 08:19:14 episodes 9123 (152/s), best 8, pool 400, excursion<= 2
+2026-11-05 08:20:14 episodes 18113 (151/s), best 8, pool 400, excursion<= 2
+2026-11-05 08:20:27 stuck at size 8: raising excursion size to 3 (pool 400)
+2026-11-05 08:21:14 episodes 26695 (148/s), best 8, pool 400, excursion<= 3
+2026-11-05 08:22:14 episodes 35094 (146/s), best 8, pool 400, excursion<= 3
+2026-11-05 08:22:47 stuck at size 8: raising excursion size to 4 (pool 400)
+2026-11-05 08:22:58 NEW BEST size 6 (vertices 2) after 41652 episodes: gALLQQaacdffeffeqbgasbyawbWaoaWawbfa
+2026-11-05 08:23:01 NEW BEST size 4 (vertices 2) after 42126 episodes: eLAQcabbcdddcaaaga2aMapafa
+2026-11-05 08:23:01 size 4 reached (eLAQcabbcdddcaaaga2aMapafa); trying to connect to the standard S^4 cPkbbbbaaaaaaaa (moves within size <= 10, 900s)
+2026-11-05 08:38:01    not connected within the bounds; continuing the search
+2026-11-05 08:38:01 episodes 42126 (35/s), best 4, pool 1, excursion<= 2
+2026-11-05 08:38:02 size 4 reached (eLAQcabbcdddcaaaga2aobobya); trying to connect to the standard S^4 cPkbbbbaaaaaaaa (moves within size <= 10, 900s)
+2026-11-05 08:40:57 *** REACHED standard S^4 (Regina Example4.sphere(), the double of a pentachoron): cPkbbbbaaaaaaaa. Certificate written; run the verify command. ***
+2026-11-05 08:40:57 episodes 42152 (31/s), best 4, pool 2, excursion<= 2
+2026-11-05 08:40:57 finished: best size 4, pool 2, episodes 42152. Resume with --resume runs_pub/r8

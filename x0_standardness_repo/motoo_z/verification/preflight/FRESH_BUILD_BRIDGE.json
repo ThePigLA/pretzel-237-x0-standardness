@@ -1,0 +1,21 @@
+{
+  "build_report_sha256": "686e8c7d2c2718f2a60773b3a2d0a868dc4d8c479aa964bfcc81b18fdd231c0c",
+  "long_replay_rerun_for_this_test": false,
+  "source_identity_bridge": {
+    "certificate_rewritten": false,
+    "complete_xml_payload_equal": true,
+    "compressed_bytes_equal": false,
+    "exact_tight_encoding_equal": true,
+    "initial_tight_sha256": "1f698ed1061bffaf7f380ec5b4ed8075306e6cffd8f6c3cc281873f67003f92d",
+    "released_path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/reference/published_fig2_S4/closed/closed_candidate.rga",
+    "released_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+    "replay_source_path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/reference/published_fig2_S4/closed/closed_candidate.rga",
+    "replay_source_sha256": "e6281897c358e315757a77f851433db1527f48d71b97ec0056174e0a7eb2c467",
+    "selected_path": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/full_construction_test_02/closed/closed_candidate.rga",
+    "selected_sha256": "f96fca14a16931782183304af29b33c739907dd65d58b698b3e9bd56fe4795e6",
+    "selected_source_file_modified": false,
+    "status": "PASS_EXACT_XML_AND_LABELLED_STATE_IDENTITY",
+    "xml_payload_sha256": "132b4682563f577366e2cbac45f80f467482650c610159a18cb4f047f7c514bd"
+  },
+  "status": "PASS_FRESH_BUILD_TO_RELEASED_REPLAY_SOURCE_BINDING"
+}

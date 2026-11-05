@@ -1,0 +1,52 @@
+{
+  "schema": "motoo.closed-bursts.source.v1",
+  "source_file": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+  "source_sha256": "1e170b5e297d64e95a1438dbbbfee8de9dc5f792280eb6a6c2ec747cc8cd815e",
+  "start_tight_sha256": "43fdb32848802ce7f49df04f4c100410f4a411275f76661426243681fa686bdb",
+  "source_admission": {
+    "pentachora": 8,
+    "vertices": 1,
+    "closed": true,
+    "valid": true,
+    "orientable": true,
+    "connected": true,
+    "recognition": "Regina7.4.1 kernel with separately audited positive primal-group 3D recognition shortcut",
+    "recognition_runtime_file": "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/recognition/RUNTIME.json"
+  },
+  "regina": "7.4.1",
+  "seed": 11,
+  "policy": {
+    "growth": 8,
+    "burst24": 2,
+    "mix": 4,
+    "birth_every": 3,
+    "birth_target_vertices": 5,
+    "chunk_size": 50,
+    "initial_burst": false,
+    "birth_cycles_preserve_vertices_from_edge_collapse": true,
+    "candidate_selection": "bounded_random_probes_then_complete_cyclic_scan",
+    "random_probes": 64,
+    "edge20_first": true,
+    "two_zero_descent_order": [
+      [
+        "Z",
+        1
+      ],
+      [
+        "Z",
+        2
+      ]
+    ],
+    "mix_selection": "random_move_family_first_then_other_family_if_empty",
+    "uniform_distribution_among_all_legal_moves_asserted": false
+  },
+  "code_sha256": "33c2fba6e5a68a6307f13dc28187042c3cdca9baff6b941af715fc4e9a518070",
+  "guard_and_journal_code_sha256": "8bbb9e5b4a4dd3f8cff02bfa569a3cb84e7b9065b14870b47ef94398a1b0a6e7",
+  "pinned_files": {
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga": "1e170b5e297d64e95a1438dbbbfee8de9dc5f792280eb6a6c2ec747cc8cd815e",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/reduce_closed_sampled.py": "33c2fba6e5a68a6307f13dc28187042c3cdca9baff6b941af715fc4e9a518070",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/reduce_closed_bursts.py": "8bbb9e5b4a4dd3f8cff02bfa569a3cb84e7b9065b14870b47ef94398a1b0a6e7"
+  },
+  "target": "explicit double of Delta4, all five gluings identity",
+  "native_4d_simplify_used": false
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "facet": 3,
+    "pentachoron": 464,
+    "vertices": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 471,
+    "vertices": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 466,
+    "vertices": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 473,
+    "vertices": [
+      0,
+      1,
+      4,
+      2
+    ]
+  },
+  {
+    "facet": 1,
+    "pentachoron": 473,
+    "vertices": [
+      0,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 2,
+    "pentachoron": 466,
+    "vertices": [
+      0,
+      1,
+      4,
+      3
+    ]
+  }
+]

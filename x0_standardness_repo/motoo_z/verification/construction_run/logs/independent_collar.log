@@ -1,0 +1,23 @@
+{"checked_collar_additions": 1000, "boundary_tetrahedra": 584, "seconds": 2.807863159999215}
+{"checked_collar_additions": 2000, "boundary_tetrahedra": 434, "seconds": 4.8393552309998995}
+{"checked_collar_additions": 3000, "boundary_tetrahedra": 336, "seconds": 6.364323541999511}
+{"checked_collar_additions": 4000, "boundary_tetrahedra": 268, "seconds": 7.917714518999674}
+{"checked_collar_additions": 5000, "boundary_tetrahedra": 234, "seconds": 9.294025207999766}
+{"checked_collar_additions": 6000, "boundary_tetrahedra": 184, "seconds": 10.439914539999336}
+{"checked_collar_additions": 7000, "boundary_tetrahedra": 156, "seconds": 11.630538961999264}
+{"checked_collar_additions": 8000, "boundary_tetrahedra": 124, "seconds": 12.73391854699912}
+{"checked_collar_additions": 9000, "boundary_tetrahedra": 104, "seconds": 13.566198640999573}
+{"checked_collar_additions": 10000, "boundary_tetrahedra": 84, "seconds": 14.206104410999615}
+{"checked_collar_additions": 11000, "boundary_tetrahedra": 86, "seconds": 14.829665071999443}
+{"checked_collar_additions": 12000, "boundary_tetrahedra": 68, "seconds": 15.416733081999155}
+{"checked_collar_additions": 13000, "boundary_tetrahedra": 50, "seconds": 16.050325224999142}
+{"checked_collar_additions": 14000, "boundary_tetrahedra": 12, "seconds": 16.67592792799951}
+{"checked_collar_additions": 15000, "boundary_tetrahedra": 18, "seconds": 17.17419961699943}
+{"checked_collar_additions": 16000, "boundary_tetrahedra": 16, "seconds": 17.76634949399977}
+{"checked_collar_additions": 17000, "boundary_tetrahedra": 22, "seconds": 18.363354583999353}
+{"checked_collar_additions": 18000, "boundary_tetrahedra": 22, "seconds": 18.861169597999833}
+{"checked_collar_additions": 19000, "boundary_tetrahedra": 22, "seconds": 19.3506006839998}
+{"checked_collar_additions": 20000, "boundary_tetrahedra": 20, "seconds": 19.825864062999244}
+{"checked_collar_additions": 21000, "boundary_tetrahedra": 16, "seconds": 20.26911720699991}
+{"checked_collar_additions": 22000, "boundary_tetrahedra": 18, "seconds": 20.77150521799922}
+{"status": "PASS_ALL_LOCAL_COLLAR_ATTACHMENT_HYPOTHESES", "source_sha256": "22c7f76aa4053b0c88b54b9e6150431a503d8eb0f2997f0ced7e568fbacf3985", "source_tight_sha256": "a10761b045c3a22933f66200f192bacb8b1855a6748ba3eb134ebcc724276c54", "path_sha256": "f1014e73417e65bfdf947183e9d339b4f7d6b7843d1c3f7a22f8216124b2f870", "layered_sha256": "6cbdcd7637cedbca143b6a033d360b5f9ee02936622979e1f03cbb29addbf806", "layered_tight_sha256": "e26233b6916921c97e95318f6ff73628617b303bc25a5af46a969a3436c9a95b", "events_sha256": "ea8a5626340983f7b8e05bbadde49eb79a2191acb37182030a81fd4894739dbb", "source_pentachora": 1392, "layered_pentachora": 23696, "checked_additions": 22304, "move_dimension_counts": {"0": 12, "1": 11543, "2": 10744, "3": 5}, "interior_face_occurrences_checked": 125711, "all_original_internal_gluings_unchanged": true, "each_saved_attachment_matches_actual_4d_facet_permutations": true, "support_open_interior_embedded_and_disjoint_from_boundary_image": true, "all_embeddings_of_each_interior_support_face_exhausted": true, "intrinsic_old_and_new_front_pairings_checked": true, "boundary_map_propagated_by_independent_local_front_solver": true, "final_raw_boundary_checked": true, "source_finite_pl_manifold_premise_required": true, "four_dimensional_skeleton_used": false, "vertex_link_recognition_performed": false, "regina_package_version": "7.4.1", "input_hashes_stable_before_loading_after_loading_and_at_end": true, "standardness_asserted": false, "seconds": 21.014357575999384, "checker_sha256": "68891d6dd115af8c53965fc79ed5153e09c9070c3723294df5e810a9d671037f"}

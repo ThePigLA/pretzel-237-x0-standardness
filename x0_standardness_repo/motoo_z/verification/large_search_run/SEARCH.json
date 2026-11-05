@@ -1,0 +1,141 @@
+{
+  "attempt": 1,
+  "fresh_independent_replay_performed": false,
+  "input_metadata_sha256": "c0652ab86f33e057f1775a40167b315ef2267b67509aed3f18741cff97bb0a02",
+  "phase": "large",
+  "producer_checkpoint": {
+    "best_pentachora": 6,
+    "current_pentachora": 12,
+    "moves": 10799,
+    "native_4d_simplify_used": false,
+    "standard_endpoint": false,
+    "status": "WALL_BUDGET"
+  },
+  "recognition": {
+    "calls": 1,
+    "counters": {
+      "ball_calls": 0,
+      "bridge_errors": 0,
+      "original_fallbacks": 0,
+      "proved_positive": 1,
+      "sphere_calls": 1
+    },
+    "four_dimensional_guard_kernel_modified": false,
+    "original_engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+    "runtime_sha256": "4cd697386b8d8a0cf2d43d18e511ac879c40d55d8012ebf0ec110fa8f8615e23"
+  },
+  "recognition_controls": {
+    "calls": 10,
+    "counters": {
+      "ball_calls": 2,
+      "bridge_errors": 0,
+      "original_fallbacks": 3,
+      "proved_positive": 7,
+      "sphere_calls": 8
+    },
+    "four_dimensional_guard_kernel_modified": false,
+    "original_engine_sha256": "42e0c5a630d71f98c6e5ff3c70c520d1c3d136151aad4ac37fe807004fbaca1d",
+    "runtime_sha256": "466c2548e7094ef8805f5f980c3e233b58f0bb264dda38dd4417ffff9c236a4b"
+  },
+  "release_integrity": {
+    "bytes": 38767943,
+    "files": 175,
+    "manifest_sha256": "2906300eedc1d3d8455aa983684f57adc159299b6906a730c73f83ffd341b5bf",
+    "status": "PASS_RELEASED_FILE_INTEGRITY"
+  },
+  "replay_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/verify_closed_bursts.py",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/walk",
+    "--source",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+    "--out",
+    "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/INDEPENDENT_REPLAY.json"
+  ],
+  "requested_additional_hours": 0.0005,
+  "schema": "motoo-z-search-v1",
+  "scope": "A discovery journal, including any producer target flag, requires independent move replay",
+  "seconds_this_attempt": 5.616781077000269,
+  "stages": [
+    {
+      "argv": [
+        "/usr/bin/c++",
+        "-std=c++17",
+        "-O2",
+        "-fPIC",
+        "-shared",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_recognition_bridge.cpp",
+        "-Wl,--version-script=/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/primal_recognition_bridge.map",
+        "-o",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/helper/primal_recognition_bridge.so",
+        "-ldl"
+      ],
+      "log": "logs/compile_recognition_helper.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "compile_recognition_helper",
+      "returncode": 0,
+      "seconds": 0.6777640290001727
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/run_with_primal_recognition.py",
+        "--bridge",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/helper/primal_recognition_bridge.so",
+        "--proofs",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/helper/controls",
+        "--",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/test_primal_recognition_bridge.py"
+      ],
+      "log": "logs/recognition_controls.log",
+      "log_sha256": "a9e9cf8ef192269d9858ee490d79f5ddb1a74911efb5899180c1b8f970a7bad0",
+      "name": "recognition_controls",
+      "returncode": 0,
+      "seconds": 2.075682615000005
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/run_with_primal_recognition.py",
+        "--bridge",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/helper/primal_recognition_bridge.so",
+        "--proofs",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/recognition",
+        "--",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/staging/motoo_z/legacy/code/reduce_closed_sampled.py",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/move_archive/best8_prefix/states/best.rga",
+        "--out",
+        "/workspace/scratch/0628b77ee402/z_repository_integration_20261105/verification/wrapper_large_cli/walk",
+        "--seconds",
+        "1.8",
+        "--seed",
+        "11",
+        "--growth",
+        "8",
+        "--burst24",
+        "2",
+        "--mix",
+        "4",
+        "--birth-every",
+        "3",
+        "--birth-vertices",
+        "5",
+        "--chunk-size",
+        "50",
+        "--probes",
+        "64",
+        "--edge20-first"
+      ],
+      "log": "logs/large_search.log",
+      "log_sha256": "18207a28b0dcdc8651971a023c062b682919e9966c8137e4820cd1893e311ca2",
+      "name": "large_search",
+      "returncode": 0,
+      "seconds": 2.7343106990001615
+    }
+  ],
+  "standard_sphere_proved": false,
+  "status": "SEARCH_JOURNAL_RECORDED_REPLAY_REQUIRED"
+}

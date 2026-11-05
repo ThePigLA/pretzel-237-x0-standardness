@@ -1,0 +1,252 @@
+[
+  {
+    "facet": 3,
+    "pentachoron": 0,
+    "vertices": [
+      0,
+      1,
+      4,
+      2
+    ]
+  },
+  {
+    "facet": 2,
+    "pentachoron": 3,
+    "vertices": [
+      0,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 1,
+    "vertices": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "facet": 2,
+    "pentachoron": 0,
+    "vertices": [
+      0,
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 4,
+    "vertices": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "facet": 0,
+    "pentachoron": 3,
+    "vertices": [
+      1,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 1,
+    "pentachoron": 3,
+    "vertices": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "facet": 0,
+    "pentachoron": 1,
+    "vertices": [
+      1,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 4,
+    "pentachoron": 1,
+    "vertices": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "facet": 1,
+    "pentachoron": 2,
+    "vertices": [
+      0,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 2,
+    "pentachoron": 4,
+    "vertices": [
+      0,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 2,
+    "pentachoron": 8,
+    "vertices": [
+      0,
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 5,
+    "vertices": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "facet": 0,
+    "pentachoron": 2,
+    "vertices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "facet": 4,
+    "pentachoron": 5,
+    "vertices": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "facet": 4,
+    "pentachoron": 2,
+    "vertices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "facet": 1,
+    "pentachoron": 8,
+    "vertices": [
+      0,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 2,
+    "pentachoron": 5,
+    "vertices": [
+      0,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 0,
+    "pentachoron": 8,
+    "vertices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "facet": 3,
+    "pentachoron": 6,
+    "vertices": [
+      0,
+      1,
+      4,
+      2
+    ]
+  },
+  {
+    "facet": 4,
+    "pentachoron": 6,
+    "vertices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "facet": 4,
+    "pentachoron": 7,
+    "vertices": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "facet": 1,
+    "pentachoron": 7,
+    "vertices": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "facet": 0,
+    "pentachoron": 7,
+    "vertices": [
+      1,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "facet": 0,
+    "pentachoron": 6,
+    "vertices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]

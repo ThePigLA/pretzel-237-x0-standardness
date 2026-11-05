@@ -1,0 +1,131 @@
+{
+  "status": "CERTIFIED_SAME_MARKED_LINK",
+  "first_path": "/workspace/scratch/0628b77ee402/paper_review_rev6_1/x0_z_paper_rev6_1/corrected_figures_check/new_fig2.json",
+  "second_path": "/workspace/scratch/0628b77ee402/paper_review_rev6_1/x0_z_paper_rev6_1/corrected_figures_check/old_fig2_spot_switched.json",
+  "negative_result_is_nonisotopy_certificate": false,
+  "component_order_scope": "Identity on the cusp order induced by the supplied PD inputs; archive component correspondence is a prerequisite.",
+  "first_sha256": "fa91a000bdeb68b66d99cd3451229afc9bc01eaa2f0ac295e5778e3a168ed46a",
+  "second_sha256": "acdf99ff187c4da52532af8449ea7bc64cd3163469596b5400645f2f05a4c5ba",
+  "first_decorations": [
+    0,
+    null,
+    null,
+    -1,
+    null,
+    0,
+    0,
+    0
+  ],
+  "second_decorations": [
+    0,
+    null,
+    null,
+    -1,
+    null,
+    0,
+    0,
+    0
+  ],
+  "snappy_version": "3.3.2",
+  "first_decorated_signature": "-crbvLLwvvMzvvvwvwwPzMwLvMwvPQzLMAALLAMAAzMQLQLPMAQQQQQPQQdafagalanaoayasazaHaGaLazaNawaOayaBaOa0aDa1aUaJaVa4aLaXaZa7aKaVaZaWaXaSaTa1a7aUaTa8afbWa9afb3adb-a9a3akbab6ambeblbhbcb+aib-ahbnbobhbpbibobjbjbmbgbpbqbiblbqbnbnbqbpboddbdiafvdaajaoacvuafaagkafgbaowjjgbooqovuuvuutuqiqacfakofofkbodevlkhvvmouaojeuukj_abBabBabbBBcbaBbabBabaBbabBabaCb",
+  "second_decorated_signature": "-crbvLLwvvMzvvvwvwwPzMwLvMwvPQzLMAALLAMAAzMQLQLPMAQQQQQPQQdafagalanaoayasazaHaGaLazaNawaOayaBaOa0aDa1aUaJaVa4aLaXaZa7aKaVaZaWaXaSaTa1a7aUaTa8afbWa9afb3adb-a9a3akbab6ambeblbhbcb+aib-ahbnbobhbpbibobjbjbmbgbpbqbiblbqbnbnbqbpboddbdiafvdaajaoacvuafaagkafgbaowjjgbooqovuuvuutuqiqacfakofofkbodevlkhvvmouaojeuukj_abBabBabbBBcbaBbabBabaBbabBabaCb",
+  "signatures_equal": true,
+  "accepted_marked_isometries": [
+    {
+      "cusp_images": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "cusp_maps": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    }
+  ],
+  "reason": "Positive exterior isometry with identity cusp correspondence and each peripheral matrix equal to plus or minus I; framing/dotted-role lists agree.",
+  "exit_code": 0
+}

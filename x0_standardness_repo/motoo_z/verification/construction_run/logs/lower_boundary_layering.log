@@ -1,0 +1,23 @@
+{"layered_moves": 1000, "pentachora": 2392, "boundary_tetrahedra": 584, "seconds": 1.5671802329998172}
+{"layered_moves": 2000, "pentachora": 3392, "boundary_tetrahedra": 434, "seconds": 2.900794743000006}
+{"layered_moves": 3000, "pentachora": 4392, "boundary_tetrahedra": 336, "seconds": 4.017127000000073}
+{"layered_moves": 4000, "pentachora": 5392, "boundary_tetrahedra": 268, "seconds": 4.945846612000423}
+{"layered_moves": 5000, "pentachora": 6392, "boundary_tetrahedra": 234, "seconds": 5.813082853999731}
+{"layered_moves": 6000, "pentachora": 7392, "boundary_tetrahedra": 184, "seconds": 6.584269558000415}
+{"layered_moves": 7000, "pentachora": 8392, "boundary_tetrahedra": 156, "seconds": 7.331447888999719}
+{"layered_moves": 8000, "pentachora": 9392, "boundary_tetrahedra": 124, "seconds": 7.988358900000094}
+{"layered_moves": 9000, "pentachora": 10392, "boundary_tetrahedra": 104, "seconds": 8.624654480000572}
+{"layered_moves": 10000, "pentachora": 11392, "boundary_tetrahedra": 84, "seconds": 9.228436117000456}
+{"layered_moves": 11000, "pentachora": 12392, "boundary_tetrahedra": 86, "seconds": 9.807318072000271}
+{"layered_moves": 12000, "pentachora": 13392, "boundary_tetrahedra": 68, "seconds": 10.46371446000012}
+{"layered_moves": 13000, "pentachora": 14392, "boundary_tetrahedra": 50, "seconds": 10.982934383000611}
+{"layered_moves": 14000, "pentachora": 15392, "boundary_tetrahedra": 12, "seconds": 11.502739563999967}
+{"layered_moves": 15000, "pentachora": 16392, "boundary_tetrahedra": 18, "seconds": 11.930350632000227}
+{"layered_moves": 16000, "pentachora": 17392, "boundary_tetrahedra": 16, "seconds": 12.332816627000284}
+{"layered_moves": 17000, "pentachora": 18392, "boundary_tetrahedra": 22, "seconds": 12.771303933000127}
+{"layered_moves": 18000, "pentachora": 19392, "boundary_tetrahedra": 22, "seconds": 13.243250698999873}
+{"layered_moves": 19000, "pentachora": 20392, "boundary_tetrahedra": 22, "seconds": 13.68567095599974}
+{"layered_moves": 20000, "pentachora": 21392, "boundary_tetrahedra": 20, "seconds": 14.098981332999756}
+{"layered_moves": 21000, "pentachora": 22392, "boundary_tetrahedra": 16, "seconds": 14.480070650000016}
+{"layered_moves": 22000, "pentachora": 23392, "boundary_tetrahedra": 18, "seconds": 14.863241342000038}
+{"status": "PASS_LABELLED_3D_REPLAY_AND_EXPLICIT_4D_LAYERING", "source_sha256": "22c7f76aa4053b0c88b54b9e6150431a503d8eb0f2997f0ced7e568fbacf3985", "path_sha256": "f1014e73417e65bfdf947183e9d339b4f7d6b7843d1c3f7a22f8216124b2f870", "source_pentachora": 1392, "moves": 22304, "pentachora": 23696, "boundary_tetrahedra": 6, "boundary_isosig": "gLALQccbefefdpcghfc", "final_raw_boundary_independently_extracted": true, "every_new_boundary_triangle_checked_against_raw4d_gluings": true, "raw_reverse_attachments_recover_source": true, "guarded_4d_shelling_checks_performed": false, "four_dimensional_skeleton_used": false, "manifold_premise_inherited_from_source": true, "closed_manifold_constructed": false, "standardness_asserted": false, "seconds": 15.219853065999814, "final_extraction": {"tetrahedra": 6, "maximum_triangle_walk_pentachora": 19, "four_dimensional_skeleton_used": false}}
